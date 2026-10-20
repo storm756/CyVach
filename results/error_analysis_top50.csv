@@ -1,0 +1,51 @@
+item_id,label_source,sender_kind,final_label,pred,conf,rank,category
+uc00869,claude_blind,none,spam,ham,0.999091,0,"C3 scam without lure markers (no link; conversational, social-engineering or truncated)"
+uc05070,human_verified,none,caution,ham,0.999076,1,C9 questionable gold label (owner-verified items; not relabelled)
+uc02663,human_verified,none,spam,ham,0.999025,2,"C3 scam without lure markers (no link; conversational, social-engineering or truncated)"
+mi05543,claude_blind,none,spam,ham,0.998981,3,"C3 scam without lure markers (no link; conversational, social-engineering or truncated)"
+ex00065,human_verified,dlt_header-S,ham,caution,0.99874,4,"C6 caution boundary (security notices missed, or read as phishing)"
+uc02680,claude_blind,none,promo,ham,0.998206,5,"C5 low-pressure marketing read as ham (quizzes, tones, rentals, loan offers)"
+uc04144,claude_blind,none,promo,ham,0.997781,6,"C5 low-pressure marketing read as ham (quizzes, tones, rentals, loan offers)"
+uc04376,claude_blind,none,ham,spam,0.996615,7,C2 premium-service billing/subscription notices (ham) read as scam
+uc00042,claude_blind,none,promo,spam,0.996515,8,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+uc03442,human_verified,none,spam,promo,0.996506,9,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+in00510,human_verified,dlt_header-S,spam,promo,0.996309,10,C4 product/health/government/gaming lure scams read as promo
+uc01904,human_verified,none,spam,promo,0.996214,11,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+mi02353,claude_blind,none,promo,spam,0.995972,12,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+uc05379,claude_blind,none,ham,spam,0.995714,13,C2 premium-service billing/subscription notices (ham) read as scam
+uc01194,human_verified,none,caution,promo,0.995665,14,C9 questionable gold label (owner-verified items; not relabelled)
+ex00079,human_verified,dlt_header-S,caution,ham,0.993736,15,"C6 caution boundary (security notices missed, or read as phishing)"
+uc00752,human_verified,none,spam,ham,0.993573,16,"C3 scam without lure markers (no link; conversational, social-engineering or truncated)"
+uc03906,claude_blind,none,promo,spam,0.99324,17,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+in00507,human_verified,dlt_header-S,spam,promo,0.992793,18,C4 product/health/government/gaming lure scams read as promo
+in00517,claude_blind,dlt_header-S,promo,ham,0.992397,19,"C5 low-pressure marketing read as ham (quizzes, tones, rentals, loan offers)"
+in00520,human_verified,dlt_header-S,spam,promo,0.991239,20,C4 product/health/government/gaming lure scams read as promo
+uc01460,claude_blind,none,ham,promo,0.989562,21,C8 personal or transactional ham misread
+uc04602,claude_blind,none,promo,spam,0.987102,22,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+uc04527,claude_blind,none,spam,promo,0.9866,23,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+ex02366,human_verified,dlt_header_nosuffix,ham,promo,0.984921,24,C8 personal or transactional ham misread
+uc03360,claude_blind,none,ham,spam,0.984091,25,C8 personal or transactional ham misread
+uc00672,human_verified,none,promo,spam,0.980456,26,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+mi02936,human_verified,none,spam,promo,0.980041,27,C4 product/health/government/gaming lure scams read as promo
+uc00227,claude_blind,none,promo,ham,0.978788,28,"C5 low-pressure marketing read as ham (quizzes, tones, rentals, loan offers)"
+uc00839,claude_blind,none,promo,spam,0.978754,29,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+mi01778,claude_blind,none,ham,spam,0.969822,30,C2 premium-service billing/subscription notices (ham) read as scam
+mi02453,human_verified,none,spam,ham,0.969464,31,"C3 scam without lure markers (no link; conversational, social-engineering or truncated)"
+fr00325,claude_blind,dlt_header-P,promo,ham,0.957979,32,"C5 low-pressure marketing read as ham (quizzes, tones, rentals, loan offers)"
+uc00518,claude_blind,none,ham,spam,0.957636,33,C2 premium-service billing/subscription notices (ham) read as scam
+uc03750,human_verified,none,spam,promo,0.955391,34,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+ex01287,claude_blind,other,caution,spam,0.949534,35,"C6 caution boundary (security notices missed, or read as phishing)"
+ex02308,claude_blind,dlt_header_nosuffix,caution,ham,0.945672,36,"C6 caution boundary (security notices missed, or read as phishing)"
+uc00748,claude_blind,none,ham,spam,0.940022,37,C2 premium-service billing/subscription notices (ham) read as scam
+uc01374,claude_blind,none,promo,spam,0.939051,38,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+ex02682,human_verified,dlt_header_nosuffix,caution,spam,0.937178,39,"C6 caution boundary (security notices missed, or read as phishing)"
+mi02914,claude_blind,none,promo,ham,0.929737,40,"C5 low-pressure marketing read as ham (quizzes, tones, rentals, loan offers)"
+uc02367,human_verified,none,spam,promo,0.866814,41,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+uc01492,claude_blind,none,promo,spam,0.857089,42,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+uc04499,human_verified,none,spam,promo,0.815533,43,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+in00459,claude_blind,dlt_header-S,spam,promo,0.812714,44,C4 product/health/government/gaming lure scams read as promo
+ex02792,claude_blind,dlt_header_nosuffix,caution,ham,0.804345,45,"C6 caution boundary (security notices missed, or read as phishing)"
+uc02379,claude_blind,none,promo,spam,0.799716,46,"C1 spam/promo boundary: UK premium-rate, competition and adult-chat texts (legacy UCI style)"
+mi03111,claude_blind,none,spam,caution,0.794329,47,C10 non-English (Dutch) phishing
+fr00148,human_verified,dlt_header-P,promo,spam,0.793511,48,C7 legitimate bank marketing read as scam
+uc02402,human_verified,none,spam,ham,0.793108,49,"C3 scam without lure markers (no link; conversational, social-engineering or truncated)"

@@ -1,0 +1,751 @@
+item_id,base_id,sender,sender_kind,camouflage,text,text_label,final_label,is_synthetic
+sp_sp00_registered_ST_0,sp00,JM-HDFCBK-T,registered_ST,0,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,spam,True
+sp_sp00_registered_ST_1,sp00,BP-HDFCBK-T,registered_ST,1,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com Do not share your OTP with anyone.",spam,spam,True
+sp_sp00_registered_P_0,sp00,VK-HDFCBK-P,registered_P,0,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,spam,True
+sp_sp00_registered_P_1,sp00,TX-HDFCBK-P,registered_P,1,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com Beware of fraud calls.",spam,spam,True
+sp_sp00_registered_G_0,sp00,AX-TRAIND-G,registered_G,0,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,spam,True
+sp_sp00_registered_G_1,sp00,JD-UIDAIG-G,registered_G,1,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com Do not share your OTP with anyone.",spam,spam,True
+sp_sp00_personal_mobile_0,sp00,+916586021458,personal_mobile,0,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,spam,True
+sp_sp00_personal_mobile_1,sp00,+917108394906,personal_mobile,1,"Security Alert: Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,spam,True
+sp_sp00_unknown_alnum_0,sp00,QZUVFQ,unknown_alnum,0,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,spam,True
+sp_sp00_unknown_alnum_1,sp00,CEXMKR,unknown_alnum,1,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com Do not share your OTP with anyone.",spam,spam,True
+sp_sp00_spoof_lookalike_0,sp00,AX-HDFCBN-S,spoof_lookalike,0,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,spam,True
+sp_sp00_spoof_lookalike_1,sp00,VM-HDFCBN-S,spoof_lookalike,1,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com Do not share your OTP with anyone.",spam,spam,True
+sp_sp01_registered_ST_0,sp01,JM-SBIINB-S,registered_ST,0,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_registered_ST_1,sp01,AX-SBIINB-T,registered_ST,1,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top Beware of fraud calls.,spam,spam,True
+sp_sp01_registered_P_0,sp01,AX-SBIINB-P,registered_P,0,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_registered_P_1,sp01,BP-SBIINB-P,registered_P,1,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top Beware of fraud calls.,spam,spam,True
+sp_sp01_registered_G_0,sp01,CP-TRAIND-G,registered_G,0,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_registered_G_1,sp01,VM-UIDAIG-G,registered_G,1,Security Alert: Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_personal_mobile_0,sp01,+917802582201,personal_mobile,0,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_personal_mobile_1,sp01,+916515438299,personal_mobile,1,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top Do not share your OTP with anyone.,spam,spam,True
+sp_sp01_unknown_alnum_0,sp01,DKPDXC,unknown_alnum,0,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_unknown_alnum_1,sp01,ITJUDL,unknown_alnum,1,Security Alert: Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_spoof_lookalike_0,sp01,VK-SBIIN8-S,spoof_lookalike,0,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,spam,True
+sp_sp01_spoof_lookalike_1,sp01,AD-SBIIN8-S,spoof_lookalike,1,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top Do not share your OTP with anyone.,spam,spam,True
+sp_sp02_registered_ST_0,sp02,TX-BSNLIN-S,registered_ST,0,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,spam,True
+sp_sp02_registered_ST_1,sp02,BP-BSNLIN-T,registered_ST,1,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top Beware of fraud calls.,spam,spam,True
+sp_sp02_registered_P_0,sp02,BP-BSNLIN-P,registered_P,0,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,spam,True
+sp_sp02_registered_P_1,sp02,AD-BSNLIN-P,registered_P,1,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top Beware of fraud calls.,spam,spam,True
+sp_sp02_registered_G_0,sp02,AD-UIDAIG-G,registered_G,0,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,spam,True
+sp_sp02_registered_G_1,sp02,AX-MAHGOV-G,registered_G,1,Security Alert: Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,spam,True
+sp_sp02_personal_mobile_0,sp02,+917568855765,personal_mobile,0,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,spam,True
+sp_sp02_personal_mobile_1,sp02,+917735569632,personal_mobile,1,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top Beware of fraud calls.,spam,spam,True
+sp_sp02_unknown_alnum_0,sp02,NIKDKI,unknown_alnum,0,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,spam,True
+sp_sp02_unknown_alnum_1,sp02,IERUIH,unknown_alnum,1,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top Do not share your OTP with anyone.,spam,spam,True
+sp_sp02_spoof_lookalike_0,sp02,JD-BSNLlN-S,spoof_lookalike,0,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,spam,True
+sp_sp02_spoof_lookalike_1,sp02,TX-BSNLlN-S,spoof_lookalike,1,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top Do not share your OTP with anyone.,spam,spam,True
+sp_sp03_registered_ST_0,sp03,AX-BLNKIT-T,registered_ST,0,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_registered_ST_1,sp03,VK-BLNKIT-T,registered_ST,1,Security Alert: Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_registered_P_0,sp03,VM-BLNKIT-P,registered_P,0,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_registered_P_1,sp03,TX-BLNKIT-P,registered_P,1,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site Do not share your OTP with anyone.,spam,spam,True
+sp_sp03_registered_G_0,sp03,BP-UIDAIG-G,registered_G,0,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_registered_G_1,sp03,BP-NDMAEW-G,registered_G,1,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site Beware of fraud calls.,spam,spam,True
+sp_sp03_personal_mobile_0,sp03,+917655062048,personal_mobile,0,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_personal_mobile_1,sp03,+917599677500,personal_mobile,1,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site Beware of fraud calls.,spam,spam,True
+sp_sp03_unknown_alnum_0,sp03,VIKAYG,unknown_alnum,0,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_unknown_alnum_1,sp03,QITULC,unknown_alnum,1,Security Alert: Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_spoof_lookalike_0,sp03,JM-BLINKlT-S,spoof_lookalike,0,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,spam,True
+sp_sp03_spoof_lookalike_1,sp03,TX-BLINKlT-S,spoof_lookalike,1,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site Beware of fraud calls.,spam,spam,True
+sp_sp04_registered_ST_0,sp04,JD-AXISBK-T,registered_ST,0,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,spam,True
+sp_sp04_registered_ST_1,sp04,VK-AMAZON-S,registered_ST,1,Security Alert: Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,spam,True
+sp_sp04_registered_P_0,sp04,AX-BOBTXN-P,registered_P,0,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,spam,True
+sp_sp04_registered_P_1,sp04,CP-ICICIB-P,registered_P,1,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately. Beware of fraud calls.,spam,spam,True
+sp_sp04_registered_G_0,sp04,TX-TRAIND-G,registered_G,0,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,spam,True
+sp_sp04_registered_G_1,sp04,VM-MAHGOV-G,registered_G,1,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately. Beware of fraud calls.,spam,spam,True
+sp_sp04_personal_mobile_0,sp04,+917755559747,personal_mobile,0,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,spam,True
+sp_sp04_personal_mobile_1,sp04,+916720754735,personal_mobile,1,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately. Do not share your OTP with anyone.,spam,spam,True
+sp_sp04_unknown_alnum_0,sp04,JGSBNC,unknown_alnum,0,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,spam,True
+sp_sp04_unknown_alnum_1,sp04,YJPTCQ,unknown_alnum,1,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately. Do not share your OTP with anyone.,spam,spam,True
+sp_sp04_spoof_lookalike_0,sp04,VK-Z0MATO-S,spoof_lookalike,0,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,spam,True
+sp_sp04_spoof_lookalike_1,sp04,BP-Z0MATO-S,spoof_lookalike,1,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately. Beware of fraud calls.,spam,spam,True
+sp_sp05_registered_ST_0,sp05,AD-BOBTXN-S,registered_ST,0,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,spam,True
+sp_sp05_registered_ST_1,sp05,TX-FLPKRT-T,registered_ST,1,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616 Do not share your OTP with anyone.",spam,spam,True
+sp_sp05_registered_P_0,sp05,JM-AXISBK-P,registered_P,0,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,spam,True
+sp_sp05_registered_P_1,sp05,VK-HDFCBK-P,registered_P,1,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616 Beware of fraud calls.",spam,spam,True
+sp_sp05_registered_G_0,sp05,CP-TRAIND-G,registered_G,0,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,spam,True
+sp_sp05_registered_G_1,sp05,JM-MAHGOV-G,registered_G,1,"Security Alert: Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,spam,True
+sp_sp05_personal_mobile_0,sp05,+918568983298,personal_mobile,0,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,spam,True
+sp_sp05_personal_mobile_1,sp05,+917900442248,personal_mobile,1,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616 Beware of fraud calls.",spam,spam,True
+sp_sp05_unknown_alnum_0,sp05,OFFWBY,unknown_alnum,0,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,spam,True
+sp_sp05_unknown_alnum_1,sp05,NUTPRA,unknown_alnum,1,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616 Beware of fraud calls.",spam,spam,True
+sp_sp05_spoof_lookalike_0,sp05,TX-AMAZ0N-S,spoof_lookalike,0,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,spam,True
+sp_sp05_spoof_lookalike_1,sp05,TX-MYNTRAA-S,spoof_lookalike,1,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616 Do not share your OTP with anyone.",spam,spam,True
+sp_sp06_registered_ST_0,sp06,VK-AXISBK-T,registered_ST,0,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_registered_ST_1,sp06,JD-AXISBK-T,registered_ST,1,"Security Alert: Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_registered_P_0,sp06,TX-AXISBK-P,registered_P,0,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_registered_P_1,sp06,VM-AXISBK-P,registered_P,1,"Security Alert: Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_registered_G_0,sp06,VM-NDMAEW-G,registered_G,0,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_registered_G_1,sp06,AD-MAHGOV-G,registered_G,1,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top Do not share your OTP with anyone.",spam,spam,True
+sp_sp06_personal_mobile_0,sp06,+918028316632,personal_mobile,0,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_personal_mobile_1,sp06,+917735286675,personal_mobile,1,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top Beware of fraud calls.",spam,spam,True
+sp_sp06_unknown_alnum_0,sp06,JUXORT,unknown_alnum,0,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_unknown_alnum_1,sp06,CGXGDY,unknown_alnum,1,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top Beware of fraud calls.",spam,spam,True
+sp_sp06_spoof_lookalike_0,sp06,BP-AXlSBK-S,spoof_lookalike,0,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp06_spoof_lookalike_1,sp06,JD-AXlSBK-S,spoof_lookalike,1,"Security Alert: Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,spam,True
+sp_sp07_registered_ST_0,sp07,JD-KOTAKB-S,registered_ST,0,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_registered_ST_1,sp07,CP-KOTAKB-S,registered_ST,1,Security Alert: Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_registered_P_0,sp07,VM-KOTAKB-P,registered_P,0,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_registered_P_1,sp07,TX-KOTAKB-P,registered_P,1,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz Do not share your OTP with anyone.,spam,spam,True
+sp_sp07_registered_G_0,sp07,AX-MAHGOV-G,registered_G,0,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_registered_G_1,sp07,BP-UIDAIG-G,registered_G,1,Security Alert: Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_personal_mobile_0,sp07,+919457212835,personal_mobile,0,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_personal_mobile_1,sp07,+919990854177,personal_mobile,1,Security Alert: Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_unknown_alnum_0,sp07,ZQQDIJ,unknown_alnum,0,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_unknown_alnum_1,sp07,CSBCQO,unknown_alnum,1,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz Do not share your OTP with anyone.,spam,spam,True
+sp_sp07_spoof_lookalike_0,sp07,AD-K0TAKB-S,spoof_lookalike,0,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,spam,True
+sp_sp07_spoof_lookalike_1,sp07,CP-K0TAKB-S,spoof_lookalike,1,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz Beware of fraud calls.,spam,spam,True
+sp_sp08_registered_ST_0,sp08,VK-JIONET-S,registered_ST,0,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,spam,True
+sp_sp08_registered_ST_1,sp08,BP-KOTAKB-S,registered_ST,1,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent. Beware of fraud calls.",spam,spam,True
+sp_sp08_registered_P_0,sp08,CP-AXISBK-P,registered_P,0,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,spam,True
+sp_sp08_registered_P_1,sp08,JD-ICICIB-P,registered_P,1,"Security Alert: Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,spam,True
+sp_sp08_registered_G_0,sp08,VM-NDMAEW-G,registered_G,0,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,spam,True
+sp_sp08_registered_G_1,sp08,TX-NDMAEW-G,registered_G,1,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent. Beware of fraud calls.",spam,spam,True
+sp_sp08_personal_mobile_0,sp08,+918735736385,personal_mobile,0,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,spam,True
+sp_sp08_personal_mobile_1,sp08,+919392731979,personal_mobile,1,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent. Beware of fraud calls.",spam,spam,True
+sp_sp08_unknown_alnum_0,sp08,APGMXB,unknown_alnum,0,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,spam,True
+sp_sp08_unknown_alnum_1,sp08,ZEJHQK,unknown_alnum,1,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent. Do not share your OTP with anyone.",spam,spam,True
+sp_sp08_spoof_lookalike_0,sp08,VM-ZEPT0N-S,spoof_lookalike,0,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,spam,True
+sp_sp08_spoof_lookalike_1,sp08,TX-MYNTRAA-S,spoof_lookalike,1,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent. Do not share your OTP with anyone.",spam,spam,True
+sp_sp09_registered_ST_0,sp09,TX-JIONET-S,registered_ST,0,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_registered_ST_1,sp09,BP-JIONET-S,registered_ST,1,Security Alert: Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_registered_P_0,sp09,AD-JIONET-P,registered_P,0,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_registered_P_1,sp09,TX-JIONET-P,registered_P,1,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active. Beware of fraud calls.,spam,spam,True
+sp_sp09_registered_G_0,sp09,VK-UIDAIG-G,registered_G,0,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_registered_G_1,sp09,AD-NDMAEW-G,registered_G,1,Security Alert: Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_personal_mobile_0,sp09,+916330428451,personal_mobile,0,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_personal_mobile_1,sp09,+917038178057,personal_mobile,1,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active. Do not share your OTP with anyone.,spam,spam,True
+sp_sp09_unknown_alnum_0,sp09,GUUPBJ,unknown_alnum,0,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_unknown_alnum_1,sp09,FUCIGA,unknown_alnum,1,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active. Beware of fraud calls.,spam,spam,True
+sp_sp09_spoof_lookalike_0,sp09,VM-JI0NET-S,spoof_lookalike,0,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,spam,True
+sp_sp09_spoof_lookalike_1,sp09,VK-JI0NET-S,spoof_lookalike,1,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active. Do not share your OTP with anyone.,spam,spam,True
+sp_sp10_registered_ST_0,sp10,AD-BOBTXN-S,registered_ST,0,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_registered_ST_1,sp10,TX-BOBTXN-S,registered_ST,1,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top Do not share your OTP with anyone.",spam,spam,True
+sp_sp10_registered_P_0,sp10,VM-BOBTXN-P,registered_P,0,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_registered_P_1,sp10,TX-BOBTXN-P,registered_P,1,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top Do not share your OTP with anyone.",spam,spam,True
+sp_sp10_registered_G_0,sp10,JM-UIDAIG-G,registered_G,0,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_registered_G_1,sp10,VK-NDMAEW-G,registered_G,1,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top Do not share your OTP with anyone.",spam,spam,True
+sp_sp10_personal_mobile_0,sp10,+916668179223,personal_mobile,0,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_personal_mobile_1,sp10,+917856427105,personal_mobile,1,"Security Alert: Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_unknown_alnum_0,sp10,SQYHPW,unknown_alnum,0,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_unknown_alnum_1,sp10,VZKFPR,unknown_alnum,1,"Security Alert: Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_spoof_lookalike_0,sp10,JD-B0BTXN-S,spoof_lookalike,0,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp10_spoof_lookalike_1,sp10,VM-B0BTXN-S,spoof_lookalike,1,"Security Alert: Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,spam,True
+sp_sp11_registered_ST_0,sp11,AD-CANBNK-T,registered_ST,0,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,spam,True
+sp_sp11_registered_ST_1,sp11,CP-CANBNK-T,registered_ST,1,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1 Do not share your OTP with anyone.,spam,spam,True
+sp_sp11_registered_P_0,sp11,BP-CANBNK-P,registered_P,0,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,spam,True
+sp_sp11_registered_P_1,sp11,AD-CANBNK-P,registered_P,1,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1 Beware of fraud calls.,spam,spam,True
+sp_sp11_registered_G_0,sp11,VM-MAHGOV-G,registered_G,0,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,spam,True
+sp_sp11_registered_G_1,sp11,JM-NDMAEW-G,registered_G,1,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1 Beware of fraud calls.,spam,spam,True
+sp_sp11_personal_mobile_0,sp11,+918999248005,personal_mobile,0,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,spam,True
+sp_sp11_personal_mobile_1,sp11,+919913729871,personal_mobile,1,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1 Do not share your OTP with anyone.,spam,spam,True
+sp_sp11_unknown_alnum_0,sp11,ATQJEN,unknown_alnum,0,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,spam,True
+sp_sp11_unknown_alnum_1,sp11,AOTJEM,unknown_alnum,1,Security Alert: Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,spam,True
+sp_sp11_spoof_lookalike_0,sp11,VM-CANBNKK-S,spoof_lookalike,0,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,spam,True
+sp_sp11_spoof_lookalike_1,sp11,VK-CANBNKK-S,spoof_lookalike,1,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1 Beware of fraud calls.,spam,spam,True
+sp_sp12_registered_ST_0,sp12,AD-AXISBK-S,registered_ST,0,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,spam,True
+sp_sp12_registered_ST_1,sp12,VK-ZOMATO-S,registered_ST,1,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534 Beware of fraud calls.,spam,spam,True
+sp_sp12_registered_P_0,sp12,VK-FLPKRT-P,registered_P,0,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,spam,True
+sp_sp12_registered_P_1,sp12,AX-JIONET-P,registered_P,1,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534 Do not share your OTP with anyone.,spam,spam,True
+sp_sp12_registered_G_0,sp12,CP-UIDAIG-G,registered_G,0,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,spam,True
+sp_sp12_registered_G_1,sp12,BP-TRAIND-G,registered_G,1,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534 Do not share your OTP with anyone.,spam,spam,True
+sp_sp12_personal_mobile_0,sp12,+917346352136,personal_mobile,0,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,spam,True
+sp_sp12_personal_mobile_1,sp12,+919398488645,personal_mobile,1,Security Alert: Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,spam,True
+sp_sp12_unknown_alnum_0,sp12,QJBXTG,unknown_alnum,0,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,spam,True
+sp_sp12_unknown_alnum_1,sp12,NVSEOM,unknown_alnum,1,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534 Do not share your OTP with anyone.,spam,spam,True
+sp_sp12_spoof_lookalike_0,sp12,VM-AIRTELL-S,spoof_lookalike,0,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,spam,True
+sp_sp12_spoof_lookalike_1,sp12,VM-SWlGGY-S,spoof_lookalike,1,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534 Beware of fraud calls.,spam,spam,True
+sp_sp13_registered_ST_0,sp13,TX-BLNKIT-T,registered_ST,0,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,spam,True
+sp_sp13_registered_ST_1,sp13,TX-BLNKIT-T,registered_ST,1,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site Beware of fraud calls.",spam,spam,True
+sp_sp13_registered_P_0,sp13,JM-BLNKIT-P,registered_P,0,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,spam,True
+sp_sp13_registered_P_1,sp13,TX-BLNKIT-P,registered_P,1,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site Do not share your OTP with anyone.",spam,spam,True
+sp_sp13_registered_G_0,sp13,AX-MAHGOV-G,registered_G,0,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,spam,True
+sp_sp13_registered_G_1,sp13,BP-UIDAIG-G,registered_G,1,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site Beware of fraud calls.",spam,spam,True
+sp_sp13_personal_mobile_0,sp13,+916686695389,personal_mobile,0,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,spam,True
+sp_sp13_personal_mobile_1,sp13,+918013327967,personal_mobile,1,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site Beware of fraud calls.",spam,spam,True
+sp_sp13_unknown_alnum_0,sp13,QGLARC,unknown_alnum,0,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,spam,True
+sp_sp13_unknown_alnum_1,sp13,DGMDOT,unknown_alnum,1,"Security Alert: Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,spam,True
+sp_sp13_spoof_lookalike_0,sp13,TX-BLINKlT-S,spoof_lookalike,0,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,spam,True
+sp_sp13_spoof_lookalike_1,sp13,AD-BLINKlT-S,spoof_lookalike,1,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site Do not share your OTP with anyone.",spam,spam,True
+sp_sp14_registered_ST_0,sp14,JM-ZOMATO-T,registered_ST,0,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_registered_ST_1,sp14,AX-ZOMATO-S,registered_ST,1,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST Do not share your OTP with anyone.",spam,spam,True
+sp_sp14_registered_P_0,sp14,AD-ZOMATO-P,registered_P,0,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_registered_P_1,sp14,BP-ZOMATO-P,registered_P,1,"Security Alert: You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_registered_G_0,sp14,JD-UIDAIG-G,registered_G,0,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_registered_G_1,sp14,CP-NDMAEW-G,registered_G,1,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST Beware of fraud calls.",spam,spam,True
+sp_sp14_personal_mobile_0,sp14,+917875921153,personal_mobile,0,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_personal_mobile_1,sp14,+919718621076,personal_mobile,1,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST Beware of fraud calls.",spam,spam,True
+sp_sp14_unknown_alnum_0,sp14,PBOPLX,unknown_alnum,0,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_unknown_alnum_1,sp14,BNFNUC,unknown_alnum,1,"Security Alert: You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_spoof_lookalike_0,sp14,TX-Z0MATO-S,spoof_lookalike,0,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,spam,True
+sp_sp14_spoof_lookalike_1,sp14,TX-Z0MATO-S,spoof_lookalike,1,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST Do not share your OTP with anyone.",spam,spam,True
+sp_sp15_registered_ST_0,sp15,AD-ZEPTON-T,registered_ST,0,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,spam,True
+sp_sp15_registered_ST_1,sp15,VM-BOBTXN-S,registered_ST,1,Security Alert: Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,spam,True
+sp_sp15_registered_P_0,sp15,AX-SWIGGY-P,registered_P,0,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,spam,True
+sp_sp15_registered_P_1,sp15,AD-ZEPTON-P,registered_P,1,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513 Beware of fraud calls.,spam,spam,True
+sp_sp15_registered_G_0,sp15,BP-NDMAEW-G,registered_G,0,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,spam,True
+sp_sp15_registered_G_1,sp15,AD-MAHGOV-G,registered_G,1,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513 Beware of fraud calls.,spam,spam,True
+sp_sp15_personal_mobile_0,sp15,+917982864089,personal_mobile,0,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,spam,True
+sp_sp15_personal_mobile_1,sp15,+919464397258,personal_mobile,1,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513 Do not share your OTP with anyone.,spam,spam,True
+sp_sp15_unknown_alnum_0,sp15,DTHAGT,unknown_alnum,0,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,spam,True
+sp_sp15_unknown_alnum_1,sp15,XUDVKM,unknown_alnum,1,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513 Do not share your OTP with anyone.,spam,spam,True
+sp_sp15_spoof_lookalike_0,sp15,VK-ZEPT0N-S,spoof_lookalike,0,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,spam,True
+sp_sp15_spoof_lookalike_1,sp15,AD-BLINKlT-S,spoof_lookalike,1,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513 Beware of fraud calls.,spam,spam,True
+sp_sp16_registered_ST_0,sp16,CP-BOBTXN-T,registered_ST,0,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp16_registered_ST_1,sp16,BP-BOBTXN-T,registered_ST,1,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com Do not share your OTP with anyone.,spam,spam,True
+sp_sp16_registered_P_0,sp16,VM-BOBTXN-P,registered_P,0,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp16_registered_P_1,sp16,BP-BOBTXN-P,registered_P,1,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com Do not share your OTP with anyone.,spam,spam,True
+sp_sp16_registered_G_0,sp16,BP-MAHGOV-G,registered_G,0,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp16_registered_G_1,sp16,VK-NDMAEW-G,registered_G,1,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com Do not share your OTP with anyone.,spam,spam,True
+sp_sp16_personal_mobile_0,sp16,+919090488015,personal_mobile,0,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp16_personal_mobile_1,sp16,+918644033013,personal_mobile,1,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com Do not share your OTP with anyone.,spam,spam,True
+sp_sp16_unknown_alnum_0,sp16,WLTROD,unknown_alnum,0,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp16_unknown_alnum_1,sp16,QUTBJE,unknown_alnum,1,Security Alert: Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp16_spoof_lookalike_0,sp16,CP-B0BTXN-S,spoof_lookalike,0,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp16_spoof_lookalike_1,sp16,JM-B0BTXN-S,spoof_lookalike,1,Security Alert: Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,spam,True
+sp_sp17_registered_ST_0,sp17,AD-AMAZON-S,registered_ST,0,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_registered_ST_1,sp17,AD-AMAZON-T,registered_ST,1,Security Alert: Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_registered_P_0,sp17,JD-AMAZON-P,registered_P,0,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_registered_P_1,sp17,VK-AMAZON-P,registered_P,1,Security Alert: Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_registered_G_0,sp17,VM-MAHGOV-G,registered_G,0,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_registered_G_1,sp17,CP-MAHGOV-G,registered_G,1,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online Beware of fraud calls.,spam,spam,True
+sp_sp17_personal_mobile_0,sp17,+917064248296,personal_mobile,0,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_personal_mobile_1,sp17,+916796772041,personal_mobile,1,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online Beware of fraud calls.,spam,spam,True
+sp_sp17_unknown_alnum_0,sp17,GIXOQT,unknown_alnum,0,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_unknown_alnum_1,sp17,GKFYZW,unknown_alnum,1,Security Alert: Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_spoof_lookalike_0,sp17,VM-AMAZ0N-S,spoof_lookalike,0,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,spam,True
+sp_sp17_spoof_lookalike_1,sp17,AD-AMAZ0N-S,spoof_lookalike,1,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online Do not share your OTP with anyone.,spam,spam,True
+sp_sp18_registered_ST_0,sp18,CP-JIONET-S,registered_ST,0,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_registered_ST_1,sp18,CP-MYNTRA-S,registered_ST,1,"Security Alert: Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_registered_P_0,sp18,AD-MYNTRA-P,registered_P,0,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_registered_P_1,sp18,TX-FLPKRT-P,registered_P,1,"Security Alert: Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_registered_G_0,sp18,BP-MAHGOV-G,registered_G,0,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_registered_G_1,sp18,AX-NDMAEW-G,registered_G,1,"Security Alert: Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_personal_mobile_0,sp18,+919852223841,personal_mobile,0,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_personal_mobile_1,sp18,+919533257192,personal_mobile,1,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow. Beware of fraud calls.",spam,spam,True
+sp_sp18_unknown_alnum_0,sp18,BRLHXI,unknown_alnum,0,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_unknown_alnum_1,sp18,JEIOMZ,unknown_alnum,1,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow. Beware of fraud calls.",spam,spam,True
+sp_sp18_spoof_lookalike_0,sp18,JM-AXlSBK-S,spoof_lookalike,0,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,spam,True
+sp_sp18_spoof_lookalike_1,sp18,AD-SWlGGY-S,spoof_lookalike,1,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow. Beware of fraud calls.",spam,spam,True
+sp_sp19_registered_ST_0,sp19,CP-SBIINB-S,registered_ST,0,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,spam,True
+sp_sp19_registered_ST_1,sp19,VK-SBIINB-T,registered_ST,1,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top Do not share your OTP with anyone.",spam,spam,True
+sp_sp19_registered_P_0,sp19,AX-SBIINB-P,registered_P,0,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,spam,True
+sp_sp19_registered_P_1,sp19,JD-SBIINB-P,registered_P,1,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top Do not share your OTP with anyone.",spam,spam,True
+sp_sp19_registered_G_0,sp19,VM-NDMAEW-G,registered_G,0,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,spam,True
+sp_sp19_registered_G_1,sp19,AX-UIDAIG-G,registered_G,1,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top Beware of fraud calls.",spam,spam,True
+sp_sp19_personal_mobile_0,sp19,+917800530514,personal_mobile,0,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,spam,True
+sp_sp19_personal_mobile_1,sp19,+919589305977,personal_mobile,1,"Security Alert: Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,spam,True
+sp_sp19_unknown_alnum_0,sp19,BUUKLG,unknown_alnum,0,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,spam,True
+sp_sp19_unknown_alnum_1,sp19,IRUQLZ,unknown_alnum,1,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top Beware of fraud calls.",spam,spam,True
+sp_sp19_spoof_lookalike_0,sp19,TX-SBIIN8-S,spoof_lookalike,0,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,spam,True
+sp_sp19_spoof_lookalike_1,sp19,AD-SBIIN8-S,spoof_lookalike,1,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top Do not share your OTP with anyone.",spam,spam,True
+sp_sp20_registered_ST_0,sp20,VM-KOTAKB-T,registered_ST,0,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_registered_ST_1,sp20,VK-KOTAKB-S,registered_ST,1,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG Beware of fraud calls.",spam,spam,True
+sp_sp20_registered_P_0,sp20,VM-KOTAKB-P,registered_P,0,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_registered_P_1,sp20,VK-KOTAKB-P,registered_P,1,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG Beware of fraud calls.",spam,spam,True
+sp_sp20_registered_G_0,sp20,VK-UIDAIG-G,registered_G,0,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_registered_G_1,sp20,AD-MAHGOV-G,registered_G,1,"Security Alert: Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_personal_mobile_0,sp20,+916363343701,personal_mobile,0,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_personal_mobile_1,sp20,+919526239424,personal_mobile,1,"Security Alert: Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_unknown_alnum_0,sp20,NNRNGC,unknown_alnum,0,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_unknown_alnum_1,sp20,MLGTRX,unknown_alnum,1,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG Do not share your OTP with anyone.",spam,spam,True
+sp_sp20_spoof_lookalike_0,sp20,VK-K0TAKB-S,spoof_lookalike,0,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,spam,True
+sp_sp20_spoof_lookalike_1,sp20,AX-K0TAKB-S,spoof_lookalike,1,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG Beware of fraud calls.",spam,spam,True
+sp_sp21_registered_ST_0,sp21,JM-HDFCBK-T,registered_ST,0,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_registered_ST_1,sp21,TX-HDFCBK-S,registered_ST,1,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY Do not share your OTP with anyone.,spam,spam,True
+sp_sp21_registered_P_0,sp21,AX-HDFCBK-P,registered_P,0,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_registered_P_1,sp21,JD-HDFCBK-P,registered_P,1,Security Alert: Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_registered_G_0,sp21,VK-TRAIND-G,registered_G,0,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_registered_G_1,sp21,JM-TRAIND-G,registered_G,1,Security Alert: Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_personal_mobile_0,sp21,+919704410475,personal_mobile,0,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_personal_mobile_1,sp21,+919886561141,personal_mobile,1,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY Do not share your OTP with anyone.,spam,spam,True
+sp_sp21_unknown_alnum_0,sp21,QEHKZS,unknown_alnum,0,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_unknown_alnum_1,sp21,HITVIA,unknown_alnum,1,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY Beware of fraud calls.,spam,spam,True
+sp_sp21_spoof_lookalike_0,sp21,AX-HDFCBN-S,spoof_lookalike,0,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,spam,True
+sp_sp21_spoof_lookalike_1,sp21,JD-HDFCBN-S,spoof_lookalike,1,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY Beware of fraud calls.,spam,spam,True
+sp_sp22_registered_ST_0,sp22,VK-FLPKRT-T,registered_ST,0,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,spam,True
+sp_sp22_registered_ST_1,sp22,TX-JIONET-S,registered_ST,1,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161 Beware of fraud calls.",spam,spam,True
+sp_sp22_registered_P_0,sp22,AX-KOTAKB-P,registered_P,0,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,spam,True
+sp_sp22_registered_P_1,sp22,CP-FLPKRT-P,registered_P,1,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161 Beware of fraud calls.",spam,spam,True
+sp_sp22_registered_G_0,sp22,CP-NDMAEW-G,registered_G,0,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,spam,True
+sp_sp22_registered_G_1,sp22,CP-NDMAEW-G,registered_G,1,"Security Alert: Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,spam,True
+sp_sp22_personal_mobile_0,sp22,+916000520070,personal_mobile,0,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,spam,True
+sp_sp22_personal_mobile_1,sp22,+919039273305,personal_mobile,1,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161 Beware of fraud calls.",spam,spam,True
+sp_sp22_unknown_alnum_0,sp22,BJQQPO,unknown_alnum,0,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,spam,True
+sp_sp22_unknown_alnum_1,sp22,NWMCDJ,unknown_alnum,1,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161 Do not share your OTP with anyone.",spam,spam,True
+sp_sp22_spoof_lookalike_0,sp22,BP-AMAZ0N-S,spoof_lookalike,0,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,spam,True
+sp_sp22_spoof_lookalike_1,sp22,AD-lCICIB-S,spoof_lookalike,1,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161 Do not share your OTP with anyone.",spam,spam,True
+sp_sp23_registered_ST_0,sp23,JD-HDFCBK-S,registered_ST,0,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_registered_ST_1,sp23,JM-HDFCBK-S,registered_ST,1,Security Alert: Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_registered_P_0,sp23,VM-HDFCBK-P,registered_P,0,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_registered_P_1,sp23,AX-HDFCBK-P,registered_P,1,Security Alert: Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_registered_G_0,sp23,JM-NDMAEW-G,registered_G,0,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_registered_G_1,sp23,VM-MAHGOV-G,registered_G,1,Security Alert: Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_personal_mobile_0,sp23,+917716715529,personal_mobile,0,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_personal_mobile_1,sp23,+916126708129,personal_mobile,1,Security Alert: Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_unknown_alnum_0,sp23,AKZPTX,unknown_alnum,0,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_unknown_alnum_1,sp23,SWTFGT,unknown_alnum,1,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site Do not share your OTP with anyone.,spam,spam,True
+sp_sp23_spoof_lookalike_0,sp23,AD-HDFCBN-S,spoof_lookalike,0,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,spam,True
+sp_sp23_spoof_lookalike_1,sp23,JM-HDFCBN-S,spoof_lookalike,1,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site Beware of fraud calls.,spam,spam,True
+sp_sp24_registered_ST_0,sp24,VK-HDFCBK-S,registered_ST,0,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_registered_ST_1,sp24,JD-HDFCBK-T,registered_ST,1,Security Alert: 799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_registered_P_0,sp24,AD-HDFCBK-P,registered_P,0,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_registered_P_1,sp24,TX-HDFCBK-P,registered_P,1,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now. Beware of fraud calls.,spam,spam,True
+sp_sp24_registered_G_0,sp24,AD-MAHGOV-G,registered_G,0,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_registered_G_1,sp24,TX-NDMAEW-G,registered_G,1,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now. Do not share your OTP with anyone.,spam,spam,True
+sp_sp24_personal_mobile_0,sp24,+918706755485,personal_mobile,0,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_personal_mobile_1,sp24,+919635167682,personal_mobile,1,Security Alert: 799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_unknown_alnum_0,sp24,GIRXCE,unknown_alnum,0,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_unknown_alnum_1,sp24,DOVVWF,unknown_alnum,1,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now. Do not share your OTP with anyone.,spam,spam,True
+sp_sp24_spoof_lookalike_0,sp24,AX-HDFCBN-S,spoof_lookalike,0,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,spam,True
+sp_sp24_spoof_lookalike_1,sp24,JM-HDFCBN-S,spoof_lookalike,1,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now. Do not share your OTP with anyone.,spam,spam,True
+sp_ca00_registered_ST_0,ca00,CP-KOTAKB-T,registered_ST,0,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,caution,True
+sp_ca00_registered_P_0,ca00,JD-KOTAKB-P,registered_P,0,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,caution,True
+sp_ca00_registered_G_0,ca00,TX-TRAIND-G,registered_G,0,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,caution,True
+sp_ca00_personal_mobile_0,ca00,+917082422042,personal_mobile,0,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,spam,True
+sp_ca00_unknown_alnum_0,ca00,FQHOWA,unknown_alnum,0,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,caution,True
+sp_ca00_spoof_lookalike_0,ca00,BP-K0TAKB-S,spoof_lookalike,0,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,caution,True
+sp_ca01_registered_ST_0,ca01,VM-BOBTXN-T,registered_ST,0,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,caution,True
+sp_ca01_registered_P_0,ca01,VM-BOBTXN-P,registered_P,0,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,caution,True
+sp_ca01_registered_G_0,ca01,AD-UIDAIG-G,registered_G,0,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,caution,True
+sp_ca01_personal_mobile_0,ca01,+918151780133,personal_mobile,0,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,spam,True
+sp_ca01_unknown_alnum_0,ca01,KFMSLX,unknown_alnum,0,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,caution,True
+sp_ca01_spoof_lookalike_0,ca01,CP-B0BTXN-S,spoof_lookalike,0,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,caution,True
+sp_ca02_registered_ST_0,ca02,JM-ZEPTON-T,registered_ST,0,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,caution,True
+sp_ca02_registered_P_0,ca02,TX-ZEPTON-P,registered_P,0,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,caution,True
+sp_ca02_registered_G_0,ca02,JD-UIDAIG-G,registered_G,0,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,caution,True
+sp_ca02_personal_mobile_0,ca02,+916821961213,personal_mobile,0,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,spam,True
+sp_ca02_unknown_alnum_0,ca02,LMBOBA,unknown_alnum,0,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,caution,True
+sp_ca02_spoof_lookalike_0,ca02,JD-ZEPT0N-S,spoof_lookalike,0,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,caution,True
+sp_ca03_registered_ST_0,ca03,JD-AIRTEL-S,registered_ST,0,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,caution,True
+sp_ca03_registered_P_0,ca03,TX-AIRTEL-P,registered_P,0,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,caution,True
+sp_ca03_registered_G_0,ca03,CP-UIDAIG-G,registered_G,0,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,caution,True
+sp_ca03_personal_mobile_0,ca03,+917432746550,personal_mobile,0,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,spam,True
+sp_ca03_unknown_alnum_0,ca03,GXLDBX,unknown_alnum,0,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,caution,True
+sp_ca03_spoof_lookalike_0,ca03,VM-AIRTELL-S,spoof_lookalike,0,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,caution,True
+sp_ca04_registered_ST_0,ca04,CP-CANBNK-S,registered_ST,0,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,caution,True
+sp_ca04_registered_P_0,ca04,VK-CANBNK-P,registered_P,0,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,caution,True
+sp_ca04_registered_G_0,ca04,AD-UIDAIG-G,registered_G,0,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,caution,True
+sp_ca04_personal_mobile_0,ca04,+916243351658,personal_mobile,0,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,spam,True
+sp_ca04_unknown_alnum_0,ca04,BTRUNR,unknown_alnum,0,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,caution,True
+sp_ca04_spoof_lookalike_0,ca04,VM-CANBNKK-S,spoof_lookalike,0,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,caution,True
+sp_ca05_registered_ST_0,ca05,BP-AXISBK-T,registered_ST,0,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,caution,True
+sp_ca05_registered_P_0,ca05,AD-CANBNK-P,registered_P,0,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,caution,True
+sp_ca05_registered_G_0,ca05,AD-NDMAEW-G,registered_G,0,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,caution,True
+sp_ca05_personal_mobile_0,ca05,+917250215205,personal_mobile,0,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,spam,True
+sp_ca05_unknown_alnum_0,ca05,IRETUI,unknown_alnum,0,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,caution,True
+sp_ca05_spoof_lookalike_0,ca05,TX-AXlSBK-S,spoof_lookalike,0,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,caution,True
+sp_ca06_registered_ST_0,ca06,JM-SBIINB-T,registered_ST,0,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,caution,True
+sp_ca06_registered_P_0,ca06,AD-SBIINB-P,registered_P,0,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,caution,True
+sp_ca06_registered_G_0,ca06,VM-TRAIND-G,registered_G,0,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,caution,True
+sp_ca06_personal_mobile_0,ca06,+919135212223,personal_mobile,0,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,spam,True
+sp_ca06_unknown_alnum_0,ca06,VWMGPZ,unknown_alnum,0,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,caution,True
+sp_ca06_spoof_lookalike_0,ca06,TX-SBIIN8-S,spoof_lookalike,0,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,caution,True
+sp_ca07_registered_ST_0,ca07,VK-CANBNK-T,registered_ST,0,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,caution,True
+sp_ca07_registered_P_0,ca07,CP-CANBNK-P,registered_P,0,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,caution,True
+sp_ca07_registered_G_0,ca07,VM-MAHGOV-G,registered_G,0,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,caution,True
+sp_ca07_personal_mobile_0,ca07,+918424685424,personal_mobile,0,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,spam,True
+sp_ca07_unknown_alnum_0,ca07,YONICU,unknown_alnum,0,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,caution,True
+sp_ca07_spoof_lookalike_0,ca07,JD-CANBNKK-S,spoof_lookalike,0,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,caution,True
+sp_ca08_registered_ST_0,ca08,VK-SWIGGY-T,registered_ST,0,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,caution,True
+sp_ca08_registered_P_0,ca08,AX-SWIGGY-P,registered_P,0,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,caution,True
+sp_ca08_registered_G_0,ca08,VK-UIDAIG-G,registered_G,0,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,caution,True
+sp_ca08_personal_mobile_0,ca08,+916471393605,personal_mobile,0,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,spam,True
+sp_ca08_unknown_alnum_0,ca08,AJSMLO,unknown_alnum,0,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,caution,True
+sp_ca08_spoof_lookalike_0,ca08,VM-SWlGGY-S,spoof_lookalike,0,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,caution,True
+sp_ca09_registered_ST_0,ca09,CP-KOTAKB-S,registered_ST,0,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,caution,True
+sp_ca09_registered_P_0,ca09,BP-KOTAKB-P,registered_P,0,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,caution,True
+sp_ca09_registered_G_0,ca09,CP-MAHGOV-G,registered_G,0,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,caution,True
+sp_ca09_personal_mobile_0,ca09,+917387926877,personal_mobile,0,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,spam,True
+sp_ca09_unknown_alnum_0,ca09,ATYTMJ,unknown_alnum,0,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,caution,True
+sp_ca09_spoof_lookalike_0,ca09,AX-K0TAKB-S,spoof_lookalike,0,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,caution,True
+sp_ca10_registered_ST_0,ca10,AX-CANBNK-T,registered_ST,0,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,caution,True
+sp_ca10_registered_P_0,ca10,AX-CANBNK-P,registered_P,0,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,caution,True
+sp_ca10_registered_G_0,ca10,VM-TRAIND-G,registered_G,0,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,caution,True
+sp_ca10_personal_mobile_0,ca10,+917056832660,personal_mobile,0,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,spam,True
+sp_ca10_unknown_alnum_0,ca10,KMQSML,unknown_alnum,0,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,caution,True
+sp_ca10_spoof_lookalike_0,ca10,AD-CANBNKK-S,spoof_lookalike,0,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,caution,True
+sp_ca11_registered_ST_0,ca11,AX-ZEPTON-S,registered_ST,0,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,caution,True
+sp_ca11_registered_P_0,ca11,TX-AIRTEL-P,registered_P,0,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,caution,True
+sp_ca11_registered_G_0,ca11,JD-NDMAEW-G,registered_G,0,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,caution,True
+sp_ca11_personal_mobile_0,ca11,+917209876953,personal_mobile,0,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,spam,True
+sp_ca11_unknown_alnum_0,ca11,DAAYSQ,unknown_alnum,0,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,caution,True
+sp_ca11_spoof_lookalike_0,ca11,CP-AIRTELL-S,spoof_lookalike,0,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,caution,True
+sp_ca12_registered_ST_0,ca12,VM-HDFCBK-S,registered_ST,0,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,caution,True
+sp_ca12_registered_P_0,ca12,JD-VIINFO-P,registered_P,0,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,caution,True
+sp_ca12_registered_G_0,ca12,VM-UIDAIG-G,registered_G,0,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,caution,True
+sp_ca12_personal_mobile_0,ca12,+919929844278,personal_mobile,0,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,spam,True
+sp_ca12_unknown_alnum_0,ca12,WMXZEI,unknown_alnum,0,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,caution,True
+sp_ca12_spoof_lookalike_0,ca12,JM-FLIPKRT-S,spoof_lookalike,0,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,caution,True
+sp_ca13_registered_ST_0,ca13,AD-ICICIB-T,registered_ST,0,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,caution,True
+sp_ca13_registered_P_0,ca13,VK-ICICIB-P,registered_P,0,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,caution,True
+sp_ca13_registered_G_0,ca13,AX-UIDAIG-G,registered_G,0,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,caution,True
+sp_ca13_personal_mobile_0,ca13,+918323167779,personal_mobile,0,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,spam,True
+sp_ca13_unknown_alnum_0,ca13,CJCWLG,unknown_alnum,0,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,caution,True
+sp_ca13_spoof_lookalike_0,ca13,AX-lCICIB-S,spoof_lookalike,0,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,caution,True
+sp_ca14_registered_ST_0,ca14,AX-KOTAKB-T,registered_ST,0,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,caution,True
+sp_ca14_registered_P_0,ca14,CP-KOTAKB-P,registered_P,0,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,caution,True
+sp_ca14_registered_G_0,ca14,VK-TRAIND-G,registered_G,0,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,caution,True
+sp_ca14_personal_mobile_0,ca14,+917189903321,personal_mobile,0,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,spam,True
+sp_ca14_unknown_alnum_0,ca14,XNWMQN,unknown_alnum,0,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,caution,True
+sp_ca14_spoof_lookalike_0,ca14,JD-K0TAKB-S,spoof_lookalike,0,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,caution,True
+sp_ca15_registered_ST_0,ca15,JD-ICICIB-T,registered_ST,0,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,caution,True
+sp_ca15_registered_P_0,ca15,AD-ICICIB-P,registered_P,0,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,caution,True
+sp_ca15_registered_G_0,ca15,JM-TRAIND-G,registered_G,0,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,caution,True
+sp_ca15_personal_mobile_0,ca15,+917947150295,personal_mobile,0,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,spam,True
+sp_ca15_unknown_alnum_0,ca15,TFBPJF,unknown_alnum,0,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,caution,True
+sp_ca15_spoof_lookalike_0,ca15,BP-lCICIB-S,spoof_lookalike,0,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,caution,True
+sp_ca16_registered_ST_0,ca16,CP-ZOMATO-T,registered_ST,0,Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,caution,True
+sp_ca16_registered_P_0,ca16,VK-ZOMATO-P,registered_P,0,Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,caution,True
+sp_ca16_registered_G_0,ca16,TX-TRAIND-G,registered_G,0,Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,caution,True
+sp_ca16_personal_mobile_0,ca16,+916763452606,personal_mobile,0,Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,spam,True
+sp_ca16_unknown_alnum_0,ca16,KACCJL,unknown_alnum,0,Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,caution,True
+sp_ca16_spoof_lookalike_0,ca16,AX-Z0MATO-S,spoof_lookalike,0,Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,caution,True
+sp_ca17_registered_ST_0,ca17,VM-ZEPTON-T,registered_ST,0,491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,caution,True
+sp_ca17_registered_P_0,ca17,TX-MYNTRA-P,registered_P,0,491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,caution,True
+sp_ca17_registered_G_0,ca17,BP-NDMAEW-G,registered_G,0,491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,caution,True
+sp_ca17_personal_mobile_0,ca17,+918851481013,personal_mobile,0,491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,spam,True
+sp_ca17_unknown_alnum_0,ca17,ZZLNBI,unknown_alnum,0,491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,caution,True
+sp_ca17_spoof_lookalike_0,ca17,TX-HDFCBN-S,spoof_lookalike,0,491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,caution,True
+sp_ca18_registered_ST_0,ca18,JM-SWIGGY-T,registered_ST,0,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,caution,True
+sp_ca18_registered_P_0,ca18,TX-SWIGGY-P,registered_P,0,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,caution,True
+sp_ca18_registered_G_0,ca18,AD-MAHGOV-G,registered_G,0,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,caution,True
+sp_ca18_personal_mobile_0,ca18,+916010195444,personal_mobile,0,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,spam,True
+sp_ca18_unknown_alnum_0,ca18,CLDLPL,unknown_alnum,0,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,caution,True
+sp_ca18_spoof_lookalike_0,ca18,JM-SWlGGY-S,spoof_lookalike,0,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,caution,True
+sp_ca19_registered_ST_0,ca19,AD-KOTAKB-S,registered_ST,0,Your Google account verification code is 0646.,caution,caution,True
+sp_ca19_registered_P_0,ca19,BP-BOBTXN-P,registered_P,0,Your Google account verification code is 0646.,caution,caution,True
+sp_ca19_registered_G_0,ca19,VM-TRAIND-G,registered_G,0,Your Google account verification code is 0646.,caution,caution,True
+sp_ca19_personal_mobile_0,ca19,+916499531423,personal_mobile,0,Your Google account verification code is 0646.,caution,spam,True
+sp_ca19_unknown_alnum_0,ca19,GUMUSY,unknown_alnum,0,Your Google account verification code is 0646.,caution,caution,True
+sp_ca19_spoof_lookalike_0,ca19,BP-JI0NET-S,spoof_lookalike,0,Your Google account verification code is 0646.,caution,caution,True
+sp_ca20_registered_ST_0,ca20,AD-HDFCBK-T,registered_ST,0,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,caution,True
+sp_ca20_registered_P_0,ca20,TX-HDFCBK-P,registered_P,0,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,caution,True
+sp_ca20_registered_G_0,ca20,BP-MAHGOV-G,registered_G,0,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,caution,True
+sp_ca20_personal_mobile_0,ca20,+918744805949,personal_mobile,0,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,spam,True
+sp_ca20_unknown_alnum_0,ca20,BXMLLQ,unknown_alnum,0,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,caution,True
+sp_ca20_spoof_lookalike_0,ca20,BP-HDFCBN-S,spoof_lookalike,0,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,caution,True
+sp_ca21_registered_ST_0,ca21,CP-SBIINB-S,registered_ST,0,Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,caution,True
+sp_ca21_registered_P_0,ca21,BP-SBIINB-P,registered_P,0,Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,caution,True
+sp_ca21_registered_G_0,ca21,JD-MAHGOV-G,registered_G,0,Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,caution,True
+sp_ca21_personal_mobile_0,ca21,+919186340561,personal_mobile,0,Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,spam,True
+sp_ca21_unknown_alnum_0,ca21,LPZLAN,unknown_alnum,0,Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,caution,True
+sp_ca21_spoof_lookalike_0,ca21,AX-SBIIN8-S,spoof_lookalike,0,Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,caution,True
+sp_ca22_registered_ST_0,ca22,JD-HDFCBK-T,registered_ST,0,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,caution,True
+sp_ca22_registered_P_0,ca22,CP-HDFCBK-P,registered_P,0,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,caution,True
+sp_ca22_registered_G_0,ca22,TX-NDMAEW-G,registered_G,0,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,caution,True
+sp_ca22_personal_mobile_0,ca22,+917317914307,personal_mobile,0,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,spam,True
+sp_ca22_unknown_alnum_0,ca22,OOOMGV,unknown_alnum,0,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,caution,True
+sp_ca22_spoof_lookalike_0,ca22,TX-HDFCBN-S,spoof_lookalike,0,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,caution,True
+sp_ca23_registered_ST_0,ca23,TX-ZOMATO-T,registered_ST,0,"Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,caution,True
+sp_ca23_registered_P_0,ca23,AD-ZOMATO-P,registered_P,0,"Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,caution,True
+sp_ca23_registered_G_0,ca23,TX-NDMAEW-G,registered_G,0,"Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,caution,True
+sp_ca23_personal_mobile_0,ca23,+918186134069,personal_mobile,0,"Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,spam,True
+sp_ca23_unknown_alnum_0,ca23,NHDIGS,unknown_alnum,0,"Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,caution,True
+sp_ca23_spoof_lookalike_0,ca23,BP-Z0MATO-S,spoof_lookalike,0,"Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,caution,True
+sp_ca24_registered_ST_0,ca24,CP-FLPKRT-S,registered_ST,0,939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,caution,True
+sp_ca24_registered_P_0,ca24,VM-VIINFO-P,registered_P,0,939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,caution,True
+sp_ca24_registered_G_0,ca24,BP-UIDAIG-G,registered_G,0,939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,caution,True
+sp_ca24_personal_mobile_0,ca24,+916724664122,personal_mobile,0,939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,spam,True
+sp_ca24_unknown_alnum_0,ca24,QIRKEV,unknown_alnum,0,939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,caution,True
+sp_ca24_spoof_lookalike_0,ca24,TX-Z0MATO-S,spoof_lookalike,0,939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,caution,True
+sp_pr00_registered_ST_0,pr00,VM-BLNKIT-S,registered_ST,0,Blinkit Big Savings Days are live! Get up to 60% off on electronics and fashion. Shop now on the app.,promo,promo,True
+sp_pr00_registered_P_0,pr00,BP-BLNKIT-P,registered_P,0,Blinkit Big Savings Days are live! Get up to 60% off on electronics and fashion. Shop now on the app.,promo,promo,True
+sp_pr00_registered_G_0,pr00,VK-UIDAIG-G,registered_G,0,Blinkit Big Savings Days are live! Get up to 60% off on electronics and fashion. Shop now on the app.,promo,promo,True
+sp_pr00_personal_mobile_0,pr00,+916768878499,personal_mobile,0,Blinkit Big Savings Days are live! Get up to 60% off on electronics and fashion. Shop now on the app.,promo,promo,True
+sp_pr00_unknown_alnum_0,pr00,YVDPTO,unknown_alnum,0,Blinkit Big Savings Days are live! Get up to 60% off on electronics and fashion. Shop now on the app.,promo,promo,True
+sp_pr00_spoof_lookalike_0,pr00,TX-BLINKlT-S,spoof_lookalike,0,Blinkit Big Savings Days are live! Get up to 60% off on electronics and fashion. Shop now on the app.,promo,promo,True
+sp_pr01_registered_ST_0,pr01,BP-VIINFO-T,registered_ST,0,Recharge your Vi number with the Rs 349 plan and get unlimited 5G data plus 2GB per day for 28 days.,promo,promo,True
+sp_pr01_registered_P_0,pr01,VK-VIINFO-P,registered_P,0,Recharge your Vi number with the Rs 349 plan and get unlimited 5G data plus 2GB per day for 28 days.,promo,promo,True
+sp_pr01_registered_G_0,pr01,BP-UIDAIG-G,registered_G,0,Recharge your Vi number with the Rs 349 plan and get unlimited 5G data plus 2GB per day for 28 days.,promo,promo,True
+sp_pr01_personal_mobile_0,pr01,+916554836708,personal_mobile,0,Recharge your Vi number with the Rs 349 plan and get unlimited 5G data plus 2GB per day for 28 days.,promo,promo,True
+sp_pr01_unknown_alnum_0,pr01,XPQKGC,unknown_alnum,0,Recharge your Vi number with the Rs 349 plan and get unlimited 5G data plus 2GB per day for 28 days.,promo,promo,True
+sp_pr01_spoof_lookalike_0,pr01,CP-VIlNFO-S,spoof_lookalike,0,Recharge your Vi number with the Rs 349 plan and get unlimited 5G data plus 2GB per day for 28 days.,promo,promo,True
+sp_pr02_registered_ST_0,pr02,JD-ZEPTON-T,registered_ST,0,Flat 40% off on your next Zepto order above Rs 299. Use code TASTY40. Offer valid till Sunday.,promo,promo,True
+sp_pr02_registered_P_0,pr02,AX-ZEPTON-P,registered_P,0,Flat 40% off on your next Zepto order above Rs 299. Use code TASTY40. Offer valid till Sunday.,promo,promo,True
+sp_pr02_registered_G_0,pr02,TX-UIDAIG-G,registered_G,0,Flat 40% off on your next Zepto order above Rs 299. Use code TASTY40. Offer valid till Sunday.,promo,promo,True
+sp_pr02_personal_mobile_0,pr02,+919748364032,personal_mobile,0,Flat 40% off on your next Zepto order above Rs 299. Use code TASTY40. Offer valid till Sunday.,promo,promo,True
+sp_pr02_unknown_alnum_0,pr02,CSCOFE,unknown_alnum,0,Flat 40% off on your next Zepto order above Rs 299. Use code TASTY40. Offer valid till Sunday.,promo,promo,True
+sp_pr02_spoof_lookalike_0,pr02,VM-ZEPT0N-S,spoof_lookalike,0,Flat 40% off on your next Zepto order above Rs 299. Use code TASTY40. Offer valid till Sunday.,promo,promo,True
+sp_pr03_registered_ST_0,pr03,JM-KOTAKB-T,registered_ST,0,Lifetime free Kotak Bank credit card with Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,promo,True
+sp_pr03_registered_P_0,pr03,VK-KOTAKB-P,registered_P,0,Lifetime free Kotak Bank credit card with Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,promo,True
+sp_pr03_registered_G_0,pr03,BP-NDMAEW-G,registered_G,0,Lifetime free Kotak Bank credit card with Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,promo,True
+sp_pr03_personal_mobile_0,pr03,+916777854579,personal_mobile,0,Lifetime free Kotak Bank credit card with Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,promo,True
+sp_pr03_unknown_alnum_0,pr03,ADMSSF,unknown_alnum,0,Lifetime free Kotak Bank credit card with Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,promo,True
+sp_pr03_spoof_lookalike_0,pr03,JM-K0TAKB-S,spoof_lookalike,0,Lifetime free Kotak Bank credit card with Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,promo,True
+sp_pr04_registered_ST_0,pr04,TX-BLNKIT-S,registered_ST,0,Weekend sale at Blinkit: buy 2 get 1 free on all clothing. Visit your nearest store.,promo,promo,True
+sp_pr04_registered_P_0,pr04,JD-BLNKIT-P,registered_P,0,Weekend sale at Blinkit: buy 2 get 1 free on all clothing. Visit your nearest store.,promo,promo,True
+sp_pr04_registered_G_0,pr04,VK-NDMAEW-G,registered_G,0,Weekend sale at Blinkit: buy 2 get 1 free on all clothing. Visit your nearest store.,promo,promo,True
+sp_pr04_personal_mobile_0,pr04,+918514351159,personal_mobile,0,Weekend sale at Blinkit: buy 2 get 1 free on all clothing. Visit your nearest store.,promo,promo,True
+sp_pr04_unknown_alnum_0,pr04,PUQOGM,unknown_alnum,0,Weekend sale at Blinkit: buy 2 get 1 free on all clothing. Visit your nearest store.,promo,promo,True
+sp_pr04_spoof_lookalike_0,pr04,CP-BLINKlT-S,spoof_lookalike,0,Weekend sale at Blinkit: buy 2 get 1 free on all clothing. Visit your nearest store.,promo,promo,True
+sp_pr05_registered_ST_0,pr05,VK-VIINFO-T,registered_ST,0,Upgrade to Vi postpaid and enjoy 20+ OTT apps with your plan starting at Rs 449 per month.,promo,promo,True
+sp_pr05_registered_P_0,pr05,VK-VIINFO-P,registered_P,0,Upgrade to Vi postpaid and enjoy 20+ OTT apps with your plan starting at Rs 449 per month.,promo,promo,True
+sp_pr05_registered_G_0,pr05,AD-MAHGOV-G,registered_G,0,Upgrade to Vi postpaid and enjoy 20+ OTT apps with your plan starting at Rs 449 per month.,promo,promo,True
+sp_pr05_personal_mobile_0,pr05,+917231245287,personal_mobile,0,Upgrade to Vi postpaid and enjoy 20+ OTT apps with your plan starting at Rs 449 per month.,promo,promo,True
+sp_pr05_unknown_alnum_0,pr05,DHFXOI,unknown_alnum,0,Upgrade to Vi postpaid and enjoy 20+ OTT apps with your plan starting at Rs 449 per month.,promo,promo,True
+sp_pr05_spoof_lookalike_0,pr05,AX-VIlNFO-S,spoof_lookalike,0,Upgrade to Vi postpaid and enjoy 20+ OTT apps with your plan starting at Rs 449 per month.,promo,promo,True
+sp_pr06_registered_ST_0,pr06,VM-ZOMATO-T,registered_ST,0,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,promo,True
+sp_pr06_registered_P_0,pr06,JM-ZOMATO-P,registered_P,0,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,promo,True
+sp_pr06_registered_G_0,pr06,VM-UIDAIG-G,registered_G,0,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,promo,True
+sp_pr06_personal_mobile_0,pr06,+917824314335,personal_mobile,0,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,promo,True
+sp_pr06_unknown_alnum_0,pr06,ZQYGQD,unknown_alnum,0,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,promo,True
+sp_pr06_spoof_lookalike_0,pr06,AX-Z0MATO-S,spoof_lookalike,0,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,promo,True
+sp_pr07_registered_ST_0,pr07,BP-ICICIB-T,registered_ST,0,Your ICICI Bank personal loan offer of up to Rs 5 lakh at 10.5% interest is available. Check details in the bank app.,promo,promo,True
+sp_pr07_registered_P_0,pr07,AX-ICICIB-P,registered_P,0,Your ICICI Bank personal loan offer of up to Rs 5 lakh at 10.5% interest is available. Check details in the bank app.,promo,promo,True
+sp_pr07_registered_G_0,pr07,AX-NDMAEW-G,registered_G,0,Your ICICI Bank personal loan offer of up to Rs 5 lakh at 10.5% interest is available. Check details in the bank app.,promo,promo,True
+sp_pr07_personal_mobile_0,pr07,+919627125204,personal_mobile,0,Your ICICI Bank personal loan offer of up to Rs 5 lakh at 10.5% interest is available. Check details in the bank app.,promo,promo,True
+sp_pr07_unknown_alnum_0,pr07,MLCCVV,unknown_alnum,0,Your ICICI Bank personal loan offer of up to Rs 5 lakh at 10.5% interest is available. Check details in the bank app.,promo,promo,True
+sp_pr07_spoof_lookalike_0,pr07,CP-lCICIB-S,spoof_lookalike,0,Your ICICI Bank personal loan offer of up to Rs 5 lakh at 10.5% interest is available. Check details in the bank app.,promo,promo,True
+sp_pr08_registered_ST_0,pr08,JD-CANBNK-T,registered_ST,0,Festive offer: 10% instant discount on Canara Bank cards on electronics this Diwali. T&C apply.,promo,promo,True
+sp_pr08_registered_P_0,pr08,BP-CANBNK-P,registered_P,0,Festive offer: 10% instant discount on Canara Bank cards on electronics this Diwali. T&C apply.,promo,promo,True
+sp_pr08_registered_G_0,pr08,TX-TRAIND-G,registered_G,0,Festive offer: 10% instant discount on Canara Bank cards on electronics this Diwali. T&C apply.,promo,promo,True
+sp_pr08_personal_mobile_0,pr08,+916271052865,personal_mobile,0,Festive offer: 10% instant discount on Canara Bank cards on electronics this Diwali. T&C apply.,promo,promo,True
+sp_pr08_unknown_alnum_0,pr08,NAKLCU,unknown_alnum,0,Festive offer: 10% instant discount on Canara Bank cards on electronics this Diwali. T&C apply.,promo,promo,True
+sp_pr08_spoof_lookalike_0,pr08,TX-CANBNKK-S,spoof_lookalike,0,Festive offer: 10% instant discount on Canara Bank cards on electronics this Diwali. T&C apply.,promo,promo,True
+sp_pr09_registered_ST_0,pr09,VM-AMAZON-S,registered_ST,0,Learn data science with live classes and placement support. Book your free demo session today.,promo,promo,True
+sp_pr09_registered_P_0,pr09,VK-SBIINB-P,registered_P,0,Learn data science with live classes and placement support. Book your free demo session today.,promo,promo,True
+sp_pr09_registered_G_0,pr09,AX-UIDAIG-G,registered_G,0,Learn data science with live classes and placement support. Book your free demo session today.,promo,promo,True
+sp_pr09_personal_mobile_0,pr09,+918722348883,personal_mobile,0,Learn data science with live classes and placement support. Book your free demo session today.,promo,promo,True
+sp_pr09_unknown_alnum_0,pr09,EMWKIT,unknown_alnum,0,Learn data science with live classes and placement support. Book your free demo session today.,promo,promo,True
+sp_pr09_spoof_lookalike_0,pr09,TX-SBIIN8-S,spoof_lookalike,0,Learn data science with live classes and placement support. Book your free demo session today.,promo,promo,True
+sp_pr10_registered_ST_0,pr10,TX-VIINFO-S,registered_ST,0,Get 50% off your first 3 months of the Vi fibre plan. Free installation for new customers.,promo,promo,True
+sp_pr10_registered_P_0,pr10,JM-VIINFO-P,registered_P,0,Get 50% off your first 3 months of the Vi fibre plan. Free installation for new customers.,promo,promo,True
+sp_pr10_registered_G_0,pr10,JM-MAHGOV-G,registered_G,0,Get 50% off your first 3 months of the Vi fibre plan. Free installation for new customers.,promo,promo,True
+sp_pr10_personal_mobile_0,pr10,+916590619227,personal_mobile,0,Get 50% off your first 3 months of the Vi fibre plan. Free installation for new customers.,promo,promo,True
+sp_pr10_unknown_alnum_0,pr10,KHKJRH,unknown_alnum,0,Get 50% off your first 3 months of the Vi fibre plan. Free installation for new customers.,promo,promo,True
+sp_pr10_spoof_lookalike_0,pr10,AX-VIlNFO-S,spoof_lookalike,0,Get 50% off your first 3 months of the Vi fibre plan. Free installation for new customers.,promo,promo,True
+sp_pr11_registered_ST_0,pr11,AX-AMAZON-T,registered_ST,0,Free delivery on all orders above Rs 199 this week on Amazon. Fresh fruits and vegetables in 10 minutes.,promo,promo,True
+sp_pr11_registered_P_0,pr11,AX-AMAZON-P,registered_P,0,Free delivery on all orders above Rs 199 this week on Amazon. Fresh fruits and vegetables in 10 minutes.,promo,promo,True
+sp_pr11_registered_G_0,pr11,AX-MAHGOV-G,registered_G,0,Free delivery on all orders above Rs 199 this week on Amazon. Fresh fruits and vegetables in 10 minutes.,promo,promo,True
+sp_pr11_personal_mobile_0,pr11,+918593929817,personal_mobile,0,Free delivery on all orders above Rs 199 this week on Amazon. Fresh fruits and vegetables in 10 minutes.,promo,promo,True
+sp_pr11_unknown_alnum_0,pr11,YXGWNC,unknown_alnum,0,Free delivery on all orders above Rs 199 this week on Amazon. Fresh fruits and vegetables in 10 minutes.,promo,promo,True
+sp_pr11_spoof_lookalike_0,pr11,JM-AMAZ0N-S,spoof_lookalike,0,Free delivery on all orders above Rs 199 this week on Amazon. Fresh fruits and vegetables in 10 minutes.,promo,promo,True
+sp_pr12_registered_ST_0,pr12,VK-BSNLIN-S,registered_ST,0,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open this weekend.,promo,promo,True
+sp_pr12_registered_P_0,pr12,JM-HDFCBK-P,registered_P,0,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open this weekend.,promo,promo,True
+sp_pr12_registered_G_0,pr12,BP-TRAIND-G,registered_G,0,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open this weekend.,promo,promo,True
+sp_pr12_personal_mobile_0,pr12,+916578605183,personal_mobile,0,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open this weekend.,promo,promo,True
+sp_pr12_unknown_alnum_0,pr12,DEKHSZ,unknown_alnum,0,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open this weekend.,promo,promo,True
+sp_pr12_spoof_lookalike_0,pr12,JD-BSNLlN-S,spoof_lookalike,0,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open this weekend.,promo,promo,True
+sp_pr13_registered_ST_0,pr13,BP-AMAZON-T,registered_ST,0,Your Amazon membership is about to expire. Renew now to keep enjoying free deliveries.,promo,promo,True
+sp_pr13_registered_P_0,pr13,BP-AMAZON-P,registered_P,0,Your Amazon membership is about to expire. Renew now to keep enjoying free deliveries.,promo,promo,True
+sp_pr13_registered_G_0,pr13,JM-UIDAIG-G,registered_G,0,Your Amazon membership is about to expire. Renew now to keep enjoying free deliveries.,promo,promo,True
+sp_pr13_personal_mobile_0,pr13,+919308090862,personal_mobile,0,Your Amazon membership is about to expire. Renew now to keep enjoying free deliveries.,promo,promo,True
+sp_pr13_unknown_alnum_0,pr13,OHENII,unknown_alnum,0,Your Amazon membership is about to expire. Renew now to keep enjoying free deliveries.,promo,promo,True
+sp_pr13_spoof_lookalike_0,pr13,BP-AMAZ0N-S,spoof_lookalike,0,Your Amazon membership is about to expire. Renew now to keep enjoying free deliveries.,promo,promo,True
+sp_pr14_registered_ST_0,pr14,VK-BOBTXN-T,registered_ST,0,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,promo,True
+sp_pr14_registered_P_0,pr14,CP-AMAZON-P,registered_P,0,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,promo,True
+sp_pr14_registered_G_0,pr14,VM-MAHGOV-G,registered_G,0,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,promo,True
+sp_pr14_personal_mobile_0,pr14,+916417261422,personal_mobile,0,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,promo,True
+sp_pr14_unknown_alnum_0,pr14,KECMUK,unknown_alnum,0,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,promo,True
+sp_pr14_spoof_lookalike_0,pr14,CP-AIRTELL-S,spoof_lookalike,0,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,promo,True
+sp_pr15_registered_ST_0,pr15,BP-JIONET-S,registered_ST,0,Mega health checkup with 60 tests at home for Rs 999. Book your slot now.,promo,promo,True
+sp_pr15_registered_P_0,pr15,VM-ZEPTON-P,registered_P,0,Mega health checkup with 60 tests at home for Rs 999. Book your slot now.,promo,promo,True
+sp_pr15_registered_G_0,pr15,TX-NDMAEW-G,registered_G,0,Mega health checkup with 60 tests at home for Rs 999. Book your slot now.,promo,promo,True
+sp_pr15_personal_mobile_0,pr15,+918893832990,personal_mobile,0,Mega health checkup with 60 tests at home for Rs 999. Book your slot now.,promo,promo,True
+sp_pr15_unknown_alnum_0,pr15,BTDHCO,unknown_alnum,0,Mega health checkup with 60 tests at home for Rs 999. Book your slot now.,promo,promo,True
+sp_pr15_spoof_lookalike_0,pr15,VK-Z0MATO-S,spoof_lookalike,0,Mega health checkup with 60 tests at home for Rs 999. Book your slot now.,promo,promo,True
+sp_pr16_registered_ST_0,pr16,VM-SWIGGY-T,registered_ST,0,Get 5% cashback on electricity bill payments using the Swiggy wallet this month.,promo,promo,True
+sp_pr16_registered_P_0,pr16,VM-SWIGGY-P,registered_P,0,Get 5% cashback on electricity bill payments using the Swiggy wallet this month.,promo,promo,True
+sp_pr16_registered_G_0,pr16,AD-UIDAIG-G,registered_G,0,Get 5% cashback on electricity bill payments using the Swiggy wallet this month.,promo,promo,True
+sp_pr16_personal_mobile_0,pr16,+919644797837,personal_mobile,0,Get 5% cashback on electricity bill payments using the Swiggy wallet this month.,promo,promo,True
+sp_pr16_unknown_alnum_0,pr16,QSVYDO,unknown_alnum,0,Get 5% cashback on electricity bill payments using the Swiggy wallet this month.,promo,promo,True
+sp_pr16_spoof_lookalike_0,pr16,VK-SWlGGY-S,spoof_lookalike,0,Get 5% cashback on electricity bill payments using the Swiggy wallet this month.,promo,promo,True
+sp_pr17_registered_ST_0,pr17,VM-ZEPTON-S,registered_ST,0,Your favourite pizza is now 30% cheaper on weekdays. Order online and use code MIDWEEK.,promo,promo,True
+sp_pr17_registered_P_0,pr17,JD-SWIGGY-P,registered_P,0,Your favourite pizza is now 30% cheaper on weekdays. Order online and use code MIDWEEK.,promo,promo,True
+sp_pr17_registered_G_0,pr17,CP-MAHGOV-G,registered_G,0,Your favourite pizza is now 30% cheaper on weekdays. Order online and use code MIDWEEK.,promo,promo,True
+sp_pr17_personal_mobile_0,pr17,+916268375474,personal_mobile,0,Your favourite pizza is now 30% cheaper on weekdays. Order online and use code MIDWEEK.,promo,promo,True
+sp_pr17_unknown_alnum_0,pr17,JPPVGG,unknown_alnum,0,Your favourite pizza is now 30% cheaper on weekdays. Order online and use code MIDWEEK.,promo,promo,True
+sp_pr17_spoof_lookalike_0,pr17,VK-CANBNKK-S,spoof_lookalike,0,Your favourite pizza is now 30% cheaper on weekdays. Order online and use code MIDWEEK.,promo,promo,True
+sp_pr18_registered_ST_0,pr18,AX-BOBTXN-S,registered_ST,0,Open a zero balance savings account with Bank of Baroda in 5 minutes with video KYC.,promo,promo,True
+sp_pr18_registered_P_0,pr18,CP-BOBTXN-P,registered_P,0,Open a zero balance savings account with Bank of Baroda in 5 minutes with video KYC.,promo,promo,True
+sp_pr18_registered_G_0,pr18,CP-TRAIND-G,registered_G,0,Open a zero balance savings account with Bank of Baroda in 5 minutes with video KYC.,promo,promo,True
+sp_pr18_personal_mobile_0,pr18,+918461811833,personal_mobile,0,Open a zero balance savings account with Bank of Baroda in 5 minutes with video KYC.,promo,promo,True
+sp_pr18_unknown_alnum_0,pr18,PRFBKJ,unknown_alnum,0,Open a zero balance savings account with Bank of Baroda in 5 minutes with video KYC.,promo,promo,True
+sp_pr18_spoof_lookalike_0,pr18,VM-B0BTXN-S,spoof_lookalike,0,Open a zero balance savings account with Bank of Baroda in 5 minutes with video KYC.,promo,promo,True
+sp_pr19_registered_ST_0,pr19,AD-SWIGGY-T,registered_ST,0,"End of season sale: footwear starting at Rs 499. Hurry, offer ends this Sunday.",promo,promo,True
+sp_pr19_registered_P_0,pr19,JD-CANBNK-P,registered_P,0,"End of season sale: footwear starting at Rs 499. Hurry, offer ends this Sunday.",promo,promo,True
+sp_pr19_registered_G_0,pr19,CP-UIDAIG-G,registered_G,0,"End of season sale: footwear starting at Rs 499. Hurry, offer ends this Sunday.",promo,promo,True
+sp_pr19_personal_mobile_0,pr19,+918431736751,personal_mobile,0,"End of season sale: footwear starting at Rs 499. Hurry, offer ends this Sunday.",promo,promo,True
+sp_pr19_unknown_alnum_0,pr19,VFLLUK,unknown_alnum,0,"End of season sale: footwear starting at Rs 499. Hurry, offer ends this Sunday.",promo,promo,True
+sp_pr19_spoof_lookalike_0,pr19,BP-ZEPT0N-S,spoof_lookalike,0,"End of season sale: footwear starting at Rs 499. Hurry, offer ends this Sunday.",promo,promo,True
+sp_pr20_registered_ST_0,pr20,AD-VIINFO-T,registered_ST,0,Set your favourite song as a free caller tune on the Vi app.,promo,promo,True
+sp_pr20_registered_P_0,pr20,AX-VIINFO-P,registered_P,0,Set your favourite song as a free caller tune on the Vi app.,promo,promo,True
+sp_pr20_registered_G_0,pr20,VK-TRAIND-G,registered_G,0,Set your favourite song as a free caller tune on the Vi app.,promo,promo,True
+sp_pr20_personal_mobile_0,pr20,+916012026627,personal_mobile,0,Set your favourite song as a free caller tune on the Vi app.,promo,promo,True
+sp_pr20_unknown_alnum_0,pr20,GNOVNM,unknown_alnum,0,Set your favourite song as a free caller tune on the Vi app.,promo,promo,True
+sp_pr20_spoof_lookalike_0,pr20,CP-VIlNFO-S,spoof_lookalike,0,Set your favourite song as a free caller tune on the Vi app.,promo,promo,True
+sp_pr21_registered_ST_0,pr21,AD-AIRTEL-T,registered_ST,0,Get Rs 100 off on your first train ticket booking with code NEWRAIL.,promo,promo,True
+sp_pr21_registered_P_0,pr21,JM-AIRTEL-P,registered_P,0,Get Rs 100 off on your first train ticket booking with code NEWRAIL.,promo,promo,True
+sp_pr21_registered_G_0,pr21,CP-MAHGOV-G,registered_G,0,Get Rs 100 off on your first train ticket booking with code NEWRAIL.,promo,promo,True
+sp_pr21_personal_mobile_0,pr21,+918099379749,personal_mobile,0,Get Rs 100 off on your first train ticket booking with code NEWRAIL.,promo,promo,True
+sp_pr21_unknown_alnum_0,pr21,EJLXUT,unknown_alnum,0,Get Rs 100 off on your first train ticket booking with code NEWRAIL.,promo,promo,True
+sp_pr21_spoof_lookalike_0,pr21,VM-HDFCBN-S,spoof_lookalike,0,Get Rs 100 off on your first train ticket booking with code NEWRAIL.,promo,promo,True
+sp_pr22_registered_ST_0,pr22,AX-VIINFO-T,registered_ST,0,Stream the cricket series live with the Vi entertainment pack at just Rs 99.,promo,promo,True
+sp_pr22_registered_P_0,pr22,AD-VIINFO-P,registered_P,0,Stream the cricket series live with the Vi entertainment pack at just Rs 99.,promo,promo,True
+sp_pr22_registered_G_0,pr22,TX-MAHGOV-G,registered_G,0,Stream the cricket series live with the Vi entertainment pack at just Rs 99.,promo,promo,True
+sp_pr22_personal_mobile_0,pr22,+916782695504,personal_mobile,0,Stream the cricket series live with the Vi entertainment pack at just Rs 99.,promo,promo,True
+sp_pr22_unknown_alnum_0,pr22,TYPIJA,unknown_alnum,0,Stream the cricket series live with the Vi entertainment pack at just Rs 99.,promo,promo,True
+sp_pr22_spoof_lookalike_0,pr22,JD-VIlNFO-S,spoof_lookalike,0,Stream the cricket series live with the Vi entertainment pack at just Rs 99.,promo,promo,True
+sp_pr23_registered_ST_0,pr23,JD-MYNTRA-S,registered_ST,0,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,promo,True
+sp_pr23_registered_P_0,pr23,VM-ZEPTON-P,registered_P,0,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,promo,True
+sp_pr23_registered_G_0,pr23,CP-TRAIND-G,registered_G,0,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,promo,True
+sp_pr23_personal_mobile_0,pr23,+918351904708,personal_mobile,0,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,promo,True
+sp_pr23_unknown_alnum_0,pr23,CXHPKB,unknown_alnum,0,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,promo,True
+sp_pr23_spoof_lookalike_0,pr23,VK-FLIPKRT-S,spoof_lookalike,0,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,promo,True
+sp_pr24_registered_ST_0,pr24,CP-AXISBK-S,registered_ST,0,Join our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,promo,True
+sp_pr24_registered_P_0,pr24,CP-KOTAKB-P,registered_P,0,Join our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,promo,True
+sp_pr24_registered_G_0,pr24,AX-TRAIND-G,registered_G,0,Join our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,promo,True
+sp_pr24_personal_mobile_0,pr24,+916788745492,personal_mobile,0,Join our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,promo,True
+sp_pr24_unknown_alnum_0,pr24,WKEEFU,unknown_alnum,0,Join our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,promo,True
+sp_pr24_spoof_lookalike_0,pr24,VM-Z0MATO-S,spoof_lookalike,0,Join our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,promo,True
+sp_ha00_registered_ST_0,ha00,AX-ICICIB-S,registered_ST,0,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,ham,True
+sp_ha00_registered_P_0,ha00,BP-ICICIB-P,registered_P,0,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,ham,True
+sp_ha00_registered_G_0,ha00,AD-UIDAIG-G,registered_G,0,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,ham,True
+sp_ha00_personal_mobile_0,ha00,+916434381721,personal_mobile,0,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,ham,True
+sp_ha00_unknown_alnum_0,ha00,RGTTZK,unknown_alnum,0,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,ham,True
+sp_ha00_spoof_lookalike_0,ha00,CP-lCICIB-S,spoof_lookalike,0,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,ham,True
+sp_ha01_registered_ST_0,ha01,TX-BOBTXN-S,registered_ST,0,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,ham,True
+sp_ha01_registered_P_0,ha01,CP-BOBTXN-P,registered_P,0,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,ham,True
+sp_ha01_registered_G_0,ha01,JD-NDMAEW-G,registered_G,0,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,ham,True
+sp_ha01_personal_mobile_0,ha01,+918810352478,personal_mobile,0,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,ham,True
+sp_ha01_unknown_alnum_0,ha01,LGBBLB,unknown_alnum,0,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,ham,True
+sp_ha01_spoof_lookalike_0,ha01,JD-B0BTXN-S,spoof_lookalike,0,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,ham,True
+sp_ha02_registered_ST_0,ha02,VK-SWIGGY-T,registered_ST,0,Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,ham,True
+sp_ha02_registered_P_0,ha02,BP-SWIGGY-P,registered_P,0,Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,ham,True
+sp_ha02_registered_G_0,ha02,VK-MAHGOV-G,registered_G,0,Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,ham,True
+sp_ha02_personal_mobile_0,ha02,+919810108102,personal_mobile,0,Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,ham,True
+sp_ha02_unknown_alnum_0,ha02,EBTXGB,unknown_alnum,0,Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,ham,True
+sp_ha02_spoof_lookalike_0,ha02,CP-SWlGGY-S,spoof_lookalike,0,Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,ham,True
+sp_ha03_registered_ST_0,ha03,AX-MYNTRA-T,registered_ST,0,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,ham,True
+sp_ha03_registered_P_0,ha03,AD-AIRTEL-P,registered_P,0,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,ham,True
+sp_ha03_registered_G_0,ha03,JM-UIDAIG-G,registered_G,0,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,ham,True
+sp_ha03_personal_mobile_0,ha03,+919204533161,personal_mobile,0,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,ham,True
+sp_ha03_unknown_alnum_0,ha03,DIYYJG,unknown_alnum,0,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,ham,True
+sp_ha03_spoof_lookalike_0,ha03,VK-CANBNKK-S,spoof_lookalike,0,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,ham,True
+sp_ha04_registered_ST_0,ha04,CP-BSNLIN-S,registered_ST,0,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,ham,True
+sp_ha04_registered_P_0,ha04,VM-BSNLIN-P,registered_P,0,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,ham,True
+sp_ha04_registered_G_0,ha04,AD-TRAIND-G,registered_G,0,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,ham,True
+sp_ha04_personal_mobile_0,ha04,+917066612055,personal_mobile,0,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,ham,True
+sp_ha04_unknown_alnum_0,ha04,WEREKA,unknown_alnum,0,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,ham,True
+sp_ha04_spoof_lookalike_0,ha04,VK-BSNLlN-S,spoof_lookalike,0,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,ham,True
+sp_ha05_registered_ST_0,ha05,AD-SBIINB-T,registered_ST,0,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,ham,True
+sp_ha05_registered_P_0,ha05,BP-ZEPTON-P,registered_P,0,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,ham,True
+sp_ha05_registered_G_0,ha05,CP-NDMAEW-G,registered_G,0,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,ham,True
+sp_ha05_personal_mobile_0,ha05,+918249138114,personal_mobile,0,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,ham,True
+sp_ha05_unknown_alnum_0,ha05,BGFZKY,unknown_alnum,0,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,ham,True
+sp_ha05_spoof_lookalike_0,ha05,TX-VIlNFO-S,spoof_lookalike,0,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,ham,True
+sp_ha06_registered_ST_0,ha06,JD-AMAZON-T,registered_ST,0,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,ham,True
+sp_ha06_registered_P_0,ha06,CP-AXISBK-P,registered_P,0,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,ham,True
+sp_ha06_registered_G_0,ha06,JM-TRAIND-G,registered_G,0,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,ham,True
+sp_ha06_personal_mobile_0,ha06,+916002949244,personal_mobile,0,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,ham,True
+sp_ha06_unknown_alnum_0,ha06,IHDZHK,unknown_alnum,0,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,ham,True
+sp_ha06_spoof_lookalike_0,ha06,VK-AIRTELL-S,spoof_lookalike,0,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,ham,True
+sp_ha07_registered_ST_0,ha07,AD-KOTAKB-S,registered_ST,0,Can you pick up milk and bread on your way home?,ham,ham,True
+sp_ha07_registered_P_0,ha07,JM-BSNLIN-P,registered_P,0,Can you pick up milk and bread on your way home?,ham,ham,True
+sp_ha07_registered_G_0,ha07,VK-UIDAIG-G,registered_G,0,Can you pick up milk and bread on your way home?,ham,ham,True
+sp_ha07_personal_mobile_0,ha07,+917095521111,personal_mobile,0,Can you pick up milk and bread on your way home?,ham,ham,True
+sp_ha07_unknown_alnum_0,ha07,PWERUK,unknown_alnum,0,Can you pick up milk and bread on your way home?,ham,ham,True
+sp_ha07_spoof_lookalike_0,ha07,VM-FLIPKRT-S,spoof_lookalike,0,Can you pick up milk and bread on your way home?,ham,ham,True
+sp_ha08_registered_ST_0,ha08,AD-ZEPTON-T,registered_ST,0,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,ham,True
+sp_ha08_registered_P_0,ha08,CP-ZEPTON-P,registered_P,0,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,ham,True
+sp_ha08_registered_G_0,ha08,VK-TRAIND-G,registered_G,0,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,ham,True
+sp_ha08_personal_mobile_0,ha08,+919112116844,personal_mobile,0,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,ham,True
+sp_ha08_unknown_alnum_0,ha08,LRUWIU,unknown_alnum,0,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,ham,True
+sp_ha08_spoof_lookalike_0,ha08,AD-ZEPT0N-S,spoof_lookalike,0,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,ham,True
+sp_ha09_registered_ST_0,ha09,VK-ZOMATO-S,registered_ST,0,Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,ham,True
+sp_ha09_registered_P_0,ha09,JM-VIINFO-P,registered_P,0,Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,ham,True
+sp_ha09_registered_G_0,ha09,VM-TRAIND-G,registered_G,0,Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,ham,True
+sp_ha09_personal_mobile_0,ha09,+918911907014,personal_mobile,0,Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,ham,True
+sp_ha09_unknown_alnum_0,ha09,ISZSUE,unknown_alnum,0,Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,ham,True
+sp_ha09_spoof_lookalike_0,ha09,AX-SBIIN8-S,spoof_lookalike,0,Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,ham,True
+sp_ha10_registered_ST_0,ha10,AX-HDFCBK-S,registered_ST,0,Happy birthday Amit! Have a wonderful year ahead.,ham,ham,True
+sp_ha10_registered_P_0,ha10,VM-VIINFO-P,registered_P,0,Happy birthday Amit! Have a wonderful year ahead.,ham,ham,True
+sp_ha10_registered_G_0,ha10,JM-MAHGOV-G,registered_G,0,Happy birthday Amit! Have a wonderful year ahead.,ham,ham,True
+sp_ha10_personal_mobile_0,ha10,+916965200346,personal_mobile,0,Happy birthday Amit! Have a wonderful year ahead.,ham,ham,True
+sp_ha10_unknown_alnum_0,ha10,EAGJBY,unknown_alnum,0,Happy birthday Amit! Have a wonderful year ahead.,ham,ham,True
+sp_ha10_spoof_lookalike_0,ha10,CP-JI0NET-S,spoof_lookalike,0,Happy birthday Amit! Have a wonderful year ahead.,ham,ham,True
+sp_ha11_registered_ST_0,ha11,AD-SWIGGY-T,registered_ST,0,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,ham,True
+sp_ha11_registered_P_0,ha11,AX-KOTAKB-P,registered_P,0,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,ham,True
+sp_ha11_registered_G_0,ha11,VK-NDMAEW-G,registered_G,0,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,ham,True
+sp_ha11_personal_mobile_0,ha11,+917656200110,personal_mobile,0,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,ham,True
+sp_ha11_unknown_alnum_0,ha11,KHBPAY,unknown_alnum,0,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,ham,True
+sp_ha11_spoof_lookalike_0,ha11,AD-HDFCBN-S,spoof_lookalike,0,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,ham,True
+sp_ha12_registered_ST_0,ha12,BP-BSNLIN-S,registered_ST,0,You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,ham,True
+sp_ha12_registered_P_0,ha12,VK-BSNLIN-P,registered_P,0,You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,ham,True
+sp_ha12_registered_G_0,ha12,AD-NDMAEW-G,registered_G,0,You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,ham,True
+sp_ha12_personal_mobile_0,ha12,+919271722459,personal_mobile,0,You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,ham,True
+sp_ha12_unknown_alnum_0,ha12,SYBILE,unknown_alnum,0,You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,ham,True
+sp_ha12_spoof_lookalike_0,ha12,JM-BSNLlN-S,spoof_lookalike,0,You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,ham,True
+sp_ha13_registered_ST_0,ha13,AD-BLNKIT-S,registered_ST,0,Your Blinkit order is out for delivery and will reach you today.,ham,ham,True
+sp_ha13_registered_P_0,ha13,AD-BLNKIT-P,registered_P,0,Your Blinkit order is out for delivery and will reach you today.,ham,ham,True
+sp_ha13_registered_G_0,ha13,JM-NDMAEW-G,registered_G,0,Your Blinkit order is out for delivery and will reach you today.,ham,ham,True
+sp_ha13_personal_mobile_0,ha13,+917644081869,personal_mobile,0,Your Blinkit order is out for delivery and will reach you today.,ham,ham,True
+sp_ha13_unknown_alnum_0,ha13,UGMBMM,unknown_alnum,0,Your Blinkit order is out for delivery and will reach you today.,ham,ham,True
+sp_ha13_spoof_lookalike_0,ha13,AD-BLINKlT-S,spoof_lookalike,0,Your Blinkit order is out for delivery and will reach you today.,ham,ham,True
+sp_ha14_registered_ST_0,ha14,JD-CANBNK-T,registered_ST,0,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,ham,True
+sp_ha14_registered_P_0,ha14,BP-BLNKIT-P,registered_P,0,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,ham,True
+sp_ha14_registered_G_0,ha14,VK-MAHGOV-G,registered_G,0,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,ham,True
+sp_ha14_personal_mobile_0,ha14,+918643210772,personal_mobile,0,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,ham,True
+sp_ha14_unknown_alnum_0,ha14,KZLVBT,unknown_alnum,0,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,ham,True
+sp_ha14_spoof_lookalike_0,ha14,VM-SBIIN8-S,spoof_lookalike,0,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,ham,True
+sp_ha15_registered_ST_0,ha15,TX-BOBTXN-S,registered_ST,0,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,ham,True
+sp_ha15_registered_P_0,ha15,VM-BOBTXN-P,registered_P,0,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,ham,True
+sp_ha15_registered_G_0,ha15,JM-MAHGOV-G,registered_G,0,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,ham,True
+sp_ha15_personal_mobile_0,ha15,+918935297507,personal_mobile,0,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,ham,True
+sp_ha15_unknown_alnum_0,ha15,OGSIIZ,unknown_alnum,0,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,ham,True
+sp_ha15_spoof_lookalike_0,ha15,VM-B0BTXN-S,spoof_lookalike,0,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,ham,True
+sp_ha16_registered_ST_0,ha16,BP-JIONET-S,registered_ST,0,Data usage alert: you have used 90% of your daily data on your Jio number.,ham,ham,True
+sp_ha16_registered_P_0,ha16,AX-JIONET-P,registered_P,0,Data usage alert: you have used 90% of your daily data on your Jio number.,ham,ham,True
+sp_ha16_registered_G_0,ha16,JM-NDMAEW-G,registered_G,0,Data usage alert: you have used 90% of your daily data on your Jio number.,ham,ham,True
+sp_ha16_personal_mobile_0,ha16,+919410340751,personal_mobile,0,Data usage alert: you have used 90% of your daily data on your Jio number.,ham,ham,True
+sp_ha16_unknown_alnum_0,ha16,ERUAQX,unknown_alnum,0,Data usage alert: you have used 90% of your daily data on your Jio number.,ham,ham,True
+sp_ha16_spoof_lookalike_0,ha16,BP-JI0NET-S,spoof_lookalike,0,Data usage alert: you have used 90% of your daily data on your Jio number.,ham,ham,True
+sp_ha17_registered_ST_0,ha17,VM-ZEPTON-S,registered_ST,0,"Sorry, I can't talk right now. Will call you after the class.",ham,ham,True
+sp_ha17_registered_P_0,ha17,JM-BLNKIT-P,registered_P,0,"Sorry, I can't talk right now. Will call you after the class.",ham,ham,True
+sp_ha17_registered_G_0,ha17,BP-MAHGOV-G,registered_G,0,"Sorry, I can't talk right now. Will call you after the class.",ham,ham,True
+sp_ha17_personal_mobile_0,ha17,+919857213051,personal_mobile,0,"Sorry, I can't talk right now. Will call you after the class.",ham,ham,True
+sp_ha17_unknown_alnum_0,ha17,NOMKAK,unknown_alnum,0,"Sorry, I can't talk right now. Will call you after the class.",ham,ham,True
+sp_ha17_spoof_lookalike_0,ha17,CP-K0TAKB-S,spoof_lookalike,0,"Sorry, I can't talk right now. Will call you after the class.",ham,ham,True
+sp_ha18_registered_ST_0,ha18,AD-ZOMATO-T,registered_ST,0,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,ham,True
+sp_ha18_registered_P_0,ha18,JM-SBIINB-P,registered_P,0,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,ham,True
+sp_ha18_registered_G_0,ha18,CP-UIDAIG-G,registered_G,0,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,ham,True
+sp_ha18_personal_mobile_0,ha18,+919482376858,personal_mobile,0,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,ham,True
+sp_ha18_unknown_alnum_0,ha18,EPKZLM,unknown_alnum,0,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,ham,True
+sp_ha18_spoof_lookalike_0,ha18,JM-SBIIN8-S,spoof_lookalike,0,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,ham,True
+sp_ha19_registered_ST_0,ha19,CP-FLPKRT-S,registered_ST,0,"Mom says dinner is at 8, don't be late.",ham,ham,True
+sp_ha19_registered_P_0,ha19,JM-BOBTXN-P,registered_P,0,"Mom says dinner is at 8, don't be late.",ham,ham,True
+sp_ha19_registered_G_0,ha19,JD-UIDAIG-G,registered_G,0,"Mom says dinner is at 8, don't be late.",ham,ham,True
+sp_ha19_personal_mobile_0,ha19,+916785710424,personal_mobile,0,"Mom says dinner is at 8, don't be late.",ham,ham,True
+sp_ha19_unknown_alnum_0,ha19,QIPQLK,unknown_alnum,0,"Mom says dinner is at 8, don't be late.",ham,ham,True
+sp_ha19_spoof_lookalike_0,ha19,JD-B0BTXN-S,spoof_lookalike,0,"Mom says dinner is at 8, don't be late.",ham,ham,True
+sp_ha20_registered_ST_0,ha20,BP-VIINFO-S,registered_ST,0,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,ham,True
+sp_ha20_registered_P_0,ha20,TX-ZOMATO-P,registered_P,0,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,ham,True
+sp_ha20_registered_G_0,ha20,JD-TRAIND-G,registered_G,0,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,ham,True
+sp_ha20_personal_mobile_0,ha20,+916095117902,personal_mobile,0,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,ham,True
+sp_ha20_unknown_alnum_0,ha20,LECNFC,unknown_alnum,0,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,ham,True
+sp_ha20_spoof_lookalike_0,ha20,AX-FLIPKRT-S,spoof_lookalike,0,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,ham,True
+sp_ha21_registered_ST_0,ha21,AD-ZEPTON-S,registered_ST,0,Your PAN application has been processed and the card will be sent by post.,ham,ham,True
+sp_ha21_registered_P_0,ha21,JM-FLPKRT-P,registered_P,0,Your PAN application has been processed and the card will be sent by post.,ham,ham,True
+sp_ha21_registered_G_0,ha21,CP-MAHGOV-G,registered_G,0,Your PAN application has been processed and the card will be sent by post.,ham,ham,True
+sp_ha21_personal_mobile_0,ha21,+917055489586,personal_mobile,0,Your PAN application has been processed and the card will be sent by post.,ham,ham,True
+sp_ha21_unknown_alnum_0,ha21,EHUXRM,unknown_alnum,0,Your PAN application has been processed and the card will be sent by post.,ham,ham,True
+sp_ha21_spoof_lookalike_0,ha21,CP-AXlSBK-S,spoof_lookalike,0,Your PAN application has been processed and the card will be sent by post.,ham,ham,True
+sp_ha22_registered_ST_0,ha22,JD-VIINFO-T,registered_ST,0,Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,ham,True
+sp_ha22_registered_P_0,ha22,TX-VIINFO-P,registered_P,0,Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,ham,True
+sp_ha22_registered_G_0,ha22,CP-UIDAIG-G,registered_G,0,Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,ham,True
+sp_ha22_personal_mobile_0,ha22,+918071353493,personal_mobile,0,Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,ham,True
+sp_ha22_unknown_alnum_0,ha22,ZRMHMX,unknown_alnum,0,Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,ham,True
+sp_ha22_spoof_lookalike_0,ha22,VK-VIlNFO-S,spoof_lookalike,0,Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,ham,True
+sp_ha23_registered_ST_0,ha23,VM-BSNLIN-S,registered_ST,0,The library book you borrowed is due for return on 18-May.,ham,ham,True
+sp_ha23_registered_P_0,ha23,AX-ZEPTON-P,registered_P,0,The library book you borrowed is due for return on 18-May.,ham,ham,True
+sp_ha23_registered_G_0,ha23,VK-TRAIND-G,registered_G,0,The library book you borrowed is due for return on 18-May.,ham,ham,True
+sp_ha23_personal_mobile_0,ha23,+918852681881,personal_mobile,0,The library book you borrowed is due for return on 18-May.,ham,ham,True
+sp_ha23_unknown_alnum_0,ha23,NVICTP,unknown_alnum,0,The library book you borrowed is due for return on 18-May.,ham,ham,True
+sp_ha23_spoof_lookalike_0,ha23,AD-lCICIB-S,spoof_lookalike,0,The library book you borrowed is due for return on 18-May.,ham,ham,True
+sp_ha24_registered_ST_0,ha24,VM-HDFCBK-T,registered_ST,0,"Thanks for the help today, really appreciate it!",ham,ham,True
+sp_ha24_registered_P_0,ha24,AX-KOTAKB-P,registered_P,0,"Thanks for the help today, really appreciate it!",ham,ham,True
+sp_ha24_registered_G_0,ha24,VM-UIDAIG-G,registered_G,0,"Thanks for the help today, really appreciate it!",ham,ham,True
+sp_ha24_personal_mobile_0,ha24,+918293092410,personal_mobile,0,"Thanks for the help today, really appreciate it!",ham,ham,True
+sp_ha24_unknown_alnum_0,ha24,JBKPYJ,unknown_alnum,0,"Thanks for the help today, really appreciate it!",ham,ham,True
+sp_ha24_spoof_lookalike_0,ha24,AX-SWlGGY-S,spoof_lookalike,0,"Thanks for the help today, really appreciate it!",ham,ham,True

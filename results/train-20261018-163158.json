@@ -1,0 +1,116 @@
+{
+  "run_id": "train-20261018-163158",
+  "script": "train",
+  "started": "20261018-163158",
+  "code_version": "7615f86-dirty",
+  "config": {
+    "model": "distilbert-base-uncased",
+    "balance": "S1",
+    "synthetic_ratio": 0.0,
+    "placeholders": "U0",
+    "digits": "D2",
+    "lr": 3e-05,
+    "epochs": 1,
+    "max_len": 128,
+    "batch": 32,
+    "label_smoothing": 0.0,
+    "weight_decay": 0.01,
+    "seed": 13,
+    "limit": 40,
+    "no_save": true
+  },
+  "result": {
+    "device": "cpu",
+    "env": {
+      "torch": "2.14.1+cpu",
+      "transformers": "5.20.1",
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "cuda": null,
+      "amp_fp16": false
+    },
+    "train_rows": 40,
+    "train_labels": {
+      "caution": 10,
+      "ham": 10,
+      "promo": 10,
+      "spam": 10
+    },
+    "train_synthetic": 0,
+    "val_rows": 40,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.3874576687812805,
+        "val_loss": 1.3704403638839722,
+        "val_macro_f1": 0.1952127659574468,
+        "val_acc": 0.425,
+        "val_caution_f1": 0.0,
+        "seconds": 14.7,
+        "probe_acc": 0.4722222222222222
+      }
+    ],
+    "best_val": {
+      "n": 40,
+      "accuracy": 0.425,
+      "macro_f1": 0.1952127659574468,
+      "mcc": 0.21084103671914714,
+      "per_class": {
+        "ham": {
+          "precision": 1.0,
+          "recall": 0.05263157894736842,
+          "f1": 0.1,
+          "support": 19
+        },
+        "spam": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4
+        },
+        "promo": {
+          "precision": 0.5161290322580645,
+          "recall": 1.0,
+          "f1": 0.6808510638297872,
+          "support": 16
+        },
+        "caution": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      },
+      "confusion": [
+        [
+          1,
+          0,
+          12,
+          6
+        ],
+        [
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "fpr_legit_as_scam": 0.0,
+      "epoch": 1,
+      "probe_acc": 0.4722222222222222
+    },
+    "model_dir": null
+  }
+}

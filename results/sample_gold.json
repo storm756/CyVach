@@ -1,0 +1,89 @@
+{
+  "run_id": "sample_gold-20261018-020014",
+  "script": "sample_gold",
+  "started": "20261018-020014",
+  "code_version": "47cde9b-dirty",
+  "config": {
+    "seed": 2026,
+    "keep": "annotation/gold_keep_ids.csv",
+    "source_quota": [
+      "friend2026:40"
+    ],
+    "target": {
+      "ham": 140,
+      "spam": 142,
+      "promo": 100,
+      "caution": 110
+    }
+  },
+  "result": {
+    "candidates": 533,
+    "strata": {
+      "ham": {
+        "stratum_clusters": 5025,
+        "kept": 140,
+        "new": 0,
+        "sampled": 140,
+        "by_source": {
+          "uci": 127,
+          "mishra_soni": 12,
+          "inbox": 1
+        }
+      },
+      "spam": {
+        "stratum_clusters": 961,
+        "kept": 143,
+        "new": 0,
+        "sampled": 143,
+        "by_source": {
+          "uci": 73,
+          "mishra_soni": 47,
+          "inbox": 12,
+          "export2026": 11
+        }
+      },
+      "promo": {
+        "stratum_clusters": 553,
+        "kept": 99,
+        "new": 1,
+        "sampled": 100,
+        "by_source": {
+          "uci": 54,
+          "export2026": 16,
+          "mishra_soni": 15,
+          "inbox": 15
+        }
+      },
+      "caution": {
+        "stratum_clusters": 198,
+        "kept": 110,
+        "new": 0,
+        "sampled": 110,
+        "by_source": {
+          "export2026": 103,
+          "inbox": 7
+        }
+      },
+      "quota_friend2026": {
+        "added": 40,
+        "by_stratum": {
+          "spam": 21,
+          "caution": 7,
+          "promo": 7,
+          "ham": 5
+        }
+      }
+    },
+    "reserved_clusters": 533,
+    "reserved_pool_rows": 633,
+    "script_mix": {
+      "latin": 506,
+      "other_nonlatin": 13,
+      "devanagari+latin": 7,
+      "devanagari": 5,
+      "other_indic": 1,
+      "gujarati+latin": 1
+    },
+    "sha256": "c059d2302f004a0ad3ff94282da1583faa82329bb73bd73c6a776240d058fc2f"
+  }
+}

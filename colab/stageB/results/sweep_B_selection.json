@@ -1,0 +1,18 @@
+{
+ "best_no_app_change": "balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=5e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0",
+ "best_no_app_change_f1": 0.8970844408347254,
+ "best_overall": "balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=5e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0",
+ "best_overall_f1": 0.8970844408347254,
+ "app_change_gain": 0.0,
+ "chosen": "balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=5e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0",
+ "final_config": {
+  "balance": "S0",
+  "digits": "D1",
+  "epochs": 5,
+  "label_smoothing": 0.0,
+  "lr": 5e-05,
+  "max_len": 128,
+  "placeholders": "U1",
+  "synthetic_ratio": 0.0
+ }
+}

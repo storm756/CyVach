@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Test results (main subset, n = 519; 95\% bootstrap CIs, 1000 resamples).}
+\label{tab:main}
+\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Model & Macro-F1 [95\% CI] & MCC & F1 ham & F1 scam & F1 promo & F1 caution & Legit$\to$scam (\%) \\
+\midrule
+New, INT8 QUInt8 (deployed) & 0.873 [0.841, 0.904] & 0.839 & 0.920 & 0.751 & 0.883 & 0.936 & 4.9 \\
+New, INT8 QInt8 & 0.863 [0.830, 0.892] & 0.825 & 0.912 & 0.729 & 0.867 & 0.942 & 4.9 \\
+New, FP32, 5 seeds & 0.866 $\pm$ 0.013 &  &  &  &  &  &  \\
+TF-IDF + LogReg & 0.869 [0.838, 0.898] & 0.828 & 0.915 & 0.766 & 0.853 & 0.941 & 4.9 \\
+TF-IDF + LinearSVC & 0.864 [0.832, 0.894] & 0.820 & 0.900 & 0.772 & 0.851 & 0.935 & 4.2 \\
+v7.3, INT8 (shipped) & 0.667 [0.627, 0.706] & 0.576 & 0.791 & 0.460 & 0.643 & 0.776 & 21.8 \\
+v7.3, FP32 & 0.660 [0.620, 0.699] & 0.566 & 0.780 & 0.436 & 0.644 & 0.782 & 22.2 \\
+New INT8 + app rules & 0.811 [0.772, 0.847] & 0.769 & 0.865 & 0.750 & 0.881 & 0.748 & 4.2 \\
+v7.3 INT8 + app rules & 0.634 [0.587, 0.677] & 0.534 & 0.765 & 0.485 & 0.667 & 0.619 & 14.6 \\
+\bottomrule
+\end{tabular}
+\end{table}

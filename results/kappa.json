@@ -1,0 +1,53 @@
+{
+  "run_id": "kappa-20261019-233942",
+  "script": "kappa",
+  "started": "20261019-233942",
+  "code_version": "5767caa",
+  "config": {},
+  "result": {
+    "n_annotated": 180,
+    "n_compared": 180,
+    "vs_final_label": {
+      "agreement": 0.6833333333333333,
+      "k": 123,
+      "cohen_kappa": 0.5769769934856107
+    },
+    "vs_claude_label": {
+      "agreement": 0.7111111111111111,
+      "k": 128,
+      "cohen_kappa": 0.615099925980755
+    },
+    "vs_owner_label": {
+      "agreement": 0.6833333333333333,
+      "k": 123,
+      "cohen_kappa": 0.5769769934856107
+    },
+    "confusion_second_rows_final_cols": [
+      [
+        29,
+        2,
+        1,
+        2
+      ],
+      [
+        8,
+        30,
+        10,
+        2
+      ],
+      [
+        5,
+        13,
+        23,
+        2
+      ],
+      [
+        4,
+        5,
+        3,
+        41
+      ]
+    ],
+    "second_annotator_borderline": 5
+  }
+}

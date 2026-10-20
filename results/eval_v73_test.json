@@ -1,0 +1,394 @@
+{
+  "run_id": "eval_v73-20261018-023957",
+  "script": "eval_v73",
+  "started": "20261018-023957",
+  "code_version": "9ae74bd-dirty",
+  "config": {
+    "split": "test"
+  },
+  "result": {
+    "split": "test",
+    "split_sha256": "7fa0c6c4bdaf604a22c7185e39d3c605a266fa7ef0b5072a5c85527ce04e201b",
+    "n": 533,
+    "n_native_script": 14,
+    "models": {
+      "fp32": {
+        "main_raw": {
+          "n": 519,
+          "accuracy": 0.6339113680154143,
+          "macro_f1": 0.623754255736672,
+          "mcc": 0.5381330348108794,
+          "per_class": {
+            "ham": {
+              "precision": 0.9453125,
+              "recall": 0.6142131979695431,
+              "f1": 0.7446153846153846,
+              "support": 197
+            },
+            "spam": {
+              "precision": 0.36666666666666664,
+              "recall": 0.632183908045977,
+              "f1": 0.4641350210970464,
+              "support": 87
+            },
+            "promo": {
+              "precision": 0.75,
+              "recall": 0.46938775510204084,
+              "f1": 0.5774058577405857,
+              "support": 147
+            },
+            "caution": {
+              "precision": 0.5637583892617449,
+              "recall": 0.9545454545454546,
+              "f1": 0.7088607594936709,
+              "support": 88
+            }
+          },
+          "confusion": [
+            [
+              121,
+              28,
+              1,
+              47
+            ],
+            [
+              1,
+              55,
+              21,
+              10
+            ],
+            [
+              6,
+              64,
+              69,
+              8
+            ],
+            [
+              0,
+              3,
+              1,
+              84
+            ]
+          ],
+          "fpr_legit_as_scam": 0.2199074074074074
+        },
+        "main_pipeline": {
+          "n": 519,
+          "accuracy": 0.6454720616570327,
+          "macro_f1": 0.6211226958143586,
+          "mcc": 0.5163565818267095,
+          "per_class": {
+            "ham": {
+              "precision": 0.7424242424242424,
+              "recall": 0.7461928934010152,
+              "f1": 0.7443037974683544,
+              "support": 197
+            },
+            "spam": {
+              "precision": 0.4336283185840708,
+              "recall": 0.5632183908045977,
+              "f1": 0.49,
+              "support": 87
+            },
+            "promo": {
+              "precision": 0.7714285714285715,
+              "recall": 0.5510204081632653,
+              "f1": 0.6428571428571429,
+              "support": 147
+            },
+            "caution": {
+              "precision": 0.5631067961165048,
+              "recall": 0.6590909090909091,
+              "f1": 0.6073298429319371,
+              "support": 88
+            }
+          },
+          "confusion": [
+            [
+              147,
+              19,
+              1,
+              30
+            ],
+            [
+              6,
+              49,
+              22,
+              10
+            ],
+            [
+              17,
+              44,
+              81,
+              5
+            ],
+            [
+              28,
+              1,
+              1,
+              58
+            ]
+          ],
+          "fpr_legit_as_scam": 0.14814814814814814
+        },
+        "native_script_raw": {
+          "n": 14,
+          "accuracy": 0.5,
+          "macro_f1": 0.40789473684210525,
+          "mcc": 0.35527985620321373,
+          "per_class": {
+            "ham": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 7
+            },
+            "spam": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            },
+            "promo": {
+              "precision": 0.46153846153846156,
+              "recall": 1.0,
+              "f1": 0.631578947368421,
+              "support": 6
+            },
+            "caution": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 1
+            }
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              7,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "fpr_legit_as_scam": 0.0
+        },
+        "rule_fired_counts_main": {
+          "model": 412,
+          "R0_trusted_veto": 55,
+          "R4_suffix_P": 30,
+          "R4_suffix_ST_downgrade": 13,
+          "R4_suffix_G": 4,
+          "R0_trusted_keep_promo": 4,
+          "H1_missed_call": 1
+        }
+      },
+      "onnx_int8_app_tokenizer": {
+        "main_raw": {
+          "n": 519,
+          "accuracy": 0.6204238921001927,
+          "macro_f1": 0.608589484580989,
+          "mcc": 0.5239005944482239,
+          "per_class": {
+            "ham": {
+              "precision": 0.9453125,
+              "recall": 0.6142131979695431,
+              "f1": 0.7446153846153846,
+              "support": 197
+            },
+            "spam": {
+              "precision": 0.35064935064935066,
+              "recall": 0.6206896551724138,
+              "f1": 0.44813278008298757,
+              "support": 87
+            },
+            "promo": {
+              "precision": 0.7469879518072289,
+              "recall": 0.4217687074829932,
+              "f1": 0.5391304347826087,
+              "support": 147
+            },
+            "caution": {
+              "precision": 0.551948051948052,
+              "recall": 0.9659090909090909,
+              "f1": 0.7024793388429752,
+              "support": 88
+            }
+          },
+          "confusion": [
+            [
+              121,
+              27,
+              1,
+              48
+            ],
+            [
+              1,
+              54,
+              19,
+              13
+            ],
+            [
+              6,
+              71,
+              62,
+              8
+            ],
+            [
+              0,
+              2,
+              1,
+              85
+            ]
+          ],
+          "fpr_legit_as_scam": 0.23148148148148148
+        },
+        "main_pipeline": {
+          "n": 519,
+          "accuracy": 0.6319845857418112,
+          "macro_f1": 0.6068661662960828,
+          "mcc": 0.5003623997267221,
+          "per_class": {
+            "ham": {
+              "precision": 0.7386934673366834,
+              "recall": 0.7461928934010152,
+              "f1": 0.7424242424242424,
+              "support": 197
+            },
+            "spam": {
+              "precision": 0.4152542372881356,
+              "recall": 0.5632183908045977,
+              "f1": 0.47804878048780486,
+              "support": 87
+            },
+            "promo": {
+              "precision": 0.7708333333333334,
+              "recall": 0.5034013605442177,
+              "f1": 0.6090534979423868,
+              "support": 147
+            },
+            "caution": {
+              "precision": 0.5471698113207547,
+              "recall": 0.6590909090909091,
+              "f1": 0.5979381443298969,
+              "support": 88
+            }
+          },
+          "confusion": [
+            [
+              147,
+              18,
+              1,
+              31
+            ],
+            [
+              6,
+              49,
+              20,
+              12
+            ],
+            [
+              18,
+              50,
+              74,
+              5
+            ],
+            [
+              28,
+              1,
+              1,
+              58
+            ]
+          ],
+          "fpr_legit_as_scam": 0.1597222222222222
+        },
+        "native_script_raw": {
+          "n": 14,
+          "accuracy": 0.5,
+          "macro_f1": 0.40789473684210525,
+          "mcc": 0.35527985620321373,
+          "per_class": {
+            "ham": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 7
+            },
+            "spam": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 0
+            },
+            "promo": {
+              "precision": 0.46153846153846156,
+              "recall": 1.0,
+              "f1": 0.631578947368421,
+              "support": 6
+            },
+            "caution": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 1
+            }
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              7,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "fpr_legit_as_scam": 0.0
+        },
+        "rule_fired_counts_main": {
+          "model": 412,
+          "R0_trusted_veto": 56,
+          "R4_suffix_P": 30,
+          "R4_suffix_ST_downgrade": 13,
+          "R4_suffix_G": 4,
+          "R0_trusted_keep_promo": 3,
+          "H1_missed_call": 1
+        }
+      }
+    },
+    "fp32_vs_int8_raw_agreement": 0.9568480300187617
+  }
+}

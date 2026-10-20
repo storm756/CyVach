@@ -1,0 +1,13 @@
+config,val_macro_f1_mean,val_macro_f1_std,val_caution_f1_mean,probe_acc_mean,best_epoch_mean,n
+balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=5e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0,0.8970844408347254,0.011711739084654664,0.8285714285714285,1.0,5.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=5e-05|max_len=64|placeholders=U1|synthetic_ratio=0.0,0.8823531587824875,0.0028833855061777547,0.8008898776418243,1.0,5.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=3e-05|max_len=64|placeholders=U1|synthetic_ratio=0.0,0.8791626015051204,0.015004670507610887,0.7887931034482758,0.9930555555555556,5.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0,0.8735920592878025,0.0024637132758026786,0.7591911764705883,1.0,4.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=2e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0,0.8724757752370715,0.020025759123622793,0.7371916508538899,1.0,5.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.05|lr=5e-05|max_len=64|placeholders=U1|synthetic_ratio=0.0,0.8671877474372303,0.004335036830719365,0.7386363636363636,0.9861111111111112,3.5,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.0|lr=2e-05|max_len=64|placeholders=U1|synthetic_ratio=0.0,0.8606809872323056,0.0009775941184158772,0.7095238095238094,1.0,4.5,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.05|lr=5e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0,0.8492796039341761,0.0015140623112480688,0.6923076923076923,0.9861111111111112,5.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.05|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0,0.8418571752475519,0.02563213211103704,0.6662933930571109,0.9166666666666666,4.5,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.05|lr=3e-05|max_len=64|placeholders=U1|synthetic_ratio=0.0,0.833982349195213,0.019964393544277915,0.6234537357743691,0.9652777777777778,5.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.05|lr=2e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0,0.8199547896588631,0.03394273866273554,0.5499618611746758,0.9166666666666667,5.0,2
+balance=S0|digits=D1|epochs=5|label_smoothing=0.05|lr=2e-05|max_len=64|placeholders=U1|synthetic_ratio=0.0,0.81473606683373,0.014903780607972237,0.5671031096563011,0.9444444444444444,5.0,2

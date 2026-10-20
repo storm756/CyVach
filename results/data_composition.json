@@ -1,0 +1,131 @@
+{
+  "run_id": "make_tables-20261018-214639",
+  "script": "make_tables",
+  "started": "20261018-214639",
+  "code_version": "5e9e436-dirty",
+  "config": {},
+  "result": {
+    "train (used)": {
+      "ham": {
+        "rows": 4786,
+        "real": 4786,
+        "synthetic": 0,
+        "clusters": 4384
+      },
+      "spam": {
+        "rows": 331,
+        "real": 331,
+        "synthetic": 0,
+        "clusters": 266
+      },
+      "promo": {
+        "rows": 679,
+        "real": 679,
+        "synthetic": 0,
+        "clusters": 593
+      },
+      "caution": {
+        "rows": 86,
+        "real": 86,
+        "synthetic": 0,
+        "clusters": 84
+      },
+      "sources": {
+        "uci": 4116,
+        "mishra_soni": 639,
+        "export2026": 584,
+        "friend3_2026": 163,
+        "friend2026": 159,
+        "inbox": 142,
+        "friend2_2026": 79
+      },
+      "label_source": {
+        "original": 3411,
+        "claude_silver": 2471
+      }
+    },
+    "val": {
+      "ham": {
+        "rows": 802,
+        "real": 802,
+        "synthetic": 0,
+        "clusters": 762
+      },
+      "spam": {
+        "rows": 62,
+        "real": 62,
+        "synthetic": 0,
+        "clusters": 46
+      },
+      "promo": {
+        "rows": 122,
+        "real": 122,
+        "synthetic": 0,
+        "clusters": 101
+      },
+      "caution": {
+        "rows": 15,
+        "real": 15,
+        "synthetic": 0,
+        "clusters": 15
+      },
+      "sources": {
+        "uci": 716,
+        "mishra_soni": 122,
+        "export2026": 96,
+        "friend2026": 21,
+        "friend3_2026": 18,
+        "inbox": 18,
+        "friend2_2026": 10
+      },
+      "label_source": {
+        "original": 581,
+        "claude_silver": 420
+      }
+    },
+    "test (main)": {
+      "ham": {
+        "rows": 197,
+        "real": 197,
+        "synthetic": 0,
+        "clusters": 197
+      },
+      "spam": {
+        "rows": 87,
+        "real": 87,
+        "synthetic": 0,
+        "clusters": 87
+      },
+      "promo": {
+        "rows": 147,
+        "real": 147,
+        "synthetic": 0,
+        "clusters": 147
+      },
+      "caution": {
+        "rows": 88,
+        "real": 88,
+        "synthetic": 0,
+        "clusters": 88
+      },
+      "sources": {
+        "uci": 254,
+        "export2026": 119,
+        "mishra_soni": 74,
+        "friend2026": 39,
+        "inbox": 33
+      },
+      "label_source": {
+        "claude_blind": 342,
+        "human_verified": 177
+      }
+    },
+    "train_synthetic_excluded": {
+      "caution": 226,
+      "promo": 149,
+      "spam": 64,
+      "ham": 1
+    },
+    "train_native_excluded": 257
+  }
+}

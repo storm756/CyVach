@@ -1,0 +1,25 @@
+{
+  "run_id": "make_handoff-20261019-033113",
+  "script": "make_handoff",
+  "started": "20261019-033113",
+  "code_version": "bc0a764-dirty",
+  "config": {},
+  "result": {
+    "files": [
+      "model.onnx",
+      "vocab.txt",
+      "tokenizer_config.json",
+      "MODEL_INFO.json",
+      "expected_verdicts.csv",
+      "INTEGRATION_FOR_ANTIGRAVITY.md",
+      "SHA256SUMS"
+    ],
+    "model_sha256": "c91067ec3e102326cf7084578642636576646b7ee30cdf2b9038b9e749717473",
+    "zip_sha256": "2beee386a2c1df4452e8cd6511765e8fc9f8692cb167b1bea4966360b9527bec",
+    "zip_size": {
+      "bytes": 43401643,
+      "MB": 43.402,
+      "MiB": 41.391
+    }
+  }
+}

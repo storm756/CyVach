@@ -1,0 +1,47 @@
+{
+  "run_id": "silver_self_agreement-20261018-015516",
+  "script": "silver_self_agreement",
+  "started": "20261018-015516",
+  "code_version": "47cde9b-dirty",
+  "config": {
+    "sample": "annotation/batches/silver_p2.tsv (10%, seed 99)"
+  },
+  "result": {
+    "n": 287,
+    "agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "confusion_pass1_rows_pass2_cols": [
+      [
+        178,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        68,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15
+      ]
+    ],
+    "labels": [
+      "ham",
+      "spam",
+      "promo",
+      "caution"
+    ],
+    "disagreements": []
+  }
+}

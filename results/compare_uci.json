@@ -1,0 +1,28 @@
+{
+  "run_id": "compare_uci-20261017-220901",
+  "script": "compare_uci",
+  "started": "20261017-220901",
+  "code_version": "nocommit-dirty",
+  "config": {},
+  "result": {
+    "uci_sha256": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+    "uci_rows": 5574,
+    "uci_labels": {
+      "ham": 4827,
+      "spam": 747
+    },
+    "own_rows": 5572,
+    "own_labels": {
+      "ham": 4825,
+      "spam": 747
+    },
+    "exact_same_sequence": false,
+    "own_pairs_not_in_uci": 245,
+    "uci_pairs_not_in_own": 247,
+    "normalized_own_not_in_uci": 58,
+    "normalized_uci_not_in_own": 60,
+    "position_mismatches": 712,
+    "uci_exact_dup_texts": 403,
+    "uci_unique_normalized": 5137
+  }
+}

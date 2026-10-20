@@ -1,0 +1,17 @@
+{
+  "run_id": "make_release-20261019-234023",
+  "script": "make_release",
+  "started": "20261019-234023",
+  "code_version": "5767caa",
+  "config": {},
+  "result": {
+    "n_files": 388,
+    "real_messages_checked": 6438,
+    "leak_hits": 0,
+    "leak_files": [],
+    "name_seed_files": [
+      "README.md",
+      "src\\make_release.py"
+    ]
+  }
+}

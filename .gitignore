@@ -1,0 +1,11 @@
+data_raw/
+data/*
+!data/stress/
+annotation/
+models/*
+!models/model_card.md
+*.onnx
+*.safetensors
+.venv/
+__pycache__/
+tools/

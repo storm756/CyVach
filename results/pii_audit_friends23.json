@@ -1,0 +1,161 @@
+{
+  "run_id": "pii_audit-20261018-155840",
+  "script": "pii_audit",
+  "started": "20261018-155840",
+  "code_version": "1b40762-dirty",
+  "config": {
+    "files": [
+      "2sms_export_2026-10-18.csv",
+      "3sms_export_2026-10-18.csv"
+    ]
+  },
+  "result": {
+    "files": [
+      {
+        "file": "2sms_export_2026-10-18.csv",
+        "rows": 500,
+        "pass1_replacements_by_type": {
+          "aadhaar": 395,
+          "known_name": 472,
+          "name_neighbour": 359,
+          "upi_payee": 120,
+          "name": 49,
+          "long_digits": 22,
+          "url": 220,
+          "name_near_placeholder": 8,
+          "pan": 3,
+          "password": 1
+        },
+        "pass1_rows_with_type": {
+          "aadhaar": 204,
+          "known_name": 243,
+          "name_neighbour": 210,
+          "upi_payee": 120,
+          "name": 38,
+          "long_digits": 22,
+          "url": 186,
+          "name_near_placeholder": 8,
+          "pan": 3,
+          "password": 1
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "digit_run_ge9": 429,
+            "spaced_digits_ge8_nondate": 227,
+            "info_digit_run_6to8": 40,
+            "http_or_www": 227,
+            "salutation_capword": 4,
+            "capword_after_name_placeholder": 2,
+            "at_sign_nonprice": 1
+          },
+          "rows_with_hit": {
+            "digit_run_ge9": 219,
+            "spaced_digits_ge8_nondate": 216,
+            "any_identifying": 379,
+            "info_digit_run_6to8": 27,
+            "http_or_www": 175,
+            "salutation_capword": 4,
+            "capword_after_name_placeholder": 2,
+            "at_sign_nonprice": 1
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "capword_after_name_placeholder": 262,
+            "info_digit_run_6to8": 15,
+            "at_sign_nonprice": 1
+          },
+          "rows_with_hit": {
+            "capword_after_name_placeholder": 206,
+            "any_identifying": 207,
+            "info_digit_run_6to8": 14,
+            "at_sign_nonprice": 1
+          }
+        },
+        "sender_kinds": {
+          "dlt_header-S": 301,
+          "numeric_len8": 9,
+          "other": 18,
+          "dlt_header-P": 106,
+          "dlt_header-G": 63,
+          "dlt_header-T": 3
+        }
+      },
+      {
+        "file": "3sms_export_2026-10-18.csv",
+        "rows": 500,
+        "pass1_replacements_by_type": {
+          "url": 377,
+          "aadhaar": 75,
+          "name": 299,
+          "known_name": 492,
+          "name_neighbour": 158,
+          "spaced_acct": 4,
+          "long_digits": 60,
+          "card": 7,
+          "name_near_placeholder": 23,
+          "masked_acct": 3,
+          "name_after_salutation": 3
+        },
+        "pass1_rows_with_type": {
+          "url": 296,
+          "aadhaar": 75,
+          "name": 255,
+          "known_name": 291,
+          "name_neighbour": 140,
+          "spaced_acct": 4,
+          "long_digits": 59,
+          "card": 7,
+          "name_near_placeholder": 23,
+          "masked_acct": 3,
+          "name_after_salutation": 3
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "http_or_www": 363,
+            "digit_run_ge9": 143,
+            "spaced_digits_ge8_nondate": 147,
+            "info_digit_run_6to8": 98,
+            "password_value": 1,
+            "salutation_capword": 11,
+            "at_sign_nonprice": 2
+          },
+          "rows_with_hit": {
+            "http_or_www": 273,
+            "any_identifying": 405,
+            "digit_run_ge9": 142,
+            "spaced_digits_ge8_nondate": 146,
+            "info_digit_run_6to8": 95,
+            "password_value": 1,
+            "salutation_capword": 11,
+            "at_sign_nonprice": 2
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "capword_after_name_placeholder": 138,
+            "info_digit_run_6to8": 96,
+            "password_value": 1,
+            "at_sign_nonprice": 2
+          },
+          "rows_with_hit": {
+            "capword_after_name_placeholder": 137,
+            "any_identifying": 140,
+            "info_digit_run_6to8": 94,
+            "password_value": 1,
+            "at_sign_nonprice": 2
+          }
+        },
+        "sender_kinds": {
+          "dlt_header-P": 125,
+          "dlt_header-S": 265,
+          "dlt_header-T": 79,
+          "dlt_header-G": 16,
+          "other": 9,
+          "numeric_len8": 5,
+          "dlt_header_nosuffix": 1
+        }
+      }
+    ]
+  }
+}

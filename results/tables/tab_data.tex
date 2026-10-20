@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Data used by the final model: messages per class (near-duplicate clusters = effective unique items). All rows are real; synthetic rows were excluded from training (they lowered validation F1).}
+\label{tab:data}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Split & ham & scam & promo & caution & Total \\
+\midrule
+train (used) & 4,786 (4,384) & 331 (266) & 679 (593) & 86 (84) & 5,882 \\
+val & 802 (762) & 62 (46) & 122 (101) & 15 (15) & 1,001 \\
+test (main) & 197 (197) & 87 (87) & 147 (147) & 88 (88) & 519 \\
+\bottomrule
+\end{tabular}
+\end{table}

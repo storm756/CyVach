@@ -1,0 +1,90 @@
+{
+  "run_id": "pii_audit-20261018-011908",
+  "script": "pii_audit",
+  "started": "20261018-011908",
+  "code_version": "786c11d-dirty",
+  "config": {
+    "files": [
+      "sms_export_2026-01-20.csv"
+    ]
+  },
+  "result": {
+    "files": [
+      {
+        "file": "sms_export_2026-01-20.csv",
+        "rows": 3000,
+        "pass1_replacements_by_type": {
+          "long_digits": 1304,
+          "name": 1733,
+          "url": 958,
+          "masked_acct": 519,
+          "aadhaar": 6,
+          "vpa": 2,
+          "card": 20,
+          "phone": 4,
+          "pan": 3
+        },
+        "pass1_rows_with_type": {
+          "long_digits": 1303,
+          "name": 1508,
+          "url": 818,
+          "masked_acct": 519,
+          "aadhaar": 6,
+          "vpa": 2,
+          "card": 20,
+          "phone": 4,
+          "pan": 3
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "digit_run_ge9": 1368,
+            "spaced_digits_ge8_nondate": 1369,
+            "at_sign_nonprice": 208,
+            "http_or_www": 950,
+            "salutation_capword": 117,
+            "info_digit_run_6to8": 83,
+            "pan_like": 3
+          },
+          "rows_with_hit": {
+            "digit_run_ge9": 1362,
+            "spaced_digits_ge8_nondate": 1360,
+            "any_identifying": 2235,
+            "at_sign_nonprice": 204,
+            "http_or_www": 667,
+            "salutation_capword": 116,
+            "info_digit_run_6to8": 74,
+            "pan_like": 3
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "at_sign_nonprice": 206,
+            "info_digit_run_6to8": 62,
+            "salutation_capword": 15,
+            "spaced_digits_ge8_nondate": 8
+          },
+          "rows_with_hit": {
+            "at_sign_nonprice": 202,
+            "any_identifying": 225,
+            "info_digit_run_6to8": 61,
+            "salutation_capword": 15,
+            "spaced_digits_ge8_nondate": 8
+          }
+        },
+        "sender_kinds": {
+          "dlt_header-S": 1068,
+          "dlt_header-T": 8,
+          "dlt_header-P": 149,
+          "numeric_len8": 2,
+          "dlt_header-G": 154,
+          "other": 142,
+          "dlt_header_nosuffix": 1450,
+          "numeric_len6": 1,
+          "numeric_len4": 3,
+          "6char_alnum": 10,
+          "numeric_len5": 13
+        }
+      }
+    ]
+  }
+}

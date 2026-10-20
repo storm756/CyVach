@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Rule-layer ablation on test (main subset). L$\to$S: legitimate messages flagged as scam. fixed/broke: items the rules changed from wrong to right / right to wrong. The app has no URL rule.}
+\label{tab:ablation}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Configuration & New F1 & New L$\to$S \% & New fixed/broke & v7.3 F1 & v7.3 L$\to$S \% & v7.3 fixed/broke \\
+\midrule
+Model only & 0.873 & 4.9 & 0/0 & 0.667 & 21.8 & 0/0 \\
++ pre-model heuristics (H1, H2) & 0.873 & 4.9 & 0/0 & 0.669 & 21.5 & 1/0 \\
++ trusted whitelist (R0) & 0.817 & 4.2 & 1/25 & 0.628 & 19.0 & 9/23 \\
++ safety override (R1) & 0.873 & 4.9 & 0/0 & 0.671 & 21.1 & 3/0 \\
++ mobile-number rules (R2, R3) & 0.873 & 4.9 & 0/0 & 0.667 & 21.8 & 0/0 \\
++ TRAI suffix rules (R4) & 0.873 & 4.4 & 4/3 & 0.679 & 16.2 & 17/7 \\
++ header rules (R0 + R4) & 0.811 & 4.2 & 2/28 & 0.630 & 15.3 & 20/30 \\
+Full shipped pipeline & 0.811 & 4.2 & 2/28 & 0.634 & 14.6 & 23/30 \\
+Full minus R0 & 0.873 & 4.4 & 4/3 & 0.683 & 15.5 & 20/7 \\
++ URL/link rules & n/a &  &  & n/a &  &  \\
+\bottomrule
+\end{tabular}
+\end{table}

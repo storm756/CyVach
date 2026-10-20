@@ -1,0 +1,82 @@
+{
+  "run_id": "make_stress-20261018-025910",
+  "script": "make_stress",
+  "started": "20261018-025910",
+  "code_version": "6c1ad97-dirty",
+  "config": {
+    "seed": 2026
+  },
+  "result": {
+    "stress_spoof": {
+      "rows": 750,
+      "unique_rows": 750,
+      "unique_texts": 172,
+      "labels": {
+        "spam": 325,
+        "promo": 150,
+        "ham": 150,
+        "caution": 125
+      },
+      "overlap_with_real_splits_normalized": 0,
+      "by_sender_kind_label": {
+        "personal_mobile/ham": 25,
+        "personal_mobile/promo": 25,
+        "personal_mobile/spam": 75,
+        "registered_G/caution": 25,
+        "registered_G/ham": 25,
+        "registered_G/promo": 25,
+        "registered_G/spam": 50,
+        "registered_P/caution": 25,
+        "registered_P/ham": 25,
+        "registered_P/promo": 25,
+        "registered_P/spam": 50,
+        "registered_ST/caution": 25,
+        "registered_ST/ham": 25,
+        "registered_ST/promo": 25,
+        "registered_ST/spam": 50,
+        "spoof_lookalike/caution": 25,
+        "spoof_lookalike/ham": 25,
+        "spoof_lookalike/promo": 25,
+        "spoof_lookalike/spam": 50,
+        "unknown_alnum/caution": 25,
+        "unknown_alnum/ham": 25,
+        "unknown_alnum/promo": 25,
+        "unknown_alnum/spam": 50
+      }
+    },
+    "stress_obfuscation": {
+      "rows": 500,
+      "unique_rows": 487,
+      "unique_texts": 487,
+      "labels": {
+        "spam": 125,
+        "caution": 125,
+        "promo": 125,
+        "ham": 125
+      },
+      "overlap_with_real_splits_normalized": 0
+    },
+    "stress_hinglish": {
+      "rows": 60,
+      "unique_rows": 60,
+      "unique_texts": 60,
+      "labels": {
+        "spam": 15,
+        "caution": 15,
+        "promo": 15,
+        "ham": 15
+      },
+      "overlap_with_real_splits_normalized": 0
+    },
+    "digit_probe": {
+      "rows": 72,
+      "unique_rows": 72,
+      "unique_texts": 72,
+      "labels": {
+        "caution": 56,
+        "ham": 16
+      },
+      "overlap_with_real_splits_normalized": 0
+    }
+  }
+}

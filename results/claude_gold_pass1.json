@@ -1,0 +1,20 @@
+{
+  "run_id": "label_batches_ingest-20261018-020037",
+  "script": "label_batches_ingest",
+  "started": "20261018-020037",
+  "code_version": "47cde9b-dirty",
+  "config": {
+    "set": "gold",
+    "pass": 1
+  },
+  "result": {
+    "n": 673,
+    "label_counts": {
+      "ham": 209,
+      "promo": 201,
+      "caution": 170,
+      "spam": 93
+    },
+    "borderline": 83
+  }
+}

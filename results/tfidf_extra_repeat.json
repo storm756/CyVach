@@ -1,0 +1,222 @@
+{
+  "run_id": "tfidf_extra-20261018-214405",
+  "script": "tfidf_extra",
+  "started": "20261018-214405",
+  "code_version": "5e9e436-dirty",
+  "config": {
+    "post_hoc": true,
+    "C": {
+      "lr": 8,
+      "svm": 0.5
+    }
+  },
+  "result": {
+    "post_hoc": true,
+    "models": {
+      "lr": {
+        "reproduces_saved_test_predictions": true,
+        "size": {
+          "bytes": 2072924,
+          "MB": 2.073,
+          "MiB": 1.977
+        },
+        "n_features": 64607,
+        "latency_1thread": {
+          "median_ms": 1.063,
+          "p95_ms": 1.355,
+          "runs": 500,
+          "warmup": 50
+        },
+        "stress": {
+          "stress_spoof": {
+            "n": 750,
+            "accuracy": 0.7386666666666667,
+            "k": 554,
+            "macro_f1": 0.750664559854591,
+            "accuracy_by_camouflage": {
+              "0": {
+                "acc": 0.825,
+                "k": 495,
+                "n": 600
+              },
+              "1": {
+                "acc": 0.3933333333333333,
+                "k": 59,
+                "n": 150
+              }
+            },
+            "scam_recall_camouflage_0": {
+              "acc": 0.5542857142857143,
+              "k": 97,
+              "n": 175
+            },
+            "scam_recall_camouflage_1": {
+              "acc": 0.3933333333333333,
+              "k": 59,
+              "n": 150
+            }
+          },
+          "stress_obfuscation": {
+            "n": 500,
+            "accuracy": 0.762,
+            "k": 381,
+            "macro_f1": 0.7631144305459321,
+            "accuracy_by_transform": {
+              "homoglyph": {
+                "acc": 0.65,
+                "k": 65,
+                "n": 100
+              },
+              "leetspeak": {
+                "acc": 0.69,
+                "k": 69,
+                "n": 100
+              },
+              "none": {
+                "acc": 0.86,
+                "k": 86,
+                "n": 100
+              },
+              "spacing": {
+                "acc": 0.81,
+                "k": 81,
+                "n": 100
+              },
+              "typos": {
+                "acc": 0.8,
+                "k": 80,
+                "n": 100
+              }
+            }
+          },
+          "stress_hinglish": {
+            "n": 60,
+            "accuracy": 0.5833333333333334,
+            "k": 35,
+            "macro_f1": 0.5615079365079365
+          },
+          "digit_probe": {
+            "n": 72,
+            "accuracy": 1.0,
+            "k": 72,
+            "macro_f1": 0.5,
+            "accuracy_by_digit_style": {
+              "patterned": {
+                "acc": 1.0,
+                "k": 18,
+                "n": 18
+              },
+              "random": {
+                "acc": 1.0,
+                "k": 54,
+                "n": 54
+              }
+            }
+          }
+        }
+      },
+      "svm": {
+        "reproduces_saved_test_predictions": true,
+        "size": {
+          "bytes": 1770185,
+          "MB": 1.77,
+          "MiB": 1.688
+        },
+        "n_features": 64607,
+        "latency_1thread": {
+          "median_ms": 1.058,
+          "p95_ms": 1.397,
+          "runs": 500,
+          "warmup": 50
+        },
+        "stress": {
+          "stress_spoof": {
+            "n": 750,
+            "accuracy": 0.728,
+            "k": 546,
+            "macro_f1": 0.73887460565466,
+            "accuracy_by_camouflage": {
+              "0": {
+                "acc": 0.8166666666666667,
+                "k": 490,
+                "n": 600
+              },
+              "1": {
+                "acc": 0.37333333333333335,
+                "k": 56,
+                "n": 150
+              }
+            },
+            "scam_recall_camouflage_0": {
+              "acc": 0.5542857142857143,
+              "k": 97,
+              "n": 175
+            },
+            "scam_recall_camouflage_1": {
+              "acc": 0.37333333333333335,
+              "k": 56,
+              "n": 150
+            }
+          },
+          "stress_obfuscation": {
+            "n": 500,
+            "accuracy": 0.73,
+            "k": 365,
+            "macro_f1": 0.7357554454843857,
+            "accuracy_by_transform": {
+              "homoglyph": {
+                "acc": 0.63,
+                "k": 63,
+                "n": 100
+              },
+              "leetspeak": {
+                "acc": 0.67,
+                "k": 67,
+                "n": 100
+              },
+              "none": {
+                "acc": 0.85,
+                "k": 85,
+                "n": 100
+              },
+              "spacing": {
+                "acc": 0.73,
+                "k": 73,
+                "n": 100
+              },
+              "typos": {
+                "acc": 0.77,
+                "k": 77,
+                "n": 100
+              }
+            }
+          },
+          "stress_hinglish": {
+            "n": 60,
+            "accuracy": 0.55,
+            "k": 33,
+            "macro_f1": 0.5345695970695971
+          },
+          "digit_probe": {
+            "n": 72,
+            "accuracy": 1.0,
+            "k": 72,
+            "macro_f1": 0.5,
+            "accuracy_by_digit_style": {
+              "patterned": {
+                "acc": 1.0,
+                "k": 18,
+                "n": 18
+              },
+              "random": {
+                "acc": 1.0,
+                "k": 54,
+                "n": 54
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

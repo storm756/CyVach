@@ -1,0 +1,151 @@
+item_id,base_id,sender,text,final_label,phrase,is_synthetic
+bc_ca00_0,ca00,CP-KOTAKB-T,Security Alert: 695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,0,True
+bc_ca00_1,ca00,CP-KOTAKB-T,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes. Do not share your OTP with anyone.,caution,1,True
+bc_ca00_2,ca00,CP-KOTAKB-T,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes. Beware of fraud calls.,caution,2,True
+bc_ca01_0,ca01,VM-BOBTXN-T,Security Alert: 8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,0,True
+bc_ca01_1,ca01,VM-BOBTXN-T,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP. Do not share your OTP with anyone.,caution,1,True
+bc_ca01_2,ca01,VM-BOBTXN-T,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP. Beware of fraud calls.,caution,2,True
+bc_ca02_0,ca02,JM-ZEPTON-T,"Security Alert: Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,0,True
+bc_ca02_1,ca02,JM-ZEPTON-T,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff. Do not share your OTP with anyone.",caution,1,True
+bc_ca02_2,ca02,JM-ZEPTON-T,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff. Beware of fraud calls.",caution,2,True
+bc_ca03_0,ca03,JD-AIRTEL-S,Security Alert: Your Airtel verification code is 264686. It expires in 10 minutes.,caution,0,True
+bc_ca03_1,ca03,JD-AIRTEL-S,Your Airtel verification code is 264686. It expires in 10 minutes. Do not share your OTP with anyone.,caution,1,True
+bc_ca03_2,ca03,JD-AIRTEL-S,Your Airtel verification code is 264686. It expires in 10 minutes. Beware of fraud calls.,caution,2,True
+bc_ca04_0,ca04,CP-CANBNK-S,"Security Alert: New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,0,True
+bc_ca04_1,ca04,CP-CANBNK-S,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately. Do not share your OTP with anyone.",caution,1,True
+bc_ca04_2,ca04,CP-CANBNK-S,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately. Beware of fraud calls.",caution,2,True
+bc_ca05_0,ca05,BP-AXISBK-T,"Security Alert: WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,0,True
+bc_ca05_1,ca05,BP-AXISBK-T,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app. Do not share your OTP with anyone.",caution,1,True
+bc_ca05_2,ca05,BP-AXISBK-T,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app. Beware of fraud calls.",caution,2,True
+bc_ca06_0,ca06,JM-SBIINB-T,"Security Alert: Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,0,True
+bc_ca06_1,ca06,JM-SBIINB-T,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank. Do not share your OTP with anyone.",caution,1,True
+bc_ca06_2,ca06,JM-SBIINB-T,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank. Beware of fraud calls.",caution,2,True
+bc_ca07_0,ca07,VK-CANBNK-T,Security Alert: Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,0,True
+bc_ca07_1,ca07,VK-CANBNK-T,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app. Do not share your OTP with anyone.,caution,1,True
+bc_ca07_2,ca07,VK-CANBNK-T,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app. Beware of fraud calls.,caution,2,True
+bc_ca08_0,ca08,VK-SWIGGY-T,Security Alert: 258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,0,True
+bc_ca08_1,ca08,VK-SWIGGY-T,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone. Do not share your OTP with anyone.,caution,1,True
+bc_ca08_2,ca08,VK-SWIGGY-T,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone. Beware of fraud calls.,caution,2,True
+bc_ca09_0,ca09,CP-KOTAKB-S,"Security Alert: Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,0,True
+bc_ca09_1,ca09,CP-KOTAKB-S,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care. Do not share your OTP with anyone.",caution,1,True
+bc_ca09_2,ca09,CP-KOTAKB-S,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care. Beware of fraud calls.",caution,2,True
+bc_ca10_0,ca10,AX-CANBNK-T,Security Alert: Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,0,True
+bc_ca10_1,ca10,AX-CANBNK-T,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours. Do not share your OTP with anyone.,caution,1,True
+bc_ca10_2,ca10,AX-CANBNK-T,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours. Beware of fraud calls.,caution,2,True
+bc_ca11_0,ca11,AX-ZEPTON-S,Security Alert: 133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,0,True
+bc_ca11_1,ca11,AX-ZEPTON-S,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes. Do not share your OTP with anyone.,caution,1,True
+bc_ca11_2,ca11,AX-ZEPTON-S,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes. Beware of fraud calls.,caution,2,True
+bc_ca12_0,ca12,VM-HDFCBK-S,Security Alert: Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,0,True
+bc_ca12_1,ca12,VM-HDFCBK-S,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI Do not share your OTP with anyone.,caution,1,True
+bc_ca12_2,ca12,VM-HDFCBK-S,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI Beware of fraud calls.,caution,2,True
+bc_ca13_0,ca13,AD-ICICIB-T,"Security Alert: 194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,0,True
+bc_ca13_1,ca13,AD-ICICIB-T,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank. Do not share your OTP with anyone.",caution,1,True
+bc_ca13_2,ca13,AD-ICICIB-T,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank. Beware of fraud calls.",caution,2,True
+bc_ca14_0,ca14,AX-KOTAKB-T,"Security Alert: A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,0,True
+bc_ca14_1,ca14,AX-KOTAKB-T,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately. Do not share your OTP with anyone.",caution,1,True
+bc_ca14_2,ca14,AX-KOTAKB-T,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately. Beware of fraud calls.",caution,2,True
+bc_ca15_0,ca15,JD-ICICIB-T,Security Alert: Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,0,True
+bc_ca15_1,ca15,JD-ICICIB-T,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app. Do not share your OTP with anyone.,caution,1,True
+bc_ca15_2,ca15,JD-ICICIB-T,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app. Beware of fraud calls.,caution,2,True
+bc_ca16_0,ca16,CP-ZOMATO-T,Security Alert: Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,0,True
+bc_ca16_1,ca16,CP-ZOMATO-T,Delivery code 105218: share it with the Zomato delivery agent only after checking your order. Do not share your OTP with anyone.,caution,1,True
+bc_ca16_2,ca16,CP-ZOMATO-T,Delivery code 105218: share it with the Zomato delivery agent only after checking your order. Beware of fraud calls.,caution,2,True
+bc_ca17_0,ca17,VM-ZEPTON-T,Security Alert: 491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,0,True
+bc_ca17_1,ca17,VM-ZEPTON-T,491452 is your EPFO UAN activation OTP. Do not share it with anyone. Do not share your OTP with anyone.,caution,1,True
+bc_ca17_2,ca17,VM-ZEPTON-T,491452 is your EPFO UAN activation OTP. Do not share it with anyone. Beware of fraud calls.,caution,2,True
+bc_ca18_0,ca18,JM-SWIGGY-T,"Security Alert: Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,0,True
+bc_ca18_1,ca18,JM-SWIGGY-T,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password. Do not share your OTP with anyone.",caution,1,True
+bc_ca18_2,ca18,JM-SWIGGY-T,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password. Beware of fraud calls.",caution,2,True
+bc_ca19_0,ca19,AD-KOTAKB-S,Security Alert: Your Google account verification code is 0646.,caution,0,True
+bc_ca19_1,ca19,AD-KOTAKB-S,Your Google account verification code is 0646. Do not share your OTP with anyone.,caution,1,True
+bc_ca19_2,ca19,AD-KOTAKB-S,Your Google account verification code is 0646. Beware of fraud calls.,caution,2,True
+bc_ca20_0,ca20,AD-HDFCBK-T,"Security Alert: Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,0,True
+bc_ca20_1,ca20,AD-HDFCBK-T,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once. Do not share your OTP with anyone.",caution,1,True
+bc_ca20_2,ca20,AD-HDFCBK-T,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once. Beware of fraud calls.",caution,2,True
+bc_ca21_0,ca21,CP-SBIINB-S,Security Alert: Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,0,True
+bc_ca21_1,ca21,CP-SBIINB-S,Biometric login has been enabled on your SBI app. Not you? Contact customer care. Do not share your OTP with anyone.,caution,1,True
+bc_ca21_2,ca21,CP-SBIINB-S,Biometric login has been enabled on your SBI app. Not you? Contact customer care. Beware of fraud calls.,caution,2,True
+bc_ca22_0,ca22,JD-HDFCBK-T,Security Alert: 118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,0,True
+bc_ca22_1,ca22,JD-HDFCBK-T,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it. Do not share your OTP with anyone.,caution,1,True
+bc_ca22_2,ca22,JD-HDFCBK-T,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it. Beware of fraud calls.,caution,2,True
+bc_ca23_0,ca23,TX-ZOMATO-T,"Security Alert: Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,0,True
+bc_ca23_1,ca23,TX-ZOMATO-T,"Your email address on Zomato was changed. If you did not make this change, secure your account now. Do not share your OTP with anyone.",caution,1,True
+bc_ca23_2,ca23,TX-ZOMATO-T,"Your email address on Zomato was changed. If you did not make this change, secure your account now. Beware of fraud calls.",caution,2,True
+bc_ca24_0,ca24,CP-FLPKRT-S,Security Alert: 939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,0,True
+bc_ca24_1,ca24,CP-FLPKRT-S,939761 is your login code for the IRCTC app. It is valid for 5 minutes. Do not share your OTP with anyone.,caution,1,True
+bc_ca24_2,ca24,CP-FLPKRT-S,939761 is your login code for the IRCTC app. It is valid for 5 minutes. Beware of fraud calls.,caution,2,True
+bc_ha00_0,ha00,AX-ICICIB-S,"Security Alert: Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,0,True
+bc_ha00_1,ha00,AX-ICICIB-S,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app. Do not share your OTP with anyone.",ham,1,True
+bc_ha00_2,ha00,AX-ICICIB-S,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app. Beware of fraud calls.",ham,2,True
+bc_ha01_0,ha01,TX-BOBTXN-S,Security Alert: Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,0,True
+bc_ha01_1,ha01,TX-BOBTXN-S,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us. Do not share your OTP with anyone.,ham,1,True
+bc_ha01_2,ha01,TX-BOBTXN-S,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us. Beware of fraud calls.,ham,2,True
+bc_ha02_0,ha02,VK-SWIGGY-T,Security Alert: Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,0,True
+bc_ha02_1,ha02,VK-SWIGGY-T,Your Swiggy order has been delivered. We hope you enjoy your purchase. Do not share your OTP with anyone.,ham,1,True
+bc_ha02_2,ha02,VK-SWIGGY-T,Your Swiggy order has been delivered. We hope you enjoy your purchase. Beware of fraud calls.,ham,2,True
+bc_ha03_0,ha03,AX-MYNTRA-T,"Security Alert: Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,0,True
+bc_ha03_1,ha03,AX-MYNTRA-T,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter. Do not share your OTP with anyone.",ham,1,True
+bc_ha03_2,ha03,AX-MYNTRA-T,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter. Beware of fraud calls.",ham,2,True
+bc_ha04_0,ha04,CP-BSNLIN-S,Security Alert: Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,0,True
+bc_ha04_1,ha04,CP-BSNLIN-S,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days. Do not share your OTP with anyone.,ham,1,True
+bc_ha04_2,ha04,CP-BSNLIN-S,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days. Beware of fraud calls.,ham,2,True
+bc_ha05_0,ha05,AD-SBIINB-T,"Security Alert: Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,0,True
+bc_ha05_1,ha05,AD-SBIINB-T,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey. Do not share your OTP with anyone.",ham,1,True
+bc_ha05_2,ha05,AD-SBIINB-T,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey. Beware of fraud calls.",ham,2,True
+bc_ha06_0,ha06,JD-AMAZON-T,"Security Alert: Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,0,True
+bc_ha06_1,ha06,JD-AMAZON-T,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel. Do not share your OTP with anyone.",ham,1,True
+bc_ha06_2,ha06,JD-AMAZON-T,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel. Beware of fraud calls.",ham,2,True
+bc_ha07_0,ha07,AD-KOTAKB-S,Security Alert: Can you pick up milk and bread on your way home?,ham,0,True
+bc_ha07_1,ha07,AD-KOTAKB-S,Can you pick up milk and bread on your way home? Do not share your OTP with anyone.,ham,1,True
+bc_ha07_2,ha07,AD-KOTAKB-S,Can you pick up milk and bread on your way home? Beware of fraud calls.,ham,2,True
+bc_ha08_0,ha08,AD-ZEPTON-T,Security Alert: Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,0,True
+bc_ha08_1,ha08,AD-ZEPTON-T,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days. Do not share your OTP with anyone.,ham,1,True
+bc_ha08_2,ha08,AD-ZEPTON-T,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days. Beware of fraud calls.,ham,2,True
+bc_ha09_0,ha09,VK-ZOMATO-S,Security Alert: Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,0,True
+bc_ha09_1,ha09,VK-ZOMATO-S,Meeting moved to 11:45 PM tomorrow. Please bring the printed report. Do not share your OTP with anyone.,ham,1,True
+bc_ha09_2,ha09,VK-ZOMATO-S,Meeting moved to 11:45 PM tomorrow. Please bring the printed report. Beware of fraud calls.,ham,2,True
+bc_ha10_0,ha10,AX-HDFCBK-S,Security Alert: Happy birthday Amit! Have a wonderful year ahead.,ham,0,True
+bc_ha10_1,ha10,AX-HDFCBK-S,Happy birthday Amit! Have a wonderful year ahead. Do not share your OTP with anyone.,ham,1,True
+bc_ha10_2,ha10,AX-HDFCBK-S,Happy birthday Amit! Have a wonderful year ahead. Beware of fraud calls.,ham,2,True
+bc_ha11_0,ha11,AD-SWIGGY-T,Security Alert: Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,0,True
+bc_ha11_1,ha11,AD-SWIGGY-T,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM. Do not share your OTP with anyone.,ham,1,True
+bc_ha11_2,ha11,AD-SWIGGY-T,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM. Beware of fraud calls.,ham,2,True
+bc_ha12_0,ha12,BP-BSNLIN-S,Security Alert: You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,0,True
+bc_ha12_1,ha12,BP-BSNLIN-S,You have a missed call from 8529128084 at 6:30 AM. -BSNL Do not share your OTP with anyone.,ham,1,True
+bc_ha12_2,ha12,BP-BSNLIN-S,You have a missed call from 8529128084 at 6:30 AM. -BSNL Beware of fraud calls.,ham,2,True
+bc_ha13_0,ha13,AD-BLNKIT-S,Security Alert: Your Blinkit order is out for delivery and will reach you today.,ham,0,True
+bc_ha13_1,ha13,AD-BLNKIT-S,Your Blinkit order is out for delivery and will reach you today. Do not share your OTP with anyone.,ham,1,True
+bc_ha13_2,ha13,AD-BLNKIT-S,Your Blinkit order is out for delivery and will reach you today. Beware of fraud calls.,ham,2,True
+bc_ha14_0,ha14,JD-CANBNK-T,Security Alert: Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,0,True
+bc_ha14_1,ha14,JD-CANBNK-T,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert. Do not share your OTP with anyone.,ham,1,True
+bc_ha14_2,ha14,JD-CANBNK-T,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert. Beware of fraud calls.,ham,2,True
+bc_ha15_0,ha15,TX-BOBTXN-S,Security Alert: Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,0,True
+bc_ha15_1,ha15,TX-BOBTXN-S,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda Do not share your OTP with anyone.,ham,1,True
+bc_ha15_2,ha15,TX-BOBTXN-S,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda Beware of fraud calls.,ham,2,True
+bc_ha16_0,ha16,BP-JIONET-S,Security Alert: Data usage alert: you have used 90% of your daily data on your Jio number.,ham,0,True
+bc_ha16_1,ha16,BP-JIONET-S,Data usage alert: you have used 90% of your daily data on your Jio number. Do not share your OTP with anyone.,ham,1,True
+bc_ha16_2,ha16,BP-JIONET-S,Data usage alert: you have used 90% of your daily data on your Jio number. Beware of fraud calls.,ham,2,True
+bc_ha17_0,ha17,VM-ZEPTON-S,"Security Alert: Sorry, I can't talk right now. Will call you after the class.",ham,0,True
+bc_ha17_1,ha17,VM-ZEPTON-S,"Sorry, I can't talk right now. Will call you after the class. Do not share your OTP with anyone.",ham,1,True
+bc_ha17_2,ha17,VM-ZEPTON-S,"Sorry, I can't talk right now. Will call you after the class. Beware of fraud calls.",ham,2,True
+bc_ha18_0,ha18,AD-ZOMATO-T,Security Alert: Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,0,True
+bc_ha18_1,ha18,AD-ZOMATO-T,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early. Do not share your OTP with anyone.,ham,1,True
+bc_ha18_2,ha18,AD-ZOMATO-T,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early. Beware of fraud calls.,ham,2,True
+bc_ha19_0,ha19,CP-FLPKRT-S,"Security Alert: Mom says dinner is at 8, don't be late.",ham,0,True
+bc_ha19_1,ha19,CP-FLPKRT-S,"Mom says dinner is at 8, don't be late. Do not share your OTP with anyone.",ham,1,True
+bc_ha19_2,ha19,CP-FLPKRT-S,"Mom says dinner is at 8, don't be late. Beware of fraud calls.",ham,2,True
+bc_ha20_0,ha20,BP-VIINFO-S,Security Alert: TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,0,True
+bc_ha20_1,ha20,BP-VIINFO-S,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930. Do not share your OTP with anyone.,ham,1,True
+bc_ha20_2,ha20,BP-VIINFO-S,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930. Beware of fraud calls.,ham,2,True
+bc_ha21_0,ha21,AD-ZEPTON-S,Security Alert: Your PAN application has been processed and the card will be sent by post.,ham,0,True
+bc_ha21_1,ha21,AD-ZEPTON-S,Your PAN application has been processed and the card will be sent by post. Do not share your OTP with anyone.,ham,1,True
+bc_ha21_2,ha21,AD-ZEPTON-S,Your PAN application has been processed and the card will be sent by post. Beware of fraud calls.,ham,2,True
+bc_ha22_0,ha22,JD-VIINFO-T,Security Alert: Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,0,True
+bc_ha22_1,ha22,JD-VIINFO-T,Your Vi plan expires on 26-Apr. Recharge to continue using services. Do not share your OTP with anyone.,ham,1,True
+bc_ha22_2,ha22,JD-VIINFO-T,Your Vi plan expires on 26-Apr. Recharge to continue using services. Beware of fraud calls.,ham,2,True
+bc_ha23_0,ha23,VM-BSNLIN-S,Security Alert: The library book you borrowed is due for return on 18-May.,ham,0,True
+bc_ha23_1,ha23,VM-BSNLIN-S,The library book you borrowed is due for return on 18-May. Do not share your OTP with anyone.,ham,1,True
+bc_ha23_2,ha23,VM-BSNLIN-S,The library book you borrowed is due for return on 18-May. Beware of fraud calls.,ham,2,True
+bc_ha24_0,ha24,VM-HDFCBK-T,"Security Alert: Thanks for the help today, really appreciate it!",ham,0,True
+bc_ha24_1,ha24,VM-HDFCBK-T,"Thanks for the help today, really appreciate it! Do not share your OTP with anyone.",ham,1,True
+bc_ha24_2,ha24,VM-HDFCBK-T,"Thanks for the help today, really appreciate it! Beware of fraud calls.",ham,2,True

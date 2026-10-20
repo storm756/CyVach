@@ -1,0 +1,441 @@
+{
+  "run_id": "handoff_check-20261019-032852",
+  "script": "handoff_check",
+  "started": "20261019-032852",
+  "code_version": "bc0a764-dirty",
+  "config": {},
+  "result": {
+    "new": {
+      "inputs": [
+        {
+          "name": "input_ids",
+          "dtype": "INT64",
+          "shape": [
+            "batch",
+            "seq"
+          ]
+        },
+        {
+          "name": "attention_mask",
+          "dtype": "INT64",
+          "shape": [
+            "batch",
+            "seq"
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "logits",
+          "dtype": "FLOAT",
+          "shape": [
+            "batch",
+            4
+          ]
+        }
+      ],
+      "ir_version": 8,
+      "opset_ai_onnx": 17,
+      "node_domains": [
+        "ai.onnx"
+      ]
+    },
+    "v73": {
+      "inputs": [
+        {
+          "name": "input_ids",
+          "dtype": "INT64",
+          "shape": [
+            "s72",
+            128
+          ]
+        },
+        {
+          "name": "attention_mask",
+          "dtype": "INT64",
+          "shape": [
+            "s43",
+            128
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "logits",
+          "dtype": "FLOAT",
+          "shape": [
+            "unk__122",
+            4
+          ]
+        }
+      ],
+      "ir_version": 10,
+      "opset_ai_onnx": 18,
+      "node_domains": [
+        "ai.onnx"
+      ]
+    },
+    "names_dtypes_match": true,
+    "label_order_new": [
+      "ham",
+      "spam",
+      "promo",
+      "caution"
+    ],
+    "label_order_v73": [
+      "ham",
+      "spam",
+      "promo",
+      "caution"
+    ],
+    "label_order_match": true,
+    "vocab_byte_identical_to_app": true,
+    "vocab_sizes": {
+      "checkpoint": 30522,
+      "app_lines": 30522
+    },
+    "deploy_sha256": "c91067ec3e102326cf7084578642636576646b7ee30cdf2b9038b9e749717473",
+    "spot": [
+      {
+        "id": "S01",
+        "sender": "AX-HDFCBK-S",
+        "text": "482913 is your OTP for HDFC Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.",
+        "logits": [
+          -1.642,
+          -1.735,
+          -2.408,
+          6.056
+        ],
+        "model_label": "caution",
+        "model_conf": 0.9989,
+        "app_verdict": "ham",
+        "rule": "R0_trusted_veto",
+        "v73_model_label": "caution",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S02",
+        "sender": "JM-AMAZON-T",
+        "text": "Your Amazon order #402-1188 has been delivered. Thank you for shopping with us.",
+        "logits": [
+          3.658,
+          -0.499,
+          -1.696,
+          -2.04
+        ],
+        "model_label": "ham",
+        "model_conf": 0.9768,
+        "app_verdict": "ham",
+        "rule": "R0_trusted_veto",
+        "v73_model_label": "ham",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S03",
+        "sender": "VK-FLPKRT-P",
+        "text": "Big Billion Days start tomorrow! Up to 80% off on mobiles and TVs. Shop now on the app.",
+        "logits": [
+          -2.117,
+          -1.219,
+          5.026,
+          -2.649
+        ],
+        "model_label": "promo",
+        "model_conf": 0.9968,
+        "app_verdict": "promo",
+        "rule": "R4_suffix_P",
+        "v73_model_label": "promo",
+        "v73_app_verdict": "promo"
+      },
+      {
+        "id": "S04",
+        "sender": "9876543210",
+        "text": "Dear customer, your SBI account KYC has expired and will be blocked today. Update now: http://sbi-kyc-update.xyz",
+        "logits": [
+          2.737,
+          0.544,
+          -1.846,
+          -1.388
+        ],
+        "model_label": "ham",
+        "model_conf": 0.8787,
+        "app_verdict": "spam",
+        "rule": "R3_mobile_keyword",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "spam"
+      },
+      {
+        "id": "S05",
+        "sender": "+919812345678",
+        "text": "Congratulations! You have won Rs 25,00,000 in the KBC lucky draw. Pay Rs 4,999 processing fee to claim.",
+        "logits": [
+          -1.727,
+          4.942,
+          -1.821,
+          -2.421
+        ],
+        "model_label": "spam",
+        "model_conf": 0.997,
+        "app_verdict": "spam",
+        "rule": "model",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "spam"
+      },
+      {
+        "id": "S06",
+        "sender": "BZ-ELECTR-G",
+        "text": "Electricity supply will be disconnected tonight at 9:30 pm as your last bill is unpaid. Call officer 9123456780 immediately.",
+        "logits": [
+          -0.776,
+          3.98,
+          -1.248,
+          -2.936
+        ],
+        "model_label": "spam",
+        "model_conf": 0.9853,
+        "app_verdict": "ham",
+        "rule": "R4_suffix_G",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S07",
+        "sender": "TX-JIOINF-S",
+        "text": "Your Jio recharge of Rs 299 is successful. Validity: 28 days. Data: 2GB/day.",
+        "logits": [
+          5.03,
+          -2.402,
+          -1.022,
+          -1.918
+        ],
+        "model_label": "ham",
+        "model_conf": 0.9961,
+        "app_verdict": "ham",
+        "rule": "R0_trusted_veto",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S08",
+        "sender": "CP-ZOMATO-P",
+        "text": "Flat 50% off on your next order with code TASTY50. Valid till Sunday.",
+        "logits": [
+          -2.12,
+          -1.189,
+          5.027,
+          -2.637
+        ],
+        "model_label": "promo",
+        "model_conf": 0.9968,
+        "app_verdict": "promo",
+        "rule": "R0_trusted_keep_promo",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S09",
+        "sender": "8899001122",
+        "text": "Hi, reached home safely. Will call you after dinner.",
+        "logits": [
+          6.001,
+          -2.117,
+          -1.7,
+          -2.42
+        ],
+        "model_label": "ham",
+        "model_conf": 0.999,
+        "app_verdict": "ham",
+        "rule": "model",
+        "v73_model_label": "ham",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S10",
+        "sender": "AD-ICICIB-S",
+        "text": "New login to your ICICI iMobile app from a new device in Pune. Not you? Call 1800 1080 immediately.",
+        "logits": [
+          -1.33,
+          -1.643,
+          -2.357,
+          5.613
+        ],
+        "model_label": "caution",
+        "model_conf": 0.998,
+        "app_verdict": "ham",
+        "rule": "R0_trusted_veto",
+        "v73_model_label": "caution",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S11",
+        "sender": "VM-WHTSAP-S",
+        "text": "WhatsApp Web is now active on a new device. If this was not you, log out all devices.",
+        "logits": [
+          0.456,
+          -1.206,
+          -2.691,
+          3.965
+        ],
+        "model_label": "caution",
+        "model_conf": 0.9644,
+        "app_verdict": "caution",
+        "rule": "model",
+        "v73_model_label": "caution",
+        "v73_app_verdict": "caution"
+      },
+      {
+        "id": "S12",
+        "sender": "7766554433",
+        "text": "Part-time job: earn Rs 5,000 per day by liking YouTube videos. WhatsApp now on 7766554433.",
+        "logits": [
+          -1.564,
+          -1.175,
+          4.89,
+          -3.065
+        ],
+        "model_label": "promo",
+        "model_conf": 0.9958,
+        "app_verdict": "promo",
+        "rule": "model",
+        "v73_model_label": "promo",
+        "v73_app_verdict": "promo"
+      },
+      {
+        "id": "S13",
+        "sender": "QP-INDPST-S",
+        "text": "Your parcel is held at customs due to an incomplete address. Pay Rs 25 to release it: http://indiapost-redelivery.top",
+        "logits": [
+          2.658,
+          1.415,
+          -2.205,
+          -2.283
+        ],
+        "model_label": "ham",
+        "model_conf": 0.7673,
+        "app_verdict": "ham",
+        "rule": "model",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S14",
+        "sender": "BX-KOTAKB-S",
+        "text": "Rs 1,250.00 debited from A/c XX4821 on 12-Oct to SWIGGY. Avl bal Rs 8,402.17.",
+        "logits": [
+          5.467,
+          -2.682,
+          -1.032,
+          -2.199
+        ],
+        "model_label": "ham",
+        "model_conf": 0.9977,
+        "app_verdict": "ham",
+        "rule": "R0_trusted_veto",
+        "v73_model_label": "ham",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S15",
+        "sender": "9988776655",
+        "text": "I sent an OTP to your number by mistake, please forward it to me quickly.",
+        "logits": [
+          0.632,
+          -0.92,
+          -3.027,
+          3.513
+        ],
+        "model_label": "caution",
+        "model_conf": 0.9351,
+        "app_verdict": "spam",
+        "rule": "R3_mobile_keyword",
+        "v73_model_label": "caution",
+        "v73_app_verdict": "spam"
+      },
+      {
+        "id": "S16",
+        "sender": "VM-PAYTMB-T",
+        "text": "Your UPI PIN was changed successfully. If not done by you, call your bank right away.",
+        "logits": [
+          -0.764,
+          -1.558,
+          -2.784,
+          5.38
+        ],
+        "model_label": "caution",
+        "model_conf": 0.9966,
+        "app_verdict": "caution",
+        "rule": "model",
+        "v73_model_label": "caution",
+        "v73_app_verdict": "caution"
+      },
+      {
+        "id": "S17",
+        "sender": "JD-BIGBSK-P",
+        "text": "Fresh fruits at 30% off this weekend only. Order on BigBasket now.",
+        "logits": [
+          -2.064,
+          -1.213,
+          4.986,
+          -2.696
+        ],
+        "model_label": "promo",
+        "model_conf": 0.9967,
+        "app_verdict": "promo",
+        "rule": "R4_suffix_P",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "promo"
+      },
+      {
+        "id": "S18",
+        "sender": "IR-IRCTCI-S",
+        "text": "PNR 4521873: Train 12951 Coach B3 Berth 41 confirmed. Have a safe journey.",
+        "logits": [
+          2.607,
+          -2.025,
+          1.323,
+          -2.455
+        ],
+        "model_label": "ham",
+        "model_conf": 0.7734,
+        "app_verdict": "ham",
+        "rule": "R0_trusted_veto",
+        "v73_model_label": "ham",
+        "v73_app_verdict": "ham"
+      },
+      {
+        "id": "S19",
+        "sender": "UNKNWN",
+        "text": "Your Netflix subscription failed. Update payment details within 24 hrs: http://netflx-billing-help.com",
+        "logits": [
+          1.279,
+          2.052,
+          -0.719,
+          -3.095
+        ],
+        "model_label": "spam",
+        "model_conf": 0.6534,
+        "app_verdict": "spam",
+        "rule": "model",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "spam"
+      },
+      {
+        "id": "S20",
+        "sender": "AX-AIRTEL-S",
+        "text": "Your Airtel bill of Rs 599 has been generated. Pay by 25-Oct to avoid late fees.",
+        "logits": [
+          5.056,
+          -2.624,
+          -0.514,
+          -2.53
+        ],
+        "model_label": "ham",
+        "model_conf": 0.9952,
+        "app_verdict": "ham",
+        "rule": "R0_trusted_veto",
+        "v73_model_label": "spam",
+        "v73_app_verdict": "ham"
+      }
+    ]
+  }
+}

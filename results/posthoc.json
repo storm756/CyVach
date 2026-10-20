@@ -1,0 +1,3234 @@
+{
+  "run_id": "posthoc-20261018-210756",
+  "script": "posthoc",
+  "started": "20261018-210756",
+  "code_version": "8f5c362-dirty",
+  "config": {
+    "B": 1000,
+    "min_n": 10,
+    "post_hoc": true
+  },
+  "result": {
+    "post_hoc": true,
+    "by_label_source": {
+      "human_verified": {
+        "n": 177,
+        "n_per_class": {
+          "ham": 45,
+          "spam": 50,
+          "promo": 35,
+          "caution": 47
+        },
+        "skipped_classes_lt10": [],
+        "macro_f1_skipped": false,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8431372549019608,
+                "recall": 0.9555555555555556,
+                "f1": 0.8958333333333334
+              },
+              "spam": {
+                "precision": 0.918918918918919,
+                "recall": 0.68,
+                "f1": 0.7816091954022989
+              },
+              "promo": {
+                "precision": 0.7333333333333333,
+                "recall": 0.9428571428571428,
+                "f1": 0.825
+              },
+              "caution": {
+                "precision": 0.9772727272727273,
+                "recall": 0.9148936170212766,
+                "f1": 0.945054945054945
+              }
+            },
+            "legit_as_scam": 0.023622047244094488,
+            "counts": {
+              "accuracy": "153/177",
+              "legit_as_scam": "3/127",
+              "recall_ham": "43/45",
+              "precision_ham": "43/51",
+              "recall_spam": "34/50",
+              "precision_spam": "34/37",
+              "recall_promo": "33/35",
+              "precision_promo": "33/45",
+              "recall_caution": "43/47",
+              "precision_caution": "43/44"
+            },
+            "macro_f1": 0.8618743684476444,
+            "macro_f1_ci95": [
+              0.8109475611602799,
+              0.9087454344577508
+            ]
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.7924528301886793,
+                "recall": 0.9333333333333333,
+                "f1": 0.8571428571428571
+              },
+              "spam": {
+                "precision": 0.8717948717948718,
+                "recall": 0.68,
+                "f1": 0.7640449438202247
+              },
+              "promo": {
+                "precision": 0.7111111111111111,
+                "recall": 0.9142857142857143,
+                "f1": 0.8
+              },
+              "caution": {
+                "precision": 0.95,
+                "recall": 0.8085106382978723,
+                "f1": 0.8735632183908046
+              }
+            },
+            "legit_as_scam": 0.03937007874015748,
+            "counts": {
+              "accuracy": "146/177",
+              "legit_as_scam": "5/127",
+              "recall_ham": "42/45",
+              "precision_ham": "42/53",
+              "recall_spam": "34/50",
+              "precision_spam": "34/39",
+              "recall_promo": "32/35",
+              "precision_promo": "32/45",
+              "recall_caution": "38/47",
+              "precision_caution": "38/40"
+            },
+            "macro_f1": 0.8236877548384716,
+            "macro_f1_ci95": [
+              0.7608189668571118,
+              0.8732876780895159
+            ]
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8148148148148148,
+                "recall": 0.9777777777777777,
+                "f1": 0.8888888888888888
+              },
+              "spam": {
+                "precision": 0.918918918918919,
+                "recall": 0.68,
+                "f1": 0.7816091954022989
+              },
+              "promo": {
+                "precision": 0.7619047619047619,
+                "recall": 0.9142857142857143,
+                "f1": 0.8311688311688312
+              },
+              "caution": {
+                "precision": 0.9772727272727273,
+                "recall": 0.9148936170212766,
+                "f1": 0.945054945054945
+              }
+            },
+            "legit_as_scam": 0.023622047244094488,
+            "counts": {
+              "accuracy": "153/177",
+              "legit_as_scam": "3/127",
+              "recall_ham": "44/45",
+              "precision_ham": "44/54",
+              "recall_spam": "34/50",
+              "precision_spam": "34/37",
+              "recall_promo": "32/35",
+              "precision_promo": "32/42",
+              "recall_caution": "43/47",
+              "precision_caution": "43/44"
+            },
+            "macro_f1": 0.8616804651287411,
+            "macro_f1_ci95": [
+              0.8091984814884808,
+              0.9060543330516504
+            ]
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.86,
+                "recall": 0.9555555555555556,
+                "f1": 0.9052631578947369
+              },
+              "spam": {
+                "precision": 0.9210526315789473,
+                "recall": 0.7,
+                "f1": 0.7954545454545454
+              },
+              "promo": {
+                "precision": 0.7333333333333333,
+                "recall": 0.9428571428571428,
+                "f1": 0.825
+              },
+              "caution": {
+                "precision": 0.9772727272727273,
+                "recall": 0.9148936170212766,
+                "f1": 0.945054945054945
+              }
+            },
+            "legit_as_scam": 0.023622047244094488,
+            "counts": {
+              "accuracy": "154/177",
+              "legit_as_scam": "3/127",
+              "recall_ham": "43/45",
+              "precision_ham": "43/50",
+              "recall_spam": "35/50",
+              "precision_spam": "35/38",
+              "recall_promo": "33/35",
+              "precision_promo": "33/45",
+              "recall_caution": "43/47",
+              "precision_caution": "43/44"
+            },
+            "macro_f1": 0.8676931621010568,
+            "macro_f1_ci95": [
+              0.8173075454326071,
+              0.9134997184580116
+            ]
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9069767441860465,
+                "recall": 0.8666666666666667,
+                "f1": 0.8863636363636364
+              },
+              "spam": {
+                "precision": 0.8604651162790697,
+                "recall": 0.74,
+                "f1": 0.7956989247311828
+              },
+              "promo": {
+                "precision": 0.7441860465116279,
+                "recall": 0.9142857142857143,
+                "f1": 0.8205128205128205
+              },
+              "caution": {
+                "precision": 0.9166666666666666,
+                "recall": 0.9361702127659575,
+                "f1": 0.9263157894736842
+              }
+            },
+            "legit_as_scam": 0.047244094488188976,
+            "counts": {
+              "accuracy": "152/177",
+              "legit_as_scam": "6/127",
+              "recall_ham": "39/45",
+              "precision_ham": "39/43",
+              "recall_spam": "37/50",
+              "precision_spam": "37/43",
+              "recall_promo": "32/35",
+              "precision_promo": "32/43",
+              "recall_caution": "44/47",
+              "precision_caution": "44/48"
+            },
+            "macro_f1": 0.8572227927703311,
+            "macro_f1_ci95": [
+              0.8070822244162768,
+              0.9034589059010563
+            ]
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8571428571428571,
+                "recall": 0.9333333333333333,
+                "f1": 0.8936170212765957
+              },
+              "spam": {
+                "precision": 0.8947368421052632,
+                "recall": 0.68,
+                "f1": 0.7727272727272727
+              },
+              "promo": {
+                "precision": 0.7333333333333333,
+                "recall": 0.9428571428571428,
+                "f1": 0.825
+              },
+              "caution": {
+                "precision": 0.9555555555555556,
+                "recall": 0.9148936170212766,
+                "f1": 0.9347826086956522
+              }
+            },
+            "legit_as_scam": 0.031496062992125984,
+            "counts": {
+              "accuracy": "152/177",
+              "legit_as_scam": "4/127",
+              "recall_ham": "42/45",
+              "precision_ham": "42/49",
+              "recall_spam": "34/50",
+              "precision_spam": "34/38",
+              "recall_promo": "33/35",
+              "precision_promo": "33/45",
+              "recall_caution": "43/47",
+              "precision_caution": "43/45"
+            },
+            "macro_f1": 0.8565317256748801,
+            "macro_f1_ci95": [
+              0.805917839270017,
+              0.9024340618781111
+            ]
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8431372549019608,
+                "recall": 0.9555555555555556,
+                "f1": 0.8958333333333334
+              },
+              "spam": {
+                "precision": 0.8636363636363636,
+                "recall": 0.76,
+                "f1": 0.8085106382978723
+              },
+              "promo": {
+                "precision": 0.7435897435897436,
+                "recall": 0.8285714285714286,
+                "f1": 0.7837837837837838
+              },
+              "caution": {
+                "precision": 0.9767441860465116,
+                "recall": 0.8936170212765957,
+                "f1": 0.9333333333333333
+              }
+            },
+            "legit_as_scam": 0.047244094488188976,
+            "counts": {
+              "accuracy": "152/177",
+              "legit_as_scam": "6/127",
+              "recall_ham": "43/45",
+              "precision_ham": "43/51",
+              "recall_spam": "38/50",
+              "precision_spam": "38/44",
+              "recall_promo": "29/35",
+              "precision_promo": "29/39",
+              "recall_caution": "42/47",
+              "precision_caution": "42/43"
+            },
+            "macro_f1": 0.8553652721870808,
+            "macro_f1_ci95": [
+              0.8007336038009938,
+              0.9032211765875389
+            ]
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "ham": {
+                "precision": 0.7818181818181819,
+                "recall": 0.9555555555555556,
+                "f1": 0.86
+              },
+              "spam": {
+                "precision": 0.8604651162790697,
+                "recall": 0.74,
+                "f1": 0.7956989247311828
+              },
+              "promo": {
+                "precision": 0.7567567567567568,
+                "recall": 0.8,
+                "f1": 0.7777777777777778
+              },
+              "caution": {
+                "precision": 0.9761904761904762,
+                "recall": 0.8723404255319149,
+                "f1": 0.9213483146067416
+              }
+            },
+            "legit_as_scam": 0.047244094488188976,
+            "counts": {
+              "accuracy": "149/177",
+              "legit_as_scam": "6/127",
+              "recall_ham": "43/45",
+              "precision_ham": "43/55",
+              "recall_spam": "37/50",
+              "precision_spam": "37/43",
+              "recall_promo": "28/35",
+              "precision_promo": "28/37",
+              "recall_caution": "41/47",
+              "precision_caution": "41/42"
+            },
+            "macro_f1": 0.8387062542789255,
+            "macro_f1_ci95": [
+              0.7797569746179348,
+              0.8928085595816974
+            ]
+          },
+          "v73_int8": {
+            "per_class": {
+              "ham": {
+                "precision": 0.7837837837837838,
+                "recall": 0.6444444444444445,
+                "f1": 0.7073170731707317
+              },
+              "spam": {
+                "precision": 0.5344827586206896,
+                "recall": 0.62,
+                "f1": 0.5740740740740741
+              },
+              "promo": {
+                "precision": 0.5333333333333333,
+                "recall": 0.45714285714285713,
+                "f1": 0.49230769230769234
+              },
+              "caution": {
+                "precision": 0.75,
+                "recall": 0.8297872340425532,
+                "f1": 0.7878787878787878
+              }
+            },
+            "legit_as_scam": 0.2125984251968504,
+            "counts": {
+              "accuracy": "115/177",
+              "legit_as_scam": "27/127",
+              "recall_ham": "29/45",
+              "precision_ham": "29/37",
+              "recall_spam": "31/50",
+              "precision_spam": "31/58",
+              "recall_promo": "16/35",
+              "precision_promo": "16/30",
+              "recall_caution": "39/47",
+              "precision_caution": "39/52"
+            },
+            "macro_f1": 0.6403944068578216,
+            "macro_f1_ci95": [
+              0.5684581885125253,
+              0.7079396882432029
+            ]
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "ham": {
+                "precision": 0.5396825396825397,
+                "recall": 0.7555555555555555,
+                "f1": 0.6296296296296297
+              },
+              "spam": {
+                "precision": 0.6046511627906976,
+                "recall": 0.52,
+                "f1": 0.5591397849462365
+              },
+              "promo": {
+                "precision": 0.5588235294117647,
+                "recall": 0.5428571428571428,
+                "f1": 0.5507246376811594
+              },
+              "caution": {
+                "precision": 0.7027027027027027,
+                "recall": 0.5531914893617021,
+                "f1": 0.6190476190476191
+              }
+            },
+            "legit_as_scam": 0.13385826771653545,
+            "counts": {
+              "accuracy": "105/177",
+              "legit_as_scam": "17/127",
+              "recall_ham": "34/45",
+              "precision_ham": "34/63",
+              "recall_spam": "26/50",
+              "precision_spam": "26/43",
+              "recall_promo": "19/35",
+              "precision_promo": "19/34",
+              "recall_caution": "26/47",
+              "precision_caution": "26/37"
+            },
+            "macro_f1": 0.5896354178261611,
+            "macro_f1_ci95": [
+              0.51109136265776,
+              0.6609922333918478
+            ]
+          }
+        },
+        "seeds_macro_f1": {
+          "mean": 0.853363180102696,
+          "std": 0.017176239182935
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.03307086614173228,
+          "std": 0.010266460480634091
+        }
+      },
+      "claude_blind": {
+        "n": 342,
+        "n_per_class": {
+          "ham": 152,
+          "spam": 37,
+          "promo": 112,
+          "caution": 41
+        },
+        "skipped_classes_lt10": [],
+        "macro_f1_skipped": false,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "ham": {
+                "precision": 0.922077922077922,
+                "recall": 0.9342105263157895,
+                "f1": 0.9281045751633987
+              },
+              "spam": {
+                "precision": 0.6326530612244898,
+                "recall": 0.8378378378378378,
+                "f1": 0.7209302325581395
+              },
+              "promo": {
+                "precision": 0.9693877551020408,
+                "recall": 0.8482142857142857,
+                "f1": 0.9047619047619048
+              },
+              "caution": {
+                "precision": 0.926829268292683,
+                "recall": 0.926829268292683,
+                "f1": 0.926829268292683
+              }
+            },
+            "legit_as_scam": 0.05901639344262295,
+            "counts": {
+              "accuracy": "306/342",
+              "legit_as_scam": "18/305",
+              "recall_ham": "142/152",
+              "precision_ham": "142/154",
+              "recall_spam": "31/37",
+              "precision_spam": "31/49",
+              "recall_promo": "95/112",
+              "precision_promo": "95/98",
+              "recall_caution": "38/41",
+              "precision_caution": "38/41"
+            },
+            "macro_f1": 0.8701564951940315,
+            "macro_f1_ci95": [
+              0.8252685507417855,
+              0.9090226759297335
+            ]
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.910828025477707,
+                "recall": 0.9407894736842105,
+                "f1": 0.9255663430420712
+              },
+              "spam": {
+                "precision": 0.6590909090909091,
+                "recall": 0.7837837837837838,
+                "f1": 0.7160493827160493
+              },
+              "promo": {
+                "precision": 0.9411764705882353,
+                "recall": 0.8571428571428571,
+                "f1": 0.897196261682243
+              },
+              "caution": {
+                "precision": 0.9487179487179487,
+                "recall": 0.9024390243902439,
+                "f1": 0.925
+              }
+            },
+            "legit_as_scam": 0.04918032786885246,
+            "counts": {
+              "accuracy": "305/342",
+              "legit_as_scam": "15/305",
+              "recall_ham": "143/152",
+              "precision_ham": "143/157",
+              "recall_spam": "29/37",
+              "precision_spam": "29/44",
+              "recall_promo": "96/112",
+              "precision_promo": "96/102",
+              "recall_caution": "37/41",
+              "precision_caution": "37/39"
+            },
+            "macro_f1": 0.865952996860091,
+            "macro_f1_ci95": [
+              0.8202351373912893,
+              0.9071613871435265
+            ]
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9084967320261438,
+                "recall": 0.9144736842105263,
+                "f1": 0.9114754098360656
+              },
+              "spam": {
+                "precision": 0.6888888888888889,
+                "recall": 0.8378378378378378,
+                "f1": 0.7560975609756098
+              },
+              "promo": {
+                "precision": 0.9150943396226415,
+                "recall": 0.8660714285714286,
+                "f1": 0.8899082568807339
+              },
+              "caution": {
+                "precision": 0.9473684210526315,
+                "recall": 0.8780487804878049,
+                "f1": 0.9113924050632911
+              }
+            },
+            "legit_as_scam": 0.04590163934426229,
+            "counts": {
+              "accuracy": "303/342",
+              "legit_as_scam": "14/305",
+              "recall_ham": "139/152",
+              "precision_ham": "139/153",
+              "recall_spam": "31/37",
+              "precision_spam": "31/45",
+              "recall_promo": "97/112",
+              "precision_promo": "97/106",
+              "recall_caution": "36/41",
+              "precision_caution": "36/38"
+            },
+            "macro_f1": 0.867218408188925,
+            "macro_f1_ci95": [
+              0.8240743373905067,
+              0.9064882455771425
+            ]
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9281045751633987,
+                "recall": 0.9342105263157895,
+                "f1": 0.9311475409836065
+              },
+              "spam": {
+                "precision": 0.6530612244897959,
+                "recall": 0.8648648648648649,
+                "f1": 0.7441860465116279
+              },
+              "promo": {
+                "precision": 0.95,
+                "recall": 0.8482142857142857,
+                "f1": 0.8962264150943396
+              },
+              "caution": {
+                "precision": 0.95,
+                "recall": 0.926829268292683,
+                "f1": 0.9382716049382716
+              }
+            },
+            "legit_as_scam": 0.05573770491803279,
+            "counts": {
+              "accuracy": "307/342",
+              "legit_as_scam": "17/305",
+              "recall_ham": "142/152",
+              "precision_ham": "142/153",
+              "recall_spam": "32/37",
+              "precision_spam": "32/49",
+              "recall_promo": "95/112",
+              "precision_promo": "95/100",
+              "recall_caution": "38/41",
+              "precision_caution": "38/40"
+            },
+            "macro_f1": 0.8774579018819615,
+            "macro_f1_ci95": [
+              0.8350099032435242,
+              0.9135671603063353
+            ]
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.918918918918919,
+                "recall": 0.8947368421052632,
+                "f1": 0.9066666666666666
+              },
+              "spam": {
+                "precision": 0.58,
+                "recall": 0.7837837837837838,
+                "f1": 0.6666666666666666
+              },
+              "promo": {
+                "precision": 0.9285714285714286,
+                "recall": 0.8125,
+                "f1": 0.8666666666666667
+              },
+              "caution": {
+                "precision": 0.8478260869565217,
+                "recall": 0.9512195121951219,
+                "f1": 0.896551724137931
+              }
+            },
+            "legit_as_scam": 0.06885245901639345,
+            "counts": {
+              "accuracy": "295/342",
+              "legit_as_scam": "21/305",
+              "recall_ham": "136/152",
+              "precision_ham": "136/148",
+              "recall_spam": "29/37",
+              "precision_spam": "29/50",
+              "recall_promo": "91/112",
+              "precision_promo": "91/98",
+              "recall_caution": "39/41",
+              "precision_caution": "39/46"
+            },
+            "macro_f1": 0.8341379310344827,
+            "macro_f1_ci95": [
+              0.7863761688637989,
+              0.8753053444419309
+            ]
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9161290322580645,
+                "recall": 0.9342105263157895,
+                "f1": 0.9250814332247557
+              },
+              "spam": {
+                "precision": 0.6808510638297872,
+                "recall": 0.8648648648648649,
+                "f1": 0.7619047619047619
+              },
+              "promo": {
+                "precision": 0.9509803921568627,
+                "recall": 0.8660714285714286,
+                "f1": 0.9065420560747663
+              },
+              "caution": {
+                "precision": 0.9736842105263158,
+                "recall": 0.9024390243902439,
+                "f1": 0.9367088607594937
+              }
+            },
+            "legit_as_scam": 0.04918032786885246,
+            "counts": {
+              "accuracy": "308/342",
+              "legit_as_scam": "15/305",
+              "recall_ham": "142/152",
+              "precision_ham": "142/155",
+              "recall_spam": "32/37",
+              "precision_spam": "32/47",
+              "recall_promo": "97/112",
+              "precision_promo": "97/102",
+              "recall_caution": "37/41",
+              "precision_caution": "37/38"
+            },
+            "macro_f1": 0.8825592779909445,
+            "macro_f1_ci95": [
+              0.8413601917586669,
+              0.9166691631261074
+            ]
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9210526315789473,
+                "recall": 0.9210526315789473,
+                "f1": 0.9210526315789473
+              },
+              "spam": {
+                "precision": 0.6590909090909091,
+                "recall": 0.7837837837837838,
+                "f1": 0.7160493827160493
+              },
+              "promo": {
+                "precision": 0.897196261682243,
+                "recall": 0.8571428571428571,
+                "f1": 0.8767123287671232
+              },
+              "caution": {
+                "precision": 0.9743589743589743,
+                "recall": 0.926829268292683,
+                "f1": 0.95
+              }
+            },
+            "legit_as_scam": 0.04918032786885246,
+            "counts": {
+              "accuracy": "303/342",
+              "legit_as_scam": "15/305",
+              "recall_ham": "140/152",
+              "precision_ham": "140/152",
+              "recall_spam": "29/37",
+              "precision_spam": "29/44",
+              "recall_promo": "96/112",
+              "precision_promo": "96/107",
+              "recall_caution": "38/41",
+              "precision_caution": "38/39"
+            },
+            "macro_f1": 0.86595358576553,
+            "macro_f1_ci95": [
+              0.8242716384118379,
+              0.9026006936799335
+            ]
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8980891719745223,
+                "recall": 0.9276315789473685,
+                "f1": 0.912621359223301
+              },
+              "spam": {
+                "precision": 0.7073170731707317,
+                "recall": 0.7837837837837838,
+                "f1": 0.7435897435897436
+              },
+              "promo": {
+                "precision": 0.9047619047619048,
+                "recall": 0.8482142857142857,
+                "f1": 0.8755760368663594
+              },
+              "caution": {
+                "precision": 0.9743589743589743,
+                "recall": 0.926829268292683,
+                "f1": 0.95
+              }
+            },
+            "legit_as_scam": 0.03934426229508197,
+            "counts": {
+              "accuracy": "303/342",
+              "legit_as_scam": "12/305",
+              "recall_ham": "141/152",
+              "precision_ham": "141/157",
+              "recall_spam": "29/37",
+              "precision_spam": "29/41",
+              "recall_promo": "95/112",
+              "precision_promo": "95/105",
+              "recall_caution": "38/41",
+              "precision_caution": "38/39"
+            },
+            "macro_f1": 0.870446784919851,
+            "macro_f1_ci95": [
+              0.8287171984760058,
+              0.908609283345225
+            ]
+          },
+          "v73_int8": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9478260869565217,
+                "recall": 0.7171052631578947,
+                "f1": 0.8164794007490637
+              },
+              "spam": {
+                "precision": 0.25555555555555554,
+                "recall": 0.6216216216216216,
+                "f1": 0.36220472440944884
+              },
+              "promo": {
+                "precision": 0.8271604938271605,
+                "recall": 0.5982142857142857,
+                "f1": 0.694300518134715
+              },
+              "caution": {
+                "precision": 0.6607142857142857,
+                "recall": 0.9024390243902439,
+                "f1": 0.7628865979381443
+              }
+            },
+            "legit_as_scam": 0.21967213114754097,
+            "counts": {
+              "accuracy": "236/342",
+              "legit_as_scam": "67/305",
+              "recall_ham": "109/152",
+              "precision_ham": "109/115",
+              "recall_spam": "23/37",
+              "precision_spam": "23/90",
+              "recall_promo": "67/112",
+              "precision_promo": "67/81",
+              "recall_caution": "37/41",
+              "precision_caution": "37/56"
+            },
+            "macro_f1": 0.6589678103078429,
+            "macro_f1_ci95": [
+              0.6113315384989031,
+              0.7042494522093963
+            ]
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8243243243243243,
+                "recall": 0.8026315789473685,
+                "f1": 0.8133333333333334
+              },
+              "spam": {
+                "precision": 0.3235294117647059,
+                "recall": 0.5945945945945946,
+                "f1": 0.41904761904761906
+              },
+              "promo": {
+                "precision": 0.8313253012048193,
+                "recall": 0.6160714285714286,
+                "f1": 0.7076923076923077
+              },
+              "caution": {
+                "precision": 0.6046511627906976,
+                "recall": 0.6341463414634146,
+                "f1": 0.6190476190476191
+              }
+            },
+            "legit_as_scam": 0.15081967213114755,
+            "counts": {
+              "accuracy": "239/342",
+              "legit_as_scam": "46/305",
+              "recall_ham": "122/152",
+              "precision_ham": "122/148",
+              "recall_spam": "22/37",
+              "precision_spam": "22/68",
+              "recall_promo": "69/112",
+              "precision_promo": "69/83",
+              "recall_caution": "26/41",
+              "precision_caution": "26/43"
+            },
+            "macro_f1": 0.6397802197802198,
+            "macro_f1_ci95": [
+              0.5859422380118521,
+              0.6977982135002564
+            ]
+          }
+        },
+        "seeds_macro_f1": {
+          "mean": 0.865465303191281,
+          "std": 0.018846364810654742
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.05377049180327868,
+          "std": 0.009156878717225538
+        }
+      }
+    },
+    "by_source": {
+      "uci": {
+        "n": 254,
+        "n_per_class": {
+          "ham": 137,
+          "spam": 48,
+          "promo": 67,
+          "caution": 2
+        },
+        "skipped_classes_lt10": [
+          "caution"
+        ],
+        "macro_f1_skipped": true,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9420289855072463,
+                "recall": 0.948905109489051,
+                "f1": 0.9454545454545454
+              },
+              "spam": {
+                "precision": 0.7254901960784313,
+                "recall": 0.7708333333333334,
+                "f1": 0.7474747474747475
+              },
+              "promo": {
+                "precision": 0.859375,
+                "recall": 0.8208955223880597,
+                "f1": 0.8396946564885496
+              }
+            },
+            "legit_as_scam": 0.06796116504854369,
+            "counts": {
+              "accuracy": "222/254",
+              "legit_as_scam": "14/206",
+              "recall_ham": "130/137",
+              "precision_ham": "130/138",
+              "recall_spam": "37/48",
+              "precision_spam": "37/51",
+              "recall_promo": "55/67",
+              "precision_promo": "55/64",
+              "recall_caution": "0/2",
+              "precision_caution": "0/1"
+            }
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.935251798561151,
+                "recall": 0.948905109489051,
+                "f1": 0.9420289855072463
+              },
+              "spam": {
+                "precision": 0.7708333333333334,
+                "recall": 0.7708333333333334,
+                "f1": 0.7708333333333334
+              },
+              "promo": {
+                "precision": 0.8656716417910447,
+                "recall": 0.8656716417910447,
+                "f1": 0.8656716417910447
+              }
+            },
+            "legit_as_scam": 0.05339805825242718,
+            "counts": {
+              "accuracy": "225/254",
+              "legit_as_scam": "11/206",
+              "recall_ham": "130/137",
+              "precision_ham": "130/139",
+              "recall_spam": "37/48",
+              "precision_spam": "37/48",
+              "recall_promo": "58/67",
+              "precision_promo": "58/67",
+              "recall_caution": "0/2",
+              "precision_caution": "0/0"
+            }
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9290780141843972,
+                "recall": 0.9562043795620438,
+                "f1": 0.9424460431654677
+              },
+              "spam": {
+                "precision": 0.7872340425531915,
+                "recall": 0.7708333333333334,
+                "f1": 0.7789473684210526
+              },
+              "promo": {
+                "precision": 0.8636363636363636,
+                "recall": 0.8507462686567164,
+                "f1": 0.8571428571428571
+              }
+            },
+            "legit_as_scam": 0.04854368932038835,
+            "counts": {
+              "accuracy": "225/254",
+              "legit_as_scam": "10/206",
+              "recall_ham": "131/137",
+              "precision_ham": "131/141",
+              "recall_spam": "37/48",
+              "precision_spam": "37/47",
+              "recall_promo": "57/67",
+              "precision_promo": "57/66",
+              "recall_caution": "0/2",
+              "precision_caution": "0/0"
+            }
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9424460431654677,
+                "recall": 0.9562043795620438,
+                "f1": 0.9492753623188406
+              },
+              "spam": {
+                "precision": 0.7450980392156863,
+                "recall": 0.7916666666666666,
+                "f1": 0.7676767676767676
+              },
+              "promo": {
+                "precision": 0.873015873015873,
+                "recall": 0.8208955223880597,
+                "f1": 0.8461538461538461
+              }
+            },
+            "legit_as_scam": 0.06310679611650485,
+            "counts": {
+              "accuracy": "224/254",
+              "legit_as_scam": "13/206",
+              "recall_ham": "131/137",
+              "precision_ham": "131/139",
+              "recall_spam": "38/48",
+              "precision_spam": "38/51",
+              "recall_promo": "55/67",
+              "precision_promo": "55/63",
+              "recall_caution": "0/2",
+              "precision_caution": "0/1"
+            }
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9280575539568345,
+                "recall": 0.9416058394160584,
+                "f1": 0.9347826086956522
+              },
+              "spam": {
+                "precision": 0.6909090909090909,
+                "recall": 0.7916666666666666,
+                "f1": 0.7378640776699029
+              },
+              "promo": {
+                "precision": 0.8666666666666667,
+                "recall": 0.7761194029850746,
+                "f1": 0.8188976377952756
+              }
+            },
+            "legit_as_scam": 0.0825242718446602,
+            "counts": {
+              "accuracy": "219/254",
+              "legit_as_scam": "17/206",
+              "recall_ham": "129/137",
+              "precision_ham": "129/139",
+              "recall_spam": "38/48",
+              "precision_spam": "38/55",
+              "recall_promo": "52/67",
+              "precision_promo": "52/60",
+              "recall_caution": "0/2",
+              "precision_caution": "0/0"
+            }
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9428571428571428,
+                "recall": 0.9635036496350365,
+                "f1": 0.9530685920577617
+              },
+              "spam": {
+                "precision": 0.76,
+                "recall": 0.7916666666666666,
+                "f1": 0.7755102040816326
+              },
+              "promo": {
+                "precision": 0.875,
+                "recall": 0.835820895522388,
+                "f1": 0.8549618320610687
+              }
+            },
+            "legit_as_scam": 0.05825242718446602,
+            "counts": {
+              "accuracy": "226/254",
+              "legit_as_scam": "12/206",
+              "recall_ham": "132/137",
+              "precision_ham": "132/140",
+              "recall_spam": "38/48",
+              "precision_spam": "38/50",
+              "recall_promo": "56/67",
+              "precision_promo": "56/64",
+              "recall_caution": "0/2",
+              "precision_caution": "0/0"
+            }
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9103448275862069,
+                "recall": 0.9635036496350365,
+                "f1": 0.9361702127659575
+              },
+              "spam": {
+                "precision": 0.7659574468085106,
+                "recall": 0.75,
+                "f1": 0.7578947368421053
+              },
+              "promo": {
+                "precision": 0.8225806451612904,
+                "recall": 0.7611940298507462,
+                "f1": 0.7906976744186046
+              }
+            },
+            "legit_as_scam": 0.05339805825242718,
+            "counts": {
+              "accuracy": "219/254",
+              "legit_as_scam": "11/206",
+              "recall_ham": "132/137",
+              "precision_ham": "132/145",
+              "recall_spam": "36/48",
+              "precision_spam": "36/47",
+              "recall_promo": "51/67",
+              "precision_promo": "51/62",
+              "recall_caution": "0/2",
+              "precision_caution": "0/0"
+            }
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8859060402684564,
+                "recall": 0.9635036496350365,
+                "f1": 0.9230769230769231
+              },
+              "spam": {
+                "precision": 0.7954545454545454,
+                "recall": 0.7291666666666666,
+                "f1": 0.7608695652173914
+              },
+              "promo": {
+                "precision": 0.8360655737704918,
+                "recall": 0.7611940298507462,
+                "f1": 0.796875
+              }
+            },
+            "legit_as_scam": 0.043689320388349516,
+            "counts": {
+              "accuracy": "218/254",
+              "legit_as_scam": "9/206",
+              "recall_ham": "132/137",
+              "precision_ham": "132/149",
+              "recall_spam": "35/48",
+              "precision_spam": "35/44",
+              "recall_promo": "51/67",
+              "precision_promo": "51/61",
+              "recall_caution": "0/2",
+              "precision_caution": "0/0"
+            }
+          },
+          "v73_int8": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9652173913043478,
+                "recall": 0.8102189781021898,
+                "f1": 0.8809523809523809
+              },
+              "spam": {
+                "precision": 0.3484848484848485,
+                "recall": 0.4791666666666667,
+                "f1": 0.40350877192982454
+              },
+              "promo": {
+                "precision": 0.6545454545454545,
+                "recall": 0.5373134328358209,
+                "f1": 0.5901639344262295
+              }
+            },
+            "legit_as_scam": 0.2087378640776699,
+            "counts": {
+              "accuracy": "170/254",
+              "legit_as_scam": "43/206",
+              "recall_ham": "111/137",
+              "precision_ham": "111/115",
+              "recall_spam": "23/48",
+              "precision_spam": "23/66",
+              "recall_promo": "36/67",
+              "precision_promo": "36/55",
+              "recall_caution": "0/2",
+              "precision_caution": "0/18"
+            }
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9652173913043478,
+                "recall": 0.8102189781021898,
+                "f1": 0.8809523809523809
+              },
+              "spam": {
+                "precision": 0.3484848484848485,
+                "recall": 0.4791666666666667,
+                "f1": 0.40350877192982454
+              },
+              "promo": {
+                "precision": 0.6545454545454545,
+                "recall": 0.5373134328358209,
+                "f1": 0.5901639344262295
+              }
+            },
+            "legit_as_scam": 0.2087378640776699,
+            "counts": {
+              "accuracy": "170/254",
+              "legit_as_scam": "43/206",
+              "recall_ham": "111/137",
+              "precision_ham": "111/115",
+              "recall_spam": "23/48",
+              "precision_spam": "23/66",
+              "recall_promo": "36/67",
+              "precision_promo": "36/55",
+              "recall_caution": "0/2",
+              "precision_caution": "0/18"
+            }
+          }
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.061165048543689315,
+          "std": 0.013115782607870193
+        }
+      },
+      "mishra_soni": {
+        "n": 74,
+        "n_per_class": {
+          "ham": 13,
+          "spam": 29,
+          "promo": 32,
+          "caution": 0
+        },
+        "skipped_classes_lt10": [
+          "caution"
+        ],
+        "macro_f1_skipped": true,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "ham": {
+                "precision": 0.75,
+                "recall": 0.9230769230769231,
+                "f1": 0.8275862068965517
+              },
+              "spam": {
+                "precision": 0.9230769230769231,
+                "recall": 0.8275862068965517,
+                "f1": 0.8727272727272727
+              },
+              "promo": {
+                "precision": 0.967741935483871,
+                "recall": 0.9375,
+                "f1": 0.9523809523809523
+              }
+            },
+            "legit_as_scam": 0.044444444444444446,
+            "counts": {
+              "accuracy": "66/74",
+              "legit_as_scam": "2/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/16",
+              "recall_spam": "24/29",
+              "precision_spam": "24/26",
+              "recall_promo": "30/32",
+              "precision_promo": "30/31",
+              "recall_caution": "0/0",
+              "precision_caution": "0/1"
+            }
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.5454545454545454,
+                "recall": 0.9230769230769231,
+                "f1": 0.6857142857142857
+              },
+              "spam": {
+                "precision": 0.9545454545454546,
+                "recall": 0.7241379310344828,
+                "f1": 0.8235294117647058
+              },
+              "promo": {
+                "precision": 0.9,
+                "recall": 0.84375,
+                "f1": 0.8709677419354839
+              }
+            },
+            "legit_as_scam": 0.022222222222222223,
+            "counts": {
+              "accuracy": "60/74",
+              "legit_as_scam": "1/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/22",
+              "recall_spam": "21/29",
+              "precision_spam": "21/22",
+              "recall_promo": "27/32",
+              "precision_promo": "27/30",
+              "recall_caution": "0/0",
+              "precision_caution": "0/0"
+            }
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.6666666666666666,
+                "recall": 0.9230769230769231,
+                "f1": 0.7741935483870968
+              },
+              "spam": {
+                "precision": 0.96,
+                "recall": 0.8275862068965517,
+                "f1": 0.8888888888888888
+              },
+              "promo": {
+                "precision": 0.9032258064516129,
+                "recall": 0.875,
+                "f1": 0.8888888888888888
+              }
+            },
+            "legit_as_scam": 0.022222222222222223,
+            "counts": {
+              "accuracy": "64/74",
+              "legit_as_scam": "1/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/18",
+              "recall_spam": "24/29",
+              "precision_spam": "24/25",
+              "recall_promo": "28/32",
+              "precision_promo": "28/31",
+              "recall_caution": "0/0",
+              "precision_caution": "0/0"
+            }
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8,
+                "recall": 0.9230769230769231,
+                "f1": 0.8571428571428571
+              },
+              "spam": {
+                "precision": 0.9259259259259259,
+                "recall": 0.8620689655172413,
+                "f1": 0.8928571428571429
+              },
+              "promo": {
+                "precision": 0.967741935483871,
+                "recall": 0.9375,
+                "f1": 0.9523809523809523
+              }
+            },
+            "legit_as_scam": 0.044444444444444446,
+            "counts": {
+              "accuracy": "67/74",
+              "legit_as_scam": "2/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/15",
+              "recall_spam": "25/29",
+              "precision_spam": "25/27",
+              "recall_promo": "30/32",
+              "precision_promo": "30/31",
+              "recall_caution": "0/0",
+              "precision_caution": "0/1"
+            }
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.7058823529411765,
+                "recall": 0.9230769230769231,
+                "f1": 0.8
+              },
+              "spam": {
+                "precision": 0.92,
+                "recall": 0.7931034482758621,
+                "f1": 0.8518518518518519
+              },
+              "promo": {
+                "precision": 0.9354838709677419,
+                "recall": 0.90625,
+                "f1": 0.9206349206349206
+              }
+            },
+            "legit_as_scam": 0.044444444444444446,
+            "counts": {
+              "accuracy": "64/74",
+              "legit_as_scam": "2/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/17",
+              "recall_spam": "23/29",
+              "precision_spam": "23/25",
+              "recall_promo": "29/32",
+              "precision_promo": "29/31",
+              "recall_caution": "0/0",
+              "precision_caution": "0/1"
+            }
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.6666666666666666,
+                "recall": 0.9230769230769231,
+                "f1": 0.7741935483870968
+              },
+              "spam": {
+                "precision": 0.9230769230769231,
+                "recall": 0.8275862068965517,
+                "f1": 0.8727272727272727
+              },
+              "promo": {
+                "precision": 0.9655172413793104,
+                "recall": 0.875,
+                "f1": 0.9180327868852459
+              }
+            },
+            "legit_as_scam": 0.044444444444444446,
+            "counts": {
+              "accuracy": "64/74",
+              "legit_as_scam": "2/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/18",
+              "recall_spam": "24/29",
+              "precision_spam": "24/26",
+              "recall_promo": "28/32",
+              "precision_promo": "28/29",
+              "recall_caution": "0/0",
+              "precision_caution": "0/1"
+            }
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "ham": {
+                "precision": 0.75,
+                "recall": 0.9230769230769231,
+                "f1": 0.8275862068965517
+              },
+              "spam": {
+                "precision": 0.8928571428571429,
+                "recall": 0.8620689655172413,
+                "f1": 0.8771929824561403
+              },
+              "promo": {
+                "precision": 0.9333333333333333,
+                "recall": 0.875,
+                "f1": 0.9032258064516129
+              }
+            },
+            "legit_as_scam": 0.06666666666666667,
+            "counts": {
+              "accuracy": "65/74",
+              "legit_as_scam": "3/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/16",
+              "recall_spam": "25/29",
+              "precision_spam": "25/28",
+              "recall_promo": "28/32",
+              "precision_promo": "28/30",
+              "recall_caution": "0/0",
+              "precision_caution": "0/0"
+            }
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "ham": {
+                "precision": 0.6666666666666666,
+                "recall": 0.9230769230769231,
+                "f1": 0.7741935483870968
+              },
+              "spam": {
+                "precision": 0.8928571428571429,
+                "recall": 0.8620689655172413,
+                "f1": 0.8771929824561403
+              },
+              "promo": {
+                "precision": 0.9285714285714286,
+                "recall": 0.8125,
+                "f1": 0.8666666666666667
+              }
+            },
+            "legit_as_scam": 0.06666666666666667,
+            "counts": {
+              "accuracy": "63/74",
+              "legit_as_scam": "3/45",
+              "recall_ham": "12/13",
+              "precision_ham": "12/18",
+              "recall_spam": "25/29",
+              "precision_spam": "25/28",
+              "recall_promo": "26/32",
+              "precision_promo": "26/28",
+              "recall_caution": "0/0",
+              "precision_caution": "0/0"
+            }
+          },
+          "v73_int8": {
+            "per_class": {
+              "ham": {
+                "precision": 0.5,
+                "recall": 0.6923076923076923,
+                "f1": 0.5806451612903226
+              },
+              "spam": {
+                "precision": 0.6666666666666666,
+                "recall": 0.7586206896551724,
+                "f1": 0.7096774193548387
+              },
+              "promo": {
+                "precision": 0.875,
+                "recall": 0.4375,
+                "f1": 0.5833333333333334
+              }
+            },
+            "legit_as_scam": 0.24444444444444444,
+            "counts": {
+              "accuracy": "45/74",
+              "legit_as_scam": "11/45",
+              "recall_ham": "9/13",
+              "precision_ham": "9/18",
+              "recall_spam": "22/29",
+              "precision_spam": "22/33",
+              "recall_promo": "14/32",
+              "precision_promo": "14/16",
+              "recall_caution": "0/0",
+              "precision_caution": "0/7"
+            }
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "ham": {
+                "precision": 0.5,
+                "recall": 0.6923076923076923,
+                "f1": 0.5806451612903226
+              },
+              "spam": {
+                "precision": 0.6666666666666666,
+                "recall": 0.7586206896551724,
+                "f1": 0.7096774193548387
+              },
+              "promo": {
+                "precision": 0.875,
+                "recall": 0.4375,
+                "f1": 0.5833333333333334
+              }
+            },
+            "legit_as_scam": 0.24444444444444444,
+            "counts": {
+              "accuracy": "45/74",
+              "legit_as_scam": "11/45",
+              "recall_ham": "9/13",
+              "precision_ham": "9/18",
+              "recall_spam": "22/29",
+              "precision_spam": "22/33",
+              "recall_promo": "14/32",
+              "precision_promo": "14/16",
+              "recall_caution": "0/0",
+              "precision_caution": "0/7"
+            }
+          }
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.035555555555555556,
+          "std": 0.012171612389003692
+        }
+      },
+      "export2026": {
+        "n": 119,
+        "n_per_class": {
+          "ham": 30,
+          "spam": 1,
+          "promo": 12,
+          "caution": 76
+        },
+        "skipped_classes_lt10": [
+          "spam"
+        ],
+        "macro_f1_skipped": true,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "ham": {
+                "precision": 0.896551724137931,
+                "recall": 0.8666666666666667,
+                "f1": 0.8813559322033898
+              },
+              "promo": {
+                "precision": 0.9230769230769231,
+                "recall": 1.0,
+                "f1": 0.96
+              },
+              "caution": {
+                "precision": 0.9726027397260274,
+                "recall": 0.9342105263157895,
+                "f1": 0.9530201342281879
+              }
+            },
+            "legit_as_scam": 0.025423728813559324,
+            "counts": {
+              "accuracy": "110/119",
+              "legit_as_scam": "3/118",
+              "recall_ham": "26/30",
+              "precision_ham": "26/29",
+              "recall_spam": "1/1",
+              "precision_spam": "1/4",
+              "recall_promo": "12/12",
+              "precision_promo": "12/13",
+              "recall_caution": "71/76",
+              "precision_caution": "71/73"
+            }
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.896551724137931,
+                "recall": 0.8666666666666667,
+                "f1": 0.8813559322033898
+              },
+              "promo": {
+                "precision": 0.8,
+                "recall": 1.0,
+                "f1": 0.8888888888888888
+              },
+              "caution": {
+                "precision": 0.9701492537313433,
+                "recall": 0.8552631578947368,
+                "f1": 0.9090909090909091
+              }
+            },
+            "legit_as_scam": 0.059322033898305086,
+            "counts": {
+              "accuracy": "104/119",
+              "legit_as_scam": "7/118",
+              "recall_ham": "26/30",
+              "precision_ham": "26/29",
+              "recall_spam": "1/1",
+              "precision_spam": "1/8",
+              "recall_promo": "12/12",
+              "precision_promo": "12/15",
+              "recall_caution": "65/76",
+              "precision_caution": "65/67"
+            }
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8846153846153846,
+                "recall": 0.7666666666666667,
+                "f1": 0.8214285714285714
+              },
+              "promo": {
+                "precision": 0.8,
+                "recall": 1.0,
+                "f1": 0.8888888888888888
+              },
+              "caution": {
+                "precision": 0.958904109589041,
+                "recall": 0.9210526315789473,
+                "f1": 0.9395973154362416
+              }
+            },
+            "legit_as_scam": 0.03389830508474576,
+            "counts": {
+              "accuracy": "106/119",
+              "legit_as_scam": "4/118",
+              "recall_ham": "23/30",
+              "precision_ham": "23/26",
+              "recall_spam": "1/1",
+              "precision_spam": "1/5",
+              "recall_promo": "12/12",
+              "precision_promo": "12/15",
+              "recall_caution": "70/76",
+              "precision_caution": "70/73"
+            }
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.896551724137931,
+                "recall": 0.8666666666666667,
+                "f1": 0.8813559322033898
+              },
+              "promo": {
+                "precision": 0.8571428571428571,
+                "recall": 1.0,
+                "f1": 0.9230769230769231
+              },
+              "caution": {
+                "precision": 0.9861111111111112,
+                "recall": 0.9342105263157895,
+                "f1": 0.9594594594594594
+              }
+            },
+            "legit_as_scam": 0.025423728813559324,
+            "counts": {
+              "accuracy": "110/119",
+              "legit_as_scam": "3/118",
+              "recall_ham": "26/30",
+              "precision_ham": "26/29",
+              "recall_spam": "1/1",
+              "precision_spam": "1/4",
+              "recall_promo": "12/12",
+              "precision_promo": "12/14",
+              "recall_caution": "71/76",
+              "precision_caution": "71/72"
+            }
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 1.0,
+                "recall": 0.6,
+                "f1": 0.75
+              },
+              "promo": {
+                "precision": 0.8,
+                "recall": 1.0,
+                "f1": 0.8888888888888888
+              },
+              "caution": {
+                "precision": 0.9012345679012346,
+                "recall": 0.9605263157894737,
+                "f1": 0.9299363057324841
+              }
+            },
+            "legit_as_scam": 0.03389830508474576,
+            "counts": {
+              "accuracy": "104/119",
+              "legit_as_scam": "4/118",
+              "recall_ham": "18/30",
+              "precision_ham": "18/18",
+              "recall_spam": "1/1",
+              "precision_spam": "1/5",
+              "recall_promo": "12/12",
+              "precision_promo": "12/15",
+              "recall_caution": "73/76",
+              "precision_caution": "73/81"
+            }
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8928571428571429,
+                "recall": 0.8333333333333334,
+                "f1": 0.8620689655172413
+              },
+              "promo": {
+                "precision": 0.8,
+                "recall": 1.0,
+                "f1": 0.8888888888888888
+              },
+              "caution": {
+                "precision": 0.9722222222222222,
+                "recall": 0.9210526315789473,
+                "f1": 0.9459459459459459
+              }
+            },
+            "legit_as_scam": 0.025423728813559324,
+            "counts": {
+              "accuracy": "108/119",
+              "legit_as_scam": "3/118",
+              "recall_ham": "25/30",
+              "precision_ham": "25/28",
+              "recall_spam": "1/1",
+              "precision_spam": "1/4",
+              "recall_promo": "12/12",
+              "precision_promo": "12/15",
+              "recall_caution": "70/76",
+              "precision_caution": "70/72"
+            }
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "ham": {
+                "precision": 0.92,
+                "recall": 0.7666666666666667,
+                "f1": 0.8363636363636363
+              },
+              "promo": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+              },
+              "caution": {
+                "precision": 0.9722222222222222,
+                "recall": 0.9210526315789473,
+                "f1": 0.9459459459459459
+              }
+            },
+            "legit_as_scam": 0.0423728813559322,
+            "counts": {
+              "accuracy": "106/119",
+              "legit_as_scam": "5/118",
+              "recall_ham": "23/30",
+              "precision_ham": "23/25",
+              "recall_spam": "1/1",
+              "precision_spam": "1/6",
+              "recall_promo": "12/12",
+              "precision_promo": "12/16",
+              "recall_caution": "70/76",
+              "precision_caution": "70/72"
+            }
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8846153846153846,
+                "recall": 0.7666666666666667,
+                "f1": 0.8214285714285714
+              },
+              "promo": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+              },
+              "caution": {
+                "precision": 0.971830985915493,
+                "recall": 0.9078947368421053,
+                "f1": 0.9387755102040817
+              }
+            },
+            "legit_as_scam": 0.0423728813559322,
+            "counts": {
+              "accuracy": "105/119",
+              "legit_as_scam": "5/118",
+              "recall_ham": "23/30",
+              "precision_ham": "23/26",
+              "recall_spam": "1/1",
+              "precision_spam": "1/6",
+              "recall_promo": "12/12",
+              "precision_promo": "12/16",
+              "recall_caution": "69/76",
+              "precision_caution": "69/71"
+            }
+          },
+          "v73_int8": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9090909090909091,
+                "recall": 0.3333333333333333,
+                "f1": 0.4878048780487805
+              },
+              "promo": {
+                "precision": 0.6923076923076923,
+                "recall": 0.75,
+                "f1": 0.72
+              },
+              "caution": {
+                "precision": 0.9178082191780822,
+                "recall": 0.881578947368421,
+                "f1": 0.8993288590604027
+              }
+            },
+            "legit_as_scam": 0.17796610169491525,
+            "counts": {
+              "accuracy": "87/119",
+              "legit_as_scam": "21/118",
+              "recall_ham": "10/30",
+              "precision_ham": "10/11",
+              "recall_spam": "1/1",
+              "precision_spam": "1/22",
+              "recall_promo": "9/12",
+              "precision_promo": "9/13",
+              "recall_caution": "67/76",
+              "precision_caution": "67/73"
+            }
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "ham": {
+                "precision": 0.45652173913043476,
+                "recall": 0.7,
+                "f1": 0.5526315789473685
+              },
+              "promo": {
+                "precision": 0.7142857142857143,
+                "recall": 0.8333333333333334,
+                "f1": 0.7692307692307693
+              },
+              "caution": {
+                "precision": 0.9387755102040817,
+                "recall": 0.6052631578947368,
+                "f1": 0.736
+              }
+            },
+            "legit_as_scam": 0.07627118644067797,
+            "counts": {
+              "accuracy": "78/119",
+              "legit_as_scam": "9/118",
+              "recall_ham": "21/30",
+              "precision_ham": "21/46",
+              "recall_spam": "1/1",
+              "precision_spam": "1/10",
+              "recall_promo": "10/12",
+              "precision_promo": "10/14",
+              "recall_caution": "46/76",
+              "precision_caution": "46/49"
+            }
+          }
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.03559322033898306,
+          "std": 0.013925149767080494
+        }
+      },
+      "friends": {
+        "n": 39,
+        "n_per_class": {
+          "ham": 14,
+          "spam": 2,
+          "promo": 20,
+          "caution": 3
+        },
+        "skipped_classes_lt10": [
+          "spam",
+          "caution"
+        ],
+        "macro_f1_skipped": true,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "ham": {
+                "precision": 0.875,
+                "recall": 1.0,
+                "f1": 0.9333333333333333
+              },
+              "promo": {
+                "precision": 1.0,
+                "recall": 0.8,
+                "f1": 0.8888888888888888
+              }
+            },
+            "legit_as_scam": 0.05405405405405406,
+            "counts": {
+              "accuracy": "35/39",
+              "legit_as_scam": "2/37",
+              "recall_ham": "14/14",
+              "precision_ham": "14/16",
+              "recall_spam": "2/2",
+              "precision_spam": "2/4",
+              "recall_promo": "16/20",
+              "precision_promo": "16/16",
+              "recall_caution": "3/3",
+              "precision_caution": "3/3"
+            }
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9333333333333333,
+                "recall": 1.0,
+                "f1": 0.9655172413793104
+              },
+              "promo": {
+                "precision": 1.0,
+                "recall": 0.8,
+                "f1": 0.8888888888888888
+              }
+            },
+            "legit_as_scam": 0.02702702702702703,
+            "counts": {
+              "accuracy": "35/39",
+              "legit_as_scam": "1/37",
+              "recall_ham": "14/14",
+              "precision_ham": "14/15",
+              "recall_spam": "2/2",
+              "precision_spam": "2/3",
+              "recall_promo": "16/20",
+              "precision_promo": "16/16",
+              "recall_caution": "3/3",
+              "precision_caution": "3/5"
+            }
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.875,
+                "recall": 1.0,
+                "f1": 0.9333333333333333
+              },
+              "promo": {
+                "precision": 1.0,
+                "recall": 0.9,
+                "f1": 0.9473684210526315
+              }
+            },
+            "legit_as_scam": 0.02702702702702703,
+            "counts": {
+              "accuracy": "36/39",
+              "legit_as_scam": "1/37",
+              "recall_ham": "14/14",
+              "precision_ham": "14/16",
+              "recall_spam": "2/2",
+              "precision_spam": "2/3",
+              "recall_promo": "18/20",
+              "precision_promo": "18/18",
+              "recall_caution": "2/3",
+              "precision_caution": "2/2"
+            }
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8666666666666667,
+                "recall": 0.9285714285714286,
+                "f1": 0.896551724137931
+              },
+              "promo": {
+                "precision": 0.9411764705882353,
+                "recall": 0.8,
+                "f1": 0.8648648648648649
+              }
+            },
+            "legit_as_scam": 0.05405405405405406,
+            "counts": {
+              "accuracy": "34/39",
+              "legit_as_scam": "2/37",
+              "recall_ham": "13/14",
+              "precision_ham": "13/15",
+              "recall_spam": "2/2",
+              "precision_spam": "2/4",
+              "recall_promo": "16/20",
+              "precision_promo": "16/17",
+              "recall_caution": "3/3",
+              "precision_caution": "3/3"
+            }
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 1.0,
+                "recall": 0.9285714285714286,
+                "f1": 0.9629629629629629
+              },
+              "promo": {
+                "precision": 1.0,
+                "recall": 0.8,
+                "f1": 0.8888888888888888
+              }
+            },
+            "legit_as_scam": 0.08108108108108109,
+            "counts": {
+              "accuracy": "34/39",
+              "legit_as_scam": "3/37",
+              "recall_ham": "13/14",
+              "precision_ham": "13/13",
+              "recall_spam": "2/2",
+              "precision_spam": "2/5",
+              "recall_promo": "16/20",
+              "precision_promo": "16/16",
+              "recall_caution": "3/3",
+              "precision_caution": "3/5"
+            }
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9230769230769231,
+                "recall": 0.8571428571428571,
+                "f1": 0.8888888888888888
+              },
+              "promo": {
+                "precision": 1.0,
+                "recall": 0.95,
+                "f1": 0.9743589743589743
+              }
+            },
+            "legit_as_scam": 0.05405405405405406,
+            "counts": {
+              "accuracy": "36/39",
+              "legit_as_scam": "2/37",
+              "recall_ham": "12/14",
+              "precision_ham": "12/13",
+              "recall_spam": "2/2",
+              "precision_spam": "2/4",
+              "recall_promo": "19/20",
+              "precision_promo": "19/19",
+              "recall_caution": "3/3",
+              "precision_caution": "3/3"
+            }
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "ham": {
+                "precision": 1.0,
+                "recall": 0.9285714285714286,
+                "f1": 0.9629629629629629
+              },
+              "promo": {
+                "precision": 0.95,
+                "recall": 0.95,
+                "f1": 0.95
+              }
+            },
+            "legit_as_scam": 0.05405405405405406,
+            "counts": {
+              "accuracy": "36/39",
+              "legit_as_scam": "2/37",
+              "recall_ham": "13/14",
+              "precision_ham": "13/13",
+              "recall_spam": "1/2",
+              "precision_spam": "1/3",
+              "recall_promo": "19/20",
+              "precision_promo": "19/20",
+              "recall_caution": "3/3",
+              "precision_caution": "3/3"
+            }
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "ham": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "promo": {
+                "precision": 0.95,
+                "recall": 0.95,
+                "f1": 0.95
+              }
+            },
+            "legit_as_scam": 0.02702702702702703,
+            "counts": {
+              "accuracy": "37/39",
+              "legit_as_scam": "1/37",
+              "recall_ham": "14/14",
+              "precision_ham": "14/14",
+              "recall_spam": "1/2",
+              "precision_spam": "1/2",
+              "recall_promo": "19/20",
+              "precision_promo": "19/20",
+              "recall_caution": "3/3",
+              "precision_caution": "3/3"
+            }
+          },
+          "v73_int8": {
+            "per_class": {
+              "ham": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666
+              },
+              "promo": {
+                "precision": 0.8461538461538461,
+                "recall": 0.55,
+                "f1": 0.6666666666666666
+              }
+            },
+            "legit_as_scam": 0.40540540540540543,
+            "counts": {
+              "accuracy": "21/39",
+              "legit_as_scam": "15/37",
+              "recall_ham": "7/14",
+              "precision_ham": "7/7",
+              "recall_spam": "1/2",
+              "precision_spam": "1/16",
+              "recall_promo": "11/20",
+              "precision_promo": "11/13",
+              "recall_caution": "2/3",
+              "precision_caution": "2/3"
+            }
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "ham": {
+                "precision": 0.6842105263157895,
+                "recall": 0.9285714285714286,
+                "f1": 0.7878787878787878
+              },
+              "promo": {
+                "precision": 0.8333333333333334,
+                "recall": 0.75,
+                "f1": 0.7894736842105263
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "30/39",
+              "legit_as_scam": "0/37",
+              "recall_ham": "13/14",
+              "precision_ham": "13/19",
+              "recall_spam": "0/2",
+              "precision_spam": "0/0",
+              "recall_promo": "15/20",
+              "precision_promo": "15/18",
+              "recall_caution": "2/3",
+              "precision_caution": "2/2"
+            }
+          }
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.04864864864864865,
+          "std": 0.022612433149569608
+        }
+      },
+      "inbox": {
+        "n": 33,
+        "n_per_class": {
+          "ham": 3,
+          "spam": 7,
+          "promo": 16,
+          "caution": 7
+        },
+        "skipped_classes_lt10": [
+          "ham",
+          "spam",
+          "caution"
+        ],
+        "macro_f1_skipped": true,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "promo": {
+                "precision": 0.7894736842105263,
+                "recall": 0.9375,
+                "f1": 0.8571428571428571
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "26/33",
+              "legit_as_scam": "0/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/6",
+              "recall_spam": "1/7",
+              "precision_spam": "1/1",
+              "recall_promo": "15/16",
+              "precision_promo": "15/19",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "promo": {
+                "precision": 0.7894736842105263,
+                "recall": 0.9375,
+                "f1": 0.8571428571428571
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "27/33",
+              "legit_as_scam": "0/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/5",
+              "recall_spam": "2/7",
+              "precision_spam": "2/2",
+              "recall_promo": "15/16",
+              "precision_promo": "15/19",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "promo": {
+                "precision": 0.7777777777777778,
+                "recall": 0.875,
+                "f1": 0.8235294117647058
+              }
+            },
+            "legit_as_scam": 0.038461538461538464,
+            "counts": {
+              "accuracy": "25/33",
+              "legit_as_scam": "1/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/6",
+              "recall_spam": "1/7",
+              "precision_spam": "1/2",
+              "recall_promo": "14/16",
+              "precision_promo": "14/18",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "promo": {
+                "precision": 0.75,
+                "recall": 0.9375,
+                "f1": 0.8333333333333334
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "26/33",
+              "legit_as_scam": "0/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/5",
+              "recall_spam": "1/7",
+              "precision_spam": "1/1",
+              "recall_promo": "15/16",
+              "precision_promo": "15/20",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "promo": {
+                "precision": 0.7368421052631579,
+                "recall": 0.875,
+                "f1": 0.8
+              }
+            },
+            "legit_as_scam": 0.038461538461538464,
+            "counts": {
+              "accuracy": "26/33",
+              "legit_as_scam": "1/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/4",
+              "recall_spam": "2/7",
+              "precision_spam": "2/3",
+              "recall_promo": "14/16",
+              "precision_promo": "14/19",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "promo": {
+                "precision": 0.75,
+                "recall": 0.9375,
+                "f1": 0.8333333333333334
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "26/33",
+              "legit_as_scam": "0/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/5",
+              "recall_spam": "1/7",
+              "precision_spam": "1/1",
+              "recall_promo": "15/16",
+              "precision_promo": "15/20",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "promo": {
+                "precision": 0.8333333333333334,
+                "recall": 0.9375,
+                "f1": 0.8823529411764706
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "29/33",
+              "legit_as_scam": "0/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/4",
+              "recall_spam": "4/7",
+              "precision_spam": "4/4",
+              "recall_promo": "15/16",
+              "precision_promo": "15/18",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "promo": {
+                "precision": 0.8823529411764706,
+                "recall": 0.9375,
+                "f1": 0.9090909090909091
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "29/33",
+              "legit_as_scam": "0/26",
+              "recall_ham": "3/3",
+              "precision_ham": "3/5",
+              "recall_spam": "4/7",
+              "precision_spam": "4/4",
+              "recall_promo": "15/16",
+              "precision_promo": "15/17",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "v73_int8": {
+            "per_class": {
+              "promo": {
+                "precision": 0.9285714285714286,
+                "recall": 0.8125,
+                "f1": 0.8666666666666667
+              }
+            },
+            "legit_as_scam": 0.15384615384615385,
+            "counts": {
+              "accuracy": "28/33",
+              "legit_as_scam": "4/26",
+              "recall_ham": "1/3",
+              "precision_ham": "1/1",
+              "recall_spam": "7/7",
+              "precision_spam": "7/11",
+              "recall_promo": "13/16",
+              "precision_promo": "13/14",
+              "recall_caution": "7/7",
+              "precision_caution": "7/7"
+            }
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "promo": {
+                "precision": 0.9285714285714286,
+                "recall": 0.8125,
+                "f1": 0.8666666666666667
+              }
+            },
+            "legit_as_scam": 0.0,
+            "counts": {
+              "accuracy": "21/33",
+              "legit_as_scam": "0/26",
+              "recall_ham": "2/3",
+              "precision_ham": "2/13",
+              "recall_spam": "2/7",
+              "precision_spam": "2/2",
+              "recall_promo": "13/16",
+              "precision_promo": "13/14",
+              "recall_caution": "4/7",
+              "precision_caution": "4/4"
+            }
+          }
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.015384615384615385,
+          "std": 0.02106625221173716
+        }
+      },
+      "indian_origin": {
+        "n": 191,
+        "n_per_class": {
+          "ham": 47,
+          "spam": 10,
+          "promo": 48,
+          "caution": 86
+        },
+        "skipped_classes_lt10": [],
+        "macro_f1_skipped": false,
+        "models": {
+          "new_int8_deploy": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8431372549019608,
+                "recall": 0.9148936170212766,
+                "f1": 0.8775510204081632
+              },
+              "spam": {
+                "precision": 0.4444444444444444,
+                "recall": 0.4,
+                "f1": 0.42105263157894735
+              },
+              "promo": {
+                "precision": 0.8958333333333334,
+                "recall": 0.8958333333333334,
+                "f1": 0.8958333333333334
+              },
+              "caution": {
+                "precision": 0.9759036144578314,
+                "recall": 0.9418604651162791,
+                "f1": 0.9585798816568047
+              }
+            },
+            "legit_as_scam": 0.027624309392265192,
+            "counts": {
+              "accuracy": "171/191",
+              "legit_as_scam": "5/181",
+              "recall_ham": "43/47",
+              "precision_ham": "43/51",
+              "recall_spam": "4/10",
+              "precision_spam": "4/9",
+              "recall_promo": "43/48",
+              "precision_promo": "43/48",
+              "recall_caution": "81/86",
+              "precision_caution": "81/83"
+            },
+            "macro_f1": 0.7882542167443122,
+            "macro_f1_ci95": [
+              0.7010970995815644,
+              0.8723014467742916
+            ]
+          },
+          "new_seed1_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8775510204081632,
+                "recall": 0.9148936170212766,
+                "f1": 0.8958333333333334
+              },
+              "spam": {
+                "precision": 0.38461538461538464,
+                "recall": 0.5,
+                "f1": 0.43478260869565216
+              },
+              "promo": {
+                "precision": 0.86,
+                "recall": 0.8958333333333334,
+                "f1": 0.8775510204081632
+              },
+              "caution": {
+                "precision": 0.9493670886075949,
+                "recall": 0.872093023255814,
+                "f1": 0.9090909090909091
+              }
+            },
+            "legit_as_scam": 0.04419889502762431,
+            "counts": {
+              "accuracy": "166/191",
+              "legit_as_scam": "8/181",
+              "recall_ham": "43/47",
+              "precision_ham": "43/49",
+              "recall_spam": "5/10",
+              "precision_spam": "5/13",
+              "recall_promo": "43/48",
+              "precision_promo": "43/50",
+              "recall_caution": "75/86",
+              "precision_caution": "75/79"
+            },
+            "macro_f1": 0.7793144678820145,
+            "macro_f1_ci95": [
+              0.694896845628122,
+              0.8519784923784189
+            ]
+          },
+          "new_seed2_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8333333333333334,
+                "recall": 0.851063829787234,
+                "f1": 0.8421052631578947
+              },
+              "spam": {
+                "precision": 0.4,
+                "recall": 0.4,
+                "f1": 0.4
+              },
+              "promo": {
+                "precision": 0.8627450980392157,
+                "recall": 0.9166666666666666,
+                "f1": 0.8888888888888888
+              },
+              "caution": {
+                "precision": 0.9634146341463414,
+                "recall": 0.9186046511627907,
+                "f1": 0.9404761904761905
+              }
+            },
+            "legit_as_scam": 0.03314917127071823,
+            "counts": {
+              "accuracy": "167/191",
+              "legit_as_scam": "6/181",
+              "recall_ham": "40/47",
+              "precision_ham": "40/48",
+              "recall_spam": "4/10",
+              "precision_spam": "4/10",
+              "recall_promo": "44/48",
+              "precision_promo": "44/51",
+              "recall_caution": "79/86",
+              "precision_caution": "79/82"
+            },
+            "macro_f1": 0.7678675856307435,
+            "macro_f1_ci95": [
+              0.6835034356158651,
+              0.8536112715895717
+            ]
+          },
+          "new_seed3_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8571428571428571,
+                "recall": 0.8936170212765957,
+                "f1": 0.875
+              },
+              "spam": {
+                "precision": 0.4444444444444444,
+                "recall": 0.4,
+                "f1": 0.42105263157894735
+              },
+              "promo": {
+                "precision": 0.8431372549019608,
+                "recall": 0.8958333333333334,
+                "f1": 0.8686868686868687
+              },
+              "caution": {
+                "precision": 0.9878048780487805,
+                "recall": 0.9418604651162791,
+                "f1": 0.9642857142857143
+              }
+            },
+            "legit_as_scam": 0.027624309392265192,
+            "counts": {
+              "accuracy": "170/191",
+              "legit_as_scam": "5/181",
+              "recall_ham": "42/47",
+              "precision_ham": "42/49",
+              "recall_spam": "4/10",
+              "precision_spam": "4/9",
+              "recall_promo": "43/48",
+              "precision_promo": "43/51",
+              "recall_caution": "81/86",
+              "precision_caution": "81/82"
+            },
+            "macro_f1": 0.7822563036378827,
+            "macro_f1_ci95": [
+              0.6947358201532163,
+              0.8684269277593496
+            ]
+          },
+          "new_seed4_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9714285714285714,
+                "recall": 0.723404255319149,
+                "f1": 0.8292682926829268
+              },
+              "spam": {
+                "precision": 0.38461538461538464,
+                "recall": 0.5,
+                "f1": 0.43478260869565216
+              },
+              "promo": {
+                "precision": 0.84,
+                "recall": 0.875,
+                "f1": 0.8571428571428571
+              },
+              "caution": {
+                "precision": 0.8924731182795699,
+                "recall": 0.9651162790697675,
+                "f1": 0.9273743016759777
+              }
+            },
+            "legit_as_scam": 0.04419889502762431,
+            "counts": {
+              "accuracy": "164/191",
+              "legit_as_scam": "8/181",
+              "recall_ham": "34/47",
+              "precision_ham": "34/35",
+              "recall_spam": "5/10",
+              "precision_spam": "5/13",
+              "recall_promo": "42/48",
+              "precision_promo": "42/50",
+              "recall_caution": "83/86",
+              "precision_caution": "83/93"
+            },
+            "macro_f1": 0.7621420150493534,
+            "macro_f1_ci95": [
+              0.6711253707086278,
+              0.8335269553816452
+            ]
+          },
+          "new_seed5_fp32": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8695652173913043,
+                "recall": 0.851063829787234,
+                "f1": 0.8602150537634409
+              },
+              "spam": {
+                "precision": 0.4444444444444444,
+                "recall": 0.4,
+                "f1": 0.42105263157894735
+              },
+              "promo": {
+                "precision": 0.8518518518518519,
+                "recall": 0.9583333333333334,
+                "f1": 0.9019607843137255
+              },
+              "caution": {
+                "precision": 0.975609756097561,
+                "recall": 0.9302325581395349,
+                "f1": 0.9523809523809523
+              }
+            },
+            "legit_as_scam": 0.027624309392265192,
+            "counts": {
+              "accuracy": "170/191",
+              "legit_as_scam": "5/181",
+              "recall_ham": "40/47",
+              "precision_ham": "40/46",
+              "recall_spam": "4/10",
+              "precision_spam": "4/9",
+              "recall_promo": "46/48",
+              "precision_promo": "46/54",
+              "recall_caution": "80/86",
+              "precision_caution": "80/82"
+            },
+            "macro_f1": 0.7839023555092666,
+            "macro_f1_ci95": [
+              0.6984953023817069,
+              0.8593002934448603
+            ]
+          },
+          "tfidf_lr": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9285714285714286,
+                "recall": 0.8297872340425532,
+                "f1": 0.8764044943820225
+              },
+              "spam": {
+                "precision": 0.46153846153846156,
+                "recall": 0.6,
+                "f1": 0.5217391304347826
+              },
+              "promo": {
+                "precision": 0.8518518518518519,
+                "recall": 0.9583333333333334,
+                "f1": 0.9019607843137255
+              },
+              "caution": {
+                "precision": 0.975609756097561,
+                "recall": 0.9302325581395349,
+                "f1": 0.9523809523809523
+              }
+            },
+            "legit_as_scam": 0.03867403314917127,
+            "counts": {
+              "accuracy": "171/191",
+              "legit_as_scam": "7/181",
+              "recall_ham": "39/47",
+              "precision_ham": "39/42",
+              "recall_spam": "6/10",
+              "precision_spam": "6/13",
+              "recall_promo": "46/48",
+              "precision_promo": "46/54",
+              "recall_caution": "80/86",
+              "precision_caution": "80/82"
+            },
+            "macro_f1": 0.8131213403778708,
+            "macro_f1_ci95": [
+              0.7231988030171056,
+              0.882671405908813
+            ]
+          },
+          "tfidf_svm": {
+            "per_class": {
+              "ham": {
+                "precision": 0.8888888888888888,
+                "recall": 0.851063829787234,
+                "f1": 0.8695652173913043
+              },
+              "spam": {
+                "precision": 0.5,
+                "recall": 0.6,
+                "f1": 0.5454545454545454
+              },
+              "promo": {
+                "precision": 0.8679245283018868,
+                "recall": 0.9583333333333334,
+                "f1": 0.9108910891089109
+              },
+              "caution": {
+                "precision": 0.9753086419753086,
+                "recall": 0.9186046511627907,
+                "f1": 0.9461077844311377
+              }
+            },
+            "legit_as_scam": 0.03314917127071823,
+            "counts": {
+              "accuracy": "171/191",
+              "legit_as_scam": "6/181",
+              "recall_ham": "40/47",
+              "precision_ham": "40/45",
+              "recall_spam": "6/10",
+              "precision_spam": "6/12",
+              "recall_promo": "46/48",
+              "precision_promo": "46/53",
+              "recall_caution": "79/86",
+              "precision_caution": "79/81"
+            },
+            "macro_f1": 0.8180046590964746,
+            "macro_f1_ci95": [
+              0.7305014657504988,
+              0.88582898517363
+            ]
+          },
+          "v73_int8": {
+            "per_class": {
+              "ham": {
+                "precision": 0.9473684210526315,
+                "recall": 0.3829787234042553,
+                "f1": 0.5454545454545454
+              },
+              "spam": {
+                "precision": 0.1836734693877551,
+                "recall": 0.9,
+                "f1": 0.3050847457627119
+              },
+              "promo": {
+                "precision": 0.825,
+                "recall": 0.6875,
+                "f1": 0.75
+              },
+              "caution": {
+                "precision": 0.9156626506024096,
+                "recall": 0.8837209302325582,
+                "f1": 0.8994082840236687
+              }
+            },
+            "legit_as_scam": 0.22099447513812154,
+            "counts": {
+              "accuracy": "136/191",
+              "legit_as_scam": "40/181",
+              "recall_ham": "18/47",
+              "precision_ham": "18/19",
+              "recall_spam": "9/10",
+              "precision_spam": "9/49",
+              "recall_promo": "33/48",
+              "precision_promo": "33/40",
+              "recall_caution": "76/86",
+              "precision_caution": "76/83"
+            },
+            "macro_f1": 0.6249868938102315,
+            "macro_f1_ci95": [
+              0.5523006930764549,
+              0.6882344622474589
+            ]
+          },
+          "v73_int8_rules": {
+            "per_class": {
+              "ham": {
+                "precision": 0.46153846153846156,
+                "recall": 0.7659574468085106,
+                "f1": 0.576
+              },
+              "spam": {
+                "precision": 0.25,
+                "recall": 0.3,
+                "f1": 0.2727272727272727
+              },
+              "promo": {
+                "precision": 0.8260869565217391,
+                "recall": 0.7916666666666666,
+                "f1": 0.8085106382978723
+              },
+              "caution": {
+                "precision": 0.9454545454545454,
+                "recall": 0.6046511627906976,
+                "f1": 0.7375886524822695
+              }
+            },
+            "legit_as_scam": 0.049723756906077346,
+            "counts": {
+              "accuracy": "129/191",
+              "legit_as_scam": "9/181",
+              "recall_ham": "36/47",
+              "precision_ham": "36/78",
+              "recall_spam": "3/10",
+              "precision_spam": "3/12",
+              "recall_promo": "38/48",
+              "precision_promo": "38/46",
+              "recall_caution": "52/86",
+              "precision_caution": "52/55"
+            },
+            "macro_f1": 0.5987066408768535,
+            "macro_f1_ci95": [
+              0.5152398891522297,
+              0.681722100149003
+            ]
+          }
+        },
+        "seeds_macro_f1": {
+          "mean": 0.7750965455418521,
+          "std": 0.00957435396934208
+        },
+        "seeds_legit_as_scam": {
+          "mean": 0.03535911602209944,
+          "std": 0.008378867893979612
+        }
+      }
+    },
+    "main_table_counts": {
+      "new_int8_deploy": {
+        "accuracy": "459/519",
+        "legit_as_scam": "21/432",
+        "recall_ham": "185/197",
+        "precision_ham": "185/205",
+        "recall_spam": "65/87",
+        "precision_spam": "65/86",
+        "recall_promo": "128/147",
+        "precision_promo": "128/143",
+        "recall_caution": "81/88",
+        "precision_caution": "81/85"
+      },
+      "new_seed1_fp32": {
+        "accuracy": "451/519",
+        "legit_as_scam": "20/432",
+        "recall_ham": "185/197",
+        "precision_ham": "185/210",
+        "recall_spam": "63/87",
+        "precision_spam": "63/83",
+        "recall_promo": "128/147",
+        "precision_promo": "128/147",
+        "recall_caution": "75/88",
+        "precision_caution": "75/79"
+      },
+      "new_seed2_fp32": {
+        "accuracy": "456/519",
+        "legit_as_scam": "17/432",
+        "recall_ham": "183/197",
+        "precision_ham": "183/207",
+        "recall_spam": "65/87",
+        "precision_spam": "65/82",
+        "recall_promo": "129/147",
+        "precision_promo": "129/148",
+        "recall_caution": "79/88",
+        "precision_caution": "79/82"
+      },
+      "new_seed3_fp32": {
+        "accuracy": "461/519",
+        "legit_as_scam": "20/432",
+        "recall_ham": "185/197",
+        "precision_ham": "185/203",
+        "recall_spam": "67/87",
+        "precision_spam": "67/87",
+        "recall_promo": "128/147",
+        "precision_promo": "128/145",
+        "recall_caution": "81/88",
+        "precision_caution": "81/84"
+      },
+      "new_seed4_fp32": {
+        "accuracy": "447/519",
+        "legit_as_scam": "27/432",
+        "recall_ham": "175/197",
+        "precision_ham": "175/191",
+        "recall_spam": "66/87",
+        "precision_spam": "66/93",
+        "recall_promo": "123/147",
+        "precision_promo": "123/141",
+        "recall_caution": "83/88",
+        "precision_caution": "83/94"
+      },
+      "new_seed5_fp32": {
+        "accuracy": "460/519",
+        "legit_as_scam": "19/432",
+        "recall_ham": "184/197",
+        "precision_ham": "184/204",
+        "recall_spam": "66/87",
+        "precision_spam": "66/85",
+        "recall_promo": "130/147",
+        "precision_promo": "130/147",
+        "recall_caution": "80/88",
+        "precision_caution": "80/83"
+      },
+      "tfidf_lr": {
+        "accuracy": "455/519",
+        "legit_as_scam": "21/432",
+        "recall_ham": "183/197",
+        "precision_ham": "183/203",
+        "recall_spam": "67/87",
+        "precision_spam": "67/88",
+        "recall_promo": "125/147",
+        "precision_promo": "125/146",
+        "recall_caution": "80/88",
+        "precision_caution": "80/82"
+      },
+      "tfidf_svm": {
+        "accuracy": "452/519",
+        "legit_as_scam": "18/432",
+        "recall_ham": "184/197",
+        "precision_ham": "184/212",
+        "recall_spam": "66/87",
+        "precision_spam": "66/84",
+        "recall_promo": "123/147",
+        "precision_promo": "123/142",
+        "recall_caution": "79/88",
+        "precision_caution": "79/81"
+      },
+      "v73_int8": {
+        "accuracy": "351/519",
+        "legit_as_scam": "94/432",
+        "recall_ham": "138/197",
+        "precision_ham": "138/152",
+        "recall_spam": "54/87",
+        "precision_spam": "54/148",
+        "recall_promo": "83/147",
+        "precision_promo": "83/111",
+        "recall_caution": "76/88",
+        "precision_caution": "76/108"
+      },
+      "v73_int8_rules": {
+        "accuracy": "344/519",
+        "legit_as_scam": "63/432",
+        "recall_ham": "156/197",
+        "precision_ham": "156/211",
+        "recall_spam": "48/87",
+        "precision_spam": "48/111",
+        "recall_promo": "88/147",
+        "precision_promo": "88/117",
+        "recall_caution": "52/88",
+        "precision_caution": "52/80"
+      },
+      "new_int8_qint8": {
+        "accuracy": "454/519",
+        "legit_as_scam": "21/432",
+        "recall_ham": "187/197",
+        "precision_ham": "187/213",
+        "recall_spam": "62/87",
+        "precision_spam": "62/83",
+        "recall_promo": "124/147",
+        "precision_promo": "124/139",
+        "recall_caution": "81/88",
+        "precision_caution": "81/84"
+      },
+      "v73_fp32": {
+        "accuracy": "347/519",
+        "legit_as_scam": "96/432",
+        "recall_ham": "135/197",
+        "precision_ham": "135/149",
+        "recall_spam": "51/87",
+        "precision_spam": "51/147",
+        "recall_promo": "84/147",
+        "precision_promo": "84/114",
+        "recall_caution": "77/88",
+        "precision_caution": "77/109"
+      },
+      "new_int8_deploy_rules": {
+        "accuracy": "433/519",
+        "legit_as_scam": "18/432",
+        "recall_ham": "186/197",
+        "precision_ham": "186/233",
+        "recall_spam": "63/87",
+        "precision_spam": "63/81",
+        "recall_promo": "129/147",
+        "precision_promo": "129/146",
+        "recall_caution": "55/88",
+        "precision_caution": "55/59"
+      }
+    },
+    "test_source_by_class": {
+      "export2026": {
+        "ham": 30,
+        "spam": 1,
+        "promo": 12,
+        "caution": 76
+      },
+      "friend2026": {
+        "ham": 14,
+        "spam": 2,
+        "promo": 20,
+        "caution": 3
+      },
+      "inbox": {
+        "ham": 3,
+        "spam": 7,
+        "promo": 16,
+        "caution": 7
+      },
+      "mishra_soni": {
+        "ham": 13,
+        "spam": 29,
+        "promo": 32,
+        "caution": 0
+      },
+      "uci": {
+        "ham": 137,
+        "spam": 48,
+        "promo": 67,
+        "caution": 2
+      }
+    },
+    "train_source_class_labelsource": {
+      "export2026|caution|claude_silver": 37,
+      "export2026|ham|claude_silver": 315,
+      "export2026|promo|claude_silver": 219,
+      "export2026|spam|claude_silver": 13,
+      "friend2026|caution|claude_silver": 13,
+      "friend2026|ham|claude_silver": 72,
+      "friend2026|promo|claude_silver": 72,
+      "friend2026|spam|claude_silver": 2,
+      "friend2_2026|caution|claude_silver": 11,
+      "friend2_2026|ham|claude_silver": 38,
+      "friend2_2026|promo|claude_silver": 30,
+      "friend3_2026|caution|claude_silver": 19,
+      "friend3_2026|ham|claude_silver": 60,
+      "friend3_2026|promo|claude_silver": 84,
+      "inbox|caution|claude_silver": 2,
+      "inbox|caution|original": 2,
+      "inbox|ham|claude_silver": 13,
+      "inbox|ham|original": 80,
+      "inbox|promo|claude_silver": 14,
+      "inbox|promo|original": 12,
+      "inbox|spam|claude_silver": 19,
+      "mishra_soni|caution|claude_silver": 1,
+      "mishra_soni|ham|claude_silver": 126,
+      "mishra_soni|ham|original": 306,
+      "mishra_soni|promo|claude_silver": 86,
+      "mishra_soni|spam|claude_silver": 24,
+      "mishra_soni|spam|original": 96,
+      "uci|caution|claude_silver": 1,
+      "uci|ham|claude_silver": 961,
+      "uci|ham|original": 2815,
+      "uci|promo|claude_silver": 162,
+      "uci|spam|claude_silver": 77,
+      "uci|spam|original": 100
+    },
+    "train_labelsource_share_by_class": {
+      "ham": {
+        "original": 0.6688257417467613,
+        "claude_silver": 0.3311742582532386
+      },
+      "spam": {
+        "original": 0.5921450151057401,
+        "claude_silver": 0.4078549848942598
+      },
+      "promo": {
+        "claude_silver": 0.9823269513991163,
+        "original": 0.017673048600883652
+      },
+      "caution": {
+        "claude_silver": 0.9767441860465116,
+        "original": 0.023255813953488372
+      }
+    },
+    "clusters_per_split_class": {
+      "train_used": {
+        "ham": 4384,
+        "spam": 266,
+        "promo": 593,
+        "caution": 84
+      },
+      "val": {
+        "ham": 762,
+        "spam": 46,
+        "promo": 101,
+        "caution": 15
+      },
+      "test_main": {
+        "ham": 197,
+        "spam": 87,
+        "promo": 147,
+        "caution": 88
+      }
+    },
+    "owner_check": {
+      "answered": 180,
+      "overrides": 7,
+      "overrides_by_proposed_to_final": [
+        {
+          "proposed": "ham",
+          "final_label": "caution",
+          "n": 1
+        },
+        {
+          "proposed": "promo",
+          "final_label": "caution",
+          "n": 1
+        },
+        {
+          "proposed": "promo",
+          "final_label": "spam",
+          "n": 5
+        }
+      ],
+      "answered_by_proposed_class": {
+        "ham": 47,
+        "spam": 45,
+        "caution": 45,
+        "promo": 43
+      },
+      "overrides_by_proposed_class": {
+        "promo": 6,
+        "ham": 1
+      },
+      "note": "200 decisions were logged for 180 distinct items (undo/redo); the last decision per item counts"
+    },
+    "borderline_test": {
+      "all": 50,
+      "main": 48,
+      "main_by_class": {
+        "promo": 23,
+        "ham": 12,
+        "spam": 11,
+        "caution": 2
+      }
+    },
+    "silver_vs_original": {
+      "n_both": 1982,
+      "agree": 1527,
+      "agreement": 0.7704339051463168,
+      "confusion_original_rows_silver_cols": [
+        [
+          1255,
+          1,
+          3,
+          2
+        ],
+        [
+          56,
+          209,
+          387,
+          2
+        ],
+        [
+          4,
+          0,
+          39,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24
+        ]
+      ],
+      "by_source_agreement": {
+        "export2026": 0.75,
+        "inbox": 0.6260504201680672,
+        "mishra_soni": 0.5986394557823129,
+        "uci": 0.8312056737588652
+      },
+      "caveat": "Silver items were SELECTED mostly where the original label and v7.3 disagreed (plus needs_review and a 10% sample), so agreement here is biased low and is not an accuracy estimate. Original labels map UCI/Mishra spam to scam, while silver separates scam from promo, which also lowers agreement by design.",
+      "owner_silver_spot_check_100": "NOT DONE (the owner's check covered 180 test items instead)",
+      "self_kappa_note": "The kappa = 1.00 second pass was not independent (same model, same session, pass-1 labels in context): do not cite."
+    }
+  }
+}

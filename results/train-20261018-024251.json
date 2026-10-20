@@ -1,0 +1,103 @@
+{
+  "run_id": "train-20261018-024251",
+  "script": "train",
+  "started": "20261018-024251",
+  "code_version": "9ae74bd-dirty",
+  "config": {
+    "model": "distilbert-base-uncased",
+    "balance": "S0",
+    "synthetic_ratio": 1.0,
+    "digits": "D1",
+    "lr": 3e-05,
+    "epochs": 1,
+    "max_len": 64,
+    "batch": 32,
+    "label_smoothing": 0.0,
+    "weight_decay": 0.01,
+    "seed": 13,
+    "limit": 200,
+    "no_save": true
+  },
+  "result": {
+    "device": "cpu",
+    "train_rows": 200,
+    "train_labels": {
+      "caution": 50,
+      "ham": 50,
+      "promo": 50,
+      "spam": 50
+    },
+    "val_rows": 200,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.3530769177845545,
+        "val_loss": 1.3338490104675294,
+        "val_macro_f1": 0.23205476420408822,
+        "val_acc": 0.4,
+        "seconds": 47.9
+      }
+    ],
+    "best_val": {
+      "n": 200,
+      "accuracy": 0.4,
+      "macro_f1": 0.23205476420408822,
+      "mcc": 0.19940375642317487,
+      "per_class": {
+        "ham": {
+          "precision": 1.0,
+          "recall": 0.0380952380952381,
+          "f1": 0.07339449541284404,
+          "support": 105
+        },
+        "spam": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 13
+        },
+        "promo": {
+          "precision": 0.4226190476190476,
+          "recall": 0.9861111111111112,
+          "f1": 0.5916666666666667,
+          "support": 72
+        },
+        "caution": {
+          "precision": 0.17857142857142858,
+          "recall": 0.5,
+          "f1": 0.2631578947368421,
+          "support": 10
+        }
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          82,
+          19
+        ],
+        [
+          0,
+          0,
+          10,
+          3
+        ],
+        [
+          0,
+          0,
+          71,
+          1
+        ],
+        [
+          0,
+          0,
+          5,
+          5
+        ]
+      ],
+      "fpr_legit_as_scam": 0.0,
+      "epoch": 1
+    },
+    "model_dir": null
+  }
+}

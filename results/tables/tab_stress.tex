@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Accuracy on synthetic stress sets (evaluation only).}
+\label{tab:stress}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Stress set (synthetic) & n & Unique & New INT8 acc. & v7.3 INT8 acc. \\
+\midrule
+Spoofed senders & 750 & 172 & 0.663 & 0.645 \\
+\quad with app rules &  &  & 0.503 & 0.353 \\
+\quad camouflaged scams only &  &  & 0.227 & 0.713 \\
+Obfuscation & 500 & 487 & 0.680 & 0.570 \\
+Hinglish & 60 & 60 & 0.550 & 0.617 \\
+Digit probe & 72 & 72 & 0.986 & 0.944 \\
+\bottomrule
+\end{tabular}
+\end{table}

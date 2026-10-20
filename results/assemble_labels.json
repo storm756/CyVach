@@ -1,0 +1,36 @@
+{
+  "run_id": "assemble_labels-20261018-160944",
+  "script": "assemble_labels",
+  "started": "20261018-160944",
+  "code_version": "b7906f7-dirty",
+  "config": {},
+  "result": {
+    "rows": 8283,
+    "by_split_and_source": {
+      "test/claude_blind": 353,
+      "test/human_verified": 180,
+      "trainval/claude_silver": 3393,
+      "trainval/original": 4251
+    },
+    "test_label_counts": {
+      "ham": 204,
+      "promo": 153,
+      "caution": 89,
+      "spam": 87
+    },
+    "trainval_label_counts": {
+      "ham": 5838,
+      "promo": 1021,
+      "spam": 458,
+      "caution": 327
+    },
+    "trainval_synthetic_by_label": {
+      "caution": 226,
+      "promo": 149,
+      "spam": 64,
+      "ham": 1
+    },
+    "test_cluster_members_excluded": 106,
+    "silver_labels_not_in_pool": 128
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "run_id": "audit_inventory-20261018-212022",
+  "script": "audit_inventory",
+  "started": "20261018-212022",
+  "code_version": "5e9e436-dirty",
+  "config": {
+    "seed": 13,
+    "files": [
+      "balanced_training_data.csv",
+      "financial_fraud_training_10000.csv",
+      "financial_fraud_newlybalanced_10000.csv",
+      "Indian_sms_scam.csv",
+      "spam.csv",
+      "ultimate_stress_test_400.csv"
+    ],
+    "minhash": "char5, 128 perm, LSH t=0.8"
+  },
+  "result": {
+    "files": {
+      "balanced_training_data.csv": {
+        "file": "balanced_training_data.csv",
+        "rows": 1141,
+        "columns": [
+          "Address",
+          "Date",
+          "Body",
+          "Type",
+          "Label",
+          "Confidence"
+        ],
+        "label_counts": {
+          "ham": 466,
+          "spam": 293,
+          "caution": 252,
+          "promo": 130
+        },
+        "script_mix": {
+          "latin": 1131,
+          "devanagari+latin": 9,
+          "devanagari": 1
+        },
+        "empty_text_rows": 0,
+        "exact_unique_raw": 914,
+        "exact_dup_rows_raw": 227,
+        "unique_normalized": 817,
+        "dup_rows_normalized": 324,
+        "char_len": {
+          "median": 78.0,
+          "p95": 160.0,
+          "max": 568
+        },
+        "Type_values": {
+          "Received": 1141
+        },
+        "Confidence_values": {
+          "100": 1141
+        },
+        "sender_nonempty": 1141,
+        "sender_kinds": {
+          "numeric_len12": 8,
+          "mobile_number": 6,
+          "dlt_header-S": 385,
+          "dlt_header-P": 52,
+          "dlt_header-G": 8,
+          "dlt_header-T": 2,
+          "other": 680
+        },
+        "sender_kinds_by_label": {
+          "promo": {
+            "dlt_header-S": 9,
+            "dlt_header-P": 41,
+            "other": 80
+          },
+          "ham": {
+            "numeric_len12": 4,
+            "mobile_number": 4,
+            "dlt_header-S": 304,
+            "dlt_header-P": 1,
+            "dlt_header-G": 3,
+            "other": 150
+          },
+          "spam": {
+            "numeric_len12": 4,
+            "dlt_header-S": 49,
+            "dlt_header-P": 10,
+            "dlt_header-G": 4,
+            "mobile_number": 2,
+            "other": 224
+          },
+          "caution": {
+            "dlt_header-S": 23,
+            "dlt_header-G": 1,
+            "dlt_header-T": 2,
+            "other": 226
+          }
+        },
+        "distinct_senders": 543,
+        "label_conflict_keys": 0,
+        "label_conflict_rows": 0,
+        "label_conflict_pairs": {},
+        "near_dup_clusters_t0.8": 640,
+        "effective_unique_by_label_t0.8": {
+          "ham": 72,
+          "spam": 201,
+          "caution": 241,
+          "promo": 126
+        },
+        "clusters_spanning_labels_t0.8": 0,
+        "largest_cluster_sizes_t0.8": [
+          209,
+          28,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "digit_artifacts": {
+          "per_label": {
+            "ham": {
+              "rows": 466,
+              "rows_with_run6": 292,
+              "rows_with_patterned": 284,
+              "runs6": 770,
+              "patterned_runs": 515,
+              "pat_pair_step": 364,
+              "pat_pair_repeat": 151
+            },
+            "spam": {
+              "rows": 293,
+              "rows_with_run6": 97,
+              "rows_with_patterned": 90,
+              "runs6": 97,
+              "patterned_runs": 90,
+              "pat_pair_step": 74,
+              "pat_pair_repeat": 1,
+              "pat_period2": 15
+            },
+            "caution": {
+              "rows": 252,
+              "rows_with_run6": 239,
+              "rows_with_patterned": 236,
+              "runs6": 240,
+              "patterned_runs": 236,
+              "pat_pair_step": 199,
+              "pat_pair_repeat": 37
+            },
+            "promo": {
+              "rows": 130,
+              "rows_with_run6": 14,
+              "runs6": 15,
+              "rows_with_patterned": 1,
+              "patterned_runs": 1,
+              "pat_pair_step": 1
+            }
+          },
+          "random_baseline_patterned_rate_per_run": 0.0011140819964349377,
+          "label_vs_patterned_test": {
+            "chi2": 380.1663252668486,
+            "p": 4.3751823274449846e-82,
+            "dof": 3,
+            "cramers_v": 0.5772234952113926
+          }
+        }
+      },
+      "financial_fraud_training_10000.csv": {
+        "file": "financial_fraud_training_10000.csv",
+        "rows": 10000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "category",
+          "is_synthetic",
+          "sender",
+          "meta"
+        ],
+        "label_counts": {
+          "spam": 5000,
+          "ham": 5000
+        },
+        "script_mix": {
+          "latin": 10000
+        },
+        "empty_text_rows": 0,
+        "exact_unique_raw": 9215,
+        "exact_dup_rows_raw": 785,
+        "unique_normalized": 1141,
+        "dup_rows_normalized": 8859,
+        "char_len": {
+          "median": 81.0,
+          "p95": 108.0,
+          "max": 119
+        },
+        "is_synthetic_counts": {
+          "True": 10000
+        },
+        "is_synthetic_by_label": {
+          "ham": {
+            "True": 5000
+          },
+          "spam": {
+            "True": 5000
+          }
+        },
+        "category_values": {
+          "general_alert": 1651,
+          "refunds": 1565,
+          "delivery": 1535,
+          "banking_upi": 1367,
+          "bills": 698,
+          "crypto": 687,
+          "job_finance": 650,
+          "ecommerce": 636,
+          "wallets": 611,
+          "loans_offers": 600
+        },
+        "meta_values": {
+          "normal_spam": 4500,
+          "normal_ham": 4500,
+          "hard_spam_like_ham": 500,
+          "hard_ham_like_spam": 500
+        },
+        "label_x_category": {
+          "ham": {
+            "refunds": 817,
+            "bills": 698,
+            "banking_upi": 591,
+            "wallets": 611,
+            "delivery": 809,
+            "general_alert": 838,
+            "ecommerce": 636
+          },
+          "spam": {
+            "loans_offers": 600,
+            "banking_upi": 776,
+            "crypto": 687,
+            "general_alert": 813,
+            "refunds": 748,
+            "delivery": 726,
+            "job_finance": 650
+          }
+        },
+        "sender_nonempty": 10000,
+        "sender_kinds": {
+          "numeric_len5": 7637,
+          "other": 1494,
+          "6char_alnum": 869
+        },
+        "sender_kinds_by_label": {
+          "ham": {
+            "numeric_len5": 3234,
+            "6char_alnum": 713,
+            "other": 1053
+          },
+          "spam": {
+            "numeric_len5": 4403,
+            "other": 441,
+            "6char_alnum": 156
+          }
+        },
+        "distinct_senders": 206,
+        "label_conflict_keys": 0,
+        "label_conflict_rows": 0,
+        "label_conflict_pairs": {},
+        "near_dup_clusters_t0.8": 291,
+        "effective_unique_by_label_t0.8": {
+          "spam": 26,
+          "ham": 265
+        },
+        "clusters_spanning_labels_t0.8": 0,
+        "largest_cluster_sizes_t0.8": [
+          397,
+          395,
+          394,
+          393,
+          389,
+          375,
+          367,
+          366,
+          365,
+          364
+        ],
+        "digit_artifacts": {
+          "per_label": {
+            "spam": {
+              "rows": 5000,
+              "rows_with_run6": 1262,
+              "runs6": 1262,
+              "rows_with_patterned": 5,
+              "patterned_runs": 5,
+              "pat_period3": 4,
+              "pat_pair_repeat": 1
+            },
+            "ham": {
+              "rows": 5000,
+              "rows_with_run6": 2056,
+              "runs6": 2399,
+              "rows_with_patterned": 1,
+              "patterned_runs": 1,
+              "pat_period3": 1
+            }
+          },
+          "random_baseline_patterned_rate_per_run": 0.0016935263589183283,
+          "label_vs_patterned_test": {
+            "chi2": 1.5009005403241946,
+            "p": 0.22053285106671563,
+            "dof": 1,
+            "cramers_v": 0.01225112460276278
+          }
+        }
+      },
+      "financial_fraud_newlybalanced_10000.csv": {
+        "file": "financial_fraud_newlybalanced_10000.csv",
+        "rows": 10000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "category",
+          "sender",
+          "is_synthetic"
+        ],
+        "label_counts": {
+          "spam": 5000,
+          "ham": 5000
+        },
+        "script_mix": {
+          "latin": 10000
+        },
+        "empty_text_rows": 0,
+        "exact_unique_raw": 9236,
+        "exact_dup_rows_raw": 764,
+        "unique_normalized": 1858,
+        "dup_rows_normalized": 8142,
+        "char_len": {
+          "median": 80.0,
+          "p95": 109.0,
+          "max": 118
+        },
+        "is_synthetic_counts": {
+          "True": 5000,
+          "False": 5000
+        },
+        "is_synthetic_by_label": {
+          "ham": {
+            "False": 5000
+          },
+          "spam": {
+            "True": 5000
+          }
+        },
+        "category_values": {
+          "general_alert": 1610,
+          "delivery": 1564,
+          "refunds": 1536,
+          "banking_upi": 1422,
+          "ecommerce": 673,
+          "job_finance": 649,
+          "loans_offers": 641,
+          "bills": 638,
+          "crypto": 636,
+          "wallets": 631
+        },
+        "label_x_category": {
+          "ham": {
+            "wallets": 631,
+            "general_alert": 773,
+            "refunds": 826,
+            "ecommerce": 673,
+            "banking_upi": 668,
+            "bills": 638,
+            "delivery": 791
+          },
+          "spam": {
+            "loans_offers": 641,
+            "general_alert": 837,
+            "refunds": 710,
+            "delivery": 773,
+            "crypto": 636,
+            "banking_upi": 754,
+            "job_finance": 649
+          }
+        },
+        "sender_nonempty": 10000,
+        "sender_kinds": {
+          "other": 5994,
+          "6char_alnum": 3699,
+          "numeric_len5": 307
+        },
+        "sender_kinds_by_label": {
+          "ham": {
+            "numeric_len5": 307,
+            "6char_alnum": 2061,
+            "other": 2632
+          },
+          "spam": {
+            "other": 3362,
+            "6char_alnum": 1638
+          }
+        },
+        "distinct_senders": 679,
+        "label_conflict_keys": 0,
+        "label_conflict_rows": 0,
+        "label_conflict_pairs": {},
+        "near_dup_clusters_t0.8": 366,
+        "effective_unique_by_label_t0.8": {
+          "spam": 27,
+          "ham": 339
+        },
+        "clusters_spanning_labels_t0.8": 0,
+        "largest_cluster_sizes_t0.8": [
+          409,
+          401,
+          387,
+          377,
+          376,
+          374,
+          373,
+          368,
+          368,
+          362
+        ],
+        "digit_artifacts": {
+          "per_label": {
+            "spam": {
+              "rows": 5000,
+              "rows_with_run6": 1215,
+              "runs6": 1215,
+              "rows_with_patterned": 4,
+              "patterned_runs": 4,
+              "pat_period3": 3,
+              "pat_pair_repeat": 1
+            },
+            "ham": {
+              "rows": 5000,
+              "rows_with_run6": 2027,
+              "runs6": 2404,
+              "rows_with_patterned": 2,
+              "patterned_runs": 2,
+              "pat_seq_ge5": 2
+            }
+          },
+          "random_baseline_patterned_rate_per_run": 0.002030947775628627,
+          "label_vs_patterned_test": {
+            "chi2": 0.16676672670268827,
+            "p": 0.6830014528786098,
+            "dof": 1,
+            "cramers_v": 0.004083708200920927
+          }
+        }
+      },
+      "Indian_sms_scam.csv": {
+        "file": "Indian_sms_scam.csv",
+        "rows": 2266,
+        "columns": [
+          "Message",
+          "Actual",
+          "Actual_Label"
+        ],
+        "label_counts": {
+          "Scam": 745,
+          "Not Scam": 1521
+        },
+        "script_mix": {
+          "latin": 2215,
+          "no_letters": 51
+        },
+        "empty_text_rows": 0,
+        "exact_unique_raw": 2062,
+        "exact_dup_rows_raw": 204,
+        "unique_normalized": 1960,
+        "dup_rows_normalized": 306,
+        "char_len": {
+          "median": 69.0,
+          "p95": 281.25,
+          "max": 743
+        },
+        "Actual_values": {
+          "0": 1521,
+          "1": 745
+        },
+        "label_conflict_keys": 0,
+        "label_conflict_rows": 0,
+        "label_conflict_pairs": {},
+        "near_dup_clusters_t0.8": 1882,
+        "effective_unique_by_label_t0.8": {
+          "Scam": 595,
+          "Not Scam": 1287
+        },
+        "clusters_spanning_labels_t0.8": 0,
+        "largest_cluster_sizes_t0.8": [
+          27,
+          22,
+          18,
+          14,
+          12,
+          12,
+          12,
+          11,
+          10,
+          10
+        ],
+        "digit_artifacts": {
+          "per_label": {
+            "Scam": {
+              "rows": 745,
+              "rows_with_run6": 68,
+              "runs6": 75
+            },
+            "Not Scam": {
+              "rows": 1521,
+              "rows_with_run6": 14,
+              "runs6": 14
+            }
+          },
+          "random_baseline_patterned_rate_per_run": 0.0028089887640449437,
+          "label_vs_patterned_test": "not computable (no patterned runs or empty label)"
+        }
+      },
+      "spam.csv": {
+        "file": "spam.csv",
+        "rows": 5572,
+        "columns": [
+          "Category",
+          "Message"
+        ],
+        "label_counts": {
+          "ham": 4825,
+          "spam": 747
+        },
+        "script_mix": {
+          "latin": 5568,
+          "no_letters": 3,
+          "other_nonlatin": 1
+        },
+        "empty_text_rows": 0,
+        "exact_unique_raw": 5157,
+        "exact_dup_rows_raw": 415,
+        "unique_normalized": 5134,
+        "dup_rows_normalized": 438,
+        "char_len": {
+          "median": 61.0,
+          "p95": 160.0,
+          "max": 910
+        },
+        "label_conflict_keys": 0,
+        "label_conflict_rows": 0,
+        "label_conflict_pairs": {},
+        "near_dup_clusters_t0.8": 5014,
+        "effective_unique_by_label_t0.8": {
+          "ham": 4499,
+          "spam": 515
+        },
+        "clusters_spanning_labels_t0.8": 0,
+        "largest_cluster_sizes_t0.8": [
+          30,
+          12,
+          12,
+          10,
+          8,
+          8,
+          6,
+          5,
+          5,
+          5
+        ],
+        "digit_artifacts": {
+          "per_label": {
+            "ham": {
+              "rows": 4825,
+              "rows_with_run6": 3,
+              "runs6": 3
+            },
+            "spam": {
+              "rows": 747,
+              "rows_with_run6": 416,
+              "runs6": 468,
+              "rows_with_patterned": 2,
+              "patterned_runs": 2,
+              "pat_seq_ge5": 2
+            }
+          },
+          "random_baseline_patterned_rate_per_run": 0.000743099787685775,
+          "label_vs_patterned_test": {
+            "chi2": 6.538265425606015,
+            "p": 0.010557824267690825,
+            "dof": 1,
+            "cramers_v": 0.03425513785957573
+          }
+        }
+      },
+      "ultimate_stress_test_400.csv": {
+        "file": "ultimate_stress_test_400.csv",
+        "rows": 400,
+        "columns": [
+          "Body",
+          "Label"
+        ],
+        "label_counts": {
+          "caution": 100,
+          "promo": 100,
+          "ham": 100,
+          "spam": 100
+        },
+        "script_mix": {
+          "latin": 400
+        },
+        "empty_text_rows": 0,
+        "exact_unique_raw": 285,
+        "exact_dup_rows_raw": 115,
+        "unique_normalized": 234,
+        "dup_rows_normalized": 166,
+        "char_len": {
+          "median": 64.0,
+          "p95": 73.0,
+          "max": 80
+        },
+        "label_conflict_keys": 0,
+        "label_conflict_rows": 0,
+        "label_conflict_pairs": {},
+        "near_dup_clusters_t0.8": 161,
+        "effective_unique_by_label_t0.8": {
+          "caution": 36,
+          "promo": 41,
+          "ham": 66,
+          "spam": 18
+        },
+        "clusters_spanning_labels_t0.8": 0,
+        "largest_cluster_sizes_t0.8": [
+          17,
+          16,
+          12,
+          12,
+          12,
+          12,
+          11,
+          11,
+          11,
+          9
+        ],
+        "digit_artifacts": {
+          "per_label": {
+            "caution": {
+              "rows": 100,
+              "rows_with_run6": 18,
+              "rows_with_patterned": 18,
+              "runs6": 18,
+              "patterned_runs": 18,
+              "pat_pair_repeat": 6,
+              "pat_descending": 2,
+              "pat_pair_step": 10
+            },
+            "promo": {
+              "rows": 100,
+              "rows_with_run6": 12,
+              "rows_with_patterned": 12,
+              "runs6": 12,
+              "patterned_runs": 12,
+              "pat_pair_repeat": 6,
+              "pat_descending": 4,
+              "pat_pair_step": 2
+            },
+            "ham": {
+              "rows": 100,
+              "rows_with_run6": 22,
+              "rows_with_patterned": 22,
+              "runs6": 25,
+              "patterned_runs": 25,
+              "pat_pair_repeat": 9,
+              "pat_pair_step": 13,
+              "pat_descending": 3
+            },
+            "spam": {
+              "rows": 100,
+              "rows_with_run6": 5,
+              "rows_with_patterned": 5,
+              "runs6": 5,
+              "patterned_runs": 5,
+              "pat_pair_repeat": 2,
+              "pat_pair_step": 2,
+              "pat_descending": 1
+            }
+          },
+          "random_baseline_patterned_rate_per_run": 0.0008333333333333334,
+          "label_vs_patterned_test": {
+            "chi2": 13.48268630760575,
+            "p": 0.0037009664207200824,
+            "dof": 3,
+            "cramers_v": 0.18359388815811484
+          }
+        }
+      }
+    },
+    "cross_file_overlap": {
+      "financial_fraud_training_10000.csv & financial_fraud_newlybalanced_10000.csv": {
+        "shared_normalized_texts": 655,
+        "label_pairs": {
+          "ham -> ham": 592,
+          "spam -> spam": 63
+        }
+      },
+      "Indian_sms_scam.csv & spam.csv": {
+        "shared_normalized_texts": 2,
+        "label_pairs": {
+          "Not Scam -> ham": 2
+        }
+      }
+    },
+    "stepA_cloning_balanced": {
+      "rows_by_label": {
+        "ham": 466,
+        "spam": 293,
+        "caution": 252,
+        "promo": 130
+      },
+      "exact_templates_digits_masked": {
+        "ham": 244,
+        "spam": 201,
+        "caution": 244,
+        "promo": 128
+      },
+      "exact_templates_digits_names_masked": {
+        "ham": 68,
+        "spam": 201,
+        "caution": 244,
+        "promo": 128
+      },
+      "exact_templates_aggressive_caps_masked": {
+        "ham": 67,
+        "spam": 201,
+        "caution": 244,
+        "promo": 128
+      },
+      "minhash_clusters_t0.8": {
+        "ham": 52,
+        "spam": 199,
+        "caution": 242,
+        "promo": 126
+      },
+      "rows_in_clusters_size_ge3_t0.8": {
+        "ham": 430,
+        "spam": 100,
+        "caution": 11,
+        "promo": 3
+      },
+      "max_cluster_size_t0.8": {
+        "ham": 221,
+        "spam": 15,
+        "caution": 6,
+        "promo": 3
+      },
+      "minhash_clusters_t0.6": {
+        "ham": 42,
+        "spam": 198,
+        "caution": 208,
+        "promo": 124
+      },
+      "rows_in_clusters_size_ge3_t0.6": {
+        "ham": 438,
+        "spam": 103,
+        "caution": 40,
+        "promo": 6
+      },
+      "max_cluster_size_t0.6": {
+        "ham": 233,
+        "spam": 15,
+        "caution": 7,
+        "promo": 3
+      }
+    }
+  }
+}

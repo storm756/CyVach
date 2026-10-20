@@ -1,0 +1,54 @@
+\begin{table}[t]
+\centering
+\caption{Post-hoc: test results by source (main subset). Per-class F1 shown only for classes with $\geq$10 items; macro-F1 only if all four have $\geq$10.}
+\label{tab:ph_source}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Macro-F1 [95\% CI] & F1 ham & F1 scam & F1 promo & F1 caution & Legit$\to$scam (k/n) \\
+\midrule
+\textit{UCI} (n=254; 137/48/67/2) &  &  &  &  &  &  \\
+New INT8 (deployed) & skipped & 0.95 & 0.75 & 0.84 & -- & 14/206 \\
+New FP32, 5 seeds & skipped &  &  &  &  & 6.1 $\pm$ 1.3 \\
+TF-IDF LR & skipped & 0.94 & 0.76 & 0.79 & -- & 11/206 \\
+TF-IDF SVM & skipped & 0.92 & 0.76 & 0.80 & -- & 9/206 \\
+v7.3 INT8 & skipped & 0.88 & 0.40 & 0.59 & -- & 43/206 \\
+v7.3 INT8 + rules & skipped & 0.88 & 0.40 & 0.59 & -- & 43/206 \\
+\textit{Mishra \& Soni} (n=74; 13/29/32/0) &  &  &  &  &  &  \\
+New INT8 (deployed) & skipped & 0.83 & 0.87 & 0.95 & -- & 2/45 \\
+New FP32, 5 seeds & skipped &  &  &  &  & 3.6 $\pm$ 1.2 \\
+TF-IDF LR & skipped & 0.83 & 0.88 & 0.90 & -- & 3/45 \\
+TF-IDF SVM & skipped & 0.77 & 0.88 & 0.87 & -- & 3/45 \\
+v7.3 INT8 & skipped & 0.58 & 0.71 & 0.58 & -- & 11/45 \\
+v7.3 INT8 + rules & skipped & 0.58 & 0.71 & 0.58 & -- & 11/45 \\
+\textit{Owner export} (n=119; 30/1/12/76) &  &  &  &  &  &  \\
+New INT8 (deployed) & skipped & 0.88 & -- & 0.96 & 0.95 & 3/118 \\
+New FP32, 5 seeds & skipped &  &  &  &  & 3.6 $\pm$ 1.4 \\
+TF-IDF LR & skipped & 0.84 & -- & 0.86 & 0.95 & 5/118 \\
+TF-IDF SVM & skipped & 0.82 & -- & 0.86 & 0.94 & 5/118 \\
+v7.3 INT8 & skipped & 0.49 & -- & 0.72 & 0.90 & 21/118 \\
+v7.3 INT8 + rules & skipped & 0.55 & -- & 0.77 & 0.74 & 9/118 \\
+\textit{Friends} (n=39; 14/2/20/3) &  &  &  &  &  &  \\
+New INT8 (deployed) & skipped & 0.93 & -- & 0.89 & -- & 2/37 \\
+New FP32, 5 seeds & skipped &  &  &  &  & 4.9 $\pm$ 2.3 \\
+TF-IDF LR & skipped & 0.96 & -- & 0.95 & -- & 2/37 \\
+TF-IDF SVM & skipped & 1.00 & -- & 0.95 & -- & 1/37 \\
+v7.3 INT8 & skipped & 0.67 & -- & 0.67 & -- & 15/37 \\
+v7.3 INT8 + rules & skipped & 0.79 & -- & 0.79 & -- & 0/37 \\
+\textit{Inbox file} (n=33; 3/7/16/7) &  &  &  &  &  &  \\
+New INT8 (deployed) & skipped & -- & -- & 0.86 & -- & 0/26 \\
+New FP32, 5 seeds & skipped &  &  &  &  & 1.5 $\pm$ 2.1 \\
+TF-IDF LR & skipped & -- & -- & 0.88 & -- & 0/26 \\
+TF-IDF SVM & skipped & -- & -- & 0.91 & -- & 0/26 \\
+v7.3 INT8 & skipped & -- & -- & 0.87 & -- & 4/26 \\
+v7.3 INT8 + rules & skipped & -- & -- & 0.87 & -- & 0/26 \\
+\textit{Indian-origin (export+friends+inbox)} (n=191; 47/10/48/86) &  &  &  &  &  &  \\
+New INT8 (deployed) & 0.788 [0.70, 0.87] & 0.88 & 0.42 & 0.90 & 0.96 & 5/181 \\
+New FP32, 5 seeds & 0.775 $\pm$ 0.010 &  &  &  &  & 3.5 $\pm$ 0.8 \\
+TF-IDF LR & 0.813 [0.72, 0.88] & 0.88 & 0.52 & 0.90 & 0.95 & 7/181 \\
+TF-IDF SVM & 0.818 [0.73, 0.89] & 0.87 & 0.55 & 0.91 & 0.95 & 6/181 \\
+v7.3 INT8 & 0.625 [0.55, 0.69] & 0.55 & 0.31 & 0.75 & 0.90 & 40/181 \\
+v7.3 INT8 + rules & 0.599 [0.52, 0.68] & 0.58 & 0.27 & 0.81 & 0.74 & 9/181 \\
+\bottomrule
+\end{tabular}
+\end{table}

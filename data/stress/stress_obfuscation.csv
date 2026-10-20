@@ -1,0 +1,501 @@
+item_id,base_id,transform,text,final_label,is_synthetic
+ob_sp00_none,sp00,none,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,True
+ob_sp00_typos,sp00,typos,"Dear customer, your HDFC Bank account KYC has expired and the account will be blocked today. Update now at http://secure-hdfcbank-verify.com",spam,True
+ob_sp00_spacing,sp00,spacing,"D-e-a-r customer, your HDFC Bank account KYC has e.x.p.i.r.e.d and the a c c o u n t w.i.l.l be b-l-o-c-k-e-d today. U p d a t e now at http://secure-hdfcbank-verify.com",spam,True
+ob_sp00_homoglyph,sp00,homoglyph,"Dear сustоmеr, your HDFC Bаnk aсcount KYC has ехрirеd and the accоunt wіll bе blосkеd today. Uрdаte now at http://securе-hdfcbаnk-verіfy.соm",spam,True
+ob_sp00_leetspeak,sp00,leetspeak,"Dear cu570m3r, y0ur HDFC Bank account KYC h45 expired 4nd the 4cc0un7 will be bl0ck3d 70d4y. Update n0w 47 http://secure-hdfcbank-verify.com",spam,True
+ob_sp01_none,sp01,none,Your SBI debit card has been temporarily suspended due to suspicious activity. Verify your details here: http://sbi.account-check.top,spam,True
+ob_sp01_typos,sp01,typos,Yoru SBI debbit card has been teporarily suspended due to suspicious activity. Verify yur details here: http://sbi.account-check.top,spam,True
+ob_sp01_spacing,sp01,spacing,Your SBI debit card has b-e-e-n temporarily suspended due to suspicious activity. V.e.r.i.f.y y-o-u-r details here: http://sbi.account-check.top,spam,True
+ob_sp01_homoglyph,sp01,homoglyph,Yоur SBI dеbіt card has bееn tеmporarіly suspended due to suspiсiоus aсtivіtу. Verify your detaіls herе: http://sbі.acсount-сheck.top,spam,True
+ob_sp01_leetspeak,sp01,leetspeak,Y0ur 5B1 d3b17 c4rd h45 b33n temporarily suspended du3 to 5u5p1c10u5 activity. Verify y0ur d3741l5 h3r3: http://sbi.account-check.top,spam,True
+ob_sp02_none,sp02,none,Congratulations! Your number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,True
+ob_sp02_typos,sp02,typos,Congratulations! Youur number has won Rs 344 in the BSNL lucy draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,True
+ob_sp02_spacing,sp02,spacing,Congratulations! Y o u r number has won Rs 344 in the BSNL lucky draw. Pay a processing fee of Rs 499 to claim: http://bsnl.account-check.top,spam,True
+ob_sp02_homoglyph,sp02,homoglyph,Congratulаtions! Your number hаs won Rs 344 іn the BSNL luckу draw. Pау а рrосеssing feе of Rs 499 tо claim: httр://bsnl.account-check.tоp,spam,True
+ob_sp02_leetspeak,sp02,leetspeak,C0ngr47ul4710n5! Your numb3r h45 w0n Rs 344 1n 7h3 BSNL lucky draw. Pay a pr0c3551ng fee 0f Rs 499 70 claim: http://bsnl.account-check.top,spam,True
+ob_sp03_none,sp03,none,Your Blinkit parcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to reschedule delivery: http://blinkit-refund-portal.site,spam,True
+ob_sp03_typos,sp03,typos,Yoour Blinkit parrcel is on hold at the warehouse due to an incomplete address. Pay Rs 25 to rescheudle delivery: http://blinkit-refund-portal.site,spam,True
+ob_sp03_spacing,sp03,spacing,Your B-l-i-n-k-i-t p a r c e l is on hold at the w-a-r-e-h-o-u-s-e due to an i-n-c-o-m-p-l-e-t-e address. Pay Rs 25 to r.e.s.c.h.e.d.u.l.e delivery: http://blinkit-refund-portal.site,spam,True
+ob_sp03_homoglyph,sp03,homoglyph,Your Blinkіt раrсel is оn hold at thе warеhоuse duе to аn inсompletе address. Pаy Rs 25 to rеsсhеdule delivеry: httр://blinkіt-rеfund-pоrtal.sіtе,spam,True
+ob_sp03_leetspeak,sp03,leetspeak,Your Blinkit p4rc3l 15 on hold at the warehouse du3 to 4n incomplete 4ddr355. P4y Rs 25 70 reschedule d3l1v3ry: http://blinkit-refund-portal.site,spam,True
+ob_sp04_none,sp04,none,Electricity Board: your power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Call the officer on 9815188447 immediately.,spam,True
+ob_sp04_typos,sp04,typos,Electricity Board: youur power will be disconnected tonight at 9:30 pm as last month's bill is not updated. Caall the officer on 9815188447 immediately.,spam,True
+ob_sp04_spacing,sp04,spacing,Electricity Board: y-o-u-r power w.i.l.l be disconnected tonight at 9:30 pm as l a s t month's bill is not updated. C.a.l.l the o f f i c e r on 9815188447 immediately.,spam,True
+ob_sp04_homoglyph,sp04,homoglyph,Eleсtriсіty Bоаrd: уour power will be dіsconnected tonight at 9:30 pm as last month's bill іs not uрdatеd. Call the officеr оn 9815188447 іmmеdіаtеly.,spam,True
+ob_sp04_leetspeak,sp04,leetspeak,Electricity B04rd: your p0w3r will be d15c0nn3c73d 70n1gh7 47 9:30 pm as l457 month's bill 15 n07 upd473d. C4ll 7h3 officer 0n 9815188447 1mm3d1473ly.,spam,True
+ob_sp05_none,sp05,none,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by liking videos from home. No experience needed. WhatsApp 7940557616",spam,True
+ob_sp05_typos,sp05,typos,"Part-time job offer: eran Rs 3,000 to Rs 8,000 daiy by liking videos from home. No experience needed. WhatsApp 7940557616",spam,True
+ob_sp05_spacing,sp05,spacing,"Part-time job offer: earn Rs 3,000 to Rs 8,000 daily by l.i.k.i.n.g v i d e o s from home. No e x p e r i e n c e needed. WhatsApp 7940557616",spam,True
+ob_sp05_homoglyph,sp05,homoglyph,"Part-time jоb offer: earn Rs 3,000 to Rs 8,000 daіlу by liking videos from hоmе. Nо еxpеrіence neеded. WhatsApр 7940557616",spam,True
+ob_sp05_leetspeak,sp05,leetspeak,"Part-time j0b offer: 34rn Rs 3,000 to Rs 8,000 daily by liking videos fr0m home. N0 3xp3r13nc3 needed. WhatsApp 7940557616",spam,True
+ob_sp06_none,sp06,none,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bank details to receive it: http://axisbank.account-check.top",spam,True
+ob_sp06_typos,sp06,typos,"Income Tax Department: a refund of Rs 3,23,054 has been approved for you. Submit your bnk details to receive it: http://axisbank.account-check.top",spam,True
+ob_sp06_spacing,sp06,spacing,"Income Tax Department: a refund of Rs 3,23,054 has b e e n approved for you. S-u-b-m-i-t your bank details to receive it: http://axisbank.account-check.top",spam,True
+ob_sp06_homoglyph,sp06,homoglyph,"Incomе Tах Departmеnt: a refund of Rs 3,23,054 has bеen apрrоved for уоu. Submіt yоur bank dеtails tо recеivе іt: http://аxіsbank.account-сheсk.tоp",spam,True
+ob_sp06_leetspeak,sp06,leetspeak,"1nc0m3 74x Department: 4 refund of Rs 3,23,054 h45 been approved for you. 5ubm17 y0ur b4nk d3741l5 to receive 17: http://axisbank.account-check.top",spam,True
+ob_sp07_none,sp07,none,Your PAN card will be deactivated in 24 hours. Link it with Aadhaar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,True
+ob_sp07_typos,sp07,typos,Yoour PAN caard will be deactivated in 24 hours. Lik it with Aadahar immediately to avoid a penalty: http://kotakbankcare-support.xyz,spam,True
+ob_sp07_spacing,sp07,spacing,Your PAN card will be deactivated in 24 hours. L.i.n.k it w i t h Aadhaar immediately to a v o i d a penalty: http://kotakbankcare-support.xyz,spam,True
+ob_sp07_homoglyph,sp07,homoglyph,Your PAN саrd will be deactivated іn 24 hours. Lіnk it wіth Aаdhаar immedіаtelу to аvoid а реnaltу: http://kоtakbankсare-suрport.xyz,spam,True
+ob_sp07_leetspeak,sp07,leetspeak,Your PAN c4rd will b3 d34c71v473d 1n 24 h0ur5. L1nk 17 with 44dh44r 1mm3d1473ly 70 avoid a penalty: http://kotakbankcare-support.xyz,spam,True
+ob_sp08_none,sp08,none,"Hi, I sent a 6 digit code to your phone by mistake. Please forward it to me, it is urgent.",spam,True
+ob_sp08_typos,sp08,typos,"Hi, I sent a 6 diigit code to your pone by mistake. Plese forward it to me, it is urgent.",spam,True
+ob_sp08_spacing,sp08,spacing,"Hi, I s-e-n-t a 6 digit code to y.o.u.r p h o n e by mistake. Please forward it to me, it is urgent.",spam,True
+ob_sp08_homoglyph,sp08,homoglyph,"Hi, I sеnt а 6 dіgit codе tо уour phоnе by mіstаkе. Pleasе forwаrd it to me, it is urgеnt.",spam,True
+ob_sp08_leetspeak,sp08,leetspeak,"H1, 1 53n7 4 6 digit code to y0ur ph0n3 by mistake. Pl3453 forward 17 to me, 17 is urgent.",spam,True
+ob_sp09_none,sp09,none,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,True
+ob_sp09_typos,sp09,typos,Your Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer care on 6967273177 to keep the number active.,spam,True
+ob_sp09_spacing,sp09,spacing,Y.o.u.r Jio SIM will be blocked within 2 hours as e-KYC is pending. Call customer c-a-r-e on 6967273177 to k.e.e.p the number active.,spam,True
+ob_sp09_homoglyph,sp09,homoglyph,Yоur Jіo SIM wіll be blоcked within 2 hоurs аs e-KYC is pendіng. Call сustomer cаre on 6967273177 to kеep thе number active.,spam,True
+ob_sp09_leetspeak,sp09,leetspeak,Y0ur Jio 51M will b3 blocked w17h1n 2 hours 45 e-KYC is p3nd1ng. Call cu570m3r care 0n 6967273177 to k33p 7h3 number active.,spam,True
+ob_sp10_none,sp10,none,"Pre-approved instant loan of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,True
+ob_sp10_typos,sp10,typos,"Pre-approved intsant loan of Rs 3,93,494 ready with no CIBL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,True
+ob_sp10_spacing,sp10,spacing,"Pre-approved instant l o a n of Rs 3,93,494 ready with no CIBIL check. Download the app and get the money in 10 minutes: http://bankofbaroda.account-check.top",spam,True
+ob_sp10_homoglyph,sp10,homoglyph,"Pre-apрrovеd instаnt loаn of Rs 3,93,494 rеаdу with nо CIBIL check. Dоwnlоad the apр аnd gеt thе mоneу in 10 mіnutes: httр://bаnkofbarodа.aссоunt-chесk.toр",spam,True
+ob_sp10_leetspeak,sp10,leetspeak,"Pr3-4ppr0v3d 1n574n7 loan of R5 3,93,494 r34dy w17h no CIBIL ch3ck. D0wnl04d the 4pp 4nd g37 7h3 m0n3y 1n 10 minutes: http://bankofbaroda.account-check.top",spam,True
+ob_sp11_none,sp11,none,Earn 3% daily returns on crypto with a guaranteed profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,True
+ob_sp11_typos,sp11,typos,Eanr 3% daly returns on crypto with a guaranteed profit. Join our VIP tradng group today: http://bit.ly/4zBms1,spam,True
+ob_sp11_spacing,sp11,spacing,E.a.r.n 3% daily returns on c r y p t o with a g-u-a-r-a-n-t-e-e-d profit. Join our VIP trading group today: http://bit.ly/4zBms1,spam,True
+ob_sp11_homoglyph,sp11,homoglyph,Earn 3% daily rеturns оn crуpto with а guarantеed profіt. Join our VIP trаdіng grоuр tоday: httр://bit.ly/4zBms1,spam,True
+ob_sp11_leetspeak,sp11,leetspeak,Earn 3% daily r37urn5 0n cryp70 w17h 4 guaranteed profit. Join 0ur V1P 7r4d1ng gr0up 70d4y: http://bit.ly/4zBms1,spam,True
+ob_sp12_none,sp12,none,Customs notice: an international parcel addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,True
+ob_sp12_typos,sp12,typos,Customs notice: an international parceel addressde to you conatins illegal items. Pay the clarance fee or face police action. Call 6029787534,spam,True
+ob_sp12_spacing,sp12,spacing,Customs notice: an i n t e r n a t i o n a l p a r c e l addressed to you contains illegal items. Pay the clearance fee or face police action. Call 6029787534,spam,True
+ob_sp12_homoglyph,sp12,homoglyph,Customs notісe: аn іnternаtіоnal parcеl addrеssed to you cоntаins illegаl itеms. Pау the сlеarance feе оr fаcе pоliсе аction. Call 6029787534,spam,True
+ob_sp12_leetspeak,sp12,leetspeak,Cu570m5 n071c3: an international p4rc3l 4ddr3553d 70 y0u contains 1ll3g4l 173m5. P4y 7h3 cl34r4nc3 f33 0r f4c3 police 4c710n. Call 6029787534,spam,True
+ob_sp13_none,sp13,none,"Your Blinkit order refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,True
+ob_sp13_typos,sp13,typos,"Your Blinkit orer refund of Rs 3,60,653 failed. Ennter yuor UPI PIN on this page to receie it: http://blinkit-refund-portal.site",spam,True
+ob_sp13_spacing,sp13,spacing,"Your B-l-i-n-k-i-t o.r.d.e.r refund of Rs 3,60,653 failed. Enter your UPI PIN on this page to receive it: http://blinkit-refund-portal.site",spam,True
+ob_sp13_homoglyph,sp13,homoglyph,"Your Blinkit ordеr refund оf Rs 3,60,653 failed. Entеr your UPI PIN on this page tо recеіve it: http://blinkit-rеfund-роrtаl.sіtе",spam,True
+ob_sp13_leetspeak,sp13,leetspeak,"Y0ur Blinkit order r3fund of Rs 3,60,653 f41l3d. Enter y0ur UP1 PIN on 7h15 p4g3 to r3c31v3 17: http://blinkit-refund-portal.site",spam,True
+ob_sp14_none,sp14,none,"You have received a Zomato gift card worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,True
+ob_sp14_typos,sp14,typos,"You have recevied a Zomato gift card woth Rs 5,000. Cliam it before midnight: http://bit.ly/6ZgCST",spam,True
+ob_sp14_spacing,sp14,spacing,"You have received a Zomato gift c-a-r-d worth Rs 5,000. Claim it before midnight: http://bit.ly/6ZgCST",spam,True
+ob_sp14_homoglyph,sp14,homoglyph,"Yоu hаve rеceіved a Zomаto gift сard worth Rs 5,000. Clаim іt bеfоre midnіght: http://bіt.lу/6ZgCST",spam,True
+ob_sp14_leetspeak,sp14,leetspeak,"Y0u have received 4 Z0m470 gift card worth Rs 5,000. Cl41m it b3f0r3 midnight: http://bit.ly/6ZgCST",spam,True
+ob_sp15_none,sp15,none,Mumbai Police Cyber Cell: your Aadhaar is linked to a money laundering case. Join a video call immediately to avoid arrest. Call 9267147513,spam,True
+ob_sp15_typos,sp15,typos,Mumbai Poilce Cyber Cell: your Adahaar is linked to a money laundering case. Join a vido cll immediately to avoid arrest. Call 9267147513,spam,True
+ob_sp15_spacing,sp15,spacing,M-u-m-b-a-i Police C y b e r Cell: y-o-u-r A a d h a a r is linked to a money l-a-u-n-d-e-r-i-n-g case. Join a video call immediately to avoid arrest. Call 9267147513,spam,True
+ob_sp15_homoglyph,sp15,homoglyph,Mumbai Pоlісе Cуber Cell: уоur Aаdhaаr іs lіnked to a mоney laundеring сase. Joіn a videо сall іmmеdіatеly tо avoid arrest. Cаll 9267147513,spam,True
+ob_sp15_leetspeak,sp15,leetspeak,Mumbai Police Cyber C3ll: y0ur 44dh44r 15 linked 70 4 m0n3y laundering case. Join 4 video c4ll immediately 70 avoid arrest. C4ll 9267147513,spam,True
+ob_sp16_none,sp16,none,Your Netflix payment could not be processed and your membership is on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,True
+ob_sp16_typos,sp16,typos,Your Netflix payment could not be processed and your membershhip is on hold. Update youur card details: http://secure-bankofbaroda-verify.com,spam,True
+ob_sp16_spacing,sp16,spacing,Y-o-u-r N e t f l i x payment could not be processed and your membership is on hold. Update your c a r d details: http://secure-bankofbaroda-verify.com,spam,True
+ob_sp16_homoglyph,sp16,homoglyph,Yоur Netflіx рaуment cоuld not be processed and уоur membership is on hоld. Updаtе your саrd dеtaіls: http://secure-bаnkоfbаrоda-verifу.соm,spam,True
+ob_sp16_leetspeak,sp16,leetspeak,Your Netflix payment could n07 b3 processed and y0ur membership 15 on hold. Update your card details: http://secure-bankofbaroda-verify.com,spam,True
+ob_sp17_none,sp17,none,Get a free iPhone in the Amazon anniversary giveaway. Only 3 left! Pay delivery charges of Rs 99 here: http://amazon-rewards.online,spam,True
+ob_sp17_typos,sp17,typos,Get a free iPhonne in the Amazon aninversary giveaway. Only 3 left! Pay dlivery charges of Rs 99 here: http://amazon-rewards.online,spam,True
+ob_sp17_spacing,sp17,spacing,Get a f.r.e.e i P h o n e in the Amazon anniversary giveaway. Only 3 left! Pay d.e.l.i.v.e.r.y c-h-a-r-g-e-s of Rs 99 here: http://amazon-rewards.online,spam,True
+ob_sp17_homoglyph,sp17,homoglyph,Get а frеe іPhone іn the Amazоn anniversаrу giveawаy. Only 3 lеft! Paу dеlivеrу сharges оf Rs 99 hеre: httр://аmаzon-rеwаrds.оnline,spam,True
+ob_sp17_leetspeak,sp17,leetspeak,Get 4 fr33 1Ph0n3 in the 4m4z0n anniversary g1v34w4y. 0nly 3 l3f7! P4y delivery ch4rg35 0f R5 99 here: http://amazon-rewards.online,spam,True
+ob_sp18_none,sp18,none,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please send Rs 81,624 to this UPI ID urgently, I will return it tomorrow.",spam,True
+ob_sp18_typos,sp18,typos,"Hello Sneha here, I am stuck at the aiport and lost my wallet. Pleasse send Rs 81,624 to thhis UPI ID urgently, I willl return it tomorrow.",spam,True
+ob_sp18_spacing,sp18,spacing,"Hello Sneha here, I am stuck at the airport and lost my wallet. Please s-e-n-d Rs 81,624 to t-h-i-s UPI ID urgently, I w.i.l.l return it tomorrow.",spam,True
+ob_sp18_homoglyph,sp18,homoglyph,"Hello Sneha here, I am stuck аt thе aіrроrt and lost my wallеt. Pleasе sеnd Rs 81,624 to this UPI ID urgеntlу, I wіll return іt tomоrrоw.",spam,True
+ob_sp18_leetspeak,sp18,leetspeak,"Hello 5n3h4 here, I 4m 57uck at 7h3 41rp0r7 4nd l057 my wallet. Please 53nd Rs 81,624 to this UP1 1D urgently, 1 w1ll r37urn it tomorrow.",spam,True
+ob_sp19_none,sp19,none,"Dear user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,True
+ob_sp19_typos,sp19,typos,"Dear user, yoru SBI reward poits worrth Rs 4,05,694 expire today. Redeem them as cash now: http://sbi.account-check.top",spam,True
+ob_sp19_spacing,sp19,spacing,"D.e.a.r user, your SBI reward points worth Rs 4,05,694 expire today. Redeem them as c a s h now: http://sbi.account-check.top",spam,True
+ob_sp19_homoglyph,sp19,homoglyph,"Dеar user, your SBI reward points wоrth Rs 4,05,694 eхріre todау. Redeem them as cаsh nоw: httр://sbi.account-сhеck.tоp",spam,True
+ob_sp19_leetspeak,sp19,leetspeak,"Dear u53r, y0ur 5B1 r3w4rd p01n75 w0r7h Rs 4,05,694 expire 70d4y. R3d33m 7h3m as cash now: http://sbi.account-check.top",spam,True
+ob_sp20_none,sp20,none,"Your vehicle has a pending traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,True
+ob_sp20_typos,sp20,typos,"Your vehicle has a pending traffic challlan of Rs 2,000. Pay within 24 hours to avod cout action: http://bit.ly/i9M4SG",spam,True
+ob_sp20_spacing,sp20,spacing,"Your vehicle has a p-e-n-d-i-n-g traffic challan of Rs 2,000. Pay within 24 hours to avoid court action: http://bit.ly/i9M4SG",spam,True
+ob_sp20_homoglyph,sp20,homoglyph,"Your vehiсle hаs a pending traffic challаn оf Rs 2,000. Pay withіn 24 hоurs to avoid cоurt aсtiоn: httр://bіt.ly/i9M4SG",spam,True
+ob_sp20_leetspeak,sp20,leetspeak,"Y0ur vehicle has 4 pending traffic challan 0f R5 2,000. Pay w17h1n 24 h0ur5 to avoid court action: http://bit.ly/i9M4SG",spam,True
+ob_sp21_none,sp21,none,Install the HDFC Bank security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,True
+ob_sp21_typos,sp21,typos,Innstall the HDFC Bank seurity update APK to keep usiing net banking: http://bit.ly/AQk7iY,spam,True
+ob_sp21_spacing,sp21,spacing,Install the H-D-F-C B a n k security update APK to keep using net banking: http://bit.ly/AQk7iY,spam,True
+ob_sp21_homoglyph,sp21,homoglyph,Install the HDFC Bаnk security uрdate APK to kеeр using net banking: httр://bit.lу/AQk7iY,spam,True
+ob_sp21_leetspeak,sp21,leetspeak,1n574ll 7h3 HDFC B4nk security update APK 70 keep u51ng n37 banking: http://bit.ly/AQk7iY,spam,True
+ob_sp22_none,sp22,none,"Work from home data entry job, weekly payment of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,True
+ob_sp22_typos,sp22,typos,"Work from home data entry job, weekly paymet of Rs 15,000. Pay a registration fee of Rs 1,500 to start. Call 9628360161",spam,True
+ob_sp22_spacing,sp22,spacing,"Work from home data entry job, w.e.e.k.l.y payment of Rs 15,000. Pay a r.e.g.i.s.t.r.a.t.i.o.n fee of Rs 1,500 to start. Call 9628360161",spam,True
+ob_sp22_homoglyph,sp22,homoglyph,"Work from home datа entry job, weekly paуmеnt of Rs 15,000. Pay а regіstrаtiоn fеe of Rs 1,500 to stаrt. Cаll 9628360161",spam,True
+ob_sp22_leetspeak,sp22,leetspeak,"Work fr0m home d474 entry job, w33kly p4ym3n7 of Rs 15,000. P4y a registration fee 0f R5 1,500 70 574r7. Call 9628360161",spam,True
+ob_sp23_none,sp23,none,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this page to receive it: http://hdfcbank-refund-portal.site,spam,True
+ob_sp23_typos,sp23,typos,Your Google Pay cashbcak of Rs 151 is waiting. Scan the QR code on this page to receie it: http://hdfcbank-refund-portal.site,spam,True
+ob_sp23_spacing,sp23,spacing,Your Google Pay cashback of Rs 151 is waiting. Scan the QR code on this p.a.g.e to r.e.c.e.i.v.e it: http://hdfcbank-refund-portal.site,spam,True
+ob_sp23_homoglyph,sp23,homoglyph,Your Google Pаy саshback of Rs 151 is waitіng. Scan thе QR соdе on thіs рagе to reсеivе it: httр://hdfcbank-rеfund-pоrtal.site,spam,True
+ob_sp23_leetspeak,sp23,leetspeak,Y0ur G00gl3 P4y c45hb4ck of Rs 151 is w4171ng. Scan the QR c0d3 on 7h15 p4g3 to r3c31v3 it: http://hdfcbank-refund-portal.site,spam,True
+ob_sp24_none,sp24,none,799229 is the code you need to share with our executive to stop the deduction from your HDFC Bank account. Reply with the code now.,spam,True
+ob_sp24_typos,sp24,typos,799229 is the code you need to share witth our executive to stop the deduction from yuor HDDFC Bnak account. Rely wth the code now.,spam,True
+ob_sp24_spacing,sp24,spacing,799229 is the code you n e e d to s h a r e w.i.t.h our e.x.e.c.u.t.i.v.e to stop the deduction f.r.o.m your HDFC Bank account. Reply with the code now.,spam,True
+ob_sp24_homoglyph,sp24,homoglyph,799229 is thе cоde you nееd to share with our еxecutivе to stор the dеductiоn from уour HDFC Bank account. Reрly wіth the соde now.,spam,True
+ob_sp24_leetspeak,sp24,leetspeak,799229 is the code you need to share w17h 0ur executive to stop the deduction from your HDFC Bank 4cc0un7. R3ply w17h the code now.,spam,True
+ob_ca00_none,ca00,none,695793 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,True
+ob_ca00_typos,ca00,typos,695793 is yoour OTP for Kotaak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,True
+ob_ca00_spacing,ca00,spacing,695793 is your OTP for Kotak Bank N.e.t.B.a.n.k.i.n.g login. Do not share it with anyone. Valid for 5 minutes.,caution,True
+ob_ca00_homoglyph,ca00,homoglyph,695793 іs уour OTP for Kotаk Bank NеtBanking lоgin. Dо not sharе іt wіth anуоnе. Vаlіd for 5 minutes.,caution,True
+ob_ca00_leetspeak,ca00,leetspeak,695793 15 y0ur 07P f0r Kotak Bank NetBanking l0g1n. D0 not 5h4r3 it w17h anyone. V4l1d f0r 5 m1nu735.,caution,True
+ob_ca01_none,ca01,none,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda card ending 8402. Never share your OTP.,caution,True
+ob_ca01_typos,ca01,typos,8603 is the OTP for yoru transaction of Rs 761 on Bank of Baroda card ending 8402. Never share yoru OTP.,caution,True
+ob_ca01_spacing,ca01,spacing,8603 is the OTP for your transaction of Rs 761 on Bank of Baroda c a r d ending 8402. Never share your OTP.,caution,True
+ob_ca01_homoglyph,ca01,homoglyph,8603 іs the OTP for yоur transaсtiоn of Rs 761 on Bank оf Baroda сard еndіng 8402. Nеver shаre your OTP.,caution,True
+ob_ca01_leetspeak,ca01,leetspeak,8603 is 7h3 OTP f0r your transaction of R5 761 0n Bank of B4r0d4 c4rd ending 8402. N3v3r 5h4r3 your OTP.,caution,True
+ob_ca02_none,ca02,none,"Use 702838 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,True
+ob_ca02_typos,ca02,typos,"Use 702838 to log in to yoru Zpto account. Do not sharre this code wih anyone, including Zepot staff.",caution,True
+ob_ca02_spacing,ca02,spacing,"Use 702838 to log in to your Z-e-p-t-o account. Do not share this c o d e with anyone, including Zepto staff.",caution,True
+ob_ca02_homoglyph,ca02,homoglyph,"Usе 702838 to log in tо your Zeрtо ассount. Dо not share this codе wіth аnyonе, іnсluding Zерto stаff.",caution,True
+ob_ca02_leetspeak,ca02,leetspeak,"U53 702838 to l0g in to your Z3p70 account. Do not share 7h15 c0d3 with 4ny0n3, including Zepto 574ff.",caution,True
+ob_ca03_none,ca03,none,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,True
+ob_ca03_typos,ca03,typos,Your Airtel verification code is 264686. It expires in 10 minutes.,caution,True
+ob_ca03_spacing,ca03,spacing,Y.o.u.r Airtel verification code is 264686. It expires in 10 minutes.,caution,True
+ob_ca03_homoglyph,ca03,homoglyph,Your Airtel verіfiсatіon соde іs 264686. It ехрires in 10 mіnutes.,caution,True
+ob_ca03_leetspeak,ca03,leetspeak,Y0ur Airtel verification code 15 264686. 17 expires 1n 10 m1nu735.,caution,True
+ob_ca04_none,ca04,none,"New login to your Canara Bank mobile banking app on a new device at 2:45 PM. If this was not you, call your bank immediately.",caution,True
+ob_ca04_typos,ca04,typos,"New loign to yur Canara Bank mobile banking app on a new device at 2:45 PM. If tihs was not you, call yoour bank immediately.",caution,True
+ob_ca04_spacing,ca04,spacing,"New l-o-g-i-n to your C a n a r a Bank m-o-b-i-l-e b.a.n.k.i.n.g app on a new d e v i c e at 2:45 PM. If this was not you, call your b.a.n.k immediately.",caution,True
+ob_ca04_homoglyph,ca04,homoglyph,"Nеw login tо уоur Canarа Bank mobilе bаnkіng apр оn а nеw device аt 2:45 PM. If this wаs nоt уou, call your bank immеdiately.",caution,True
+ob_ca04_leetspeak,ca04,leetspeak,"New login to your Canara B4nk mobile banking 4pp 0n a n3w d3v1c3 at 2:45 PM. 1f this w45 not you, c4ll your b4nk 1mm3d1473ly.",caution,True
+ob_ca05_none,ca05,none,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,True
+ob_ca05_typos,ca05,typos,"WhatsApp Web is now active on a new device. If this wasn't you, log out of all devices from the app.",caution,True
+ob_ca05_spacing,ca05,spacing,"WhatsApp Web is now a.c.t.i.v.e on a new device. If this wasn't you, log out of all devices from the app.",caution,True
+ob_ca05_homoglyph,ca05,homoglyph,"WhаtsApp Web іs nоw aсtivе on а new device. If thіs wasn't you, log оut оf all deviсеs frоm thе арp.",caution,True
+ob_ca05_leetspeak,ca05,leetspeak,"WhatsApp Web 15 now active 0n a new device. If 7h15 w45n'7 y0u, l0g out 0f all devices fr0m 7h3 app.",caution,True
+ob_ca06_none,ca06,none,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,True
+ob_ca06_typos,ca06,typos,"Your SBI UPI PIN was canged successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,True
+ob_ca06_spacing,ca06,spacing,"Your SBI UPI PIN was changed successfully on 12-Mar at 5:45 PM. If you did not do this, report it to the bank.",caution,True
+ob_ca06_homoglyph,ca06,homoglyph,"Yоur SBI UPI PIN was changеd sucсessfullу оn 12-Mаr at 5:45 PM. If you did not do this, reроrt іt to thе bаnk.",caution,True
+ob_ca06_leetspeak,ca06,leetspeak,"Your 5B1 UPI P1N w45 ch4ng3d successfully on 12-M4r 47 5:45 PM. If you did n07 do this, report it to the bank.",caution,True
+ob_ca07_none,ca07,none,Unusual activity detected on your Canara Bank credit card ending 7811. Please review your recent transactions in the app.,caution,True
+ob_ca07_typos,ca07,typos,Unusual actiity deetcted on yuor Canraa Bak creidt card endnig 7811. Please review youur recet transactions in the app.,caution,True
+ob_ca07_spacing,ca07,spacing,U.n.u.s.u.a.l activity d-e-t-e-c-t-e-d on y-o-u-r Canara Bank credit c.a.r.d ending 7811. Please review your r e c e n t transactions in the app.,caution,True
+ob_ca07_homoglyph,ca07,homoglyph,Unusuаl actіvitу dеtectеd оn your Canаra Bаnk сrеdit сard еndіng 7811. Pleasе rеvіew your recent transаctіons in thе app.,caution,True
+ob_ca07_leetspeak,ca07,leetspeak,Unu5u4l 4c71v17y detected on your C4n4r4 B4nk credit c4rd 3nd1ng 7811. Please r3v13w your recent 7r4n54c710n5 1n 7h3 app.,caution,True
+ob_ca08_none,ca08,none,258771 is your OTP to reset the password of your Swiggy account. Do not share it with anyone.,caution,True
+ob_ca08_typos,ca08,typos,258771 is your OTP to reset the password of your Swiggy account. Do not shhare it with anyone.,caution,True
+ob_ca08_spacing,ca08,spacing,258771 is your OTP to r-e-s-e-t the p.a.s.s.w.o.r.d of your S-w-i-g-g-y account. Do not share it with anyone.,caution,True
+ob_ca08_homoglyph,ca08,homoglyph,258771 is your OTP tо resеt thе рassword оf your Swіggy aссount. Do not sharе it wіth anyone.,caution,True
+ob_ca08_leetspeak,ca08,leetspeak,258771 is y0ur 07P 70 reset 7h3 p455w0rd 0f y0ur 5w1ggy 4cc0un7. Do not 5h4r3 it with 4ny0n3.,caution,True
+ob_ca09_none,ca09,none,"Your Kotak Bank net banking password was changed on 26-Sep. If this was not done by you, contact customer care.",caution,True
+ob_ca09_typos,ca09,typos,"Your Kotk Bank net banking paassword was changed on 26-Sep. If this was not done by you, cntact customer care.",caution,True
+ob_ca09_spacing,ca09,spacing,"Y o u r K-o-t-a-k Bank net banking password was changed on 26-Sep. If this was not d o n e by you, c o n t a c t customer care.",caution,True
+ob_ca09_homoglyph,ca09,homoglyph,"Yоur Kotаk Bank net banking password was chаngеd on 26-Sер. If this wаs not dоnе by yоu, cоntаct custоmеr carе.",caution,True
+ob_ca09_leetspeak,ca09,leetspeak,"Your Kotak B4nk net b4nk1ng p455w0rd w45 ch4ng3d 0n 26-Sep. If this was n07 d0n3 by you, c0n74c7 customer c4r3.",caution,True
+ob_ca10_none,ca10,none,Wrong mPIN entered on your Canara Bank app. 2 attempts left before your access is locked for 24 hours.,caution,True
+ob_ca10_typos,ca10,typos,Wrong mPIIN entered on yoour Canara Bnak app. 2 attempts left before your access is lcked for 24 hours.,caution,True
+ob_ca10_spacing,ca10,spacing,W.r.o.n.g m P I N entered on your C-a-n-a-r-a Bank app. 2 a t t e m p t s l.e.f.t before your access is locked for 24 hours.,caution,True
+ob_ca10_homoglyph,ca10,homoglyph,Wrong mPIN entеrеd оn your Canаra Bank арр. 2 аttempts lеft befоrе уour acсess іs loсked for 24 hours.,caution,True
+ob_ca10_leetspeak,ca10,leetspeak,Wrong mPIN 3n73r3d 0n your C4n4r4 B4nk 4pp. 2 4773mp75 l3f7 before y0ur access is l0ck3d f0r 24 h0ur5.,caution,True
+ob_ca11_none,ca11,none,133017 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,True
+ob_ca11_typos,ca11,typos,133017 is yoour one-time password to veriffy yoru mobile number on DigiLocker. Valid for 10 minutes.,caution,True
+ob_ca11_spacing,ca11,spacing,133017 is y-o-u-r one-time password to verify your m.o.b.i.l.e n u m b e r on DigiLocker. Valid for 10 minutes.,caution,True
+ob_ca11_homoglyph,ca11,homoglyph,133017 is your one-time pаssword tо verify уour mоbile numbеr on DigіLосkеr. Vаlid for 10 mіnutes.,caution,True
+ob_ca11_leetspeak,ca11,leetspeak,133017 is y0ur one-time password 70 v3r1fy your m0b1l3 numb3r on DigiLocker. Valid for 10 minutes.,caution,True
+ob_ca12_none,ca12,none,Your Aadhaar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,True
+ob_ca12_typos,ca12,typos,Your Aadhar authentication OTP is 682052. Do not share it with anyone. -UIDAI,caution,True
+ob_ca12_spacing,ca12,spacing,Your A a d h a a r authentication OTP is 682052. Do not s-h-a-r-e it with anyone. -UIDAI,caution,True
+ob_ca12_homoglyph,ca12,homoglyph,Yоur Aadhaar аuthentіcatіоn OTP is 682052. Dо not shаrе іt with аnyоne. -UIDAI,caution,True
+ob_ca12_leetspeak,ca12,leetspeak,Y0ur Aadhaar authentication OTP 15 682052. Do not share 17 w17h anyone. -UIDAI,caution,True
+ob_ca13_none,ca13,none,"194893 is the OTP to add a new payee to your ICICI Bank account. If you did not request this, call the bank.",caution,True
+ob_ca13_typos,ca13,typos,"194893 is the OTP to add a new payee to your IICI Bank account. If you did not request this, cal the bank.",caution,True
+ob_ca13_spacing,ca13,spacing,"194893 is the OTP to add a new payee to your I-C-I-C-I Bank account. If you did not request this, c.a.l.l the bank.",caution,True
+ob_ca13_homoglyph,ca13,homoglyph,"194893 іs the OTP to аdd а nеw payеe to yоur ICICI Bank account. If уоu did not requеst this, сall the bank.",caution,True
+ob_ca13_leetspeak,ca13,leetspeak,"194893 is 7h3 OTP to 4dd 4 new payee to y0ur 1C1C1 Bank 4cc0un7. 1f you did not r3qu357 this, c4ll the bank.",caution,True
+ob_ca14_none,ca14,none,"A request to register your Kotak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,True
+ob_ca14_typos,ca14,typos,"A request to reggister your Koak Bank account on a UPI app was initiated. If not done by you, report it immediately.",caution,True
+ob_ca14_spacing,ca14,spacing,"A request to r e g i s t e r y o u r K-o-t-a-k B-a-n-k account on a UPI app was initiated. If not d-o-n-e by you, report it immediately.",caution,True
+ob_ca14_homoglyph,ca14,homoglyph,"A rеquest to regіstеr yоur Kotak Bank aссоunt оn a UPI аpp was іnitіated. If not dоnе by yоu, rероrt іt immedіаtеlу.",caution,True
+ob_ca14_leetspeak,ca14,leetspeak,"4 r3qu357 70 r3g1573r your Kotak Bank account on a UP1 4pp was initiated. 1f not done by you, report 17 immediately.",caution,True
+ob_ca15_none,ca15,none,Your ICICI Bank debit card ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,True
+ob_ca15_typos,ca15,typos,Your ICIIC Bakn debt crad ending 5392 was used for an international transaction of Rs 785. Not you? Block the card in the app.,caution,True
+ob_ca15_spacing,ca15,spacing,Y-o-u-r ICICI Bank d e b i t card e n d i n g 5392 was u s e d for an international transaction of Rs 785. Not you? Block the card in the app.,caution,True
+ob_ca15_homoglyph,ca15,homoglyph,Your ICICI Bаnk debit саrd еnding 5392 was used fоr аn intеrnаtional trаnsaсtіоn of Rs 785. Nоt уоu? Blосk thе card іn the аpp.,caution,True
+ob_ca15_leetspeak,ca15,leetspeak,Your ICICI B4nk debit card 3nd1ng 5392 w45 u53d f0r 4n 1n73rn4710n4l 7r4n54c710n 0f Rs 785. N07 you? Bl0ck 7h3 c4rd in 7h3 4pp.,caution,True
+ob_ca16_none,ca16,none,Delivery code 105218: share it with the Zomato delivery agent only after checking your order.,caution,True
+ob_ca16_typos,ca16,typos,Delivery code 105218: share it with the Zomato delivery agent only after cheecking yuor order.,caution,True
+ob_ca16_spacing,ca16,spacing,Delivery code 105218: share it w.i.t.h the Z.o.m.a.t.o d e l i v e r y a.g.e.n.t o-n-l-y after checking y.o.u.r order.,caution,True
+ob_ca16_homoglyph,ca16,homoglyph,Delіvery соdе 105218: share іt with the Zomato dеlivеry agеnt only аftеr cheсking уоur оrder.,caution,True
+ob_ca16_leetspeak,ca16,leetspeak,Delivery c0d3 105218: 5h4r3 it w17h the Z0m470 d3l1v3ry 4g3n7 only after ch3ck1ng your order.,caution,True
+ob_ca17_none,ca17,none,491452 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,True
+ob_ca17_typos,ca17,typos,491452 is your EPPFO UAN activation OTP. Do not share it with anyone.,caution,True
+ob_ca17_spacing,ca17,spacing,491452 is y-o-u-r EPFO UAN activation OTP. Do not share it w.i.t.h anyone.,caution,True
+ob_ca17_homoglyph,ca17,homoglyph,491452 is уour EPFO UAN actіvation OTP. Do nоt share it wіth anyоnе.,caution,True
+ob_ca17_leetspeak,ca17,leetspeak,491452 is y0ur EPFO UAN activation OTP. Do not share 17 with 4ny0n3.,caution,True
+ob_ca18_none,ca18,none,"Login attempt on your Swiggy account from a new browser in Bengaluru. If this wasn't you, change your password.",caution,True
+ob_ca18_typos,ca18,typos,"Logn attempt on your Swigggy account froom a new browser in Bengaluru. If ths wasn't you, change youur password.",caution,True
+ob_ca18_spacing,ca18,spacing,"Login a-t-t-e-m-p-t on your Swiggy account f-r-o-m a new b r o w s e r in Bengaluru. If this wasn't you, change y o u r password.",caution,True
+ob_ca18_homoglyph,ca18,homoglyph,"Lоgіn attеmрt on yоur Swiggу аccount from а new browser іn Bеngаluru. If this wasn't you, chаngе уour pаssword.",caution,True
+ob_ca18_leetspeak,ca18,leetspeak,"Login 4773mp7 on your 5w1ggy account from 4 n3w browser in Bengaluru. 1f this w45n'7 you, ch4ng3 y0ur p455w0rd.",caution,True
+ob_ca19_none,ca19,none,Your Google account verification code is 0646.,caution,True
+ob_ca19_typos,ca19,typos,Your Google account verification coe is 0646.,caution,True
+ob_ca19_spacing,ca19,spacing,Your Google account verification c.o.d.e is 0646.,caution,True
+ob_ca19_homoglyph,ca19,homoglyph,Your Gооgle acсount vеrifiсatіon cоde іs 0646.,caution,True
+ob_ca19_leetspeak,ca19,leetspeak,Y0ur Google 4cc0un7 verification code 15 0646.,caution,True
+ob_ca20_none,ca20,none,"Your HDFC Bank card PIN was successfully set on 02-Feb. If not done by you, call the bank at once.",caution,True
+ob_ca20_typos,ca20,typos,"Youur HDFFC Bak card PIN was successfluly set on 02-Feb. If not dne by you, call the bank at once.",caution,True
+ob_ca20_spacing,ca20,spacing,"Y-o-u-r HDFC B.a.n.k c a r d PIN was s.u.c.c.e.s.s.f.u.l.l.y set on 02-Feb. If not done by you, call the bank at once.",caution,True
+ob_ca20_homoglyph,ca20,homoglyph,"Your HDFC Bаnk card PIN was succеssfully set on 02-Fеb. If not done by уou, call the bank аt оnсe.",caution,True
+ob_ca20_leetspeak,ca20,leetspeak,"Your HDFC B4nk c4rd P1N w45 successfully set on 02-F3b. 1f n07 done by you, call the bank 47 once.",caution,True
+ob_ca21_none,ca21,none,Biometric login has been enabled on your SBI app. Not you? Contact customer care.,caution,True
+ob_ca21_typos,ca21,typos,Bioemtric logiin has been enabed on your SBI app. Not you? Cotnact custoomer care.,caution,True
+ob_ca21_spacing,ca21,spacing,Biometric l.o.g.i.n has been enabled on your SBI app. Not you? Contact customer care.,caution,True
+ob_ca21_homoglyph,ca21,homoglyph,Biоmetrіc login has beеn enаbled on your SBI аpp. Not you? Contаct customеr carе.,caution,True
+ob_ca21_leetspeak,ca21,leetspeak,B10m37r1c login has been enabled on y0ur 5B1 4pp. N07 you? C0n74c7 cu570m3r care.,caution,True
+ob_ca22_none,ca22,none,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,True
+ob_ca22_typos,ca22,typos,118955 is yoour OTP to confirrm the e-mandate of Rs 897 on youur HDFC Bnk account. Do not share it.,caution,True
+ob_ca22_spacing,ca22,spacing,118955 is your OTP to confirm the e-mandate of Rs 897 on your HDFC Bank account. Do not share it.,caution,True
+ob_ca22_homoglyph,ca22,homoglyph,118955 іs your OTP to cоnfirm the е-mandаte оf Rs 897 on your HDFC Bank асcоunt. Do nоt share it.,caution,True
+ob_ca22_leetspeak,ca22,leetspeak,118955 15 your OTP 70 confirm the 3-m4nd473 0f Rs 897 0n your HDFC Bank account. Do not 5h4r3 17.,caution,True
+ob_ca23_none,ca23,none,"Your email address on Zomato was changed. If you did not make this change, secure your account now.",caution,True
+ob_ca23_typos,ca23,typos,"Your emaiil address on Zomato was changed. If you did not make this change, secure yur acount now.",caution,True
+ob_ca23_spacing,ca23,spacing,"Y o u r email a d d r e s s on Zomato was changed. If you did not make this change, secure y.o.u.r a-c-c-o-u-n-t now.",caution,True
+ob_ca23_homoglyph,ca23,homoglyph,"Your еmаіl address on Zomаto was changed. If you did nоt make this chаnge, seсurе yоur acсount nоw.",caution,True
+ob_ca23_leetspeak,ca23,leetspeak,"Y0ur 3m41l 4ddr355 0n Z0m470 was ch4ng3d. 1f you did n07 m4k3 this change, 53cur3 your account now.",caution,True
+ob_ca24_none,ca24,none,939761 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,True
+ob_ca24_typos,ca24,typos,939761 is your login cde for the IRCTC app. It is valid for 5 minutes.,caution,True
+ob_ca24_spacing,ca24,spacing,939761 is your login code for the IRCTC app. It is v.a.l.i.d for 5 minutes.,caution,True
+ob_ca24_homoglyph,ca24,homoglyph,939761 is уour login code for thе IRCTC аpp. It is valіd fоr 5 minutеs.,caution,True
+ob_ca24_leetspeak,ca24,leetspeak,939761 is y0ur login code for 7h3 1RC7C 4pp. It is v4l1d f0r 5 m1nu735.,caution,True
+ob_pr00_none,pr00,none,Blinkit Big Savings Days are live! Get up to 60% off on electronics and fashion. Shop now on the app.,promo,True
+ob_pr00_typos,pr00,typos,Blinkit Big Savigns Days are live! Get up to 60% off on elecronics and fashion. Shop now on the app.,promo,True
+ob_pr00_spacing,pr00,spacing,Blinkit Big Savings Days are live! Get up to 60% off on e.l.e.c.t.r.o.n.i.c.s and fashion. S.h.o.p now on the app.,promo,True
+ob_pr00_homoglyph,pr00,homoglyph,Blinkіt Big Sаvings Dаys аre live! Gеt up to 60% off оn elеctronісs and fashion. Shop now оn the app.,promo,True
+ob_pr00_leetspeak,pr00,leetspeak,Blinkit Big 54v1ng5 Days 4r3 live! G37 up 70 60% 0ff 0n electronics and fashion. Shop now on the 4pp.,promo,True
+ob_pr01_none,pr01,none,Recharge your Vi number with the Rs 349 plan and get unlimited 5G data plus 2GB per day for 28 days.,promo,True
+ob_pr01_typos,pr01,typos,Reccharge your Vi number with the Rs 349 pln and get unlimited 5G data plsu 2GB per day for 28 days.,promo,True
+ob_pr01_spacing,pr01,spacing,Recharge your Vi n-u-m-b-e-r with the Rs 349 p.l.a.n and get u n l i m i t e d 5G data plus 2GB per day for 28 days.,promo,True
+ob_pr01_homoglyph,pr01,homoglyph,Rechаrge your Vi number wіth the Rs 349 рlаn and get unlіmіtеd 5G data рlus 2GB per day for 28 days.,promo,True
+ob_pr01_leetspeak,pr01,leetspeak,Recharge your Vi number with 7h3 R5 349 pl4n and get unlimited 5G data plus 2GB per day for 28 days.,promo,True
+ob_pr02_none,pr02,none,Flat 40% off on your next Zepto order above Rs 299. Use code TASTY40. Offer valid till Sunday.,promo,True
+ob_pr02_typos,pr02,typos,Flta 40% off on yor next Zeptto oredr aboove Rs 299. Use coe TASTY40. Ofefr valdi til Sunday.,promo,True
+ob_pr02_spacing,pr02,spacing,Flat 40% off on your next Z.e.p.t.o o r d e r a.b.o.v.e Rs 299. Use c.o.d.e TASTY40. Offer v-a-l-i-d till Sunday.,promo,True
+ob_pr02_homoglyph,pr02,homoglyph,Flаt 40% оff оn уour nеxt Zeрtо оrdеr abоve Rs 299. Use сodе TASTY40. Offer valid tіll Sundаy.,promo,True
+ob_pr02_leetspeak,pr02,leetspeak,Flat 40% 0ff on your next Zepto 0rd3r above Rs 299. U53 code 7457Y40. 0ff3r valid till 5und4y.,promo,True
+ob_pr03_none,pr03,none,Lifetime free Kotak Bank credit card with Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,True
+ob_pr03_typos,pr03,typos,Lifetime free Kotak Bank creit crd with Rs 500 welcome voucher. Aplpy online in 5 minutes. T&C apply.,promo,True
+ob_pr03_spacing,pr03,spacing,Lifetime f r e e Kotak B-a-n-k credit card w i t h Rs 500 welcome voucher. Apply online in 5 minutes. T&C apply.,promo,True
+ob_pr03_homoglyph,pr03,homoglyph,Lifеtime frее Kotаk Bank credіt cаrd with Rs 500 welcоme vоucher. Apрlу onlіne in 5 mіnutes. T&C аррly.,promo,True
+ob_pr03_leetspeak,pr03,leetspeak,L1f371m3 free Kotak Bank cr3d17 c4rd with Rs 500 w3lc0m3 v0uch3r. Apply 0nl1n3 in 5 m1nu735. 7&C apply.,promo,True
+ob_pr04_none,pr04,none,Weekend sale at Blinkit: buy 2 get 1 free on all clothing. Visit your nearest store.,promo,True
+ob_pr04_typos,pr04,typos,Weeekend sale at Blinkit: buy 2 get 1 fee on all clothing. Visit yoour neareest store.,promo,True
+ob_pr04_spacing,pr04,spacing,W-e-e-k-e-n-d sale at Blinkit: buy 2 get 1 free on all clothing. V-i-s-i-t y-o-u-r nearest store.,promo,True
+ob_pr04_homoglyph,pr04,homoglyph,Weеkеnd sale аt Blinkit: buу 2 get 1 free оn аll clоthing. Vіsit your neаrest store.,promo,True
+ob_pr04_leetspeak,pr04,leetspeak,Weekend 54l3 at Bl1nk17: buy 2 g37 1 free 0n all cl07h1ng. Visit your n34r357 570r3.,promo,True
+ob_pr05_none,pr05,none,Upgrade to Vi postpaid and enjoy 20+ OTT apps with your plan starting at Rs 449 per month.,promo,True
+ob_pr05_typos,pr05,typos,Upgrade to Vi postpad and enoy 20+ OTT appps with your paln startinng at Rs 449 per month.,promo,True
+ob_pr05_spacing,pr05,spacing,Upgrade to Vi postpaid and e-n-j-o-y 20+ OTT apps with your p-l-a-n starting at Rs 449 per month.,promo,True
+ob_pr05_homoglyph,pr05,homoglyph,Upgrаde tо Vi роstpaid аnd еnjоy 20+ OTT apps with your plan startіng at Rs 449 pеr month.,promo,True
+ob_pr05_leetspeak,pr05,leetspeak,Upgr4d3 70 V1 p057p41d and enjoy 20+ OTT 4pp5 with y0ur plan starting at R5 449 per month.,promo,True
+ob_pr06_none,pr06,none,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,True
+ob_pr06_typos,pr06,typos,"Pre-book the new smartphone at Zomato and get an assured gift worth Rs 1,999. Limited stock.",promo,True
+ob_pr06_spacing,pr06,spacing,"Pre-book the new smartphone at Zomato and get an assured g-i-f-t worth Rs 1,999. L.i.m.i.t.e.d stock.",promo,True
+ob_pr06_homoglyph,pr06,homoglyph,"Pre-bооk the nеw smartphone аt Zоmatо and get аn assurеd gift worth Rs 1,999. Limited stock.",promo,True
+ob_pr06_leetspeak,pr06,leetspeak,"Pre-book the new smartphone 47 Z0m470 and g37 an assured gift worth Rs 1,999. L1m173d stock.",promo,True
+ob_pr07_none,pr07,none,Your ICICI Bank personal loan offer of up to Rs 5 lakh at 10.5% interest is available. Check details in the bank app.,promo,True
+ob_pr07_typos,pr07,typos,Yoour IICCI Bakn personal lona offer of up to Rs 5 lah at 10.5% inteerest is available. Check details in the bnak app.,promo,True
+ob_pr07_spacing,pr07,spacing,Your ICICI B.a.n.k personal l.o.a.n offer of up to Rs 5 lakh at 10.5% i-n-t-e-r-e-s-t is available. Check d e t a i l s in the bank app.,promo,True
+ob_pr07_homoglyph,pr07,homoglyph,Your ICICI Bank рersоnal loan offеr of uр tо Rs 5 lakh at 10.5% іnterest is avаilable. Check details in the bank apр.,promo,True
+ob_pr07_leetspeak,pr07,leetspeak,Your 1C1C1 Bank personal loan 0ff3r of up to Rs 5 lakh at 10.5% 1n73r357 is 4v41l4bl3. Ch3ck d3741l5 in 7h3 bank app.,promo,True
+ob_pr08_none,pr08,none,Festive offer: 10% instant discount on Canara Bank cards on electronics this Diwali. T&C apply.,promo,True
+ob_pr08_typos,pr08,typos,Festive offer: 10% instant discount on Cnaara Bak crads on electronics this Diwali. T&C apply.,promo,True
+ob_pr08_spacing,pr08,spacing,Festive offer: 10% instant discount on Canara Bank cards on electronics t.h.i.s Diwali. T&C apply.,promo,True
+ob_pr08_homoglyph,pr08,homoglyph,Fеstіve оffer: 10% instаnt discоunt оn Canаrа Bank cards on elесtrоnics this Diwali. T&C apply.,promo,True
+ob_pr08_leetspeak,pr08,leetspeak,Festive 0ff3r: 10% instant d15c0un7 on C4n4r4 B4nk c4rd5 on 3l3c7r0n1c5 this Diwali. 7&C apply.,promo,True
+ob_pr09_none,pr09,none,Learn data science with live classes and placement support. Book your free demo session today.,promo,True
+ob_pr09_typos,pr09,typos,Learn data science witth liive clases and placement support. Book your fee demmo session today.,promo,True
+ob_pr09_spacing,pr09,spacing,Learn data s-c-i-e-n-c-e with live classes and placement support. Book your free demo session today.,promo,True
+ob_pr09_homoglyph,pr09,homoglyph,Leаrn data sciеnсe with livе classеs and plаcеment suрроrt. Book уour free demо sessіon tоday.,promo,True
+ob_pr09_leetspeak,pr09,leetspeak,Learn data 5c13nc3 with l1v3 cl45535 4nd pl4c3m3n7 5upp0r7. B00k your fr33 demo session today.,promo,True
+ob_pr10_none,pr10,none,Get 50% off your first 3 months of the Vi fibre plan. Free installation for new customers.,promo,True
+ob_pr10_typos,pr10,typos,Get 50% off your first 3 months of the Vi fire plan. Freee istallation for new customers.,promo,True
+ob_pr10_spacing,pr10,spacing,Get 50% off y o u r first 3 months of the Vi fibre plan. F.r.e.e installation for new customers.,promo,True
+ob_pr10_homoglyph,pr10,homoglyph,Get 50% off yоur first 3 mоnths of thе Vi fibrе рlan. Freе іnstallаtion fоr nеw сustomеrs.,promo,True
+ob_pr10_leetspeak,pr10,leetspeak,Get 50% 0ff y0ur first 3 months 0f 7h3 V1 fibre pl4n. Fr33 installation for new customers.,promo,True
+ob_pr11_none,pr11,none,Free delivery on all orders above Rs 199 this week on Amazon. Fresh fruits and vegetables in 10 minutes.,promo,True
+ob_pr11_typos,pr11,typos,Fee deliveery on all ordes abve Rs 199 this week on Amazon. Fresh fruuits and vegetables in 10 minutes.,promo,True
+ob_pr11_spacing,pr11,spacing,Free delivery on all orders above Rs 199 t-h-i-s week on Amazon. F.r.e.s.h f-r-u-i-t-s and v e g e t a b l e s in 10 minutes.,promo,True
+ob_pr11_homoglyph,pr11,homoglyph,Free delіverу оn аll оrders аbоvе Rs 199 thіs week on Amazon. Fresh fruіts and vеgetаblеs in 10 minutеs.,promo,True
+ob_pr11_leetspeak,pr11,leetspeak,Fr33 d3l1v3ry on all 0rd3r5 4b0v3 R5 199 this w33k 0n 4m4z0n. Fr35h fru175 and vegetables in 10 minutes.,promo,True
+ob_pr12_none,pr12,none,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open this weekend.,promo,True
+ob_pr12_typos,pr12,typos,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits opne thhis weekend.,promo,True
+ob_pr12_spacing,pr12,spacing,New launch: 2 and 3 BHK flats in Hyderabad starting at Rs 45 lakh. Site visits open t.h.i.s weekend.,promo,True
+ob_pr12_homoglyph,pr12,homoglyph,Nеw launch: 2 аnd 3 BHK flats in Hyderabаd starting at Rs 45 lakh. Site visіts open thіs weеkеnd.,promo,True
+ob_pr12_leetspeak,pr12,leetspeak,N3w l4unch: 2 4nd 3 BHK fl475 in Hyderabad 574r71ng at Rs 45 lakh. Site v15175 open this w33k3nd.,promo,True
+ob_pr13_none,pr13,none,Your Amazon membership is about to expire. Renew now to keep enjoying free deliveries.,promo,True
+ob_pr13_typos,pr13,typos,Yor Amazon membership is about to expire. Rennew now to kepe enjoying fere deliveries.,promo,True
+ob_pr13_spacing,pr13,spacing,Y-o-u-r Amazon membership is about to expire. Renew now to k-e-e-p e n j o y i n g free deliveries.,promo,True
+ob_pr13_homoglyph,pr13,homoglyph,Yоur Amazon mеmbership іs about tо eхpіre. Rеnew now tо kеep еnjoуіng frеe deliverіes.,promo,True
+ob_pr13_leetspeak,pr13,leetspeak,Y0ur 4m4z0n m3mb3r5h1p 15 4b0u7 to 3xp1r3. R3n3w now 70 k33p 3nj0y1ng free deliveries.,promo,True
+ob_pr14_none,pr14,none,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,True
+ob_pr14_typos,pr14,typos,Moovie Tuesday: buy one ticcket and get the second at 50% off on the app.,promo,True
+ob_pr14_spacing,pr14,spacing,Movie Tuesday: buy one ticket and get the second at 50% off on the app.,promo,True
+ob_pr14_homoglyph,pr14,homoglyph,Mоviе Tuesdау: buу оne tісkеt аnd get thе seсond at 50% off on thе aрp.,promo,True
+ob_pr14_leetspeak,pr14,leetspeak,M0v13 7u35d4y: buy 0n3 71ck37 and g37 7h3 53c0nd at 50% 0ff 0n 7h3 4pp.,promo,True
+ob_pr15_none,pr15,none,Mega health checkup with 60 tests at home for Rs 999. Book your slot now.,promo,True
+ob_pr15_typos,pr15,typos,Mgea healh cheeckup with 60 tsets at home for Rs 999. Book your slot now.,promo,True
+ob_pr15_spacing,pr15,spacing,Mega h-e-a-l-t-h c-h-e-c-k-u-p w i t h 60 tests at home for Rs 999. B.o.o.k your slot now.,promo,True
+ob_pr15_homoglyph,pr15,homoglyph,Mеgа hеаlth сheсkup wіth 60 tests аt hоme for Rs 999. Book уour slоt nоw.,promo,True
+ob_pr15_leetspeak,pr15,leetspeak,Mega h34l7h checkup with 60 73575 47 home for R5 999. B00k y0ur slot now.,promo,True
+ob_pr16_none,pr16,none,Get 5% cashback on electricity bill payments using the Swiggy wallet this month.,promo,True
+ob_pr16_typos,pr16,typos,Get 5% cashback on electricity bill payyments uisng the Swiggy wallet tis month.,promo,True
+ob_pr16_spacing,pr16,spacing,Get 5% cashback on e l e c t r i c i t y b i l l p.a.y.m.e.n.t.s using the Swiggy wallet this month.,promo,True
+ob_pr16_homoglyph,pr16,homoglyph,Get 5% сashbаck on еlесtriсіtу bill paуmеnts usіng the Swіggу wallеt this mоnth.,promo,True
+ob_pr16_leetspeak,pr16,leetspeak,Get 5% cashback 0n 3l3c7r1c17y b1ll p4ym3n75 u51ng the Swiggy wallet 7h15 m0n7h.,promo,True
+ob_pr17_none,pr17,none,Your favourite pizza is now 30% cheaper on weekdays. Order online and use code MIDWEEK.,promo,True
+ob_pr17_typos,pr17,typos,Your favourite pizza is now 30% cheaper on weekdays. Ordder olnine and use code MIDWEEK.,promo,True
+ob_pr17_spacing,pr17,spacing,Your favourite pizza is now 30% cheaper on weekdays. Order online and use c.o.d.e MIDWEEK.,promo,True
+ob_pr17_homoglyph,pr17,homoglyph,Yоur fаvourite pіzzа іs nоw 30% cheaper оn weеkdaуs. Order onlіnе аnd use соde MIDWEEK.,promo,True
+ob_pr17_leetspeak,pr17,leetspeak,Y0ur favourite p1zz4 is n0w 30% cheaper 0n w33kd4y5. 0rd3r 0nl1n3 4nd u53 c0d3 MIDWEEK.,promo,True
+ob_pr18_none,pr18,none,Open a zero balance savings account with Bank of Baroda in 5 minutes with video KYC.,promo,True
+ob_pr18_typos,pr18,typos,Open a zeero balaance savings account with Bank of Baroda in 5 mintues wtih vdieo KYC.,promo,True
+ob_pr18_spacing,pr18,spacing,Open a z e r o balance savings account with Bank of B-a-r-o-d-a in 5 minutes with v i d e o KYC.,promo,True
+ob_pr18_homoglyph,pr18,homoglyph,Oрen a zero balance savings aсcount wіth Bank оf Barоda in 5 minutеs with vidео KYC.,promo,True
+ob_pr18_leetspeak,pr18,leetspeak,0p3n 4 zero b4l4nc3 savings 4cc0un7 with B4nk of B4r0d4 in 5 m1nu735 w17h video KYC.,promo,True
+ob_pr19_none,pr19,none,"End of season sale: footwear starting at Rs 499. Hurry, offer ends this Sunday.",promo,True
+ob_pr19_typos,pr19,typos,"End of season sale: footwear sarting at Rs 499. Hurry, offer ends tihs Sunday.",promo,True
+ob_pr19_spacing,pr19,spacing,"End of season sale: footwear starting at Rs 499. Hurry, offer e-n-d-s t-h-i-s Sunday.",promo,True
+ob_pr19_homoglyph,pr19,homoglyph,"End of season sаlе: foоtwear starting аt Rs 499. Hurry, offеr ends thіs Sunday.",promo,True
+ob_pr19_leetspeak,pr19,leetspeak,"End of 53450n 54l3: f007w34r starting 47 R5 499. Hurry, offer 3nd5 this Sunday.",promo,True
+ob_pr20_none,pr20,none,Set your favourite song as a free caller tune on the Vi app.,promo,True
+ob_pr20_typos,pr20,typos,Set your favourtie song as a freee caller tune on the Vi app.,promo,True
+ob_pr20_spacing,pr20,spacing,Set y o u r favourite s.o.n.g as a free c-a-l-l-e-r t-u-n-e on the Vi app.,promo,True
+ob_pr20_homoglyph,pr20,homoglyph,Set yоur favourіte sоng as а freе callеr tunе оn the Vі аpp.,promo,True
+ob_pr20_leetspeak,pr20,leetspeak,537 your favourite 50ng as a free caller tune on the V1 4pp.,promo,True
+ob_pr21_none,pr21,none,Get Rs 100 off on your first train ticket booking with code NEWRAIL.,promo,True
+ob_pr21_typos,pr21,typos,Get Rs 100 off on yur first train ticket bookig with code NEWRAIL.,promo,True
+ob_pr21_spacing,pr21,spacing,Get Rs 100 off on y-o-u-r first train ticket booking with code NEWRAIL.,promo,True
+ob_pr21_homoglyph,pr21,homoglyph,Get Rs 100 off on уour first trаin ticket boоking with cоdе NEWRAIL.,promo,True
+ob_pr21_leetspeak,pr21,leetspeak,Get R5 100 off on your first train 71ck37 booking with c0d3 N3WR41L.,promo,True
+ob_pr22_none,pr22,none,Stream the cricket series live with the Vi entertainment pack at just Rs 99.,promo,True
+ob_pr22_typos,pr22,typos,Straem the cricket seriies liive with the Vi entertainment pack at jusst Rs 99.,promo,True
+ob_pr22_spacing,pr22,spacing,S t r e a m the cricket series live with the Vi entertainment pack at just Rs 99.,promo,True
+ob_pr22_homoglyph,pr22,homoglyph,Strеаm thе crickеt serіes live with the Vі entertаіnment paсk at just Rs 99.,promo,True
+ob_pr22_leetspeak,pr22,leetspeak,57r34m 7h3 cr1ck37 53r135 l1v3 with the V1 3n73r741nm3n7 p4ck at just Rs 99.,promo,True
+ob_pr23_none,pr23,none,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,True
+ob_pr23_typos,pr23,typos,Boko a home cleaning service at 20% off this week. Trained and verifiied professionals.,promo,True
+ob_pr23_spacing,pr23,spacing,Book a home cleaning service at 20% off this week. Trained and verified professionals.,promo,True
+ob_pr23_homoglyph,pr23,homoglyph,Book a hоme clеaning service at 20% оff this wеek. Trаіned and vеrifiеd professiоnаls.,promo,True
+ob_pr23_leetspeak,pr23,leetspeak,Book 4 home cl34n1ng 53rv1c3 at 20% 0ff this week. 7r41n3d 4nd v3r1f13d professionals.,promo,True
+ob_pr24_none,pr24,none,Join our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,True
+ob_pr24_typos,pr24,typos,Joiin our gym thsi month and get 3 motnhs free on the annual plan. Visit the Nashik branch.,promo,True
+ob_pr24_spacing,pr24,spacing,J.o.i.n our gym this month and get 3 months free on the annual plan. Visit the Nashik branch.,promo,True
+ob_pr24_homoglyph,pr24,homoglyph,Jоіn оur gуm thіs month аnd get 3 mоnths frеe on the аnnuаl рlan. Visіt the Nashik branch.,promo,True
+ob_pr24_leetspeak,pr24,leetspeak,J01n 0ur gym this m0n7h 4nd g37 3 months free 0n the annual plan. Visit the Nashik br4nch.,promo,True
+ob_ha00_none,ha00,none,"Rs 86,756 debited from your ICICI Bank account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is updated in the app.",ham,True
+ob_ha00_typos,ha00,typos,"Rs 86,756 debied from your IICI Bakn account ending 4234 on 18-Jan for a UPI payment to Zepto. Avl bal is uppdated in the app.",ham,True
+ob_ha00_spacing,ha00,spacing,"Rs 86,756 debited f-r-o-m your I C I C I Bank account ending 4234 on 18-Jan for a UPI p.a.y.m.e.n.t to Zepto. Avl bal is updated in the app.",ham,True
+ob_ha00_homoglyph,ha00,homoglyph,"Rs 86,756 dеbitеd from уour ICICI Bank aссоunt ending 4234 on 18-Jаn for а UPI pаyment to Zеpto. Avl bаl іs updаted in the app.",ham,True
+ob_ha00_leetspeak,ha00,leetspeak,"Rs 86,756 debited from y0ur ICICI Bank account 3nd1ng 4234 0n 18-Jan f0r a UP1 p4ym3n7 to Zepto. Avl b4l is upd473d in 7h3 4pp.",ham,True
+ob_ha01_none,ha01,none,Rs 214 has been credited to your Bank of Baroda account ending 1611 on 05-Sep. Thank you for banking with us.,ham,True
+ob_ha01_typos,ha01,typos,Rs 214 has been creited to youur Bank of Baroda accoutn endign 1611 on 05-Sep. Thank you for bankign wth us.,ham,True
+ob_ha01_spacing,ha01,spacing,Rs 214 has b.e.e.n c-r-e-d-i-t-e-d to y.o.u.r B-a-n-k of B.a.r.o.d.a a c c o u n t ending 1611 on 05-Sep. Thank you for b.a.n.k.i.n.g with us.,ham,True
+ob_ha01_homoglyph,ha01,homoglyph,Rs 214 has beеn creditеd to your Bank of Baroda aсcount еnding 1611 оn 05-Sер. Thаnk уou for bаnkіng with us.,ham,True
+ob_ha01_leetspeak,ha01,leetspeak,R5 214 has b33n credited to your Bank of B4r0d4 4cc0un7 3nd1ng 1611 on 05-53p. Thank you f0r banking with u5.,ham,True
+ob_ha02_none,ha02,none,Your Swiggy order has been delivered. We hope you enjoy your purchase.,ham,True
+ob_ha02_typos,ha02,typos,Your Swiggy oder has been delivered. We hoep you enjoy your purchase.,ham,True
+ob_ha02_spacing,ha02,spacing,Your S.w.i.g.g.y o r d e r has been delivered. We hope you enjoy your purchase.,ham,True
+ob_ha02_homoglyph,ha02,homoglyph,Your Swіggy order hаs bееn delivered. Wе hopе you enjoу your purchase.,ham,True
+ob_ha02_leetspeak,ha02,leetspeak,Your 5w1ggy 0rd3r h45 b33n d3l1v3r3d. W3 h0p3 y0u 3nj0y y0ur purch453.,ham,True
+ob_ha03_none,ha03,none,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,True
+ob_ha03_typos,ha03,typos,"Hey, I'll reach the staation by 10:30 AM. Wait near the ticket counter.",ham,True
+ob_ha03_spacing,ha03,spacing,"Hey, I'll reach the station by 10:30 AM. Wait near the ticket counter.",ham,True
+ob_ha03_homoglyph,ha03,homoglyph,"Hеy, I'll reach thе stаtіon by 10:30 AM. Wait near the tiсket соuntеr.",ham,True
+ob_ha03_leetspeak,ha03,leetspeak,"H3y, I'll r34ch the station by 10:30 AM. W417 n34r 7h3 ticket counter.",ham,True
+ob_ha04_none,ha04,none,Recharge of Rs 349 is successful for your BSNL number. Your plan is valid for 28 days.,ham,True
+ob_ha04_typos,ha04,typos,Recharge of Rs 349 is successful for yor BNL number. Yuor plan is valid for 28 days.,ham,True
+ob_ha04_spacing,ha04,spacing,Recharge of Rs 349 is s u c c e s s f u l for your B S N L number. Y o u r plan is v.a.l.i.d for 28 days.,ham,True
+ob_ha04_homoglyph,ha04,homoglyph,Rеchаrgе of Rs 349 іs suсcessful for уоur BSNL numbеr. Your plan іs valіd for 28 days.,ham,True
+ob_ha04_leetspeak,ha04,leetspeak,R3ch4rg3 of R5 349 15 5ucc355ful f0r y0ur BSNL number. Y0ur plan is valid f0r 28 d4y5.,ham,True
+ob_ha05_none,ha05,none,"Your train ticket PNR is confirmed. Coach B2, seat 34. Have a pleasant journey.",ham,True
+ob_ha05_typos,ha05,typos,"Your train tickte PNR is confirmed. Coach B2, seat 34. Havve a pleasant journey.",ham,True
+ob_ha05_spacing,ha05,spacing,"Your train ticket PNR is confirmed. C.o.a.c.h B2, seat 34. Have a pleasant journey.",ham,True
+ob_ha05_homoglyph,ha05,homoglyph,"Yоur trаin tісket PNR is сonfirmed. Cоaсh B2, seat 34. Have а plеasant jоurney.",ham,True
+ob_ha05_leetspeak,ha05,leetspeak,"Y0ur 7r41n 71ck37 PNR 15 confirmed. Coach B2, 5347 34. Have 4 pl3454n7 journey.",ham,True
+ob_ha06_none,ha06,none,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,True
+ob_ha06_typos,ha06,typos,"Reminder: yoour electricity billl of Rs 3,17,735 is due on 13-Apr. Pay thruogh any authorised channel.",ham,True
+ob_ha06_spacing,ha06,spacing,"Reminder: your electricity bill of Rs 3,17,735 is due on 13-Apr. Pay through any authorised channel.",ham,True
+ob_ha06_homoglyph,ha06,homoglyph,"Reminder: уour electricity bіll оf Rs 3,17,735 is duе оn 13-Apr. Pay through any authorised channеl.",ham,True
+ob_ha06_leetspeak,ha06,leetspeak,"Reminder: your electricity b1ll of Rs 3,17,735 15 due on 13-Apr. P4y through 4ny authorised ch4nn3l.",ham,True
+ob_ha07_none,ha07,none,Can you pick up milk and bread on your way home?,ham,True
+ob_ha07_typos,ha07,typos,Can you pick up mlk and bread on youur way home?,ham,True
+ob_ha07_spacing,ha07,spacing,Can you pick up milk and bread on y-o-u-r way home?,ham,True
+ob_ha07_homoglyph,ha07,homoglyph,Can you pіck up milk аnd brеad оn your way home?,ham,True
+ob_ha07_leetspeak,ha07,leetspeak,Can you p1ck up m1lk 4nd bread on your way h0m3?,ham,True
+ob_ha08_none,ha08,none,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,True
+ob_ha08_typos,ha08,typos,Your Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,True
+ob_ha08_spacing,ha08,spacing,Y.o.u.r Zepto refund of Rs 530 has been processed and will reflect in 5-7 working days.,ham,True
+ob_ha08_homoglyph,ha08,homoglyph,Your Zeptо refund of Rs 530 hаs bеen procеssеd аnd wіll rеflеct in 5-7 wоrkіng dаys.,ham,True
+ob_ha08_leetspeak,ha08,leetspeak,Y0ur Z3p70 r3fund 0f R5 530 h45 b33n processed and w1ll reflect 1n 5-7 w0rk1ng days.,ham,True
+ob_ha09_none,ha09,none,Meeting moved to 11:45 PM tomorrow. Please bring the printed report.,ham,True
+ob_ha09_typos,ha09,typos,Meeting movde to 11:45 PM tomorrow. Pelase bring the printed report.,ham,True
+ob_ha09_spacing,ha09,spacing,M.e.e.t.i.n.g moved to 11:45 PM tomorrow. Please b-r-i-n-g the printed report.,ham,True
+ob_ha09_homoglyph,ha09,homoglyph,Meeting mоved to 11:45 PM tomоrrоw. Pleasе bring the printed report.,ham,True
+ob_ha09_leetspeak,ha09,leetspeak,M3371ng m0v3d to 11:45 PM tomorrow. Pl3453 br1ng the printed report.,ham,True
+ob_ha10_none,ha10,none,Happy birthday Amit! Have a wonderful year ahead.,ham,True
+ob_ha10_typos,ha10,typos,Happy birthdday Amit! Have a wonderful year ahead.,ham,True
+ob_ha10_spacing,ha10,spacing,Happy b i r t h d a y Amit! Have a w-o-n-d-e-r-f-u-l year ahead.,ham,True
+ob_ha10_homoglyph,ha10,homoglyph,Happy bіrthdаy Amit! Have a wоndеrful yеаr аhеad.,ham,True
+ob_ha10_leetspeak,ha10,leetspeak,Happy b1r7hd4y Amit! H4v3 4 wonderful y34r ahead.,ham,True
+ob_ha11_none,ha11,none,Your appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,True
+ob_ha11_typos,ha11,typos,Youur appontment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,True
+ob_ha11_spacing,ha11,spacing,Y-o-u-r appointment at the clinic is confirmed for 08-Jan at 1:30 PM.,ham,True
+ob_ha11_homoglyph,ha11,homoglyph,Your appoіntment аt the clinic is confirmеd fоr 08-Jаn at 1:30 PM.,ham,True
+ob_ha11_leetspeak,ha11,leetspeak,Y0ur 4pp01n7m3n7 at 7h3 clinic is confirmed for 08-J4n at 1:30 PM.,ham,True
+ob_ha12_none,ha12,none,You have a missed call from 8529128084 at 6:30 AM. -BSNL,ham,True
+ob_ha12_typos,ha12,typos,You have a misseed call from 8529128084 at 6:30 AM. -BSNL,ham,True
+ob_ha12_spacing,ha12,spacing,You h.a.v.e a missed call from 8529128084 at 6:30 AM. -BSNL,ham,True
+ob_ha12_homoglyph,ha12,homoglyph,You have а missеd сall from 8529128084 at 6:30 AM. -BSNL,ham,True
+ob_ha12_leetspeak,ha12,leetspeak,Y0u h4v3 4 missed call fr0m 8529128084 47 6:30 4M. -BSNL,ham,True
+ob_ha13_none,ha13,none,Your Blinkit order is out for delivery and will reach you today.,ham,True
+ob_ha13_typos,ha13,typos,Yuor Blikit order is out for dlivery and will reach you today.,ham,True
+ob_ha13_spacing,ha13,spacing,Your Blinkit o.r.d.e.r is out for delivery and will reach you today.,ham,True
+ob_ha13_homoglyph,ha13,homoglyph,Your Blinkit ordеr is out fоr dеlivеry and wіll rеach you today.,ham,True
+ob_ha13_leetspeak,ha13,leetspeak,Y0ur Blinkit 0rd3r 15 out for delivery 4nd will reach y0u 70d4y.,ham,True
+ob_ha14_none,ha14,none,Heavy rain is likely in Pune in the next 3 hours. Citizens are advised to stay alert.,ham,True
+ob_ha14_typos,ha14,typos,Havy rin is likely in Pune in the nxt 3 hours. Citizens are avised to sty alert.,ham,True
+ob_ha14_spacing,ha14,spacing,H.e.a.v.y r-a-i-n is l-i-k-e-l-y in P.u.n.e in the n-e-x-t 3 hours. C.i.t.i.z.e.n.s are advised to stay alert.,ham,True
+ob_ha14_homoglyph,ha14,homoglyph,Heavy rain is likеly in Punе іn thе next 3 hours. Citizens arе advіsed tо stay alеrt.,ham,True
+ob_ha14_leetspeak,ha14,leetspeak,Heavy r41n 15 l1k3ly in Pun3 1n 7h3 next 3 hours. C171z3n5 4r3 4dv153d to 574y 4l3r7.,ham,True
+ob_ha15_none,ha15,none,Your cheque book has been dispatched by courier and will be delivered by 08-Aug. -Bank of Baroda,ham,True
+ob_ha15_typos,ha15,typos,Your cheue book has been dispatched by corier and will be delivered by 08-Aug. -Bank of Baroda,ham,True
+ob_ha15_spacing,ha15,spacing,Your cheque book has been d.i.s.p.a.t.c.h.e.d by c-o-u-r-i-e-r and will be delivered by 08-Aug. -Bank of B-a-r-o-d-a,ham,True
+ob_ha15_homoglyph,ha15,homoglyph,Your сhеque book hаs bеen dispatched by courіеr and wіll be delіvered by 08-Aug. -Bank оf Bаrоdа,ham,True
+ob_ha15_leetspeak,ha15,leetspeak,Y0ur cheque book has b33n d15p47ch3d by courier and will b3 delivered by 08-4ug. -B4nk 0f Baroda,ham,True
+ob_ha16_none,ha16,none,Data usage alert: you have used 90% of your daily data on your Jio number.,ham,True
+ob_ha16_typos,ha16,typos,Data usae alert: you have ussed 90% of yoru daily data on yoour Jio number.,ham,True
+ob_ha16_spacing,ha16,spacing,D.a.t.a u-s-a-g-e alert: you have used 90% of your daily data on y o u r Jio number.,ham,True
+ob_ha16_homoglyph,ha16,homoglyph,Datа usagе аlеrt: уou have used 90% of yоur dаіly data on уоur Jіо numbеr.,ham,True
+ob_ha16_leetspeak,ha16,leetspeak,Data usage alert: y0u h4v3 u53d 90% 0f y0ur daily d474 0n y0ur Jio numb3r.,ham,True
+ob_ha17_none,ha17,none,"Sorry, I can't talk right now. Will call you after the class.",ham,True
+ob_ha17_typos,ha17,typos,"Sorry, I can't taalk riight now. Will call you after the class.",ham,True
+ob_ha17_spacing,ha17,spacing,"Sorry, I can't talk right now. Will call you after the class.",ham,True
+ob_ha17_homoglyph,ha17,homoglyph,"Sorry, I саn't tаlk right nоw. Wіll call you аftеr the class.",ham,True
+ob_ha17_leetspeak,ha17,leetspeak,"50rry, I c4n'7 talk r1gh7 n0w. W1ll call y0u 4f73r 7h3 class.",ham,True
+ob_ha18_none,ha18,none,Your bus from Delhi departs at 11:15 PM. Please reach the boarding point 15 minutes early.,ham,True
+ob_ha18_typos,ha18,typos,Your bus from Delhi departs at 11:15 PM. Pleaes reach the boarding poitn 15 mnutes early.,ham,True
+ob_ha18_spacing,ha18,spacing,Your bus from Delhi d-e-p-a-r-t-s at 11:15 PM. Please reach the boarding p-o-i-n-t 15 minutes early.,ham,True
+ob_ha18_homoglyph,ha18,homoglyph,Your bus frоm Delhi deраrts аt 11:15 PM. Plеаsе rеасh thе boаrding pоint 15 minutеs еarlу.,ham,True
+ob_ha18_leetspeak,ha18,leetspeak,Your bu5 from D3lh1 departs at 11:15 PM. Pl3453 r34ch the boarding p01n7 15 m1nu735 early.,ham,True
+ob_ha19_none,ha19,none,"Mom says dinner is at 8, don't be late.",ham,True
+ob_ha19_typos,ha19,typos,"Mom sasy dinnner is at 8, don't be late.",ham,True
+ob_ha19_spacing,ha19,spacing,"Mom s a y s dinner is at 8, don't be late.",ham,True
+ob_ha19_homoglyph,ha19,homoglyph,"Mоm says dinnеr is at 8, dоn't be lаte.",ham,True
+ob_ha19_leetspeak,ha19,leetspeak,"M0m says d1nn3r is 47 8, d0n'7 be l473.",ham,True
+ob_ha20_none,ha20,none,TRAI never calls or sends messages to disconnect your number. Report such fraud calls at 1930.,ham,True
+ob_ha20_typos,ha20,typos,TRAI neevr calls or sendds meessages to disconnect your number. Report sch fraud calls at 1930.,ham,True
+ob_ha20_spacing,ha20,spacing,TRAI never calls or sends messages to d.i.s.c.o.n.n.e.c.t your number. Report such fraud calls at 1930.,ham,True
+ob_ha20_homoglyph,ha20,homoglyph,TRAI nevеr сalls оr sends messages tо discоnnеct yоur number. Reрort such frаud саlls at 1930.,ham,True
+ob_ha20_leetspeak,ha20,leetspeak,7R41 n3v3r calls 0r sends m3554g35 70 d15c0nn3c7 y0ur number. Report such fr4ud calls at 1930.,ham,True
+ob_ha21_none,ha21,none,Your PAN application has been processed and the card will be sent by post.,ham,True
+ob_ha21_typos,ha21,typos,Your PAN applicaion has been processed and the card wlil be sent by post.,ham,True
+ob_ha21_spacing,ha21,spacing,Y.o.u.r PAN application has b e e n processed and the card w-i-l-l be s-e-n-t by post.,ham,True
+ob_ha21_homoglyph,ha21,homoglyph,Your PAN арplісаtion hаs bеen рrocessed аnd thе cаrd will bе sеnt by роst.,ham,True
+ob_ha21_leetspeak,ha21,leetspeak,Y0ur P4N application h45 been pr0c3553d 4nd the c4rd w1ll be sent by p057.,ham,True
+ob_ha22_none,ha22,none,Your Vi plan expires on 26-Apr. Recharge to continue using services.,ham,True
+ob_ha22_typos,ha22,typos,Yur Vi plan expiers on 26-Apr. Recharge to continnue usng services.,ham,True
+ob_ha22_spacing,ha22,spacing,Your Vi plan expires on 26-Apr. Recharge to continue u s i n g services.,ham,True
+ob_ha22_homoglyph,ha22,homoglyph,Your Vi plаn exрires on 26-Aрr. Recharge to cоntinuе usіng sеrvісes.,ham,True
+ob_ha22_leetspeak,ha22,leetspeak,Y0ur V1 plan 3xp1r35 on 26-Apr. R3ch4rg3 70 c0n71nu3 u51ng services.,ham,True
+ob_ha23_none,ha23,none,The library book you borrowed is due for return on 18-May.,ham,True
+ob_ha23_typos,ha23,typos,The library bok you borrowed is due for reutrn on 18-May.,ham,True
+ob_ha23_spacing,ha23,spacing,The library book you b o r r o w e d is due for r.e.t.u.r.n on 18-May.,ham,True
+ob_ha23_homoglyph,ha23,homoglyph,Thе lіbrаry boоk yоu borrоwеd іs due for rеturn on 18-Maу.,ham,True
+ob_ha23_leetspeak,ha23,leetspeak,The library b00k y0u borrowed 15 due f0r r37urn 0n 18-M4y.,ham,True
+ob_ha24_none,ha24,none,"Thanks for the help today, really appreciate it!",ham,True
+ob_ha24_typos,ha24,typos,"Thanks for the help today, really apreciate it!",ham,True
+ob_ha24_spacing,ha24,spacing,"Thanks for the h e l p today, r-e-a-l-l-y appreciate it!",ham,True
+ob_ha24_homoglyph,ha24,homoglyph,"Thаnks fоr the help tоdaу, rеallу аpprеciate it!",ham,True
+ob_ha24_leetspeak,ha24,leetspeak,"7h4nk5 f0r the help today, really appreciate 17!",ham,True

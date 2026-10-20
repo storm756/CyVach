@@ -1,0 +1,73 @@
+item_id,digit_style,text,final_label,is_synthetic
+dp_00_r0,random,481859 is your OTP for Bank of Baroda NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,True
+dp_00_r1,random,2311 is your OTP for Canara Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,True
+dp_00_r2,random,127057 is your OTP for Kotak Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,True
+dp_00_p,patterned,112233 is your OTP for ICICI Bank NetBanking login. Do not share it with anyone. Valid for 5 minutes.,caution,True
+dp_01_r0,random,"143479 is the OTP for your transaction of Rs 73,802 on ICICI Bank card ending 8894. Never share your OTP.",caution,True
+dp_01_r1,random,"215943 is the OTP for your transaction of Rs 65,557 on Bank of Baroda card ending 1888. Never share your OTP.",caution,True
+dp_01_r2,random,"1786 is the OTP for your transaction of Rs 1,256 on HDFC Bank card ending 5358. Never share your OTP.",caution,True
+dp_01_p,patterned,"112233 is the OTP for your transaction of Rs 3,48,400 on Axis Bank card ending 1355. Never share your OTP.",caution,True
+dp_02_r0,random,"Use 613997 to log in to your Zepto account. Do not share this code with anyone, including Zepto staff.",caution,True
+dp_02_r1,random,"Use 2792 to log in to your Swiggy account. Do not share this code with anyone, including Swiggy staff.",caution,True
+dp_02_r2,random,"Use 6642 to log in to your Blinkit account. Do not share this code with anyone, including Blinkit staff.",caution,True
+dp_02_p,patterned,"Use 445566 to log in to your Myntra account. Do not share this code with anyone, including Myntra staff.",caution,True
+dp_03_r0,random,Your Vi verification code is 291660. It expires in 10 minutes.,caution,True
+dp_03_r1,random,Your Airtel verification code is 520972. It expires in 10 minutes.,caution,True
+dp_03_r2,random,Your Vi verification code is 4839. It expires in 10 minutes.,caution,True
+dp_03_p,patterned,Your Airtel verification code is 556677. It expires in 10 minutes.,caution,True
+dp_08_r0,random,945947 is your OTP to reset the password of your Zomato account. Do not share it with anyone.,caution,True
+dp_08_r1,random,909778 is your OTP to reset the password of your Amazon account. Do not share it with anyone.,caution,True
+dp_08_r2,random,945147 is your OTP to reset the password of your Amazon account. Do not share it with anyone.,caution,True
+dp_08_p,patterned,223344 is your OTP to reset the password of your Amazon account. Do not share it with anyone.,caution,True
+dp_11_r0,random,243777 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,True
+dp_11_r1,random,871552 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,True
+dp_11_r2,random,4951 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,True
+dp_11_p,patterned,778899 is your one-time password to verify your mobile number on DigiLocker. Valid for 10 minutes.,caution,True
+dp_12_r0,random,Your Aadhaar authentication OTP is 581791. Do not share it with anyone. -UIDAI,caution,True
+dp_12_r1,random,Your Aadhaar authentication OTP is 043670. Do not share it with anyone. -UIDAI,caution,True
+dp_12_r2,random,Your Aadhaar authentication OTP is 488535. Do not share it with anyone. -UIDAI,caution,True
+dp_12_p,patterned,Your Aadhaar authentication OTP is 778899. Do not share it with anyone. -UIDAI,caution,True
+dp_13_r0,random,"1131 is the OTP to add a new payee to your SBI account. If you did not request this, call the bank.",caution,True
+dp_13_r1,random,"596173 is the OTP to add a new payee to your Kotak Bank account. If you did not request this, call the bank.",caution,True
+dp_13_r2,random,"678517 is the OTP to add a new payee to your Kotak Bank account. If you did not request this, call the bank.",caution,True
+dp_13_p,patterned,"445566 is the OTP to add a new payee to your Kotak Bank account. If you did not request this, call the bank.",caution,True
+dp_15_r0,random,"Your HDFC Bank debit card ending 6521 was used for an international transaction of Rs 9,088. Not you? Block the card in the app.",caution,True
+dp_15_r1,random,"Your Canara Bank debit card ending 2272 was used for an international transaction of Rs 7,449. Not you? Block the card in the app.",caution,True
+dp_15_r2,random,"Your SBI debit card ending 9052 was used for an international transaction of Rs 51,566. Not you? Block the card in the app.",caution,True
+dp_15_p,patterned,"Your ICICI Bank debit card ending 1066 was used for an international transaction of Rs 3,36,206. Not you? Block the card in the app.",caution,True
+dp_16_r0,random,Delivery code 365065: share it with the Amazon delivery agent only after checking your order.,caution,True
+dp_16_r1,random,Delivery code 314374: share it with the Flipkart delivery agent only after checking your order.,caution,True
+dp_16_r2,random,Delivery code 067049: share it with the Zepto delivery agent only after checking your order.,caution,True
+dp_16_p,patterned,Delivery code 334455: share it with the Blinkit delivery agent only after checking your order.,caution,True
+dp_17_r0,random,674111 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,True
+dp_17_r1,random,4580 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,True
+dp_17_r2,random,596989 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,True
+dp_17_p,patterned,556677 is your EPFO UAN activation OTP. Do not share it with anyone.,caution,True
+dp_19_r0,random,Your Google account verification code is 3259.,caution,True
+dp_19_r1,random,Your Google account verification code is 152498.,caution,True
+dp_19_r2,random,Your Google account verification code is 205330.,caution,True
+dp_19_p,patterned,Your Google account verification code is 667788.,caution,True
+dp_22_r0,random,"8439 is your OTP to confirm the e-mandate of Rs 12,346 on your Axis Bank account. Do not share it.",caution,True
+dp_22_r1,random,"542925 is your OTP to confirm the e-mandate of Rs 1,293 on your SBI account. Do not share it.",caution,True
+dp_22_r2,random,"985237 is your OTP to confirm the e-mandate of Rs 4,33,514 on your Bank of Baroda account. Do not share it.",caution,True
+dp_22_p,patterned,"556677 is your OTP to confirm the e-mandate of Rs 68,255 on your Canara Bank account. Do not share it.",caution,True
+dp_24_r0,random,6747 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,True
+dp_24_r1,random,494231 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,True
+dp_24_r2,random,5036 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,True
+dp_24_p,patterned,667788 is your login code for the IRCTC app. It is valid for 5 minutes.,caution,True
+dp_25_r0,random,Rs 558 debited from your HDFC Bank account ending 7868 on 16-Nov for a UPI payment to Flipkart. Avl bal is updated in the app.,ham,True
+dp_25_r1,random,"Rs 88,167 debited from your HDFC Bank account ending 8025 on 02-Sep for a UPI payment to Zepto. Avl bal is updated in the app.",ham,True
+dp_25_r2,random,"Rs 3,635 debited from your HDFC Bank account ending 6525 on 02-Apr for a UPI payment to Zepto. Avl bal is updated in the app.",ham,True
+dp_25_p,patterned,"Rs 2,54,118 debited from your SBI account ending 6145 on 11-Nov for a UPI payment to Zomato. Avl bal is updated in the app.",ham,True
+dp_26_r0,random,"Rs 2,72,405 has been credited to your ICICI Bank account ending 9400 on 19-Jun. Thank you for banking with us.",ham,True
+dp_26_r1,random,"Rs 6,125 has been credited to your Bank of Baroda account ending 1162 on 18-Mar. Thank you for banking with us.",ham,True
+dp_26_r2,random,Rs 914 has been credited to your Kotak Bank account ending 1239 on 28-Sep. Thank you for banking with us.,ham,True
+dp_26_p,patterned,"Rs 2,05,591 has been credited to your Canara Bank account ending 6949 on 26-Oct. Thank you for banking with us.",ham,True
+dp_31_r0,random,"Reminder: your electricity bill of Rs 87,261 is due on 23-Nov. Pay through any authorised channel.",ham,True
+dp_31_r1,random,"Reminder: your electricity bill of Rs 1,47,604 is due on 05-Jul. Pay through any authorised channel.",ham,True
+dp_31_r2,random,"Reminder: your electricity bill of Rs 6,035 is due on 02-Jul. Pay through any authorised channel.",ham,True
+dp_31_p,patterned,"Reminder: your electricity bill of Rs 16,450 is due on 23-Jul. Pay through any authorised channel.",ham,True
+dp_33_r0,random,Your Amazon refund of Rs 576 has been processed and will reflect in 5-7 working days.,ham,True
+dp_33_r1,random,Your Swiggy refund of Rs 690 has been processed and will reflect in 5-7 working days.,ham,True
+dp_33_r2,random,"Your Zomato refund of Rs 1,24,655 has been processed and will reflect in 5-7 working days.",ham,True
+dp_33_p,patterned,"Your Myntra refund of Rs 4,163 has been processed and will reflect in 5-7 working days.",ham,True

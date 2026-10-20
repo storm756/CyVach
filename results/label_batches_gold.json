@@ -1,0 +1,18 @@
+{
+  "run_id": "label_batches_make-20261018-004827",
+  "script": "label_batches_make",
+  "started": "20261018-004827",
+  "code_version": "41d866a-dirty",
+  "config": {
+    "cmd": "make",
+    "set": "gold",
+    "batch": 1000,
+    "agree_frac": 0.1,
+    "seed": 7
+  },
+  "result": {
+    "set": "gold",
+    "items": 470,
+    "batches": 1
+  }
+}

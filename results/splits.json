@@ -1,0 +1,99 @@
+{
+  "run_id": "make_splits-20261018-160955",
+  "script": "make_splits",
+  "started": "20261018-160955",
+  "code_version": "b7906f7-dirty",
+  "config": {
+    "val_frac": 0.15,
+    "seed": 42
+  },
+  "result": {
+    "train": {
+      "rows": 6579,
+      "sha256": "6e658d9ef4a3ce5254137efc0550dbe630b7d60c6e0c0730264584d22eb8cf31",
+      "labels": {
+        "ham": 4986,
+        "promo": 885,
+        "spam": 396,
+        "caution": 312
+      },
+      "synthetic": 440,
+      "label_source": {
+        "original": 3670,
+        "claude_silver": 2909
+      },
+      "sources": {
+        "uci": 4116,
+        "export2026": 764,
+        "mishra_soni": 639,
+        "inbox": 582,
+        "friend3_2026": 177,
+        "friend2026": 162,
+        "friend2_2026": 139
+      }
+    },
+    "val": {
+      "rows": 1065,
+      "sha256": "1fbfbd61693fa276f0f1cc46d6675b0a284c85cdb4b186dcf74767d27b1dd572",
+      "labels": {
+        "ham": 852,
+        "promo": 136,
+        "spam": 62,
+        "caution": 15
+      },
+      "synthetic": 0,
+      "label_source": {
+        "original": 581,
+        "claude_silver": 484
+      },
+      "sources": {
+        "uci": 716,
+        "export2026": 140,
+        "mishra_soni": 122,
+        "friend3_2026": 25,
+        "friend2_2026": 23,
+        "friend2026": 21,
+        "inbox": 18
+      }
+    },
+    "test": {
+      "rows": 533,
+      "sha256": "7fa0c6c4bdaf604a22c7185e39d3c605a266fa7ef0b5072a5c85527ce04e201b",
+      "labels": {
+        "ham": 204,
+        "promo": 153,
+        "caution": 89,
+        "spam": 87
+      },
+      "synthetic": 0,
+      "label_source": {
+        "claude_blind": 353,
+        "human_verified": 180
+      },
+      "sources": {
+        "uci": 254,
+        "export2026": 130,
+        "mishra_soni": 74,
+        "friend2026": 40,
+        "inbox": 35
+      }
+    },
+    "overlaps": {
+      "train-val": {
+        "clusters": 0,
+        "normalized_text": 0,
+        "item_ids": 0
+      },
+      "train-test": {
+        "clusters": 0,
+        "normalized_text": 0,
+        "item_ids": 0
+      },
+      "val-test": {
+        "clusters": 0,
+        "normalized_text": 0,
+        "item_ids": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "run_id": "train-20261018-133515",
+  "script": "train",
+  "started": "20261018-133515",
+  "code_version": "25a4bb1",
+  "config": {
+    "model": "distilbert-base-uncased",
+    "balance": "S0",
+    "synthetic_ratio": 0.0,
+    "placeholders": "U1",
+    "digits": "D1",
+    "lr": 5e-05,
+    "epochs": 5,
+    "max_len": 128,
+    "batch": 32,
+    "label_smoothing": 0.0,
+    "weight_decay": 0.01,
+    "seed": 5,
+    "limit": 0,
+    "no_save": false
+  },
+  "result": {
+    "device": "cuda",
+    "env": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.1",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "cuda": "Tesla T4",
+      "amp_fp16": true
+    },
+    "train_rows": 5882,
+    "train_labels": {
+      "ham": 4786,
+      "promo": 679,
+      "spam": 331,
+      "caution": 86
+    },
+    "train_synthetic": 0,
+    "val_rows": 1001,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.7300191971108966,
+        "val_loss": 0.41543336843813095,
+        "val_macro_f1": 0.7803578020911961,
+        "val_acc": 0.8861138861138861,
+        "val_caution_f1": 0.8275862068965517,
+        "seconds": 17.2,
+        "probe_acc": 0.8333333333333334
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.24556512485825174,
+        "val_loss": 0.1326950564385056,
+        "val_macro_f1": 0.8491400199674695,
+        "val_acc": 0.954045954045954,
+        "val_caution_f1": 0.7586206896551724,
+        "seconds": 17.1,
+        "probe_acc": 1.0
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.1205466827377677,
+        "val_loss": 0.1255702944351481,
+        "val_macro_f1": 0.870561560846725,
+        "val_acc": 0.961038961038961,
+        "val_caution_f1": 0.7741935483870968,
+        "seconds": 17.0,
+        "probe_acc": 1.0
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.06380090029573615,
+        "val_loss": 0.12269475801729715,
+        "val_macro_f1": 0.8860020363165331,
+        "val_acc": 0.97002997002997,
+        "val_caution_f1": 0.7586206896551724,
+        "seconds": 17.0,
+        "probe_acc": 0.9861111111111112
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.03624762689034232,
+        "val_loss": 0.12787692312483342,
+        "val_macro_f1": 0.8959249883342731,
+        "val_acc": 0.971028971028971,
+        "val_caution_f1": 0.7857142857142857,
+        "seconds": 16.7,
+        "probe_acc": 0.9722222222222222
+      }
+    ],
+    "best_val": {
+      "n": 1001,
+      "accuracy": 0.971028971028971,
+      "macro_f1": 0.8959249883342731,
+      "mcc": 0.9137703278341137,
+      "per_class": {
+        "ham": {
+          "precision": 0.9838909541511772,
+          "recall": 0.9900249376558603,
+          "f1": 0.9869484151646986,
+          "support": 802
+        },
+        "spam": {
+          "precision": 0.9444444444444444,
+          "recall": 0.8225806451612904,
+          "f1": 0.8793103448275862,
+          "support": 62
+        },
+        "promo": {
+          "precision": 0.9133858267716536,
+          "recall": 0.9508196721311475,
+          "f1": 0.9317269076305221,
+          "support": 122
+        },
+        "caution": {
+          "precision": 0.8461538461538461,
+          "recall": 0.7333333333333333,
+          "f1": 0.7857142857142857,
+          "support": 15
+        }
+      },
+      "confusion": [
+        [
+          794,
+          1,
+          5,
+          2
+        ],
+        [
+          5,
+          51,
+          6,
+          0
+        ],
+        [
+          4,
+          2,
+          116,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          11
+        ]
+      ],
+      "fpr_legit_as_scam": 0.003194888178913738,
+      "epoch": 5,
+      "probe_acc": 0.9722222222222222
+    },
+    "model_dir": "/content/cyvach/models/train-20261018-133515"
+  }
+}

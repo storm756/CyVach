@@ -1,0 +1,79 @@
+{
+  "run_id": "header_upstream-20261019-032951",
+  "script": "header_upstream",
+  "started": "20261019-032951",
+  "code_version": "bc0a764-dirty",
+  "config": {
+    "data": "stress_spoof (synthetic)",
+    "hypothetical_conf": 0.99
+  },
+  "result": {
+    "synthetic": true,
+    "n_scam_items": 325,
+    "n_unique_scam_texts": 122,
+    "categories": {
+      "diverted_by_rules_alone": {
+        "k": 233,
+        "n": 325,
+        "share": 0.7169230769230769
+      },
+      "model_dependent": {
+        "k": 66,
+        "n": 325,
+        "share": 0.20307692307692307
+      },
+      "caught_by_rules_alone": {
+        "k": 26,
+        "n": 325,
+        "share": 0.08
+      }
+    },
+    "by_sender_kind": {
+      "personal_mobile": {
+        "model_dependent": 42,
+        "caught_by_rules_alone": 26,
+        "diverted_by_rules_alone": 7
+      },
+      "registered_G": {
+        "diverted_by_rules_alone": 50
+      },
+      "registered_P": {
+        "diverted_by_rules_alone": 50
+      },
+      "registered_ST": {
+        "diverted_by_rules_alone": 50
+      },
+      "spoof_lookalike": {
+        "diverted_by_rules_alone": 50
+      },
+      "unknown_alnum": {
+        "diverted_by_rules_alone": 26,
+        "model_dependent": 24
+      }
+    },
+    "rules_forcing_non_scam": {
+      "R0_trusted_veto": 127,
+      "R1_safety_advisory": 69,
+      "R4_suffix_ST_downgrade": 22,
+      "R4_suffix_G": 11,
+      "R4_suffix_P": 4
+    },
+    "rules_forcing_scam": {
+      "R3_mobile_keyword": 26
+    },
+    "actual_new_int8_quint8": {
+      "n": 325,
+      "model_says_scam": 88,
+      "pipeline_says_scam": 55,
+      "rules_turned_scam_into_non_scam": 74,
+      "rules_turned_non_scam_into_scam": 41
+    },
+    "actual_v73_int8": {
+      "n": 325,
+      "model_says_scam": 227,
+      "pipeline_says_scam": 55,
+      "rules_turned_scam_into_non_scam": 196,
+      "rules_turned_non_scam_into_scam": 24
+    }
+  }
+}

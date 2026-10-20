@@ -1,0 +1,244 @@
+{
+  "run_id": "pii_audit-20261017-220848",
+  "script": "pii_audit",
+  "started": "20261017-220848",
+  "code_version": "nocommit-dirty",
+  "config": {
+    "files": [
+      "balanced_training_data.csv",
+      "financial_fraud_training_10000.csv",
+      "Indian_sms_scam.csv",
+      "spam.csv"
+    ]
+  },
+  "result": {
+    "files": [
+      {
+        "file": "balanced_training_data.csv",
+        "rows": 1141,
+        "pass1_replacements_by_type": {
+          "name": 413,
+          "aadhaar": 489,
+          "masked_acct": 289,
+          "long_digits": 301,
+          "url": 256,
+          "vpa": 51,
+          "card": 5,
+          "phone": 62
+        },
+        "pass1_rows_with_type": {
+          "name": 401,
+          "aadhaar": 294,
+          "masked_acct": 289,
+          "long_digits": 265,
+          "url": 243,
+          "vpa": 51,
+          "card": 5,
+          "phone": 62
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "digit_run_ge9": 875,
+            "spaced_digits_ge8_nondate": 874,
+            "info_digit_run_6to8": 247,
+            "http_or_www": 253,
+            "at_sign_nonprice": 53,
+            "salutation_capword": 12
+          },
+          "rows_with_hit": {
+            "digit_run_ge9": 399,
+            "spaced_digits_ge8_nondate": 399,
+            "any_identifying": 626,
+            "info_digit_run_6to8": 246,
+            "http_or_www": 237,
+            "at_sign_nonprice": 53,
+            "salutation_capword": 12
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "info_digit_run_6to8": 238,
+            "at_sign_nonprice": 2
+          },
+          "rows_with_hit": {
+            "info_digit_run_6to8": 238,
+            "at_sign_nonprice": 2,
+            "any_identifying": 2
+          }
+        },
+        "sender_kinds": {
+          "numeric_len12": 8,
+          "mobile_number": 6,
+          "dlt_header-S": 385,
+          "dlt_header-P": 52,
+          "dlt_header-G": 8,
+          "dlt_header-T": 2,
+          "other": 680
+        }
+      },
+      {
+        "file": "financial_fraud_training_10000.csv",
+        "rows": 10000,
+        "pass1_replacements_by_type": {
+          "url": 5342,
+          "phone": 343,
+          "name": 2000,
+          "masked_acct": 767,
+          "long_digits": 366
+        },
+        "pass1_rows_with_type": {
+          "url": 5342,
+          "phone": 343,
+          "name": 2000,
+          "masked_acct": 767,
+          "long_digits": 366
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "http_or_www": 2554,
+            "digit_run_ge9": 709,
+            "spaced_digits_ge8_nondate": 714,
+            "info_digit_run_6to8": 2952
+          },
+          "rows_with_hit": {
+            "http_or_www": 2554,
+            "any_identifying": 3634,
+            "digit_run_ge9": 709,
+            "spaced_digits_ge8_nondate": 714,
+            "info_digit_run_6to8": 2952
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "info_digit_run_6to8": 2952,
+            "spaced_digits_ge8_nondate": 371
+          },
+          "rows_with_hit": {
+            "info_digit_run_6to8": 2952,
+            "spaced_digits_ge8_nondate": 371,
+            "any_identifying": 371
+          }
+        },
+        "sender_kinds": {
+          "numeric_len5": 7637,
+          "other": 1494,
+          "6char_alnum": 869
+        }
+      },
+      {
+        "file": "Indian_sms_scam.csv",
+        "rows": 2266,
+        "pass1_replacements_by_type": {
+          "url": 727,
+          "name": 700,
+          "aadhaar": 19,
+          "vpa": 18,
+          "long_digits": 8,
+          "phone": 18,
+          "masked_acct": 2,
+          "email": 1
+        },
+        "pass1_rows_with_type": {
+          "url": 662,
+          "name": 548,
+          "aadhaar": 19,
+          "vpa": 18,
+          "long_digits": 7,
+          "phone": 17,
+          "masked_acct": 2,
+          "email": 1
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "http_or_www": 185,
+            "at_sign_nonprice": 61,
+            "salutation_capword": 53,
+            "digit_run_ge9": 68,
+            "spaced_digits_ge8_nondate": 46,
+            "info_digit_run_6to8": 21
+          },
+          "rows_with_hit": {
+            "http_or_www": 179,
+            "any_identifying": 324,
+            "at_sign_nonprice": 60,
+            "salutation_capword": 52,
+            "digit_run_ge9": 64,
+            "spaced_digits_ge8_nondate": 45,
+            "info_digit_run_6to8": 19
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "at_sign_nonprice": 45,
+            "salutation_capword": 2,
+            "info_digit_run_6to8": 19,
+            "spaced_digits_ge8_nondate": 2
+          },
+          "rows_with_hit": {
+            "at_sign_nonprice": 43,
+            "any_identifying": 47,
+            "salutation_capword": 2,
+            "info_digit_run_6to8": 18,
+            "spaced_digits_ge8_nondate": 2
+          }
+        }
+      },
+      {
+        "file": "spam.csv",
+        "rows": 5572,
+        "pass1_replacements_by_type": {
+          "phone": 380,
+          "name": 1990,
+          "url": 157,
+          "long_digits": 49,
+          "email": 7,
+          "vpa": 3,
+          "aadhaar": 6
+        },
+        "pass1_rows_with_type": {
+          "phone": 355,
+          "name": 1598,
+          "url": 150,
+          "long_digits": 49,
+          "email": 7,
+          "vpa": 3,
+          "aadhaar": 6
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "digit_run_ge9": 436,
+            "spaced_digits_ge8_nondate": 455,
+            "http_or_www": 120,
+            "at_sign_nonprice": 29,
+            "salutation_capword": 125,
+            "info_digit_run_6to8": 35
+          },
+          "rows_with_hit": {
+            "digit_run_ge9": 404,
+            "spaced_digits_ge8_nondate": 424,
+            "any_identifying": 640,
+            "http_or_www": 108,
+            "at_sign_nonprice": 27,
+            "salutation_capword": 124,
+            "info_digit_run_6to8": 33
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "at_sign_nonprice": 19,
+            "spaced_digits_ge8_nondate": 30,
+            "info_digit_run_6to8": 33,
+            "salutation_capword": 3
+          },
+          "rows_with_hit": {
+            "at_sign_nonprice": 18,
+            "any_identifying": 51,
+            "spaced_digits_ge8_nondate": 30,
+            "info_digit_run_6to8": 31,
+            "salutation_capword": 3
+          }
+        }
+      }
+    ]
+  }
+}

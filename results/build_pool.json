@@ -1,0 +1,111 @@
+{
+  "run_id": "build_pool-20261018-160855",
+  "script": "build_pool",
+  "started": "20261018-160855",
+  "code_version": "b7906f7-dirty",
+  "config": {
+    "threshold": 0.8
+  },
+  "result": {
+    "rows_loaded": 17186,
+    "common_words": 4009,
+    "scrub_replacements": {
+      "name": 2222,
+      "aadhaar": 997,
+      "masked_acct": 815,
+      "long_digits": 2009,
+      "known_name": 3188,
+      "url": 2440,
+      "vpa": 62,
+      "name_neighbour": 70,
+      "name_near_placeholder": 1218,
+      "card": 32,
+      "phone": 1097,
+      "name_after_salutation": 18,
+      "pan": 6,
+      "spaced_acct": 93,
+      "password": 2,
+      "ifsc": 2,
+      "upi_payee": 198,
+      "greeting_name": 3,
+      "narration_payee": 79,
+      "passenger_name": 2,
+      "email": 30
+    },
+    "residual_after_scrub": {
+      "hits": {
+        "info_digit_run_6to8": 474,
+        "capword_after_name_placeholder": 1004,
+        "at_sign_nonprice": 111,
+        "password_value": 2,
+        "salutation_capword": 8,
+        "http_or_www": 11
+      },
+      "rows_with_hit": {
+        "info_digit_run_6to8": 466,
+        "capword_after_name_placeholder": 761,
+        "any_identifying": 882,
+        "at_sign_nonprice": 103,
+        "password_value": 2,
+        "salutation_capword": 8,
+        "http_or_www": 11
+      }
+    },
+    "pool_rows": 8283,
+    "clusters": 7463,
+    "rows_by_source": {
+      "uci": 5136,
+      "export2026": 1064,
+      "mishra_soni": 851,
+      "inbox": 640,
+      "friend2026": 224,
+      "friend3_2026": 204,
+      "friend2_2026": 164
+    },
+    "rows_by_source_label": {
+      "export2026/UNLABELLED": 1017,
+      "export2026/caution": 5,
+      "export2026/ham": 13,
+      "export2026/promo": 15,
+      "export2026/spam": 14,
+      "friend2026/UNLABELLED": 224,
+      "friend2_2026/UNLABELLED": 164,
+      "friend3_2026/UNLABELLED": 204,
+      "inbox/caution": 239,
+      "inbox/ham": 101,
+      "inbox/promo": 113,
+      "inbox/spam": 187,
+      "mishra_soni/ham": 523,
+      "mishra_soni/spam": 328,
+      "uci/ham": 4516,
+      "uci/spam": 620
+    },
+    "synthetic_by_source_label": {
+      "inbox/caution": 226,
+      "inbox/promo": 80,
+      "inbox/spam": 134
+    },
+    "clusters_by_label": {
+      "": 1262,
+      "caution": 242,
+      "ham": 4930,
+      "promo": 126,
+      "spam": 937
+    },
+    "needs_review_rows": 2329,
+    "cross_source_exact_dups": 4980,
+    "label_conflict_rows": 0,
+    "clusters_spanning_sources": 233,
+    "clusters_spanning_labels": 34,
+    "script_mix": {
+      "latin": 7796,
+      "devanagari+latin": 201,
+      "other_nonlatin": 141,
+      "devanagari": 135,
+      "other_indic": 4,
+      "no_letters": 3,
+      "gujarati": 2,
+      "gujarati+latin": 1
+    }
+  }
+}

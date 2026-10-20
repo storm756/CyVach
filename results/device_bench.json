@@ -1,0 +1,29 @@
+{
+  "run_id": "device-moto-edge40-20261019",
+  "script": "external (not run in this repo)",
+  "started": "20261019",
+  "code_version": "n/a",
+  "config": {
+    "source": "On-device benchmark run by the app team (Google Antigravity agent in Android Studio) on the owner's phone; summary values read from the device screen and pasted by the owner on 2026-10-19. No raw per-run timing log was provided; values are NOT independently verified by this repo.",
+    "app_build": "com.cyvach.research (isolated research build of SMSReaderApp), model asset renamed cyvach_v8.onnx (Option B)",
+    "protocol": "50 warm-up + 200 timed runs, one English SMS, ML Kit language detection bypassed during timing; full path = tokenizer + session.run + rule layer; model only = session.run"
+  },
+  "result": {
+    "device": {"model": "Motorola Edge 40 (lyriq_g)", "soc": "MediaTek Dimensity 8020 (4x Cortex-A78 2.6 GHz + 4x Cortex-A55 2.0 GHz)", "ram": "8 GB LPDDR4X", "android": "14 (API 34)",
+               "onnxruntime": "onnxruntime-react-native 1.23.0, onnxruntime-android:latest.integration (resolved AAR version not reported)"},
+    "model_file": {"name": "cyvach_v8.onnx", "bytes": 67303808, "sha256": "c91067ec3e102326cf7084578642636576646b7ee30cdf2b9038b9e749717473", "sha256_matches_handoff": true},
+    "latency_ms_clean_run": {"full_path": {"median": 67, "p95": 75, "min": 63}, "model_only": {"median": 65, "p95": 70, "min": 62},
+                             "tokenizer_and_rules_overhead_approx": 2, "cold_start_true": 1433,
+                             "cold_start_definition": "app start to first answer: read 67.3 MB model from flash, create ONNX session, first un-warmed inference"},
+    "latency_ms_first_run_superseded": {"full_path": {"median": 66, "p95": 836, "min": 55, "max": 931}, "model_only": {"median": 64, "p95": 834, "min": 54, "max": 922},
+                                        "note": "ran after ~1,500 background inbox SMS imports (per app team); its 'cold start 68 ms' was not a true cold start. Superseded by the clean run."},
+    "memory_mb_first_run": {"total_pss": {"baseline": 148.2, "after_200_inferences": 437.8, "delta": 289.6}, "total_rss": {"baseline": 254.5, "after_200_inferences": 556.5, "delta": 302.0},
+                            "native_heap": {"baseline": 39.2, "after_200_inferences": 259.5, "delta": 220.3},
+                            "note": "dumpsys meminfo, measured during the first (background-loaded) run; not re-measured in the clean run"},
+    "old_model_asset_check": {"path": "SMSReaderApp/android/app/src/main/assets/sms_spam_tiny.onnx", "bytes": 67678083, "vocab_bytes": 231508, "tokenizer_config_bytes": 1491},
+    "spot_check": {"n": 15, "verdict_match_with_pc": 15,
+                   "device_confidence_pct": {"S01": 99.9, "S02": 97.7, "S03": 99.7, "S04": 87.4, "S05": 99.7, "S06": 98.5, "S07": 99.6, "S08": 99.7, "S09": 99.9, "S10": 99.8, "S11": 96.5, "S12": 99.6, "S13": 70.5, "S14": 99.8, "S15": 94.7},
+                   "known_model_misses": {"S12": "task scam -> promo", "S13": "courier impersonation scam -> ham (low confidence)"},
+                   "note": "labels identical to the PC reference; confidences differ by up to 6 points (S13: 70.5 device vs 76.7 PC), consistent with ARM vs x86 INT8 kernel differences"}
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "run_id": "pii_audit-20261018-015542",
+  "script": "pii_audit",
+  "started": "20261018-015542",
+  "code_version": "47cde9b-dirty",
+  "config": {
+    "files": [
+      "Friend_sms_export_2026-10-17.csv"
+    ]
+  },
+  "result": {
+    "files": [
+      {
+        "file": "Friend_sms_export_2026-10-17.csv",
+        "rows": 500,
+        "pass1_replacements_by_type": {
+          "long_digits": 197,
+          "name": 237,
+          "name_near_placeholder": 136,
+          "ifsc": 2,
+          "url": 219,
+          "known_name": 34,
+          "masked_acct": 4,
+          "aadhaar": 4,
+          "spaced_acct": 3,
+          "vpa": 2
+        },
+        "pass1_rows_with_type": {
+          "long_digits": 196,
+          "name": 211,
+          "name_near_placeholder": 136,
+          "ifsc": 2,
+          "url": 212,
+          "known_name": 28,
+          "masked_acct": 4,
+          "aadhaar": 4,
+          "spaced_acct": 3,
+          "vpa": 2
+        },
+        "residual_detectors_on_raw": {
+          "hits": {
+            "digit_run_ge9": 202,
+            "spaced_digits_ge8_nondate": 205,
+            "info_digit_run_6to8": 5,
+            "salutation_capword": 3,
+            "http_or_www": 180,
+            "capword_after_name_placeholder": 55,
+            "at_sign_nonprice": 8
+          },
+          "rows_with_hit": {
+            "digit_run_ge9": 200,
+            "spaced_digits_ge8_nondate": 203,
+            "any_identifying": 370,
+            "info_digit_run_6to8": 5,
+            "salutation_capword": 3,
+            "http_or_www": 169,
+            "capword_after_name_placeholder": 55,
+            "at_sign_nonprice": 6
+          }
+        },
+        "residual_detectors_after_scrub": {
+          "hits": {
+            "info_digit_run_6to8": 2,
+            "capword_after_name_placeholder": 16,
+            "at_sign_nonprice": 6
+          },
+          "rows_with_hit": {
+            "info_digit_run_6to8": 2,
+            "capword_after_name_placeholder": 15,
+            "any_identifying": 19,
+            "at_sign_nonprice": 4
+          }
+        },
+        "sender_kinds": {
+          "dlt_header-S": 194,
+          "other": 16,
+          "dlt_header-T": 123,
+          "dlt_header-P": 156,
+          "dlt_header-G": 3,
+          "numeric_len8": 1,
+          "numeric_len5": 7
+        }
+      }
+    ]
+  }
+}

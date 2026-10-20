@@ -1,0 +1,209 @@
+{
+  "run_id": "export_onnx-20261018-194435",
+  "script": "export_onnx",
+  "started": "20261018-194435",
+  "code_version": "a2a51d7-dirty",
+  "config": {
+    "run": "train-20261018-133131",
+    "opset": 17
+  },
+  "result": {
+    "model_dir": "D:\\CYVACH_Model\\models\\train-20261018-133131",
+    "versions": {
+      "torch": "2.14.1+cpu",
+      "onnx": "1.23.2",
+      "onnxruntime": "1.31.0"
+    },
+    "pre_process_default_error": "Exception: Incomplete symbolic shape inference",
+    "pre_process": "skip_symbolic_shape=True (ONNX shape inference + optimisation still run)",
+    "files": {
+      "fp32": {
+        "path": "models\\onnx\\cyvach_fp32.onnx",
+        "sha256": "d8dbce481b912c08a4a01e2b38d82b21f51bc01dee100e788b9a83a3335be8db",
+        "size": {
+          "bytes": 267939121,
+          "MB": 267.939,
+          "MiB": 255.527
+        },
+        "signature": {
+          "opset": 17,
+          "inputs": [
+            {
+              "name": "input_ids",
+              "type": "INT64",
+              "shape": [
+                "batch",
+                "seq"
+              ]
+            },
+            {
+              "name": "attention_mask",
+              "type": "INT64",
+              "shape": [
+                "batch",
+                "seq"
+              ]
+            }
+          ],
+          "outputs": [
+            {
+              "name": "logits",
+              "type": "FLOAT",
+              "shape": [
+                "batch",
+                4
+              ]
+            }
+          ],
+          "producer": "pytorch 2.14.1"
+        }
+      },
+      "int8_QUInt8": {
+        "path": "models\\onnx\\cyvach_int8_quint8.onnx",
+        "sha256": "c91067ec3e102326cf7084578642636576646b7ee30cdf2b9038b9e749717473",
+        "size": {
+          "bytes": 67303808,
+          "MB": 67.304,
+          "MiB": 64.186
+        },
+        "signature": {
+          "opset": 17,
+          "inputs": [
+            {
+              "name": "input_ids",
+              "type": "INT64",
+              "shape": [
+                "batch",
+                "seq"
+              ]
+            },
+            {
+              "name": "attention_mask",
+              "type": "INT64",
+              "shape": [
+                "batch",
+                "seq"
+              ]
+            }
+          ],
+          "outputs": [
+            {
+              "name": "logits",
+              "type": "FLOAT",
+              "shape": [
+                "batch",
+                4
+              ]
+            }
+          ],
+          "producer": "onnx.quantize 0.1.0"
+        }
+      },
+      "int8_QInt8": {
+        "path": "models\\onnx\\cyvach_int8_qint8.onnx",
+        "sha256": "8bc7710e73b0dbbd67519d24407716afd8191c3b2f7dcf5639e5f4ce8aa36a8a",
+        "size": {
+          "bytes": 67303787,
+          "MB": 67.304,
+          "MiB": 64.186
+        },
+        "signature": {
+          "opset": 17,
+          "inputs": [
+            {
+              "name": "input_ids",
+              "type": "INT64",
+              "shape": [
+                "batch",
+                "seq"
+              ]
+            },
+            {
+              "name": "attention_mask",
+              "type": "INT64",
+              "shape": [
+                "batch",
+                "seq"
+              ]
+            }
+          ],
+          "outputs": [
+            {
+              "name": "logits",
+              "type": "FLOAT",
+              "shape": [
+                "batch",
+                4
+              ]
+            }
+          ],
+          "producer": "onnx.quantize 0.1.0"
+        }
+      }
+    },
+    "fp32_checkpoint_size": {
+      "bytes": 267838720,
+      "MB": 267.839,
+      "MiB": 255.431
+    },
+    "dynamic_shapes_ok": {
+      "fp32": true,
+      "int8_QUInt8": true,
+      "int8_QInt8": true
+    },
+    "vocab_identical_to_app": true,
+    "app_vs_hf_token_ids_identical": 0.9170829170829171,
+    "parity_val": {
+      "n": 1001,
+      "torch_fp32_hf_tok": {
+        "val_macro_f1": 0.8883630797829025,
+        "val_f1_caution": 0.8148148148148148,
+        "fpr_legit_as_scam": 0.007454739084132056,
+        "argmax_agree_vs_torch": 1.0,
+        "n_disagree_vs_torch": 0,
+        "mean_kl_torch_to_this": 0.0,
+        "max_abs_logit_diff": 0.0
+      },
+      "onnx_fp32_hf_tok": {
+        "val_macro_f1": 0.8883630797829025,
+        "val_f1_caution": 0.8148148148148148,
+        "fpr_legit_as_scam": 0.007454739084132056,
+        "argmax_agree_vs_torch": 1.0,
+        "n_disagree_vs_torch": 0,
+        "mean_kl_torch_to_this": 1.3574262547333404e-10,
+        "max_abs_logit_diff": 9.775161743164062e-06
+      },
+      "onnx_fp32_app_tok": {
+        "val_macro_f1": 0.8883630797829025,
+        "val_f1_caution": 0.8148148148148148,
+        "fpr_legit_as_scam": 0.007454739084132056,
+        "argmax_agree_vs_torch": 1.0,
+        "n_disagree_vs_torch": 0,
+        "mean_kl_torch_to_this": 0.00016726608737371862,
+        "max_abs_logit_diff": 1.403374433517456
+      },
+      "onnx_int8_QUInt8_app_tok": {
+        "val_macro_f1": 0.8919585193689671,
+        "val_f1_caution": 0.8148148148148148,
+        "fpr_legit_as_scam": 0.005324813631522897,
+        "argmax_agree_vs_torch": 0.993006993006993,
+        "n_disagree_vs_torch": 7,
+        "mean_kl_torch_to_this": 0.0047323014587163925,
+        "max_abs_logit_diff": 1.440526008605957,
+        "argmax_agree_vs_onnx_fp32": 0.993006993006993,
+        "mean_kl_onnx_fp32_to_int8": 0.004644399508833885
+      },
+      "onnx_int8_QInt8_app_tok": {
+        "val_macro_f1": 0.8848863462708396,
+        "val_f1_caution": 0.8148148148148148,
+        "fpr_legit_as_scam": 0.009584664536741214,
+        "argmax_agree_vs_torch": 0.993006993006993,
+        "n_disagree_vs_torch": 7,
+        "mean_kl_torch_to_this": 0.0052827936597168446,
+        "max_abs_logit_diff": 1.6897313594818115,
+        "argmax_agree_vs_onnx_fp32": 0.993006993006993,
+        "mean_kl_onnx_fp32_to_int8": 0.005256400443613529
+      }
+    }
+  }
+}

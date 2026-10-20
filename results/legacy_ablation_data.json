@@ -1,0 +1,28 @@
+{
+  "run_id": "make_legacy_ablation-20261019-191602",
+  "script": "make_legacy_ablation",
+  "started": "20261019-191602",
+  "code_version": "d467f25-dirty",
+  "config": {},
+  "result": {
+    "legacy_rows_total": 1141,
+    "unmatched_to_pool": 0,
+    "dropped_not_in_train_split": 157,
+    "L0_rows": 984,
+    "L0_labels": {
+      "ham": 406,
+      "spam": 237,
+      "caution": 235,
+      "promo": 106
+    },
+    "L0_unique_texts": 826,
+    "L1_rows": 142,
+    "L1_labels": {
+      "ham": 93,
+      "promo": 26,
+      "spam": 19,
+      "caution": 4
+    },
+    "note": "L0 keeps clones and generated rows with original legacy labels (is_synthetic forced False so nothing is capped)"
+  }
+}

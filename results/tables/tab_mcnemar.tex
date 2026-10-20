@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Paired comparison of the deployed new model with other systems on test.}
+\label{tab:mcnemar}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Deployed new model & New right only & Other right only & Exact McNemar p \\
+\midrule
+vs v73_int8 & 130 & 22 & 7.6e-20 \\
+vs v73_int8+rules & 133 & 18 & 7.3e-23 \\
+vs tfidf_lr & 22 & 18 & 0.64 \\
+vs tfidf_svm & 26 & 19 & 0.37 \\
+vs new_int8_qint8 & 8 & 3 & 0.23 \\
+vs new_int8_quint8+rules & 28 & 2 & 8.7e-07 \\
+\bottomrule
+\end{tabular}
+\end{table}

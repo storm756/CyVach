@@ -1,0 +1,61 @@
+item_id,text,final_label,needs_native_verification,is_synthetic
+hi_sp00,Aapka SBI account aaj band ho jayega. KYC turant update karein: http://tinyurl.com/qqmirp,spam,True,True
+hi_sp01,Badhai ho! Aapne Rs 493 jeete hain. Claim karne ke liye Rs 499 processing fee bhejein: http://tinyurl.com/nEe6g3,spam,True,True
+hi_sp02,Aapka bijli connection aaj raat 9:30 baje kaat diya jayega. Turant officer ko call karein 6795655526,spam,True,True
+hi_sp03,"Ghar baithe roz Rs 5000 kamaayein, bas videos like karni hain. WhatsApp karein 8155745477",spam,True,True
+hi_sp04,"Galti se aapke number pe OTP chala gaya, please mujhe forward kar do, urgent hai.",spam,True,True
+hi_sp05,"Aapka Airtel SIM 2 ghante mein block ho jayega, e-KYC pending hai. Call karein 7842330843",spam,True,True
+hi_sp06,Tumcha Canara Bank khata block hoil. Lagech KYC update kara: http://canarabank-refund-portal.site,spam,True,True
+hi_sp07,"Bina CIBIL ke instant loan Rs 747, 10 minute mein paise. App download karein: http://icicibank-rewards.online",spam,True,True
+hi_sp08,"Aapka parcel customs mein ruka hai, clearance fee nahi bhari to police case hoga. Call 7614450329",spam,True,True
+hi_sp09,"Aapke Axis Bank reward points aaj expire ho rahe hain, abhi cash mein redeem karein: http://axisbankcare-support.xyz",spam,True,True
+hi_sp10,"Aapke naam pe traffic challan Rs 2000 pending hai, 24 ghante mein bharein: http://icicibank-rewards.online",spam,True,True
+hi_sp11,"Aapka refund fail ho gaya, UPI PIN daal ke paise wapas lein: http://bit.ly/fy2mW8",spam,True,True
+hi_sp12,"Mumbai police: aapka Aadhaar fraud case mein hai, video call pe aaiye warna arrest hoga. Call 7333357712",spam,True,True
+hi_sp13,"Crypto mein roz 3% guaranteed profit, aaj hi VIP group join karein: http://secure-icicibank-verify.com",spam,True,True
+hi_sp14,"Rohan bol raha hoon, airport pe wallet kho gaya, Rs 8,649 UPI kar do please, kal lauta dunga.",spam,True,True
+hi_ca00,3689 aapka Bank of Baroda NetBanking login OTP hai. Kisi ke saath share na karein.,caution,True,True
+hi_ca01,Aapke Bank of Baroda card 7031 se Rs 778 ke transaction ka OTP 6073 hai. OTP share mat karein.,caution,True,True
+hi_ca02,Aapke HDFC Bank app mein naye device se login hua hai. Aapne nahi kiya to bank ko call karein.,caution,True,True
+hi_ca03,Aapka UPI PIN badal diya gaya hai. Agar aapne nahi badla to turant report karein.,caution,True,True
+hi_ca04,784108 tumcha Zepto login OTP aahe. Konalahi sangu naka.,caution,True,True
+hi_ca05,WhatsApp Web naye device pe active hai. Aapne nahi kiya to sab devices se logout karein.,caution,True,True
+hi_ca06,"Galat mPIN dala gaya. 2 attempt baaki hain, uske baad access 24 ghante ke liye lock ho jayega.",caution,True,True
+hi_ca07,"Delivery code 104427 hai, order check karne ke baad hi Myntra agent ko batayein.",caution,True,True
+hi_ca08,Aapke SBI account ko naye UPI app pe register karne ki request aayi hai. Aapne nahi ki to report karein.,caution,True,True
+hi_ca09,"532794 aapka DigiLocker verification OTP hai, 10 minute ke liye valid.",caution,True,True
+hi_ca10,Aapke ICICI Bank card 1160 pe international transaction hua hai. Aap nahi the to card block karein.,caution,True,True
+hi_ca11,Aapka net banking password 14-Feb ko badla gaya. Aapne nahi kiya to customer care ko call karein.,caution,True,True
+hi_ca12,9558 hai aapka Airtel verification code. 10 minute mein expire hoga.,caution,True,True
+hi_ca13,Aapke Swiggy account mein Chennai se naya login hua. Aap nahi the to password badlein.,caution,True,True
+hi_ca14,736592 aapka naya payee add karne ka OTP hai. Request aapne nahi ki to bank ko call karein.,caution,True,True
+hi_pr00,Zomato sale shuru! Electronics aur fashion pe 60% tak off. Abhi app pe shop karein.,promo,True,True
+hi_pr01,Vi ka Rs 349 plan lein aur 28 din tak unlimited 5G ka maza lein.,promo,True,True
+hi_pr02,"Agle order pe flat 40% off, code TASTY40 lagayein. Offer Sunday tak.",promo,True,True
+hi_pr03,Diwali dhamaka: Kotak Bank card pe electronics pe 10% instant discount.,promo,True,True
+hi_pr04,"Swiggy membership khatam hone wali hai, renew karke free delivery ka maza lete rahein.",promo,True,True
+hi_pr05,Weekend sale: saare kapdon pe buy 2 get 1 free. Nazdeeki store pe aayein.,promo,True,True
+hi_pr06,Ghar pe 60 tests wala health checkup sirf Rs 999 mein. Aaj hi slot book karein.,promo,True,True
+hi_pr07,"BSNL fibre plan pe pehle 3 mahine 50% off, installation free.",promo,True,True
+hi_pr08,"Pizza pe weekdays mein 30% off, code MIDWEEK lagayein.",promo,True,True
+hi_pr09,"Free demo class book karein, live data science course with placement support.",promo,True,True
+hi_pr10,Bengaluru mein naye 2 aur 3 BHK flats Rs 45 lakh se shuru. Is weekend site visit karein.,promo,True,True
+hi_pr11,Apna favourite gaana free caller tune banayein Jio app pe.,promo,True,True
+hi_pr12,"Zero balance account Bank of Baroda mein 5 minute mein kholiye, video KYC ke saath.",promo,True,True
+hi_pr13,Cricket series live dekhiye Jio entertainment pack ke saath sirf Rs 99 mein.,promo,True,True
+hi_pr14,Gym join karein aur annual plan pe 3 mahine free paayein.,promo,True,True
+hi_ha00,"Main 8:45 PM tak station pahunch jaunga, ticket counter ke paas ruko.",ham,True,True
+hi_ha01,Ghar aate waqt doodh aur bread le aana.,ham,True,True
+hi_ha02,"Aapke Axis Bank account se Rs 7,907 UPI payment ke liye debit hue.",ham,True,True
+hi_ha03,Aapka Flipkart order deliver ho gaya hai.,ham,True,True
+hi_ha04,"Kal ki meeting 2:00 PM baje shift ho gayi hai, report le aana.",ham,True,True
+hi_ha05,Happy birthday Pooja! Saal bahut accha jaaye.,ham,True,True
+hi_ha06,"Abhi baat nahi kar sakta, class ke baad call karta hoon.",ham,True,True
+hi_ha07,"Mummy keh rahi hai khana 8 baje hai, late mat hona.",ham,True,True
+hi_ha08,"Aapka Airtel recharge Rs 349 successful hai, plan 28 din valid.",ham,True,True
+hi_ha09,Bhai thanks aaj ki help ke liye!,ham,True,True
+hi_ha10,"Aapka refund Rs 496 process ho gaya, 5-7 din mein aa jayega.",ham,True,True
+hi_ha11,"Mumbai mein agle 3 ghante mein tez baarish ki sambhavna hai, satark rahein.",ham,True,True
+hi_ha12,"Train ka PNR confirm hai, coach B2 seat 34.",ham,True,True
+hi_ha13,Kal college aa raha hai kya? Notes chahiye the.,ham,True,True
+hi_ha14,Tumhi kuthe aahat? Mi bus stop var vaat baghtoy.,ham,True,True

@@ -1,0 +1,109 @@
+{
+  "run_id": "bench_onnx-20261018-213146",
+  "script": "bench_onnx",
+  "started": "20261018-213146",
+  "code_version": "5e9e436-dirty",
+  "config": {
+    "warmup": 50,
+    "runs": 500
+  },
+  "result": {
+    "setting": "desktop CPU (NOT phone)",
+    "input_shape": [
+      1,
+      128
+    ],
+    "onnxruntime": "1.31.0",
+    "machine": {
+      "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.3"
+    },
+    "models": {
+      "v7.3_deployed_int8": {
+        "size": {
+          "bytes": 67678083,
+          "MB": 67.678,
+          "MiB": 64.543
+        },
+        "threads_1": {
+          "median_ms": 78.256,
+          "p95_ms": 81.748,
+          "mean_ms": 78.105,
+          "runs": 500,
+          "warmup": 50
+        },
+        "threads_4": {
+          "median_ms": 33.09,
+          "p95_ms": 39.528,
+          "mean_ms": 32.455,
+          "runs": 500,
+          "warmup": 50
+        }
+      },
+      "new_fp32": {
+        "size": {
+          "bytes": 267939121,
+          "MB": 267.939,
+          "MiB": 255.527
+        },
+        "threads_1": {
+          "median_ms": 98.827,
+          "p95_ms": 105.152,
+          "mean_ms": 99.294,
+          "runs": 500,
+          "warmup": 50
+        },
+        "threads_4": {
+          "median_ms": 42.099,
+          "p95_ms": 49.411,
+          "mean_ms": 41.715,
+          "runs": 500,
+          "warmup": 50
+        }
+      },
+      "new_int8_QUInt8": {
+        "size": {
+          "bytes": 67303808,
+          "MB": 67.304,
+          "MiB": 64.186
+        },
+        "threads_1": {
+          "median_ms": 75.46,
+          "p95_ms": 76.903,
+          "mean_ms": 74.437,
+          "runs": 500,
+          "warmup": 50
+        },
+        "threads_4": {
+          "median_ms": 30.683,
+          "p95_ms": 35.522,
+          "mean_ms": 29.702,
+          "runs": 500,
+          "warmup": 50
+        }
+      },
+      "new_int8_QInt8": {
+        "size": {
+          "bytes": 67303787,
+          "MB": 67.304,
+          "MiB": 64.186
+        },
+        "threads_1": {
+          "median_ms": 34.12,
+          "p95_ms": 36.888,
+          "mean_ms": 34.408,
+          "runs": 500,
+          "warmup": 50
+        },
+        "threads_4": {
+          "median_ms": 13.756,
+          "p95_ms": 16.35,
+          "mean_ms": 14.169,
+          "runs": 500,
+          "warmup": 50
+        }
+      }
+    }
+  }
+}

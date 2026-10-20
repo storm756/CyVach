@@ -1,0 +1,14 @@
+config,val_macro_f1_mean,val_macro_f1_std,val_caution_f1_mean,probe_acc_mean,best_epoch_mean,n
+balance=S0|digits=D1|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=0.0,0.8762493083883139,0.006100285319245191,0.753763440860215,1.0,4.0,2
+balance=S0|digits=D0|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U0|synthetic_ratio=1.0,0.8715620454949096,0.005132132568373896,0.775,0.9722222222222222,3.5,2
+balance=S0|digits=D2|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U0|synthetic_ratio=1.0,0.8713163944684954,0.0003419614761475994,0.75,0.9722222222222222,3.5,2
+balance=S0|digits=D0|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=1.0,0.8672144543235741,0.011440290090216748,0.7073863636363636,1.0,3.5,2
+balance=S0|digits=D2|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=1.0,0.8633444968879518,0.0071138145170836905,0.699666295884316,1.0,3.5,2
+balance=S0|digits=D1|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U0|synthetic_ratio=1.0,0.8603084834764664,0.006088785020399138,0.7272727272727273,0.9861111111111112,3.5,2
+balance=S0|digits=D1|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=1.0,0.8532293514702158,0.000210283171190794,0.7077798861480076,0.9791666666666667,4.0,2
+balance=S1|digits=D2|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U0|synthetic_ratio=1.0,0.7908825290732117,0.02496218921667693,0.7471590909090908,0.7847222222222222,3.5,2
+balance=S1|digits=D2|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=1.0,0.783929445382316,0.017902722916243594,0.6785225718194254,0.7986111111111112,3.5,2
+balance=S1|digits=D1|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U0|synthetic_ratio=1.0,0.7821579698595951,0.012287983432331825,0.7010869565217391,0.8055555555555556,3.5,2
+balance=S1|digits=D1|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=1.0,0.7815620949427873,0.007564463339439337,0.7100840336134454,0.8125,3.0,2
+balance=S1|digits=D0|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U0|synthetic_ratio=1.0,0.7790714360653508,0.012916642279647497,0.7575757575757576,0.7777777777777778,3.0,2
+balance=S1|digits=D0|epochs=4|label_smoothing=0.0|lr=3e-05|max_len=128|placeholders=U1|synthetic_ratio=1.0,0.773685022545322,0.018285528466837696,0.6706349206349207,0.8194444444444444,3.5,2

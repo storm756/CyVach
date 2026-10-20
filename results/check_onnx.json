@@ -1,0 +1,157 @@
+{
+  "run_id": "check_onnx-20261017-224533",
+  "script": "check_onnx",
+  "started": "20261017-224533",
+  "code_version": "73966fe",
+  "config": {
+    "per_file": 400,
+    "seed": 13
+  },
+  "result": {
+    "onnx_path": "C:\\Users\\Acer\\Documents\\New folder\\SMSReaderApp\\android\\app\\src\\main\\assets\\sms_spam_tiny.onnx",
+    "onnx_sha256": "46b6fb87df2b71a2088d1a6079fb92e77d9db143579bc7512e10cd0d12d17299",
+    "onnx_size": {
+      "bytes": 67678083,
+      "MB": 67.678,
+      "MiB": 64.543
+    },
+    "opset": [
+      {
+        "domain": "ai.onnx",
+        "version": 18
+      }
+    ],
+    "producer": "onnx.quantize 0.1.0",
+    "inputs": [
+      {
+        "name": "input_ids",
+        "elem_type": "INT64",
+        "shape": [
+          "s72",
+          128
+        ]
+      },
+      {
+        "name": "attention_mask",
+        "elem_type": "INT64",
+        "shape": [
+          "s43",
+          128
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "logits",
+        "elem_type": "FLOAT",
+        "shape": [
+          "unk__122",
+          4
+        ]
+      }
+    ],
+    "op_counts": {
+      "Mul": 100,
+      "Add": 63,
+      "Cast": 40,
+      "MatMulInteger": 38,
+      "Reshape": 36,
+      "Transpose": 30,
+      "DynamicQuantizeLinear": 26,
+      "LayerNormalization": 13,
+      "MatMul": 12,
+      "Softmax": 6,
+      "Div": 6,
+      "Erf": 6,
+      "Gather": 3,
+      "Concat": 3,
+      "Shape": 2,
+      "DequantizeLinear": 2,
+      "Unsqueeze": 1,
+      "Expand": 1,
+      "Sub": 1,
+      "Where": 1,
+      "Relu": 1
+    },
+    "value_info_entries": 248,
+    "initializer_dtypes": {
+      "FLOAT": 109,
+      "INT64": 11,
+      "UINT8": 80
+    },
+    "tokenizer_config": {
+      "do_lower_case": true,
+      "model_max_length": 1000000000000000019884624838656,
+      "tokenizer_class": "BertTokenizer",
+      "strip_accents": null,
+      "tokenize_chinese_chars": true
+    },
+    "vocab_lines": 30522,
+    "hf_vocab_size": 30522,
+    "tokenizer_parity": {
+      "n": 1600,
+      "identical_input_ids": 1267,
+      "by_file": {
+        "ultimate_stress_test_400.csv": 400,
+        "Indian_sms_scam.csv": 367,
+        "spam.csv": 365,
+        "financial_fraud_training_10000.csv": 135
+      },
+      "app_unk_tokens": 629,
+      "hf_unk_tokens": 6
+    },
+    "onnx_pred_agreement_app_vs_hf_tokenizer": {
+      "n": 1600,
+      "agree": 1589,
+      "by_file": {
+        "ultimate_stress_test_400.csv": 400,
+        "Indian_sms_scam.csv": 395,
+        "spam.csv": 396,
+        "financial_fraud_training_10000.csv": 398
+      }
+    },
+    "onnx_pred_distribution_app_tokenizer": {
+      "ultimate_stress_test_400.csv": {
+        "caution": 127,
+        "promo": 94,
+        "ham": 62,
+        "spam": 117
+      },
+      "Indian_sms_scam.csv": {
+        "spam": 110,
+        "ham": 155,
+        "caution": 96,
+        "promo": 39
+      },
+      "spam.csv": {
+        "spam": 53,
+        "ham": 286,
+        "promo": 21,
+        "caution": 40
+      },
+      "financial_fraud_training_10000.csv": {
+        "spam": 178,
+        "caution": 52,
+        "ham": 167,
+        "promo": 3
+      }
+    },
+    "fp32_config_id2label": {
+      "0": "ham",
+      "1": "spam",
+      "2": "promo",
+      "3": "caution"
+    },
+    "fp32_size": {
+      "bytes": 267838720,
+      "MB": 267.839,
+      "MiB": 255.431
+    },
+    "fp32_vs_onnx_int8": {
+      "n": 1600,
+      "agree": 1551,
+      "mean_kl_fp32_to_int8": 0.020064376294612885,
+      "max_abs_logit_diff": 2.13291597366333
+    }
+  }
+}

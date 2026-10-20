@@ -1,0 +1,48 @@
+{
+  "run_id": "predict_v73-20261018-212422",
+  "script": "predict_v73",
+  "started": "20261018-212422",
+  "code_version": "5e9e436-dirty",
+  "config": {
+    "batch": 32,
+    "max_len": 128,
+    "threads": 4
+  },
+  "result": {
+    "n": 8283,
+    "pred_counts": {
+      "ham": 4604,
+      "spam": 1634,
+      "caution": 1062,
+      "promo": 983
+    },
+    "crosstab_label_vs_pred": {
+      "->caution": 270,
+      "->ham": 261,
+      "->promo": 604,
+      "->spam": 474,
+      "caution->caution": 244,
+      "ham->caution": 473,
+      "ham->ham": 4291,
+      "ham->promo": 46,
+      "ham->spam": 343,
+      "promo->caution": 4,
+      "promo->promo": 103,
+      "promo->spam": 21,
+      "spam->caution": 71,
+      "spam->ham": 52,
+      "spam->promo": 230,
+      "spam->spam": 796
+    },
+    "agree_with_original_label": 5434,
+    "agree_by_source": {
+      "export2026": "35/1064",
+      "friend2026": "0/224",
+      "friend2_2026": "0/164",
+      "friend3_2026": "0/204",
+      "inbox": "606/640",
+      "mishra_soni": "629/851",
+      "uci": "4164/5136"
+    }
+  }
+}

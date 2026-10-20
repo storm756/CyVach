@@ -1,0 +1,56 @@
+{
+  "run_id": "audit_stress400-20261017-220901",
+  "script": "audit_stress400",
+  "started": "20261017-220901",
+  "code_version": "nocommit-dirty",
+  "config": {
+    "file": "ultimate_stress_test_400.csv"
+  },
+  "result": {
+    "rows": 400,
+    "label_counts": {
+      "caution": 100,
+      "promo": 100,
+      "ham": 100,
+      "spam": 100
+    },
+    "exact_unique": 285,
+    "exact_unique_body_label": 285,
+    "duplicate_rows": 115,
+    "duplicate_share": 0.2875,
+    "unique_by_label": {
+      "caution": 71,
+      "ham": 88,
+      "promo": 72,
+      "spam": 54
+    },
+    "unique_normalized": 234,
+    "rows_matched_to_template": 400,
+    "rows_unmatched": 0,
+    "distinct_templates_used": 40,
+    "templates_total": 40,
+    "rows_from_slotless_templates": 100,
+    "slots_total": 438,
+    "slots_with_implausible_filler": 336,
+    "rows_with_any_implausible_filler": 245,
+    "share_rows_implausible": 0.6125,
+    "template_label_mismatch_rows": 0,
+    "example_implausible_rows": [
+      "Warning: Unusual activity detected on your Credit Card xx9900112233.",
+      "Use code 1200 to verify your mobile number on Delhi.",
+      "Your order for SBI has been delivered. Rate us on the app.",
+      "Wrong mPIN entered. 5000 attempts left before your UPI is blocked.",
+      "Your SIM card KYC expired. Outgoing calls blocked. Call Milk to update.",
+      "Ajio: Style Sale is LIVE! Up to 9900112233% off on 5000+ styles.",
+      "Payment of Rs.25000 to OTP123 successful. Balance: Rs.Pune",
+      "Get SAFE99 for only Rs. 999! Limited time deal at http://scam-store.in",
+      "Jio: Recharge with Rs. iPhone 15 and get extra 15GB data for 30 days.",
+      "Zomato: Hungry? Get 15% OFF on your next order with code 5000.",
+      "Apollo: Get Pizza% discount on medicines + free delivery this week.",
+      "Security Alert: Your password for 1200 was changed recently.",
+      "Dominos: Free Garlic Bread on orders above Rs. iPhone 15. Order now!",
+      "Wrong mPIN entered. Delhi attempts left before your UPI is blocked.",
+      "Wrong mPIN entered. BOGO attempts left before your UPI is blocked."
+    ]
+  }
+}
