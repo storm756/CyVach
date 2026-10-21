@@ -1,0 +1,56 @@
+{
+  "run_id": "make_sizematched-20261021-213429",
+  "script": "make_sizematched",
+  "started": "20261021-213429",
+  "code_version": "f363a70-dirty",
+  "config": {
+    "n": 984,
+    "seeds": [
+      1,
+      2,
+      3
+    ]
+  },
+  "result": {
+    "post_hoc": true,
+    "n_real_train": 5882,
+    "quota": {
+      "ham": 801,
+      "promo": 114,
+      "spam": 55,
+      "caution": 14
+    },
+    "sets": {
+      "s1": {
+        "n": 984,
+        "by_label": {
+          "ham": 801,
+          "promo": 114,
+          "spam": 55,
+          "caution": 14
+        },
+        "clusters": 941
+      },
+      "s2": {
+        "n": 984,
+        "by_label": {
+          "ham": 801,
+          "promo": 114,
+          "spam": 55,
+          "caution": 14
+        },
+        "clusters": 940
+      },
+      "s3": {
+        "n": 984,
+        "by_label": {
+          "ham": 801,
+          "promo": 114,
+          "spam": 55,
+          "caution": 14
+        },
+        "clusters": 935
+      }
+    }
+  }
+}

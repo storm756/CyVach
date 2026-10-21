@@ -33,3 +33,7 @@ Owner's answers were given on 2026-10-17, from memory, about events roughly a ye
 | `Friend_sms_export_2026-10-17.csv`, `2sms_export_2026-10-18.csv`, `3sms_export_2026-10-18.csv` | Three friends of the owner, via the app export | Verbal, obtained by the owner | Scrubbed locally (UPI payee, bank narration, greeting and passenger names, loose PAN added). Exports 2 and 3 arrived after the test set was frozen, so they are in train/val only |
 
 During the work a real account password was found in an export; it was masked, and the owner was told to change it (2026-10-18).
+
+## Addendum (2026-10-21, owner answers to the v5 review)
+- **AI processing consent:** the owner confirms the volunteers knew that their messages, after PII scrubbing, would be processed by an AI tool (verbal; not written).
+- **On-device benchmark:** the owner confirms they re-ran the Antigravity benchmark themselves on the same phone to verify the reported values. The re-run values were not recorded in this repo (no per-run log), so `results/device_bench.json` still holds the values as originally reported.

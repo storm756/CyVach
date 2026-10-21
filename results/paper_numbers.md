@@ -282,3 +282,51 @@ Every number intended for the paper, with the run that produced it. Sizes carry 
 | second annotator vs final_label: agreement, Cohen's kappa (n=180) | 123/180, 0.577 | `kappa-20261019-233942` | `src/kappa.py` | `results/kappa.json` |
 | second annotator vs claude_label: agreement, Cohen's kappa (n=180) | 128/180, 0.615 | `kappa-20261019-233942` | `src/kappa.py` | `results/kappa.json` |
 | second annotator vs owner_label: agreement, Cohen's kappa (n=180) | 123/180, 0.577 | `kappa-20261019-233942` | `src/kappa.py` | `results/kappa.json` |
+
+## Post-hoc (v12, second review)
+
+| Quantity | Value | Run id | Script | File |
+|---|---|---|---|---|
+| second annotator vs new_int8 on the 180 checked items: agreement, kappa | 125/180, 0.60 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| second annotator vs tfidf_lr on the 180 checked items: agreement, kappa | 116/180, 0.53 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| second annotator vs v73_int8 on the 180 checked items: agreement, kappa | 110/180, 0.48 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| second annotator vs final_labels on the 180 checked items: agreement, kappa | 123/180, 0.58 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, H1/H2|alone: changed / fixed / broke; macro-F1 | 0 / 0 / 0; 0.8728 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, H1/H2|on_top_of_R0: changed / fixed / broke; macro-F1 | 0 / 0 / 0; 0.8173 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, R0|alone: changed / fixed / broke; macro-F1 | 28 / 1 / 25; 0.8173 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, R1|alone: changed / fixed / broke; macro-F1 | 0 / 0 / 0; 0.8728 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, R1|on_top_of_R0: changed / fixed / broke; macro-F1 | 0 / 0 / 0; 0.8173 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, R2/R3|alone: changed / fixed / broke; macro-F1 | 0 / 0 / 0; 0.8728 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, R2/R3|on_top_of_R0: changed / fixed / broke; macro-F1 | 0 / 0 / 0; 0.8173 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, R4|alone: changed / fixed / broke; macro-F1 | 7 / 4 / 3; 0.8726 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, R4|on_top_of_R0: changed / fixed / broke; macro-F1 | 4 / 1 / 3; 0.8110 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| per-rule test changes, all|alone: changed / fixed / broke; macro-F1 | 32 / 2 / 28; 0.8110 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| without author-phone caution (76 removed, 443 kept), new_int8: macro-F1; 3-class; caution caught of 12 | 0.835; 0.857; 10 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| without author-phone caution (76 removed, 443 kept), tfidf_lr: macro-F1; 3-class; caution caught of 12 | 0.847; 0.852; 10 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| without author-phone caution (76 removed, 443 kept), v73_int8: macro-F1; 3-class; caution caught of 12 | 0.563; 0.638; 9 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| without author-phone caution (76 removed, 443 kept), new_int8+rules: macro-F1; 3-class; caution caught of 12 | 0.792; 0.853; 7 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| scam PPV at 1% / 6.2% / 20% prevalence, new_int8_quint8 | 0.13 / 0.50 / 0.79 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| scam PPV at 1% / 6.2% / 20% prevalence, new_int8_quint8+rules | 0.15 / 0.53 / 0.81 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| scam PPV at 1% / 6.2% / 20% prevalence, tfidf_lr | 0.14 / 0.51 / 0.80 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| scam PPV at 1% / 6.2% / 20% prevalence, v73_int8 | 0.03 / 0.16 / 0.42 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| scam PPV at 1% / 6.2% / 20% prevalence, v73_int8+rules | 0.04 / 0.20 / 0.49 | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage new_int8 model_only|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 31 [14, 52] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage new_int8 model_only|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 4 [1, 8] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage new_int8 with_rules|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 15 [10, 20] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage new_int8 with_rules|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 0 [0, 0] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage new_int8 rules_without_R1|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 25 [19, 31] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage new_int8 rules_without_R1|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 0 [0, 0] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage v73_int8 model_only|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 107 [85, 128] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage v73_int8 model_only|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 24 [14, 34] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage v73_int8 with_rules|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 7 [3, 11] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage v73_int8 with_rules|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 0 [0, 0] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage v73_int8 rules_without_R1|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 31 [23, 38] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage v73_int8 rules_without_R1|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 0 [0, 0] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage tfidf_lr model_only|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 59 [40, 78] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage tfidf_lr model_only|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 3 [0, 7] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage tfidf_lr with_rules|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 10 [5, 15] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage tfidf_lr with_rules|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 0 [0, 0] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage tfidf_lr rules_without_R1|scam_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 30 [24, 36] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| camouflage tfidf_lr rules_without_R1|legit_flagged_scam (of 150) [95% CI, bootstrap over base texts] | 0 [0, 0] | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| deployed INT8 test ECE before → after T, 15 bins (10 bins) | 0.095 → 0.071 (0.095 → 0.069) | `review2_extras-20261021-213703` | `src/review2_extras.py` | `results/review2_extras.json` |
+| post-hoc: size-matched control, 984 rows sampled from new train: test macro-F1 mean ± std (3 seeds); legit→scam per seed | 0.744 ± 0.019; 44/432, 57/432, 51/432 | `sizematched_eval-20261022-001147` | `src/sizematched_eval.py` | `results/sizematched_eval.json` |

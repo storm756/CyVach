@@ -1,0 +1,393 @@
+{
+  "run_id": "review2_extras-20261021-213703",
+  "script": "review2_extras",
+  "started": "20261021-213703",
+  "code_version": "f363a70-dirty",
+  "config": {
+    "post_hoc": true
+  },
+  "result": {
+    "post_hoc": true,
+    "second_annotator_models": {
+      "n": 180,
+      "n_native_script": 3,
+      "new_int8": {
+        "vs_second": {
+          "agree_k": 125,
+          "kappa": 0.595042336483004
+        },
+        "vs_final_same_items": {
+          "agree_k": 154,
+          "kappa": 0.8076685981999754
+        }
+      },
+      "tfidf_lr": {
+        "vs_second": {
+          "agree_k": 116,
+          "kappa": 0.5275396792847475
+        },
+        "vs_final_same_items": {
+          "agree_k": 154,
+          "kappa": 0.8070660015665581
+        }
+      },
+      "v73_int8": {
+        "vs_second": {
+          "agree_k": 110,
+          "kappa": 0.4764615448539494
+        },
+        "vs_final_same_items": {
+          "agree_k": 117,
+          "kappa": 0.530104006961422
+        }
+      },
+      "final_labels": {
+        "vs_second": {
+          "agree_k": 123,
+          "kappa": 0.5769769934856107
+        }
+      }
+    },
+    "per_rule": {
+      "H1/H2|alone": {
+        "changed": 0,
+        "fixed": 0,
+        "broke": 0,
+        "macro_f1": 0.8727544755790512,
+        "macro_f1_base": 0.8727544755790512
+      },
+      "H1/H2|on_top_of_R0": {
+        "changed": 0,
+        "fixed": 0,
+        "broke": 0,
+        "macro_f1": 0.81733438471728,
+        "macro_f1_base": 0.81733438471728
+      },
+      "R0|alone": {
+        "changed": 28,
+        "fixed": 1,
+        "broke": 25,
+        "macro_f1": 0.81733438471728,
+        "macro_f1_base": 0.8727544755790512
+      },
+      "R1|alone": {
+        "changed": 0,
+        "fixed": 0,
+        "broke": 0,
+        "macro_f1": 0.8727544755790512,
+        "macro_f1_base": 0.8727544755790512
+      },
+      "R1|on_top_of_R0": {
+        "changed": 0,
+        "fixed": 0,
+        "broke": 0,
+        "macro_f1": 0.81733438471728,
+        "macro_f1_base": 0.81733438471728
+      },
+      "R2/R3|alone": {
+        "changed": 0,
+        "fixed": 0,
+        "broke": 0,
+        "macro_f1": 0.8727544755790512,
+        "macro_f1_base": 0.8727544755790512
+      },
+      "R2/R3|on_top_of_R0": {
+        "changed": 0,
+        "fixed": 0,
+        "broke": 0,
+        "macro_f1": 0.81733438471728,
+        "macro_f1_base": 0.81733438471728
+      },
+      "R4|alone": {
+        "changed": 7,
+        "fixed": 4,
+        "broke": 3,
+        "macro_f1": 0.8725949617604648,
+        "macro_f1_base": 0.8727544755790512
+      },
+      "R4|on_top_of_R0": {
+        "changed": 4,
+        "fixed": 1,
+        "broke": 3,
+        "macro_f1": 0.8109904184707456,
+        "macro_f1_base": 0.81733438471728
+      },
+      "all|alone": {
+        "changed": 32,
+        "fixed": 2,
+        "broke": 28,
+        "macro_f1": 0.8109904184707456,
+        "macro_f1_base": 0.8727544755790512
+      }
+    },
+    "single_device_caution": {
+      "n_main": 519,
+      "n_removed_author_caution": 76,
+      "n_kept": 443,
+      "caution_kept": 12,
+      "models": {
+        "new_int8": {
+          "macro_f1_full": 0.8727544755790512,
+          "caution_f1_full": 0.9364161849710982,
+          "macro_f1_without_author_caution": 0.834885400947107,
+          "macro_f1_3class_ham_scam_promo": 0.8567702781858862,
+          "caution_on_kept": {
+            "precision": 0.7142857142857143,
+            "recall": 0.8333333333333334,
+            "f1": 0.7692307692307693,
+            "support": 12
+          },
+          "caution_recall_k": 10,
+          "author_caution_recall_k": 71
+        },
+        "tfidf_lr": {
+          "macro_f1_full": 0.8687832692804085,
+          "caution_f1_full": 0.9411764705882353,
+          "macro_f1_without_author_caution": 0.8474498437740867,
+          "macro_f1_3class_ham_scam_promo": 0.8521553472543378,
+          "caution_on_kept": {
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334,
+            "support": 12
+          },
+          "caution_recall_k": 10,
+          "author_caution_recall_k": 70
+        },
+        "v73_int8": {
+          "macro_f1_full": 0.6673316176096642,
+          "caution_f1_full": 0.7755102040816326,
+          "macro_f1_without_author_caution": 0.5631948275773284,
+          "macro_f1_3class_ham_scam_promo": 0.6377188895999598,
+          "caution_on_kept": {
+            "precision": 0.21951219512195122,
+            "recall": 0.75,
+            "f1": 0.33962264150943394,
+            "support": 12
+          },
+          "caution_recall_k": 9,
+          "author_caution_recall_k": 67
+        },
+        "new_int8+rules": {
+          "macro_f1_full": 0.8109904184707456,
+          "caution_f1_full": 0.7482993197278912,
+          "macro_f1_without_author_caution": 0.7922674877613678,
+          "macro_f1_3class_ham_scam_promo": 0.8534580996238527,
+          "caution_on_kept": {
+            "precision": 0.6363636363636364,
+            "recall": 0.5833333333333334,
+            "f1": 0.6086956521739131,
+            "support": 12
+          },
+          "caution_recall_k": 7,
+          "author_caution_recall_k": 48
+        }
+      }
+    },
+    "ppv_range": {
+      "new_int8_quint8": {
+        "recall": 0.7471264367816092,
+        "legit_as_scam": 0.04861111111111111,
+        "ppv@0.01": 0.13438428737562993,
+        "ppv@0.062": 0.5039416027968967,
+        "ppv@0.2": 0.7934893184130214
+      },
+      "new_int8_quint8+rules": {
+        "recall": 0.7241379310344828,
+        "legit_as_scam": 0.041666666666666664,
+        "ppv@0.01": 0.14933333333333337,
+        "ppv@0.062": 0.5346107784431138,
+        "ppv@0.2": 0.8129032258064517
+      },
+      "tfidf_lr": {
+        "recall": 0.7701149425287356,
+        "legit_as_scam": 0.04861111111111111,
+        "ppv@0.01": 0.1379487839402908,
+        "ppv@0.062": 0.5115159848745273,
+        "ppv@0.2": 0.7984111221449851
+      },
+      "v73_int8": {
+        "recall": 0.6206896551724138,
+        "legit_as_scam": 0.2175925925925926,
+        "ppv@0.01": 0.0280064829821718,
+        "ppv@0.062": 0.1586364384192689,
+        "ppv@0.2": 0.4162740899357602
+      },
+      "v73_int8+rules": {
+        "recall": 0.5517241379310345,
+        "legit_as_scam": 0.14583333333333334,
+        "ppv@0.01": 0.03680805176132279,
+        "ppv@0.062": 0.20004201151115408,
+        "ppv@0.2": 0.48607594936708853
+      },
+      "val_scam_prevalence": 0.061938061938061936
+    },
+    "camouflage_ci": {
+      "n_scam_base_texts": 25,
+      "n_legit_base_texts": 50,
+      "models": {
+        "new_int8": {
+          "model_only|scam_flagged_scam": {
+            "k": 31,
+            "n": 150,
+            "ci95_of150": [
+              14.0,
+              52.0
+            ]
+          },
+          "model_only|legit_flagged_scam": {
+            "k": 4,
+            "n": 150,
+            "ci95_of150": [
+              1.0,
+              8.0
+            ]
+          },
+          "with_rules|scam_flagged_scam": {
+            "k": 15,
+            "n": 150,
+            "ci95_of150": [
+              10.0,
+              20.0
+            ]
+          },
+          "with_rules|legit_flagged_scam": {
+            "k": 0,
+            "n": 150,
+            "ci95_of150": [
+              0.0,
+              0.0
+            ]
+          },
+          "rules_without_R1|scam_flagged_scam": {
+            "k": 25,
+            "n": 150,
+            "ci95_of150": [
+              19.0,
+              31.0
+            ]
+          },
+          "rules_without_R1|legit_flagged_scam": {
+            "k": 0,
+            "n": 150,
+            "ci95_of150": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "v73_int8": {
+          "model_only|scam_flagged_scam": {
+            "k": 107,
+            "n": 150,
+            "ci95_of150": [
+              85.0,
+              128.0
+            ]
+          },
+          "model_only|legit_flagged_scam": {
+            "k": 24,
+            "n": 150,
+            "ci95_of150": [
+              14.0,
+              34.0
+            ]
+          },
+          "with_rules|scam_flagged_scam": {
+            "k": 7,
+            "n": 150,
+            "ci95_of150": [
+              3.0,
+              11.0
+            ]
+          },
+          "with_rules|legit_flagged_scam": {
+            "k": 0,
+            "n": 150,
+            "ci95_of150": [
+              0.0,
+              0.0
+            ]
+          },
+          "rules_without_R1|scam_flagged_scam": {
+            "k": 31,
+            "n": 150,
+            "ci95_of150": [
+              23.0,
+              38.0
+            ]
+          },
+          "rules_without_R1|legit_flagged_scam": {
+            "k": 0,
+            "n": 150,
+            "ci95_of150": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "tfidf_lr": {
+          "model_only|scam_flagged_scam": {
+            "k": 59,
+            "n": 150,
+            "ci95_of150": [
+              40.0,
+              78.0
+            ]
+          },
+          "model_only|legit_flagged_scam": {
+            "k": 3,
+            "n": 150,
+            "ci95_of150": [
+              0.0,
+              7.0
+            ]
+          },
+          "with_rules|scam_flagged_scam": {
+            "k": 10,
+            "n": 150,
+            "ci95_of150": [
+              5.0,
+              15.0
+            ]
+          },
+          "with_rules|legit_flagged_scam": {
+            "k": 0,
+            "n": 150,
+            "ci95_of150": [
+              0.0,
+              0.0
+            ]
+          },
+          "rules_without_R1|scam_flagged_scam": {
+            "k": 30,
+            "n": 150,
+            "ci95_of150": [
+              24.0,
+              36.0
+            ]
+          },
+          "rules_without_R1|legit_flagged_scam": {
+            "k": 0,
+            "n": 150,
+            "ci95_of150": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "ece_check": {
+      "T": 1.3967273715500141,
+      "bins10": {
+        "before": 0.09476586705202311,
+        "after": 0.06909185896715395
+      },
+      "bins15": {
+        "before": 0.09476586705202308,
+        "after": 0.07084986021298877
+      }
+    }
+  }
+}

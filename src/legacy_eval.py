@@ -25,17 +25,17 @@ RUNS = {"L0": ["train-20261019-191916", "train-20261019-194218", "train-20261019
         "L1": ["train-20261019-202419", "train-20261019-203249", "train-20261019-204113"]}
 
 
-def main():
+def main(runs=RUNS, name="legacy_eval"):
     path = ROOT / "data" / "test.csv"
     assert sha256_file(path) == FROZEN_SHA
-    run = new_run("legacy_eval", {"post_hoc": True, "runs": RUNS})
+    run = new_run(name, {"post_hoc": True, "runs": runs})
     df = load_split(path, drop_native=False).reset_index(drop=True)
     frng = random.Random(1234)
     texts = [fill(t, frng) for t in df["text"]]
     m = ~df["native_script"].values
     y = df["final_label"].values
     res = {"post_hoc": True, "n_main": int(m.sum()), "conditions": {}}
-    for cond, rids in RUNS.items():
+    for cond, rids in runs.items():
         rows = []
         for rid in rids:
             tr = json.loads((ROOT / "results" / f"{rid}.json").read_text(encoding="utf-8"))
@@ -50,7 +50,7 @@ def main():
         f1 = [r["test_macro_f1"] for r in rows]
         res["conditions"][cond] = {"runs": rows, "test_macro_f1_mean": float(np.mean(f1)), "test_macro_f1_std": float(np.std(f1, ddof=1)),
                                    "val_macro_f1_mean": float(np.mean([r["val_macro_f1"] for r in rows]))}
-    save_result(run, res, "legacy_eval.json")
+    save_result(run, res, f"{name}.json")
     print({c: (round(v["test_macro_f1_mean"], 3), round(v["test_macro_f1_std"], 3)) for c, v in res["conditions"].items()}); print(run["run_id"])
 
 

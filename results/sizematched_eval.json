@@ -1,0 +1,68 @@
+{
+  "run_id": "sizematched_eval-20261022-001147",
+  "script": "sizematched_eval",
+  "started": "20261022-001147",
+  "code_version": "f363a70-dirty",
+  "config": {
+    "post_hoc": true,
+    "runs": {
+      "S984": [
+        "train-20261021-213636",
+        "train-20261021-215140",
+        "train-20261021-235505"
+      ]
+    }
+  },
+  "result": {
+    "post_hoc": true,
+    "n_main": 519,
+    "conditions": {
+      "S984": {
+        "runs": [
+          {
+            "run_id": "train-20261021-213636",
+            "seed": 1,
+            "train_rows": 984,
+            "val_macro_f1": 0.7292265997808857,
+            "test_macro_f1": 0.7251340766306766,
+            "test_mcc": 0.6711074238837235,
+            "test_f1_ham": 0.8556701030927835,
+            "test_f1_spam": 0.5280898876404494,
+            "test_f1_promo": 0.80625,
+            "test_f1_caution": 0.7105263157894737,
+            "legit_as_scam": "44/432"
+          },
+          {
+            "run_id": "train-20261021-215140",
+            "seed": 2,
+            "train_rows": 984,
+            "val_macro_f1": 0.7264242076484289,
+            "test_macro_f1": 0.7628526349790195,
+            "test_mcc": 0.6990629258145358,
+            "test_f1_ham": 0.8443271767810027,
+            "test_f1_spam": 0.5742574257425742,
+            "test_f1_promo": 0.8223684210526315,
+            "test_f1_caution": 0.8104575163398693,
+            "legit_as_scam": "57/432"
+          },
+          {
+            "run_id": "train-20261021-235505",
+            "seed": 3,
+            "train_rows": 984,
+            "val_macro_f1": 0.7527063715699824,
+            "test_macro_f1": 0.7426159290304795,
+            "test_mcc": 0.6735571530764835,
+            "test_f1_ham": 0.8496042216358839,
+            "test_f1_spam": 0.5625,
+            "test_f1_promo": 0.7656765676567657,
+            "test_f1_caution": 0.7926829268292683,
+            "legit_as_scam": "51/432"
+          }
+        ],
+        "test_macro_f1_mean": 0.7435342135467252,
+        "test_macro_f1_std": 0.01887603893323273,
+        "val_macro_f1_mean": 0.7361190596664322
+      }
+    }
+  }
+}
